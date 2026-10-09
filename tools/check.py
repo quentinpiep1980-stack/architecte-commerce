@@ -37,7 +37,7 @@ for path, doc in pages.items():
             if frag and frag not in set(re.findall(r'\sid="([^"]+)"', pages[base])): errs.append(f'{path}: {href} ancre absente')
         elif base not in static and base not in redirects:
             errs.append(f'{path}: lien cassé {href}')
-    for bad in ('WorkRepublik', 'TODO', 'À FOURNIR', 'lorem', 'NON VÉRIFIÉ'):
+    for bad in ('WorkRepublik', 'TODO', 'À FOURNIR', 'lorem', 'NON VÉRIFIÉ', 'FIXIA', 'fixia', 'Montmorency'):
         if bad.lower() in doc.lower(): errs.append(f'{path}: mot interdit {bad}')
 for t, ps in titles.items():
     if len(ps) > 1: errs.append(f'titre dupliqué {t} : {ps}')

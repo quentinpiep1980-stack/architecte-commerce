@@ -1,37 +1,36 @@
 # -*- coding: utf-8 -*-
 """Mentions légales et politique de confidentialité de architecte-commerce.fr.
-Éditeur : Quentin Piepszownik, entrepreneur individuel, nom commercial FIXIA Architecte (nom porté par les attestations MAF).
+Éditeur : Quentin Piepszownik, entrepreneur individuel, nom commercial Kalya Architecte (mentions alignées sur dossier-erp-paris.fr, page A17).
 Textes repris de architecte-bureaux.fr, dossier-erp-paris.fr et architecte-montreuil.fr (vérifiés les 7 au 9 octobre 2026), adaptés.
 """
 
 LEGAL_BODY = """
 <h2 id="editeur">Éditeur du site</h2>
-<p>Le site architecte-commerce.fr est édité par <strong>Quentin Piepszownik, entrepreneur individuel (EI)</strong>, architecte exerçant sous le nom commercial <strong>FIXIA Architecte</strong>.</p>
+<p>Le site architecte-commerce.fr est édité par <strong>Quentin Piepszownik, entrepreneur individuel (EI)</strong>, architecte exerçant sous le nom commercial <strong>Kalya Architecte</strong>.</p>
 <ul>
 <li>SIREN : {siren}</li>
 <li>N° de TVA intracommunautaire : {tva}</li>
-<li>Siège : {siege}</li>
-<li>Établissement : {address}</li>
-<li>Téléphone : <a href="tel:{phone_intl}">{phone}</a></li>
+<li>Adresse de l'établissement parisien : {address}</li>
 <li>Courriel : <a href="mailto:{email}">{email}</a></li>
+<li>Téléphone : <a href="tel:{phone_intl}">{phone}</a></li>
 </ul>
 
 <h2 id="directeur">Directeur de la publication</h2>
 <p>Quentin Piepszownik, en sa qualité d'éditeur personne physique.</p>
 
 <h2 id="titre">Titre professionnel</h2>
-<p>Titre professionnel : architecte (diplômé d'État, habilité à l'exercice de la maîtrise d'œuvre en son nom propre). État d'octroi du titre : France. Quentin Piepszownik est inscrit au Tableau de l'Ordre des architectes de la région {ordre_region} sous le numéro {ordre}. L'inscription à un tableau régional confère le droit d'exercer sur l'ensemble du territoire national.</p>
-<p>L'exercice de la profession est soumis à la <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847402" rel="noopener">loi n° 77-2 du 3 janvier 1977 sur l'architecture</a> et au <a href="https://architectes.org/sites/cnoa/files/2024-05/code_de_deontologie.pdf" rel="noopener">code de déontologie des architectes</a> (décret n° 80-217 du 20 mars 1980).</p>
+<p>Titre professionnel : architecte. État d'octroi du titre : France. Quentin Piepszownik est inscrit au Tableau de l'Ordre des architectes de la région {ordre_region} sous le numéro {ordre}.</p>
+<p>L'exercice de la profession est soumis à la <a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847402" rel="noopener">loi n° 77-2 du 3 janvier 1977 sur l'architecture</a> et au <a href="https://www.legifrance.gouv.fr/loda/id/LEGITEXT000006074232/" rel="noopener">code de déontologie des architectes</a>.</p>
 
 <h2 id="assurance">Assurance professionnelle</h2>
-<p>Responsabilités civile professionnelle et décennale auprès de la Mutuelle des Architectes Français assurances (MAF), 189 boulevard Malesherbes, 75856 Paris Cedex 17. Couverture géographique : France métropolitaine et départements d'outre-mer.</p>
+<p>Assurance professionnelle de Quentin Piepszownik, entrepreneur individuel exerçant sous le nom commercial Kalya Architecte : responsabilités civile professionnelle et décennale auprès de la Mutuelle des Architectes Français assurances (MAF), 189 boulevard Malesherbes, 75856 Paris Cedex 17. Couverture géographique : France métropolitaine et départements d'outre-mer.</p>
 
 <h2 id="hebergement">Hébergement</h2>
-<p>Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis. Téléphone : +1 559 288 7060. Site : <a href="https://vercel.com/legal/terms" rel="noopener">vercel.com</a>.</p>
+<p>Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis. Téléphone : +1 559 288 7060 (numéro publié par Vercel pour son contact juridique). Site : <a href="https://vercel.com/legal/terms" rel="noopener">vercel.com</a>.</p>
 <p>Les prestataires techniques intervenant dans le formulaire de contact sont décrits dans la <a href="/confidentialite">politique de confidentialité</a>.</p>
 
 <h2 id="propriete">Propriété intellectuelle</h2>
-<p>Les textes, dessins, plans, schémas, le logo et le nom FIXIA sont la propriété de l'éditeur. Toute reproduction ou réutilisation, totale ou partielle, est interdite sans autorisation écrite.</p>
+<p>Les textes, dessins, plans, schémas, le logo et le nom Kalya sont la propriété de l'éditeur. Toute reproduction ou réutilisation, totale ou partielle, est interdite sans autorisation écrite.</p>
 
 <h2 id="photos">Dessins et photographies</h2>
 <p>Les dessins du site (élévations de devantures, plan de local) sont des <strong>illustrations</strong> réalisées pour le site : ils ne représentent pas un projet réel. Les règles annotées sur ces dessins renvoient à leurs textes. Les photographies des bureaux CGE présentent une réalisation de l'éditeur.</p>
@@ -47,14 +46,17 @@ LEGAL_BODY = """
 <li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000053151918/2026-10-07" rel="noopener">Loi n° 2004-575 du 21 juin 2004, article 19 : informations professionnelles</a></li>
 <li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000033971722" rel="noopener">Loi du 29 juillet 1982 sur la communication audiovisuelle, article 93-2 : directeur de la publication</a></li>
 <li><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000045697814" rel="noopener">Code de commerce, article R526-27 : mention de l'entrepreneur individuel</a></li>
-<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847402" rel="noopener">Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 9 : inscription au tableau régional</a></li>
+<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847402" rel="noopener">Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 9 : titre d'architecte</a></li>
+<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847418" rel="noopener">Loi n° 77-2 du 3 janvier 1977, article 16 : assurance</a></li>
+<li><a href="https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054359099" rel="noopener">Code de déontologie des architectes, article 10 (version en vigueur depuis le 1er juillet 2026)</a></li>
+<li><a href="https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000054359232" rel="noopener">Code de déontologie des architectes, article 35 (version en vigueur depuis le 1er juillet 2026)</a></li>
 </ol>
 </aside>
 """
 
 PRIVACY_BODY = """
 <h2 id="responsable">Qui est responsable ?</h2>
-<p>Le responsable du traitement est <strong>Quentin Piepszownik, entrepreneur individuel</strong>, architecte exerçant sous le nom commercial FIXIA Architecte, dont le siège est au {siege}. Contact : <a href="mailto:{email}">{email}</a> ou <a href="tel:{phone_intl}">{phone}</a>.</p>
+<p>Le responsable du traitement est <strong>Quentin Piepszownik, entrepreneur individuel</strong>, architecte exerçant sous le nom commercial Kalya Architecte, {address}. Contact : <a href="mailto:{email}">{email}</a> ou <a href="tel:{phone_intl}">{phone}</a>.</p>
 
 <h2 id="donnees">Quelles données, et pourquoi ?</h2>
 <p>Ce site comporte un formulaire de contact, mais ni compte ni lettre d'information. Les données reçues sont celles que vous saisissez dans le formulaire ou que vous communiquez par téléphone ou par courrier : nom, société, coordonnées, activité envisagée, adresse ou quartier du local, surface, avancement, échéance, précisions libres, et, si vous choisissez de l'envoyer, le résumé du diagnostic de local.</p>

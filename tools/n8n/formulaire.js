@@ -41,7 +41,7 @@ if (statut === 'ok') sd.horodatages.push(now);
 const quand = new Date().toLocaleString('fr-FR', { timeZone: 'Europe/Paris' });
 const v = (x) => (x ? x : 'non précisé');
 const lignes = [
-  'Nouvelle demande reçue par le formulaire de architecte-commerce.fr (FIXIA)',
+  'Nouvelle demande reçue par le formulaire de architecte-commerce.fr (Kalya Architecte)',
   'Reçue le : ' + quand,
   'Page d\u2019origine : ' + v(d.source),
   '',
@@ -85,16 +85,16 @@ const prevenir = node({
   type: 'n8n-nodes-base.gmail',
   version: 2.2,
   config: {
-    name: 'Prévenir l’architecte',
+    name: 'Prévenir Kalya Architecte',
     onError: 'continueRegularOutput',
     credentials: GMAIL,
     parameters: {
       resource: 'message', operation: 'send', authentication: 'oAuth2',
-      sendTo: 'analyse@fixia.fr',
+      sendTo: 'contact@kalya-architecte.fr',
       subject: expr('{{ $("Valider et préparer").first().json.sujet }}'),
       emailType: 'text',
       message: expr('{{ $("Valider et préparer").first().json.corps }}'),
-      options: { appendAttribution: false, senderName: 'FIXIA architecte-commerce.fr (formulaire)', replyTo: expr('{{ $("Valider et préparer").first().json.email }}') }
+      options: { appendAttribution: false, senderName: 'Architecte Commerce (formulaire)', replyTo: expr('{{ $("Valider et préparer").first().json.email }}') }
     }
   }
 });
@@ -123,10 +123,10 @@ const accuse = node({
     parameters: {
       resource: 'message', operation: 'send', authentication: 'oAuth2',
       sendTo: expr('{{ $("Valider et préparer").first().json.email }}'),
-      subject: 'Votre demande a bien été reçue — FIXIA Architecte',
+      subject: 'Votre demande a bien été reçue — Kalya Architecte',
       emailType: 'text',
-      message: 'Bonjour,\n\nVotre demande est bien arrivée. Nous l’étudions et revenons vers vous par courriel ou par téléphone.\n\nSi votre demande est urgente, vous pouvez nous joindre au 09 70 70 17 99.\n\nCet accusé de réception est automatique. Il ne constitue ni un devis, ni un engagement, ni un avis sur votre projet.\n\nLes informations transmises servent uniquement à répondre à votre demande. Vos droits et la durée de conservation : https://architecte-commerce.fr/confidentialite\n\nFIXIA Architecte, architecte de commerces à Paris\nQuentin Piepszownik, architecte, entrepreneur individuel\n71 rue du Cherche-Midi, 75006 Paris\nhttps://architecte-commerce.fr',
-      options: { appendAttribution: false, senderName: 'FIXIA Architecte' }
+      message: 'Bonjour,\n\nVotre demande est bien arrivée. Nous l’étudions et revenons vers vous par courriel ou par téléphone.\n\nSi votre demande est urgente, vous pouvez nous joindre au 09 70 70 17 99.\n\nCet accusé de réception est automatique. Il ne constitue ni un devis, ni un engagement, ni un avis sur votre projet.\n\nLes informations transmises servent uniquement à répondre à votre demande. Vos droits et la durée de conservation : https://architecte-commerce.fr/confidentialite\n\nQuentin Piepszownik, architecte, entrepreneur individuel\nArchitecte exerçant sous le nom commercial Kalya Architecte\n71 rue du Cherche-Midi, 75006 Paris\ncontact@kalya-architecte.fr\nhttps://architecte-commerce.fr',
+      options: { appendAttribution: false, senderName: 'Kalya Architecte — Architecte Commerce', replyTo: 'contact@kalya-architecte.fr' }
     }
   }
 });
@@ -169,7 +169,7 @@ const incomplete = ifElse({
   }
 });
 
-export default workflow('architecte-commerce-formulaire', 'ARCHITECTE COMMERCE (FIXIA) — formulaire de contact (production)')
+export default workflow('architecte-commerce-formulaire', 'ARCHITECTE COMMERCE (Kalya Architecte) — formulaire de contact (production)')
   .add(reception)
   .to(valider)
   .to(valide

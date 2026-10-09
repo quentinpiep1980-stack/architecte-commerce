@@ -2,9 +2,9 @@
 {% set Q = [
   ("act", "Quelle activité voulez-vous exercer ?", "", [("boutique","Boutique, vente"),("resto","Restaurant avec cuisson"),("froid","Café, restauration sans cuisson"),("beaute","Institut, salon"),("bouche","Boulangerie, métier de bouche"),("showroom","Showroom")]),
   ("bail", "Le bail, ou son projet, autorise-t-il cette activité ?", "Lisez la clause de destination.", [("oui","Oui"),("non","Non"),("nsp","Je ne sais pas")]),
-  ("avant", "Que faisait-on dans ce local jusqu'ici ?", "", [("commerce","Commerce ou restaurant"),("bureau","Bureau ou agence"),("logement","Logement"),("entrepot","Entrepôt, atelier, autre"),("nsp","Je ne sais pas")]),
+  ("avant", "Que faisait-on dans ce local jusqu'ici ?", "", [("commerce","Commerce ou restaurant"),("bureau","Bureau ou agence"),("logement","Logement"),("atelier","Atelier d'artisan"),("entrepot","Entrepôt, industrie"),("nsp","Je ne sais pas")]),
   ("plu", "La rue est-elle protégée au PLU de Paris ?", "Carte des protections du commerce : opendata.paris.fr (sans valeur réglementaire).", [("non","Non"),("ca","Protection du commerce et de l'artisanat"),("part","Artisanat de proximité ou commerce culturel"),("nsp","Je ne sais pas"),("hors","Local hors de Paris")]),
-  ("extr", "Pour cuisiner : un conduit d'extraction existe-t-il, ou un tracé jusqu'à un rejet à 8 m des fenêtres ?", "Règlement sanitaire de Paris, art. 63-1.", [("oui","Oui, un conduit existe"),("trace","Un tracé semble possible"),("non","Non"),("nsp","Je ne sais pas")]),
+  ("extr", "Pour cuisiner : un conduit d'extraction existe-t-il, ou un tracé jusqu'à un rejet à 8 m des fenêtres et prises d'air ?", "Règlement sanitaire de Paris, art. 63-1.", [("oui","Oui, un conduit existe"),("trace","Un tracé semble possible"),("non","Non"),("nsp","Je ne sais pas")]),
   ("entree", "L'entrée est-elle de plain-pied depuis le trottoir ?", "", [("plain","De plain-pied"),("marche","Une marche ou un ressaut"),("marches","Plusieurs marches"),("nsp","Je ne sais pas")]),
   ("niveaux", "Le public ira-t-il au sous-sol ou à l'étage ?", "", [("non","Non, rez-de-chaussée seul"),("oui","Oui")]),
   ("surface", "Surface ouverte au public, environ ?", "", [("s1","Moins de 100 m²"),("s2","100 à 300 m²"),("s3","300 à 500 m²"),("s4","Plus de 500 m²")]),

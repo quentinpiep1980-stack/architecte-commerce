@@ -236,7 +236,7 @@ ANN = {
     'all': [
         ("Enseigne : autorisation du maire, 2 mois", "Code de l'environnement, R581-13", 'sign'),
         ("Dégagement de 0,90 m sous 20 personnes", "Règlement de sécurité, PE 11", 'door'),
-        ("Devanture : retrait limité à 10–20 cm", "PLU de Paris, UG.2.1.4", 'plane'),
+        ("Devanture : de préférence retrait limité à 10–20 cm", "PLU de Paris, UG.2.1.4", 'plane'),
     ],
     'restaurant': [
         ("Air de cuisine rejeté à 8 m de toute fenêtre", "RSD de Paris, art. 63-1", 'duct'),
@@ -373,7 +373,7 @@ def elevation(active='boutique', uid='el'):
     px, py = L - 2, RDC_TOP + 60
     a(circle(px, py, 3, 'dot'))
     a(path(f'M{f(px)} {f(py)} L{f(px-60)} {f(py-150)} H{f(px-96)}', 'lead'))
-    a(ann_block(px - 102, py - 154, "Devanture en applique ou retrait de 10 à 20 cm", "PLU de Paris, art. UG.2.1.4", 'end'))
+    a(ann_block(px - 102, py - 154, "Devanture de préférence en applique ou en retrait de 10 à 20 cm", "PLU de Paris, art. UG.2.1.4", 'end'))
     a('</g>')
     # annotations propres au restaurant
     a('<g class="anns act act-restaurant">')

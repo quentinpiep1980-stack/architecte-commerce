@@ -22,7 +22,7 @@ def og(title, sub, act):
 <div style="position:absolute;left:0;right:0;bottom:-60px">{el}</div>
 <div style="position:absolute;left:0;right:0;top:0;height:330px;background:linear-gradient(var(--plan) 62%, rgba(19,58,99,0))"></div>
 <div style="position:absolute;left:64px;top:52px;right:64px;color:#fff">
-<img src="{(STATIC / 'brand/fixia-blanc.svg').as_uri()}" style="height:38px;margin-bottom:34px">
+<img src="{(STATIC / 'brand/kalya-blanc.svg').as_uri()}" style="height:38px;margin-bottom:34px">
 <div style="font-family:Archivo;font-stretch:125%;font-weight:830;font-size:76px;line-height:.95;letter-spacing:-.02em">{title}</div>
 <div style="font-family:Archivo;font-size:26px;color:#D3E3F5;margin-top:18px">{sub}</div></div></div>''', 1200, 630)
 

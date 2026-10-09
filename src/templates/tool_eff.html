@@ -35,7 +35,7 @@
       </div>
       <div data-type="N" hidden>
         <fieldset class="q"><legend>Zones par niveau (m²), ou places assises déclarées</legend>
-          <p class="qh">Surfaces diminuées des estrades et des aménagements fixes autres que tables et sièges. Si vous déclarez un nombre de places assises, il est plafonné à 1 personne pour 2 m² de la zone assise.</p>
+          <p class="qh">Surfaces diminuées des estrades et des aménagements fixes autres que tables et sièges. Si vous déclarez un nombre de places assises, le calcul retient ce nombre, sans descendre sous 1 personne pour 2 m² de zone assise (lecture prudente de la limite fixée par N 2 a).</p>
           <div class="table-wrap"><table class="calc-table">
             <thead><tr><th scope="col">Niveau</th><th scope="col">Assis (m²)</th><th scope="col">Places déclarées</th><th scope="col">Debout (m²)</th><th scope="col">File d'attente (m²)</th></tr></thead>
             <tbody>
@@ -55,9 +55,9 @@
     <article class="prose" style="margin-top:56px">
       <h2 id="regles">Les règles appliquées</h2>
       <p><strong>Magasin (M 2)</strong> : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage ; 1 pour 6 m² au 2e étage ; 1 pour 15 m² aux étages supérieurs. Boutique de moins de 300 m² en centre commercial : 1 pour 6 m² à tous les niveaux. Magasin à faible densité : 1 pour 9 m². Magasin réservé aux professionnels : déclaration contrôlée.</p>
-      <p><strong>Restaurant (N 2)</strong> : places assises déclarées, dans la limite d'1 personne pour 2 m² ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m².</p>
-      <p><strong>5e catégorie (PE 2)</strong> : magasin sous 100 personnes au sous-sol, 100 aux étages, 200 au total ; restaurant sous 100, 200 et 200. <strong>Catégories 1 à 4 (R143-19)</strong> : 4e jusqu'à 300 personnes, 3e de 301 à 700, 2e de 701 à 1 500, 1re au-delà. <strong>Sorties (PE 11)</strong> : selon l'effectif, de 1 dégagement de 0,90 m à 2 de 1,40 m.</p>
-      <p>Les résultats sont arrondis à l'unité supérieure, par prudence. Pour une boutique à rez-de-chaussée de moins de 500 m² dont les circulations principales font au moins 1,80 m, PE 3 prévoit 1 personne par m² sur le tiers de la surface accessible au public : le résultat est du même ordre, sur une base de surface différente.</p>
+      <p><strong>Restaurant (N 2)</strong> : places assises déclarées, « dans la limite de 1 personne pour 2 m² » ; le texte ne dit pas s'il s'agit d'un plafond ou d'un plancher, et des commissions ont retenu des places déclarées au-delà de cette densité : le calcul retient donc la plus élevée des deux valeurs ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m².</p>
+      <p><strong>5e catégorie (PE 2)</strong> : magasin sous 100 personnes au sous-sol, 100 aux étages, 200 au total ; restaurant sous 100, 200 et 200. <strong>Catégories 1 à 4 (R143-19)</strong> : 4e jusqu'à 300 personnes, 3e de 301 à 700, 2e de 701 à 1 500, 1re au-delà. <strong>Sorties (PE 11)</strong> : selon l'effectif de chaque local, niveau et établissement, de 1 dégagement de 0,90 m à 2 de 1,40 m.</p>
+      <p>Les résultats sont arrondis à l'unité supérieure, par prudence. Pour une boutique à rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m, PE 3 § 3 calcule l'effectif à 1 personne par m² sur le tiers de la surface des locaux accessibles au public : saisissez alors cette surface au rez-de-chaussée, et non la seule surface de vente.</p>
       <h2 id="faq">Questions fréquentes</h2>
       <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>{% endfor %}</div>
       <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><p class="verif">Consultés le {{ verified }}. Résultat indicatif : la notice de sécurité du projet fait foi.</p><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol></aside>

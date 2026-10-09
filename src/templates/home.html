@@ -36,7 +36,7 @@
   <div class="wrap g12">
     <div class="sign-text">
       <h2 id="signer">Le bon local se décide avant la signature.</h2>
-      <p class="muted">Un bail commercial engage pour neuf ans au moins (code de commerce, L145-4). Neuf points font qu'un local tient, ou non, votre activité. Chacun est repéré sur le plan.</p>
+      <p class="muted">Un bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions (code de commerce, L145-4). Neuf points font qu'un local tient, ou non, votre activité. Chacun est repéré sur le plan.</p>
       <ol class="checks" id="checks">
         {% for n, t, x, c in checks %}<li data-pin="{{ n }}"><button type="button" aria-describedby="plan-t"><span class="n">{{ n }}</span><span><strong>{{ t }}</strong><span class="t">{{ x }}</span><cite>{{ c }}</cite></span></button></li>
         {% endfor %}
@@ -54,9 +54,9 @@
   <div class="wrap g12">
     <div class="vac">
       <div>
-        <h2 id="marche">À Paris, un local sur neuf est vide.</h2>
-        <p class="muted">Sur 100 locaux en rez-de-chaussée, 73 accueillent un commerce, un bar-restaurant ou un service commercial, 11 sont vacants. Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
-        <p class="small muted">Apur, inventaire des commerces 2023 (relevé d'avril 2023, 83 154 locaux recensés) ; le relevé d'avril 2026 doit être publié fin 2026.</p>
+        <h2 id="marche">En 2023, à Paris, un local sur neuf était vide.</h2>
+        <p class="muted">Sur 100 locaux en rez-de-chaussée, 73 accueillaient un commerce, un bar-restaurant ou un service commercial, 11 étaient vacants. Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
+        <p class="small muted">Apur, note n° 236, « Premiers résultats 2023 de l'enquête sur les commerces parisiens », septembre 2023 (relevé d'avril 2023, 83 154 locaux recensés) ; le relevé d'avril 2026 doit être publié fin 2026.</p>
       </div>
       <div>
         <div class="vac-grid" role="img" aria-label="100 locaux en rez-de-chaussée à Paris : 73 commerces et services, 11 vacants, 16 autres usages">
@@ -66,8 +66,8 @@
       </div>
     </div>
     <div class="figs">
-      <p><b>+10 % de restauration rapide</b>entre 2020 et 2023 à Paris, quand l'équipement de la personne recule de 8 %.<cite>Apur, note n° 236, septembre 2023</cite></p>
-      <p><b>329 km de rues protégées</b>où un rez-de-chaussée commercial doit le rester, plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel.<cite>Ville de Paris, PLU bioclimatique</cite></p>
+      <p><b>+10 % de restauration rapide</b>entre 2020 et 2023 à Paris, quand l'équipement de la personne recule de 8 %.<cite>Apur, note n° 236, septembre 2023 ; Ville de Paris, janvier 2024</cite></p>
+      <p><b>329 km de linéaires protégés</b>où un rez-de-chaussée commercial ne peut pas devenir un bureau ou une agence, plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel.<cite>Ville de Paris, PLU bioclimatique</cite></p>
       <p><b>18 000 €/m²/an</b>loyer prime des Champs-Élysées au 1er semestre 2026 ; 5 500 € rue des Francs-Bourgeois.<cite>BNP Paribas Real Estate, 2e trimestre 2026</cite></p>
     </div>
   </div>
@@ -148,7 +148,7 @@
   <div class="wrap g12">
     <div class="faq-l"><div class="sticky">
       <h2 id="faq">Questions fréquentes</h2>
-      <p class="muted">Réponses vérifiées le {{ verified }} sur les textes en vigueur. Une question sur votre local ? Appelez le <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>.</p>
+      <p class="muted">Réponses vérifiées le {{ verified }} sur les textes en vigueur publiés par Légifrance et la Ville de Paris. Une question sur votre local ? Appelez le <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>.</p>
     </div></div>
     <div class="faq-r">
       {% for f in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>

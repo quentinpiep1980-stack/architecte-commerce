@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Générateur statique de architecte-commerce.fr (FIXIA Architecte).
+"""Générateur statique de architecte-commerce.fr (Kalya Architecte).
 
 Usage : python3 -I build.py      (dépendance : jinja2)
 Sortie : dist/ (servie telle quelle par Vercel, adresses sans extension grâce à cleanUrls) et vercel.json.
@@ -21,7 +21,7 @@ env = Environment(loader=FileSystemLoader(str(ROOT / 'src/templates')), autoesca
 
 EDITORIAL = P.PAGES + G.PAGES
 ALL = {p['path']: p for p in EDITORIAL + C.PAGES}
-KIND_LABEL = {'situation': 'Projet', 'activite': 'Activité', 'guide': 'Guide', 'zone': 'Zone', 'outil': 'Outil', 'core': 'FIXIA'}
+KIND_LABEL = {'situation': 'Projet', 'activite': 'Activité', 'guide': 'Guide', 'zone': 'Zone', 'outil': 'Outil', 'core': 'Kalya'}
 SECTION_OF = {'situation': 'projets', 'activite': 'activites', 'guide': '/guides', 'zone': None, 'outil': 'outils'}
 
 
@@ -78,25 +78,25 @@ def related_items(paths):
 
 
 # ---------------------------------------------------------------- données structurées
-ORG_ID, PERSON_ID, SITE_ID = URL + '/#fixia', URL + '/#quentin-piepszownik', URL + '/#site'
+ORG_ID, PERSON_ID, SITE_ID = URL + '/#kalya', URL + '/#quentin-piepszownik', URL + '/#site'
 AREA = [{"@type": "City", "name": "Paris"}, {"@type": "AdministrativeArea", "name": "Île-de-France"}]
 
 
 def base_graph():
     return [
         {"@type": ["ProfessionalService", "LocalBusiness"], "@id": ORG_ID, "name": SITE['brand'],
-         "alternateName": ["FIXIA", "Architecte Commerce"], "url": URL + '/',
+         "alternateName": ["Kalya", "Architecte Commerce"], "url": URL + '/',
          "logo": {"@type": "ImageObject", "url": URL + "/icon-512.png", "width": 512, "height": 512},
          "image": URL + "/og/architecte-commerce.png", "telephone": "+33 9 70 70 17 99", "email": SITE['email'],
          "address": {"@type": "PostalAddress", "streetAddress": SITE['street'], "postalCode": SITE['postal'], "addressLocality": SITE['city'], "addressCountry": "FR"},
          "areaServed": AREA, "founder": {"@id": PERSON_ID}, "priceRange": "Sur devis",
          "knowsAbout": ["architecture commerciale", "aménagement de local commercial", "création de boutique", "restaurant", "devanture et enseigne",
                         "établissements recevant du public", "autorisation de travaux", "accessibilité", "bail commercial", "PLU de Paris"],
-         "sameAs": [], "description": "Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants, instituts, showrooms et enseignes, de la vérification du local avant le bail à l'ouverture."},
+         "sameAs": ["https://dossier-erp-paris.fr/"], "description": "Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants, instituts, showrooms et enseignes, de la vérification du local avant le bail à l'ouverture."},
         {"@type": "Person", "@id": PERSON_ID, "name": SITE['person'], "jobTitle": "Architecte", "worksFor": {"@id": ORG_ID},
          "image": URL + "/img/portrait-800.jpg",
          "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Inscription au tableau de l'Ordre des architectes d'Île-de-France", "identifier": SITE['ordre']}},
-        {"@type": "WebSite", "@id": SITE_ID, "url": URL + '/', "name": "Architecte Commerce — FIXIA", "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
+        {"@type": "WebSite", "@id": SITE_ID, "url": URL + '/', "name": "Architecte Commerce — Kalya Architecte", "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
     ]
 
 
@@ -188,7 +188,7 @@ def main():
     shutil.copytree(STATIC, DIST)
 
     # Accueil
-    home = {"title": "Architecte commerce à Paris : boutique, restaurant, enseigne | FIXIA",
+    home = {"title": "Architecte commerce à Paris : boutique, restaurant, enseigne | Kalya",
             "description": "Architecte de commerces à Paris et en Île-de-France : local vérifié avant le bail, plans conformes ERP, autorisations (devanture, enseigne, travaux), chantier jusqu'à l'ouverture.",
             "section": "/"}
     write('/', 'home.html', home, page_graph('/', home, faq=HOME.FAQ, service={"h1": "Architecture de commerces", "short": "Architecture de commerces à Paris", "description": home['description']}),
@@ -215,21 +215,21 @@ def main():
             ctx['plan'] = D.plan_local('plan')
         jl = page_graph(p['path'], p, kind=p.get('schema', 'WebPage'), faq=p.get('faq') or None,
                         service=p if p.get('as_service') else None, extra=p.get('jsonld_extra'))
-        write(p['path'], p['tpl'], page, jl, indexable=p.get('indexable', True), p=p, kind_label=KIND_LABEL.get(p['kind'], 'FIXIA'),
+        write(p['path'], p['tpl'], page, jl, indexable=p.get('indexable', True), p=p, kind_label=KIND_LABEL.get(p['kind'], 'Kalya'),
               related=related_items(p.get('related', [])), home=HOME, guides=G.PAGES, all_pages=ALL, tools=C.TOOLS_INTRO, **ctx)
 
     # Mentions légales et confidentialité
     fmt = dict(SITE)
-    ml = {"title": "Mentions légales | FIXIA Architecte", "description": "Mentions légales de architecte-commerce.fr : éditeur, titre professionnel, assurance, hébergement.",
+    ml = {"title": "Mentions légales | Kalya Architecte", "description": "Mentions légales de architecte-commerce.fr : éditeur, titre professionnel, assurance, hébergement.",
           "h1": "Mentions légales", "lede": "Éditeur, titre professionnel, assurance et hébergement du site architecte-commerce.fr."}
     write('/mentions-legales', 'legal.html', ml, page_graph('/mentions-legales', ml), p=ml, body=LEGAL.LEGAL_BODY.format(**fmt))
-    cf = {"title": "Politique de confidentialité | FIXIA Architecte", "description": "Données traitées par les formulaires et les outils du site, finalités, destinataires, durées de conservation et droits.",
+    cf = {"title": "Politique de confidentialité | Kalya Architecte", "description": "Données traitées par les formulaires et les outils du site, finalités, destinataires, durées de conservation et droits.",
           "h1": "Politique de confidentialité", "lede": "Ce que devient votre demande : données traitées, destinataires, durées de conservation et droits."}
     write('/confidentialite', 'legal.html', cf, page_graph('/confidentialite', cf), p=cf, body=LEGAL.PRIVACY_BODY.format(**fmt))
 
     # Plan du site
     groups = [
-        ("FIXIA", [('/', 'Accueil'), ('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Étudier mon projet')]),
+        ("Kalya Architecte", [('/', 'Accueil'), ('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Étudier mon projet')]),
         ("Projets", [('/votre-projet', 'Tous les projets')] + [(h, l) for h, l, _ in S.SITUATIONS]),
         ("Activités", [(h, l) for h, l, _ in S.ACTIVITES]),
         ("Outils", [('/outils', 'Tous les outils')] + [(h, l) for h, l, _ in S.OUTILS]),
@@ -237,9 +237,9 @@ def main():
         ("Paris et Île-de-France", S.ZONES),
         ("Informations", [('/mentions-legales', 'Mentions légales'), ('/confidentialite', 'Confidentialité')]),
     ]
-    pl = {"title": "Plan du site | FIXIA Architecte", "description": "Toutes les pages de architecte-commerce.fr : projets, activités, outils, guides, zones et informations légales."}
+    pl = {"title": "Plan du site | Kalya Architecte", "description": "Toutes les pages de architecte-commerce.fr : projets, activités, outils, guides, zones et informations légales."}
     write('/plan-du-site', 'plan.html', pl, page_graph('/plan-du-site', pl), groups=groups)
-    nf = {"title": "Page introuvable | FIXIA Architecte", "description": "Cette page n'existe pas ou plus."}
+    nf = {"title": "Page introuvable | Kalya Architecte", "description": "Cette page n'existe pas ou plus."}
     write('/404', 'notfound.html', nf, page_graph('/404', nf), indexable=False)
 
     # ---------------------------------------------------------------- fichiers techniques
@@ -251,15 +251,15 @@ def main():
     (DIST / 'sitemap.xml').write_text('\n'.join(sm) + '\n', encoding='utf-8')
     (DIST / 'robots.txt').write_text(f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n", encoding='utf-8')
 
-    llms = ["# FIXIA Architecte — architecte-commerce.fr", "",
+    llms = ["# Kalya Architecte — architecte-commerce.fr", "",
             "> Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants et bars, instituts et salons, boulangeries et métiers de bouche, showrooms, enseignes en réseau. "
             "Vérification du local avant la signature du bail, conception, dossiers d'autorisation (déclaration préalable, autorisation de travaux ERP, enseigne, permis de construire), consultation des entreprises, suivi de chantier, ouverture. "
-            f"FIXIA Architecte est le nom commercial de Quentin Piepszownik, architecte inscrit à l'Ordre des architectes d'Île-de-France (n° {SITE['ordre']}). Adresse : {SITE['address']}. Téléphone : {SITE['phone']}. Courriel : {SITE['email']}.", "",
+            f"Kalya Architecte est le nom commercial de Quentin Piepszownik, architecte inscrit à l'Ordre des architectes d'Île-de-France (n° {SITE['ordre']}). Adresse : {SITE['address']}. Téléphone : {SITE['phone']}. Courriel : {SITE['email']}.", "",
             f"Les règles citées sur ce site renvoient à leurs textes (règlement de sécurité ERP, code de la construction, code de l'urbanisme, PLU bioclimatique de Paris, code de l'environnement, règlement sanitaire de Paris, code de commerce) et ont été vérifiées le {S.VERIFIED}.", "",
             "Sites spécialisés du même architecte : dossier-erp-paris.fr (dossier ERP à Paris, par Kalya Architecte) ; architecte-erp.fr (établissements recevant du public).", ""]
     for title, items in [("Projets", [(h, l) for h, l, _ in S.SITUATIONS]), ("Activités", [(h, l) for h, l, _ in S.ACTIVITES]),
                          ("Outils", [(h, l) for h, l, _ in S.OUTILS]), ("Guides", [(g['path'], g['h1']) for g in G.PAGES]),
-                         ("Zones", S.ZONES), ("FIXIA", [('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Contact')])]:
+                         ("Zones", S.ZONES), ("Kalya Architecte", [('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Contact')])]:
         llms.append(f"## {title}")
         seen = set()
         for h, l in items:
@@ -275,7 +275,7 @@ def main():
     llms.append('')
     (DIST / 'llms.txt').write_text('\n'.join(llms), encoding='utf-8')
 
-    (DIST / 'site.webmanifest').write_text(json.dumps({"name": "FIXIA Architecte — commerces", "short_name": "FIXIA", "start_url": "/", "display": "standalone",
+    (DIST / 'site.webmanifest').write_text(json.dumps({"name": "Kalya Architecte — commerces", "short_name": "Kalya", "start_url": "/", "display": "standalone",
         "background_color": "#133A63", "theme_color": "#133A63", "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False), encoding='utf-8')
 
     vercel = {

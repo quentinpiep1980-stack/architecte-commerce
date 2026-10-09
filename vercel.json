@@ -24,12 +24,22 @@
       "permanent": true
     },
     {
+      "source": "/kalya",
+      "destination": "/a-propos",
+      "permanent": true
+    },
+    {
       "source": "/contact",
       "destination": "/etudier-mon-projet",
       "permanent": true
     },
     {
       "source": "/fixia/",
+      "destination": "/a-propos",
+      "permanent": true
+    },
+    {
+      "source": "/kalya/",
       "destination": "/a-propos",
       "permanent": true
     },

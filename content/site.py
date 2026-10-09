@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Identité, navigation et sources de architecte-commerce.fr (FIXIA Architecte).
+"""Identité, navigation et sources de architecte-commerce.fr (Kalya Architecte).
 
 Règle éditoriale : un fait juridique, réglementaire ou chiffré n'est publié qu'avec sa source (SOURCES),
 lue dans sa version en vigueur. Textes relus le 9 octobre 2026 (Légifrance, EUR-Lex, paris.fr, service-public, Apur).
@@ -12,14 +12,14 @@ VERIFIED_ISO = "2026-10-09"
 SITE = {
     "domain": "architecte-commerce.fr",
     "url": "https://architecte-commerce.fr",
-    "brand": "FIXIA Architecte",
-    "short": "FIXIA",
+    "brand": "Kalya Architecte",
+    "short": "Kalya",
     "descriptor": "Architecte de commerces à Paris",
     "person": "Quentin Piepszownik",
     "person_title": "Architecte DE-HMONP",
     "phone": "09 70 70 17 99",
     "phone_intl": "+33970701799",
-    "email": "analyse@fixia.fr",
+    "email": "contact@kalya-architecte.fr",
     "street": "71 rue du Cherche-Midi",
     "postal": "75006",
     "city": "Paris",
@@ -28,16 +28,15 @@ SITE = {
     "legal_name": "Quentin Piepszownik",
     "siren": "513 794 768",
     "tva": "FR93513794768",
-    "siege": "1 bis rue Gallieni, 95160 Montmorency",
     "ordre": "077297",
     "ordre_region": "Île-de-France",
-    # Formulaire : webhook n8n « ARCHITECTE COMMERCE (FIXIA) — formulaire de contact (production) », envoi vers analyse@fixia.fr
+    # Formulaire : webhook n8n « ARCHITECTE COMMERCE (Kalya Architecte) — formulaire de contact (production) » (su50ih0Q6dvATejB)
     "form_action": "https://architecte-erp.app.n8n.cloud/webhook/architecte-commerce-demande-5d8e2a71c4f9b036",
 }
 
 # Sites du même architecte (liens éditoriaux)
 ERP_SITES = {
-    "dep": ("dossier-erp-paris.fr", "https://dossier-erp-paris.fr/", "Les guides sourcés du dossier ERP à Paris : autorisation de travaux, pièces, commission de sécurité, ouverture. Par Kalya Architecte, marque du même architecte."),
+    "dep": ("dossier-erp-paris.fr", "https://dossier-erp-paris.fr/", "Les guides sourcés du dossier ERP à Paris, par Kalya Architecte : autorisation de travaux, pièces, commission de sécurité, ouverture."),
     "aerp": ("architecte-erp.fr", "https://www.architecte-erp.fr/", "L'architecte des établissements recevant du public : faisabilité, conception, autorisations de travaux, accessibilité et sécurité incendie."),
 }
 DEP = "https://dossier-erp-paris.fr"
@@ -79,6 +78,7 @@ ZONES = [
 # Redirections permanentes (anciennes adresses du site)
 REDIRECTS = [
     ("/fixia", "/a-propos"),
+    ("/kalya", "/a-propos"),
     ("/contact", "/etudier-mon-projet"),
     ("/guides/preparer-projet-commerce", "/guides/preparer-projet-commerce"),
 ]
@@ -101,7 +101,7 @@ SOURCES = {
     "l1223": ("Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026)", LF + "LEGIARTI000054142549", "version en vigueur depuis le 28 mai 2026"),
     "r12216": ("Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois)", LF + "LEGIARTI000043818451", "version en vigueur depuis le 1er juillet 2021"),
     "r12221": ("Code de la construction et de l'habitation, article R122-21 (accord implicite)", LF + "LEGIARTI000043818463", "version en vigueur depuis le 1er juillet 2021"),
-    "r42328": ("Code de l'urbanisme, article R*423-28 (permis de construire portant sur un ERP : cinq mois)", LF + "LEGIARTI000043841115", "version en vigueur"),
+    "r42328": ("Code de l'urbanisme, article R*423-28, b (permis portant sur des travaux relatifs à un ERP soumis à l'autorisation de L122-3 : cinq mois)", LF + "LEGIARTI000043841115", "version en vigueur depuis le 1er juillet 2021"),
     "r42515": ("Code de l'urbanisme, article R*425-15 (le permis de construire vaut autorisation de travaux)", LF + "LEGIARTI000043841073", "version en vigueur depuis le 1er juillet 2021"),
     "cerfa13824": ("Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190)", "https://entreprendre.service-public.gouv.fr/vosdroits/R10190", "consulté le 7 octobre 2026"),
     "ppol": ("Préfecture de police, sécurité incendie des ERP à Paris", "https://www.prefecturedepolice.interieur.gouv.fr/demarches/securite-incendie-des-erp-dont-hebergement-et-des-igh", "consulté le 7 octobre 2026"),
@@ -120,7 +120,8 @@ SOURCES = {
     "l4218": ("Code de l'urbanisme, article L421-8 (travaux dispensés de formalité : respect du PLU)", LF + "LEGIARTI000049398814", "version en vigueur depuis le 11 avril 2024"),
     "r42323": ("Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable)", LF + "LEGIARTI000006819920", "version en vigueur depuis le 1er octobre 2007"),
     "r42324": ("Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords)", LF + "LEGIARTI000053903312", "version en vigueur depuis le 17 avril 2026"),
-    "r4251": ("Code de l'urbanisme, articles R*425-1 et R*425-2 (accord de l'architecte des Bâtiments de France)", LF + "LEGIARTI000038682307", "versions en vigueur depuis le 23 juin 2019"),
+    "r4251": ("Code de l'urbanisme, article R*425-1 (accord de l'architecte des Bâtiments de France, abords)", LF + "LEGIARTI000038682307", "version en vigueur depuis le 23 juin 2019"),
+    "r4252": ("Code de l'urbanisme, article R*425-2 (accord de l'architecte des Bâtiments de France, site patrimonial remarquable)", LF + "LEGIARTI000038682299", "version en vigueur depuis le 23 juin 2019"),
     "plub": ("Ville de Paris, PLU bioclimatique approuvé le 20 novembre 2024", "https://www.paris.fr/pages/plan-local-d-urbanisme-bioclimatique-vers-un-paris-plus-vert-et-plus-solidaire-23805", "page consultée le 9 octobre 2026"),
     "plubreg": ("PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4)", "https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45", "texte consulté le 9 octobre 2026"),
     "plubcarte": ("Paris Data, « PLU bioclimatique : protections du commerce et de l'artisanat » (carte sans valeur réglementaire)", "https://opendata.paris.fr/explore/dataset/plub_protcom/", "jeu mis à jour le 5 juin 2025"),
@@ -132,32 +133,37 @@ SOURCES = {
     "r58159": ("Code de l'environnement, article R581-59 (extinction des enseignes lumineuses)", LF + "LEGIARTI000048869649", "version en vigueur depuis le 1er janvier 2024"),
     "cerfa16308": ("Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838)", "https://entreprendre.service-public.gouv.fr/vosdroits/R77838", "fiche vérifiée le 25 septembre 2026"),
     "parisenseignes": ("Ville de Paris, enseignes et publicités (demande en ligne)", "https://www.paris.fr/pages/enseignes-et-publicites-3514", "page consultée le 9 octobre 2026"),
-    "terrasses": ("Ville de Paris, terrasses et étalages (règlement du 18 juin 2021)", "https://www.paris.fr/pages/terrasses-et-etalages-3516", "page consultée le 9 octobre 2026"),
+    "terrasses": ("Ville de Paris, terrasses et étalages (règlement publié le 18 juin 2021, applicable au 1er juillet 2021)", "https://www.paris.fr/pages/terrasses-et-etalages-3516", "page consultée le 9 octobre 2026"),
     # --- Copropriété
     "copro25": ("Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur)", LL + "LEGIARTI000051749507", "version en vigueur depuis le 18 juin 2025"),
     # --- Restaurant, hygiène
-    "rsd631": ("Règlement sanitaire départemental de Paris, article 63-1 (air des locaux à pollution spécifique, rejet à 8 m des fenêtres)", "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928", "consolidation Légifrance"),
-    "rsd1303": ("Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2", "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019", "consolidation Légifrance"),
+    "rsd631": ("Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué)", "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928", "consolidation Légifrance arrêtée au 4 février 2009"),
+    "rsd1303": ("Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2", "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019", "consolidation Légifrance arrêtée au 4 février 2009"),
     "ce852": ("Règlement (CE) n° 852/2004 relatif à l'hygiène des denrées alimentaires, annexe II", "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02004R0852-20210324", "version consolidée du 24 mars 2021"),
     "a2009": ("Arrêté du 21 décembre 2009 (règles sanitaires du commerce de détail)", "https://www.legifrance.gouv.fr/loda/id/LEGITEXT000021676844/", "version en vigueur"),
-    "ddpp": ("Déclaration d'activité alimentaire, Cerfa n° 13984 (service-public, fiche R17520)", "https://entreprendre.service-public.gouv.fr/vosdroits/R17520", "consultée le 9 octobre 2026"),
+    "ddpp": ("Déclaration de manipulation de denrées alimentaires d'origine animale, Cerfa n° 13984 (service-public, fiche R17520)", "https://entreprendre.service-public.gouv.fr/vosdroits/R17520", "consultée le 9 octobre 2026"),
     "r2334": ("Code rural, article R233-4 (déclaration des établissements manipulant des denrées)", LF + "LEGIARTI000044116307", "version en vigueur depuis le 30 septembre 2021"),
-    "l2334": ("Code rural, article L233-4 (formation à l'hygiène alimentaire en restauration commerciale)", LF + "LEGIARTI000022657498", "version en vigueur"),
+    "l2334": ("Code rural, article L233-4 (formation à l'hygiène alimentaire ; équivalence par trois ans d'expérience)", LF + "LEGIARTI000022657498", "version en vigueur"),
     "f32189": ("Service-public, « Règles d'hygiène dans les restaurants » (fiche F32189)", "https://entreprendre.service-public.gouv.fr/vosdroits/F32189", "fiche vérifiée le 12 mars 2024"),
     "assainissement": ("Ville de Paris, règlement d'assainissement en vigueur au 1er janvier 2026 (articles 15 et 17.1)", "https://www.paris.fr/pages/evacuation-des-eaux-usees-non-domestiques-3547", "page mise à jour le 5 octobre 2026"),
-    "licences": ("Code de la santé publique, articles L3331-1 et L3331-2 (licences de débit de boissons et de restaurant)", LF + "LEGIARTI000031643392", "version en vigueur"),
+    "licences": ("Code de la santé publique, article L3331-1 (licences de débit de boissons)", LF + "LEGIARTI000031643392", "version en vigueur"),
+    "l33312": ("Code de la santé publique, article L3331-2 (licences de restaurant)", LF + "LEGIARTI000031643400", "version en vigueur"),
     "r13361": ("Code de la santé publique, article R1336-1 (lieux diffusant des sons amplifiés)", LF + "LEGIARTI000035425898", "version en vigueur"),
     # --- Bail commercial
     "l1454": ("Code de commerce, article L145-4 (durée du bail : neuf ans au moins, résiliation triennale)", LF + "LEGIARTI000037667139", "version en vigueur"),
     "l1455": ("Code de commerce, article L145-5 (bail dérogatoire : trois ans au plus)", LF + "LEGIARTI000029108698", "version en vigueur"),
-    "l14547": ("Code de commerce, articles L145-47 et L145-48 (activités connexes ou différentes)", LF + "LEGIARTI000039280354", "version en vigueur"),
+    "l14547": ("Code de commerce, article L145-47 (activités connexes ou complémentaires)", LF + "LEGIARTI000039280354", "version en vigueur"),
+    "r5819": ("Code de l'environnement, article R581-9 (demande d'autorisation d'enseigne)", LF + "LEGIARTI000053219811", "version en vigueur depuis le 1er juillet 2026"),
+    "r581161": ("Code de l'environnement, article R581-16-1 (accord de l'architecte des Bâtiments de France)", LF + "LEGIARTI000053219860", "version en vigueur depuis le 1er juillet 2026"),
+    "vie_erp": ("Services de l'État dans le Rhône, « Vie de l'ERP » (saisine de la commission un mois avant l'ouverture)", "https://www.rhone.gouv.fr/Actions-de-l-Etat/Securite-et-protection-de-la-population/La-securite-civile/Les-etablissements-recevant-du-public/Vie-de-l-ERP", "consultée le 7 octobre 2026"),
+    "l14548": ("Code de commerce, article L145-48 (déspécialisation plénière)", LF + "LEGIARTI000006222140", "version en vigueur"),
     "l145401": ("Code de commerce, article L145-40-1 (état des lieux)", LF + "LEGIARTI000029103499", "version en vigueur"),
     "l145402": ("Code de commerce, article L145-40-2 (inventaire des charges, état des travaux)", LF + "LEGIARTI000029103688", "version en vigueur"),
     "r14535": ("Code de commerce, article R145-35 (charges et travaux non imputables au locataire)", LF + "LEGIARTI000029704677", "version en vigueur"),
     "l12629": ("Code de la construction et de l'habitation, article L126-29 (diagnostic de performance énergétique joint au bail)", LF + "LEGIARTI000043977041", "version en vigueur"),
     "l1255": ("Code de l'environnement, article L125-5 (état des risques annexé au bail)", LF + "LEGIARTI000006832938", "version en vigueur"),
     # --- Marché
-    "apur2023": ("Apur, « L'évolution des commerces à Paris : inventaire des commerces 2023 », note n° 236", "https://www.apur.org/sites/default/files/8p236_bdcom_2023.pdf", "septembre 2023, relevé d'avril 2023"),
+    "apur2023": ("Apur, note n° 236, « Premiers résultats 2023 de l'enquête sur les commerces parisiens »", "https://www.apur.org/sites/default/files/8p236_bdcom_2023.pdf", "septembre 2023, relevé d'avril 2023"),
     "apurbdcom": ("Apur, observatoire des commerces parisiens (BDCOM)", "https://www.apur.org/en/open-data-maps/observatory/observatory-businesses-and-shops-paris-bdcom", "consulté le 9 octobre 2026"),
     "bnpre": ("BNP Paribas Real Estate, marché des commerces en France, 2e trimestre 2026", "https://www.realestate.bnpparibas.fr/media/france/2026-08/REVIEW%20COMMERCE%20-%20T2%202026_FR.pdf", "loyers prime du 1er semestre 2026"),
     "insee2111": ("Insee Première n° 2111, « Le compte du commerce en 2025 »", "https://www.insee.fr/fr/statistiques/9008999", "publié le 18 juin 2026"),
@@ -172,17 +178,22 @@ SOURCES = {
     "r133429": ("Code de la santé publique, article R1334-29-5 (dossier technique amiante tenu à disposition)", LF + "LEGIARTI000043841389", "version en vigueur depuis le 1er juillet 2021"),
     "preemption": ("Ville de Paris, diversité commerciale (droit de préemption commercial dans les 5e, 6e et une partie du 7e)", "https://www.paris.fr/pages/diversite-commerciale-3553", "page mise à jour le 7 août 2024"),
     "cci2023": ("CCI Paris Île-de-France, recensement 2023 de l'équipement commercial francilien", "https://www.cci-paris-idf.fr/fr/newsroom/presse/cp/recensement-2023-equipement-commercial-francilien", "communiqué du 25 janvier 2024"),
-    "r1227": ("Code de la construction et de l'habitation, article R122-7 (autorité compétente ; 5e catégorie sans locaux à sommeil)", "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/", "version en vigueur depuis le 21 novembre 2025"),
+    "r1227": ("Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public)", "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/", "version en vigueur depuis le 21 novembre 2025"),
     "r1653": ("Code de la construction et de l'habitation, article R165-3 (attestation d'accessibilité)", LF + "LEGIARTI000043819317", "version en vigueur depuis le 1er juillet 2021"),
     "adap": ("Ministère de la transition écologique, agenda d'accessibilité programmée (Ad'AP)", "https://www.ecologie.gouv.fr/politiques-publiques/ladap-agenda-daccessibilite-programmee", "page relue le 7 octobre 2026"),
     "pe14": ("Règlement de sécurité, livre III, article PE 14 (désenfumage), texte reproduit avec ses modifications", "https://sitesecurite.com/contenu/_erp/erppe/pe14.php?id=PE14", "consulté le 7 octobre 2026"),
     "pe24": ("Règlement de sécurité, livre III, article PE 24 (éclairage de sécurité), texte reproduit avec ses modifications", "https://sitesecurite.com/contenu/_erp/erppe/pe24.php?id=PE24", "consulté le 7 octobre 2026"),
     "pe26": ("Règlement de sécurité, livre III, articles PE 26 et PE 27 (extincteurs, alarme, consignes), texte reproduit avec ses modifications", "https://sitesecurite.com/contenu/_erp/erppe/pe26a27.php?id=PE26", "consulté le 7 octobre 2026"),
-    "pe4": ("Règlement de sécurité, livre III, article PE 4 (vérifications techniques), texte reproduit avec ses modifications", "https://sitesecurite.com/contenu/_erp/erppe/pe01a04.php", "consulté le 7 octobre 2026"),
+    "pe4": ("Règlement de sécurité du 25 juin 1980, article PE 4 (vérifications techniques, visites)", LF + "LEGIARTI000053027822", "version en vigueur depuis le 1er juillet 2026"),
     "dep_reforme": ("Dossier ERP Paris, « Réforme 2026 : la déclaration de conformité remplace-t-elle l'autorisation de travaux ? »", "https://dossier-erp-paris.fr/reforme-2026-autorisation-travaux-erp/", "page du 7 octobre 2026, sources Légifrance et ministère"),
     "r42114b": ("Code de l'urbanisme, article R*421-13 (changements de destination ou de sous-destination)", LF + "LEGIARTI000053561283", "version en vigueur depuis le 22 février 2026"),
     "l4254": ("Code de l'urbanisme, article L425-4 (le permis tient lieu d'autorisation d'exploitation commerciale)", LF + "LEGIARTI000031008816", "version en vigueur"),
-    "copro3": ("Loi n° 65-557 du 10 juillet 1965, articles 3, 8 et 9 (parties communes, destination de l'immeuble)", LL + "LEGIARTI000037671848", "versions en vigueur"),
+    "copro3": ("Loi n° 65-557 du 10 juillet 1965, article 3 (parties communes)", LL + "LEGIARTI000037671848", "version en vigueur"),
+    "copro8": ("Loi n° 65-557 du 10 juillet 1965, article 8 (règlement de copropriété, destination de l'immeuble)", LL + "LEGIARTI000041587248", "version en vigueur"),
+    "copro9": ("Loi n° 65-557 du 10 juillet 1965, article 9 (droits de chaque copropriétaire sur ses parties privatives)", LL + "LEGIARTI000051749498", "version en vigueur"),
     "a2016e": ("Arrêté du 10 novembre 2016 modifié, article 5 (entrepôt ; cuisine dédiée à la vente en ligne)", LL + "LEGIARTI000047336582", "version en vigueur depuis le 25 mars 2023"),
     "l1259": ("Code de l'environnement, article L125-9 (annexe environnementale au-delà de 2 000 m²)", LF + "LEGIARTI000025118427", "version en vigueur"),
+    "r1642": ("Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie)", LF + "LEGIARTI000043819297", "version en vigueur depuis le 1er juillet 2021"),
+    "d23311": ("Code rural, article D233-11 (au moins une personne formée en restauration traditionnelle, cafétérias, restauration rapide)", LF + "LEGIARTI000026485283", "version en vigueur depuis le 15 décembre 2012"),
+    "paris28": ("Ville de Paris, « Avec 28 commerces pour 1 000 habitants, Paris maintient sa densité commerciale à un haut niveau »", "https://www.paris.fr/pages/avec-28-commerces-pour-1000-habitants-paris-maintient-sa-densite-commerciale-a-un-haut-niveau-26008", "page mise à jour le 16 janvier 2024"),
 }
