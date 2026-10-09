@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<meta name="description" content="{{ page.description }}">
+{% if page.noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="{{ site.url }}{{ page.path if page.path != '/' else '/' }}">{% endif %}
+<meta name="author" content="{{ site.person }}, architecte">
+<meta name="theme-color" content="#133A63">
+<meta property="og:type" content="{{ 'website' if page.path == '/' else 'article' }}">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="{{ site.brand }} — {{ site.domain }}">
+<meta property="og:title" content="{{ page.og_title or page.title }}">
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:url" content="{{ site.url }}{{ page.path }}">
+<meta property="og:image" content="{{ site.url }}/og/{{ page.og or 'architecte-commerce' }}.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Élévation dessinée d'une devanture parisienne éclairée, FIXIA Architecte">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/site.css?v={{ v }}">
+<script type="application/ld+json">{{ jsonld | safe }}</script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+{% set S = page.section %}
+<header class="site-head">
+  <div class="wrap">
+    <a class="logo" href="/" aria-label="FIXIA Architecte, accueil">
+      <img src="/brand/fixia-blanc.svg" alt="FIXIA" width="120" height="34">
+      <span class="logo-sub">Architecte commerces<br>Paris et Île-de-France</span>
+    </a>
+    <nav class="nav" aria-label="Navigation principale">
+      <a href="/votre-projet" data-panel="p-projets"{% if S == 'projets' %} data-section="true"{% endif %}>Projets <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      <a href="/votre-projet#activites" data-panel="p-activites"{% if S == 'activites' %} data-section="true"{% endif %}>Activités <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      <a href="/outils" data-panel="p-outils"{% if S == 'outils' %} data-section="true"{% endif %}>Outils <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      {% for h, l in nav %}<a href="{{ h }}"{% if page.path == h %} aria-current="page"{% elif S == h %} data-section="true"{% endif %}>{{ l }}</a>
+      {% endfor %}
+    </nav>
+    <a class="head-tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
+    <a class="btn btn-vitrine" href="/etudier-mon-projet">Étudier mon projet</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav"><span class="sr">Menu</span><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M3 7h20M3 13h20M3 19h20" stroke="currentColor" stroke-width="2" fill="none"/></svg></button>
+  </div>
+  <div class="panel" id="p-projets">
+    <div class="wrap">
+      <div class="panel-grid">
+        {% for h, l, sub in situations %}<a href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}
+        <a href="/votre-projet"><strong>Tous les projets</strong><span>Situations et activités, en un coup d'œil.</span></a>
+      </div>
+    </div>
+  </div>
+  <div class="panel" id="p-activites">
+    <div class="wrap">
+      <div class="panel-acts">
+        {% for h, l, sub in activites %}<a href="{{ h }}">{{ minis[loop.index0] | safe }}<strong>{{ l }}</strong></a>{% endfor %}
+      </div>
+      <p class="panel-foot">Commerce ouvert au public = établissement recevant du public (ERP). Pour le dossier ERP à Paris : <a href="https://dossier-erp-paris.fr/" rel="noopener">dossier-erp-paris.fr</a>.</p>
+    </div>
+  </div>
+  <div class="panel" id="p-outils">
+    <div class="wrap">
+      <div class="panel-grid">
+        {% for h, l, sub in outils %}<a href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}
+      </div>
+    </div>
+  </div>
+  <nav class="mnav" id="mnav" aria-label="Menu">
+    <div class="wrap">
+      <h2>Projets</h2>
+      <ul>{% for h, l, sub in situations %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      <h2>Activités</h2>
+      <ul>{% for h, l, sub in activites %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      <h2>Outils</h2>
+      <ul>{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      <h2>FIXIA</h2>
+      <ul>{% for h, l in nav %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      <a class="btn btn-vitrine" href="/etudier-mon-projet">Étudier mon projet</a>
+      <a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
+    </div>
+  </nav>
+</header>
+<main id="contenu">
+{% block main %}{% endblock %}
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-id">
+        <img src="/brand/fixia-empile-blanc.svg" alt="FIXIA" width="60" height="64">
+        <p><strong style="color:#fff">FIXIA Architecte</strong>, {{ site.person }}, architecte inscrit à l'Ordre des architectes d'Île-de-France (n° {{ site.ordre }}). Commerces, restaurants et enseignes à Paris et en Île-de-France.</p>
+        <p>{{ site.address }}<br><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+      </div>
+      <div>
+        <h2>Projets</h2>
+        <ul>{% for h, l, sub in situations %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Activités</h2>
+        <ul>{% for h, l, sub in activites %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+        <h2>Paris et Île-de-France</h2>
+        <ul>{% for h, l in zones %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Guides</h2>
+        <ul>{% for g in guides_nav %}<li><a href="{{ g.path }}">{{ g.short }}</a></li>{% endfor %}</ul>
+      </div>
+      <div>
+        <h2>Outils</h2>
+        <ul>{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+        <h2>FIXIA</h2>
+        <ul>
+          <li><a href="/mission">Méthode</a></li>
+          <li><a href="/references">Références</a></li>
+          <li><a href="/a-propos">L'architecte</a></li>
+          <li><a href="/etudier-mon-projet">Étudier mon projet</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-erp">
+      <p><strong style="color:#fff">Un commerce est un ERP.</strong> Deux sites du même architecte pour aller au fond du sujet :</p>
+      <p><a href="{{ erp.dep[1] }}" rel="noopener"><strong>{{ erp.dep[0] }}</strong></a><br>Les guides sourcés du dossier ERP à Paris : autorisation de travaux, commission de sécurité, ouverture.</p>
+      <p><a href="{{ erp.aerp[1] }}" rel="noopener"><strong>{{ erp.aerp[0] }}</strong></a><br>L'architecte des établissements recevant du public : faisabilité, accessibilité, sécurité incendie.</p>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 FIXIA Architecte — Quentin Piepszownik EI</span>
+      <a href="/mentions-legales">Mentions légales</a>
+      <a href="/confidentialite">Confidentialité</a>
+      <a href="/plan-du-site">Plan du site</a>
+      <span>Faits réglementaires vérifiés le {{ verified }}</span>
+    </div>
+  </div>
+</footer>
+<script src="/js/site.js?v={{ v }}" defer></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

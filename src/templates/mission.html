@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block main %}
+{% include "planche_simple.html" %}
+<section class="sec sec-plan" aria-labelledby="etapes"><div class="wrap g12">
+  <div class="sec-head"><h2 id="etapes">Les six étapes</h2><p>Chaque étape se conclut par une décision, prise par vous, sur un document clair.</p></div>
+  <ol class="steps">{% for k, t, x, o in home.STEPS %}<li><span class="k">{{ loop.index }}. {{ k }}</span><strong>{{ t }}</strong><p>{{ x }}</p><p class="out">{{ o }}</p></li>{% endfor %}</ol>
+  <div class="gantt">
+    <h3>Les délais d'instruction, à partir d'un dossier complet</h3>
+    <div class="gantt-scale" aria-hidden="true"><span class="lab"></span><div class="ticks"><span>0</span><span>1 mois</span><span>2</span><span>3</span><span>4</span><span>5 mois</span></div></div>
+    {% for l, s, d, e, ref in home.GANTT %}<div class="gantt-row"><div class="lab">{{ l }}<small>{{ s }}</small></div><div class="bar-track"><span class="bar" style="left:0;width:{{ (d / 6 * 100) | round(2) }}%">{{ d }} mois</span>{% if e %}<span class="bar ext" style="left:{{ (d / 6 * 100) | round(2) }}%;width:{{ (e / 6 * 100) | round(2) }}%"></span>{% endif %}</div></div>{% endfor %}
+    <p class="gantt-note">Sources : code de l'urbanisme, R*423-23, R423-24 et R*423-28 ; code de l'environnement, R581-13 ; code de la construction, R122-16. Hachures : majoration d'un mois en site patrimonial remarquable ou aux abords d'un monument historique.</p>
+  </div>
+</div></section>
+<div class="wrap body-g">
+  <article class="prose">
+    <h2 id="detail">Le détail de la mission</h2>
+    <h3>1. Lire le local, avant le bail</h3>
+    <p>Visite, relevé des contraintes, lecture du bail, du règlement de copropriété et du PLU. Le livrable est une note de faisabilité : votre activité est-elle possible, à quelles conditions, pour quels travaux et quelles autorisations. Voir <a href="/avant-signature-bail-commercial">avant de signer le bail</a>.</p>
+    <h3>2. Concevoir</h3>
+    <p>Programme, parcours client, zones de vente et de service, réserve, caisse, lumière, mobilier, devanture. L'esquisse est discutée avec vous, puis développée en plans cotés, avec une estimation par lots et les notices de sécurité et d'accessibilité.</p>
+    <h3>3. Autoriser</h3>
+    <p>Préparation, dépôt et suivi des dossiers : déclaration préalable, autorisation de travaux ERP, enseigne, permis de construire lorsqu'il est nécessaire. Le recours à un architecte est obligatoire pour établir le projet architectural d'un permis de construire, sauf exceptions (code de l'urbanisme, L431-1).</p>
+    <h3>4. Consulter les entreprises</h3>
+    <p>Un cahier des charges par lot, le même pour toutes les entreprises consultées ; une analyse poste à poste des offres ; une recommandation ; des marchés signés avec planning, pénalités et conditions de chantier.</p>
+    <h3>5. Construire</h3>
+    <p>Visites de chantier régulières, comptes rendus, contrôle des situations de travaux avant paiement, gestion des modifications. En site occupé, le phasage est tenu à chaque visite.</p>
+    <h3>6. Ouvrir</h3>
+    <p>Opérations de réception, levée des réserves, attestations, registre public d'accessibilité, registre de sécurité ; préparation de la visite de la commission lorsqu'elle est requise.</p>
+    <h2 id="engagements">Nos engagements</h2>
+    <ul>
+      <li>Une mission écrite, avec ses livrables et sa rémunération, avant de commencer.</li>
+      <li>Des règles citées avec leur texte ; les hypothèses annoncées comme telles.</li>
+      <li>Aucun intérêt dans les travaux, le mobilier ou les équipements prescrits.</li>
+      <li>Les compétences complémentaires (bureaux d'études, économiste, cuisiniste) nommées dans la proposition lorsque le projet les exige.</li>
+    </ul>
+    <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol></aside>
+  </article>
+  <aside class="aside"><div class="aside-in"><div class="aside-cta"><h2>Commencer par le local</h2><p>La première étape est la plus rentable : elle évite de signer un local qui ne tient pas votre activité.</p><a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div></div></aside>
+</div>
+{% include "final.html" %}
+{% endblock %}

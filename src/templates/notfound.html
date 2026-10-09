@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block main %}
+{% set p = {"h1": "Cette page n'existe pas ou plus.", "lede": "L'adresse a peut-être changé. Repartez de l'accueil, des projets ou des guides.", "cta": "Retour à l'accueil", "cta_href": "/", "cta2": ["/guides", "Voir les guides"]} %}
+{% include "planche_simple.html" %}
+<div class="wrap sec-tight"><div class="rows">{% for h, l, sub in situations %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span><em>Voir</em></a>{% endfor %}</div></div>
+{% endblock %}

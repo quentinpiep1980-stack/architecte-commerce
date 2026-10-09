@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block main %}
+{% include "planche_simple.html" %}
+<div class="wrap body-g">
+  <div>
+    <div id="erreur" class="form-err callout" role="alert"><strong>La demande n'est pas partie.</strong><p>Un champ obligatoire manquait ou l'envoi a échoué. Vérifiez le formulaire, ou écrivez directement à <a href="mailto:{{ site.email }}">{{ site.email }}</a>, ou appelez le {{ site.phone }}.</p></div>
+    <form class="form tool" method="post" action="{{ site.form_action }}" accept-charset="UTF-8">
+      {% include "form_fields.html" %}
+      <div class="field"><label for="f-act">Activité envisagée <span class="req" aria-hidden="true">*</span></label><select id="f-act" name="activite" required><option value="">Choisir</option><option>Boutique ou concept store</option><option>Restaurant, bar, café</option><option>Boulangerie ou métier de bouche</option><option>Institut ou salon de coiffure</option><option>Showroom</option><option>Réseau d'enseigne</option><option>Autre activité recevant du public</option></select></div>
+      <div class="field"><label for="f-adr">Adresse ou quartier du local <span class="req" aria-hidden="true">*</span><span class="hint">Ou « pas encore de local »</span></label><input id="f-adr" name="adresse" required maxlength="160"></div>
+      <div class="field"><label for="f-surf">Surface approximative (m²)</label><input id="f-surf" name="surface" inputmode="numeric" maxlength="20"></div>
+      <div class="field"><label for="f-etape">Où en êtes-vous ? <span class="req" aria-hidden="true">*</span></label><select id="f-etape" name="etape" required><option value="">Choisir</option><option>Je cherche un local</option><option>J'ai repéré un local, bail non signé</option><option>Bail signé</option><option>Commerce existant à rénover</option><option>Réseau à déployer</option></select></div>
+      <div class="field"><label for="f-ech">Ouverture souhaitée</label><input id="f-ech" name="echeance" maxlength="60" placeholder="Par exemple : printemps 2027"></div>
+      <div class="field full"><label for="f-msg">Votre projet en quelques lignes <span class="req" aria-hidden="true">*</span></label><textarea id="f-msg" name="message" required maxlength="3000"></textarea></div>
+      <div class="hp" aria-hidden="true"><label for="f-web">Site web</label><input id="f-web" name="site_web" tabindex="-1" autocomplete="off"></div>
+      <p class="form-note full">Les champs marqués <span class="req">*</span> sont obligatoires. Vos données servent uniquement à répondre à votre demande : voir la <a href="/confidentialite">politique de confidentialité</a>.</p>
+      <div class="full"><button class="btn btn-vitrine" type="submit">Envoyer ma demande</button></div>
+    </form>
+  </div>
+  <aside class="aside"><div class="aside-in">
+    <div class="aside-cta"><h2>Préférez le téléphone ?</h2><p>{{ site.address }}<br>Du lundi au vendredi.</p><a class="btn btn-vitrine" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><a class="tel" href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    <nav class="related" aria-label="Avant d'écrire"><h2>Avant d'écrire</h2><ul>
+      <li><a href="/diagnostic-local-commercial"><b>Tester un local en 12 questions</b><span>Un premier verdict avant la visite.</span></a></li>
+      <li><a href="/guides/preparer-projet-commerce"><b>Préparer son projet</b><span>Les six réponses qui font gagner du temps.</span></a></li>
+    </ul></nav>
+  </div></aside>
+</div>
+{% endblock %}

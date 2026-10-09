@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://architecte-commerce.fr/sitemap.xml

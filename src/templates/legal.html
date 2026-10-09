@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block main %}
+{% include "planche_simple.html" %}
+<div class="wrap body-g"><article class="prose">{{ body | safe }}</article><aside class="aside"><div class="aside-in"><div class="aside-cta"><h2>Une question ?</h2><p>{{ site.address }}</p><a class="btn btn-vitrine" href="mailto:{{ site.email }}">{{ site.email }}</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div></div></aside></div>
+{% endblock %}

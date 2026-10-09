@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% block main %}
+{% include "planche_simple.html" %}
+{% if p.path == '/votre-projet' %}
+<section class="sec on-paper" aria-labelledby="sit"><div class="wrap g12">
+  <div class="sec-head"><h2 id="sit">Par situation</h2><p>Où en êtes-vous ? Du local repéré au réseau à déployer.</p></div>
+  <div class="rows">{% for h, l, sub in situations %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span><em>Voir</em></a>{% endfor %}</div>
+</div></section>
+<section class="sec sec-calque" aria-labelledby="activites" id="activites"><div class="wrap g12">
+  <div class="sec-head"><h2 id="activites">Par activité</h2><p>Type d'ERP, effectif, réseaux, hygiène : chaque activité change le projet.</p></div>
+  <div class="acts">{% for h, l, sub in activites %}<a class="act-card draw" href="{{ h }}">{{ minis[loop.index0] | safe }}<strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}</div>
+</div></section>
+<section class="sec-tight on-paper" aria-labelledby="zones"><div class="wrap g12">
+  <div class="sec-head"><h2 id="zones">Par territoire</h2></div>
+  <div class="rows">{% for h, l in zones %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ all_pages[h].teaser }}</span><em>Voir</em></a>{% endfor %}</div>
+</div></section>
+{% elif p.path == '/outils' %}
+<section class="sec on-paper"><div class="wrap">
+  <div class="hub-list">{% for h, l, x in tools %}<a href="{{ h }}"><b>{{ l }}</b><span>{{ x }}</span></a>{% endfor %}</div>
+</div></section>
+{% else %}
+<section class="sec on-paper"><div class="wrap">
+  <div class="hub-list">{% for g in guides %}<a href="{{ g.path }}"><b>{{ g.h1 }}</b><span>{{ g.teaser }}</span></a>{% endfor %}</div>
+</div></section>
+<section class="sec-tight sec-plan"><div class="wrap g12">
+  <div class="sec-head"><h2>Pour le dossier ERP à Paris</h2><p>Autorisation de travaux, pièces, commission de sécurité, ouverture : le site spécialisé du même architecte.</p></div>
+  <div class="erp-sites">
+    <a class="erp-site" href="{{ erp.dep[1] }}" rel="noopener"><strong>{{ erp.dep[0] }}</strong><span>{{ erp.dep[2] }}</span><em>Ouvrir le site</em></a>
+    <a class="erp-site" href="{{ erp.aerp[1] }}" rel="noopener"><strong>{{ erp.aerp[0] }}</strong><span>{{ erp.aerp[2] }}</span><em>Ouvrir le site</em></a>
+  </div>
+</div></section>
+{% endif %}
+{% include "final.html" %}
+{% endblock %}

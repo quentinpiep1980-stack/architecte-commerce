@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="planche draw" aria-labelledby="h1">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><ol>{% for h, l in crumbs %}<li>{% if loop.last %}<span aria-current="page">{{ l }}</span>{% else %}<a href="{{ h }}">{{ l }}</a>{% endif %}</li>{% endfor %}</ol></nav>
+    <div class="planche-g">
+      <div>
+        <h1 id="h1">{{ p.h1 }}</h1>
+        <p class="lede">{{ p.answer | safe }}</p>
+        <div class="ctas">
+          <a class="btn btn-vitrine" href="{{ p.cta_href or '/etudier-mon-projet' }}">{{ p.cta or 'Faire étudier mon projet' }}</a>
+          {% if p.cta2 %}<a class="btn btn-line" href="{{ p.cta2[0] }}">{{ p.cta2[1] }}</a>{% endif %}
+        </div>
+      </div>
+      <div>
+        {% if mini %}<div class="mini-wrap" style="margin-bottom:16px">{{ mini | safe }}</div>{% endif %}
+        <div class="cartouche">
+          <div class="ttl"><span>FIXIA Architecte</span><span>{{ kind_label }}</span></div>
+          <dl>
+            <dt>Lieu</dt><dd>{{ p.lieu or 'Paris et Île-de-France' }}</dd>
+            <dt>Vérifié le</dt><dd><time datetime="{{ verified_iso }}">{{ verified }}</time></dd>
+            <dt>Sources</dt><dd>{{ p.sources | length }} texte{{ 's' if p.sources | length > 1 }} cité{{ 's' if p.sources | length > 1 }}</dd>
+            <dt>Auteur</dt><dd>{{ site.person }}, architecte</dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="wrap body-g">
+  <article class="prose" id="article">
+    {% if p.bullets %}<div class="bref"><h2>En bref</h2><ul>{% for b in p.bullets %}<li>{{ b | safe }}</li>{% endfor %}</ul></div>{% endif %}
+    {% for s in p.sections %}
+    <h2 id="{{ s.id }}">{{ s.h }}</h2>
+    {{ s.html | safe }}
+    {% endfor %}
+    {% if p.faq %}
+    <h2 id="faq">Questions fréquentes</h2>
+    <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>{% endfor %}</div>
+    {% endif %}
+    {% if p.sources %}
+    <aside class="sources" aria-labelledby="sources-t">
+      <h2 id="sources-t">Textes et sources</h2>
+      <p class="verif">Consultés le {{ verified }}, dans leur version en vigueur à cette date. Cette page donne des informations générales : elle ne remplace pas l'étude d'un local précis.</p>
+      <ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol>
+    </aside>
+    {% endif %}
+  </article>
+  <aside class="aside" aria-label="Sur cette page">
+    <div class="aside-in">
+      {% if p.sections | length > 2 %}<nav class="toc" aria-labelledby="toc-t"><h2 id="toc-t">Sur cette page</h2><ol>{% for s in p.sections %}<li><a href="#{{ s.id }}">{{ s.toc or s.h }}</a></li>{% endfor %}{% if p.faq %}<li><a href="#faq">Questions fréquentes</a></li>{% endif %}</ol></nav>{% endif %}
+      <div class="aside-cta">
+        <h2>{{ p.aside_t or 'Un local en vue ?' }}</h2>
+        <p>{{ p.aside_x or "Envoyez l'adresse et votre activité : un architecte vous dit ce que le local permet, avant que vous signiez." }}</p>
+        <a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a>
+        <a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
+      </div>
+      {% if related %}<nav class="related" aria-labelledby="rel-t"><h2 id="rel-t">À lire ensuite</h2><ul>{% for h, l, sub in related %}<li><a href="{{ h }}"{% if h.startswith('http') %} rel="noopener"{% endif %}><b>{{ l }}</b><span>{{ sub }}</span></a></li>{% endfor %}</ul></nav>{% endif %}
+    </div>
+  </aside>
+</div>
+{% include "final.html" %}
+{% endblock %}

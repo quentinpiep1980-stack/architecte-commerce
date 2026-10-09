@@ -1,0 +1,5 @@
+<input type="hidden" name="source" value="{{ form_source or page.path }}">
+<div class="field"><label for="f-nom">Nom et prénom <span class="req" aria-hidden="true">*</span></label><input id="f-nom" name="nom" required autocomplete="name" maxlength="120"></div>
+<div class="field"><label for="f-soc">Société ou enseigne</label><input id="f-soc" name="societe" autocomplete="organization" maxlength="120"></div>
+<div class="field"><label for="f-mail">Courriel <span class="req" aria-hidden="true">*</span></label><input id="f-mail" name="email" type="email" required autocomplete="email" maxlength="160"></div>
+<div class="field"><label for="f-tel">Téléphone</label><input id="f-tel" name="tel" type="tel" autocomplete="tel" maxlength="40"></div>

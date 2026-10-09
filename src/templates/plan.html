@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block main %}
+{% set p = {"h1": "Plan du site", "lede": "Toutes les pages de architecte-commerce.fr."} %}
+{% include "planche_simple.html" %}
+<div class="wrap sec-tight"><div class="hub-list">
+{% for t, items in groups %}<div><h2 style="font-size:1.3rem">{{ t }}</h2><ul>{% for h, l in items %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul></div>{% endfor %}
+</div></div>
+{% endblock %}

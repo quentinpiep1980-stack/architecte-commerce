@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% block main %}
+{% set p = dict(p, cta="Retour à l'accueil", cta_href="/", cta2=["/guides", "Lire les guides en attendant"]) %}
+{% include "planche_simple.html" %}
+{% endblock %}

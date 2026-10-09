@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="hero draw" aria-labelledby="h1">
+  <div class="hero-top wrap">
+    <h1 id="h1"><span>Architecte commerce</span> <span>à Paris</span></h1>
+    <div class="hero-row">
+      <div class="hero-text">
+        <p class="lede">Boutiques, restaurants, instituts, enseignes : <strong>du local vide à la vitrine allumée.</strong> Votre local vérifié avant le bail, des plans conformes, des autorisations obtenues, un chantier suivi jusqu'à l'ouverture.</p>
+        <div class="ctas">
+          <a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a>
+          <a class="btn btn-line" href="/diagnostic-local-commercial">Tester un local avant de signer</a>
+        </div>
+      </div>
+      <div class="switch">
+        <p class="switch-l" id="sw-l">Choisissez votre commerce, le dessin s'adapte :</p>
+        <div class="plates" role="radiogroup" aria-labelledby="sw-l">
+          {% for k, l, s in acts %}<div class="plate"><input type="radio" name="act" id="act-{{ k }}" value="{{ k }}"{% if loop.first %} checked{% endif %}><label for="act-{{ k }}">{{ l }}</label></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-drawing" id="dessin">{{ elevation | safe }}</div>
+  <div class="legend">
+    {% for k, d in legend.items() %}
+    <div class="wrap legend-set" data-act="{{ k }}"{% if not loop.first %} hidden{% endif %}>
+      <h2>Ce qui compte pour <span>{{ d.label }} à Paris</span></h2>
+      {% for t, x, c in d.facts %}<p class="fact"><strong>{{ t }}</strong>{{ x }}<cite>{{ c }}</cite></p>{% endfor %}
+      <a class="go" href="{{ d.href }}">{{ d.go }}</a>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="sec on-paper" aria-labelledby="signer">
+  <div class="wrap g12">
+    <div class="sign-text">
+      <h2 id="signer">Le bon local se décide avant la signature.</h2>
+      <p class="muted">Un bail commercial engage pour neuf ans au moins (code de commerce, L145-4). Neuf points font qu'un local tient, ou non, votre activité. Chacun est repéré sur le plan.</p>
+      <ol class="checks" id="checks">
+        {% for n, t, x, c in checks %}<li data-pin="{{ n }}"><button type="button" aria-describedby="plan-t"><span class="n">{{ n }}</span><span><strong>{{ t }}</strong><span class="t">{{ x }}</span><cite>{{ c }}</cite></span></button></li>
+        {% endfor %}
+      </ol>
+      <div class="ctas">
+        <a class="btn btn-ink" href="/diagnostic-local-commercial">Tester mon local en 12 questions</a>
+        <a class="btn btn-line" href="/avant-signature-bail-commercial">Faire visiter le local</a>
+      </div>
+    </div>
+    <div class="sign-plan draw">{{ plan | safe }}</div>
+  </div>
+</section>
+
+<section class="sec sec-plan" aria-labelledby="marche">
+  <div class="wrap g12">
+    <div class="vac">
+      <div>
+        <h2 id="marche">À Paris, un local sur neuf est vide.</h2>
+        <p class="muted">Sur 100 locaux en rez-de-chaussée, 73 accueillent un commerce, un bar-restaurant ou un service commercial, 11 sont vacants. Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
+        <p class="small muted">Apur, inventaire des commerces 2023 (relevé d'avril 2023, 83 154 locaux recensés) ; le relevé d'avril 2026 doit être publié fin 2026.</p>
+      </div>
+      <div>
+        <div class="vac-grid" role="img" aria-label="100 locaux en rez-de-chaussée à Paris : 73 commerces et services, 11 vacants, 16 autres usages">
+          {% for i in range(vac.commerces) %}<i></i>{% endfor %}{% for i in range(vac.vacants) %}<i class="v"></i>{% endfor %}{% for i in range(vac.autres) %}<i style="background:#2A5788;box-shadow:none"></i>{% endfor %}
+        </div>
+        <p class="vac-key"><span>73 commerces et services</span><span class="v">11 locaux vacants</span><span style="--c:#2A5788" class="o">16 autres usages</span></p>
+      </div>
+    </div>
+    <div class="figs">
+      <p><b>+10 % de restauration rapide</b>entre 2020 et 2023 à Paris, quand l'équipement de la personne recule de 8 %.<cite>Apur, note n° 236, septembre 2023</cite></p>
+      <p><b>329 km de rues protégées</b>où un rez-de-chaussée commercial doit le rester, plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel.<cite>Ville de Paris, PLU bioclimatique</cite></p>
+      <p><b>18 000 €/m²/an</b>loyer prime des Champs-Élysées au 1er semestre 2026 ; 5 500 € rue des Francs-Bourgeois.<cite>BNP Paribas Real Estate, 2e trimestre 2026</cite></p>
+    </div>
+  </div>
+</section>
+
+<section class="sec on-paper" aria-labelledby="projets">
+  <div class="wrap g12">
+    <div class="sec-head">
+      <h2 id="projets">Votre projet commence où vous en êtes.</h2>
+      <p>Un local repéré, un bail à signer, une boutique à rafraîchir, un réseau à déployer : chaque situation a sa page, ses règles et ses pièges.</p>
+    </div>
+    <div class="rows">
+      {% for h, l, sub in situations %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span><em>Voir</em></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-calque" aria-labelledby="activites" id="activites-home">
+  <div class="wrap g12">
+    <div class="sec-head">
+      <h2 id="activites">Chaque activité a sa devanture, et ses règles.</h2>
+      <p>Un restaurant n'est pas une boutique avec des tables : type d'ERP, effectif, extraction, hygiène, réseaux changent tout le projet.</p>
+    </div>
+    <div class="acts">
+      {% for h, l, sub in activites %}<a class="act-card draw" href="{{ h }}">{{ minis[loop.index0] | safe }}<strong>{{ l }}</strong><span>{{ sub }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-plan" aria-labelledby="methode">
+  <div class="wrap g12">
+    <div class="sec-head">
+      <h2 id="methode">Six étapes, un livrable à chacune.</h2>
+      <p>Du bail à l'ouverture, une seule personne responsable du projet : l'architecte qui l'a dessiné.</p>
+    </div>
+    <ol class="steps">
+      {% for k, t, x, o in steps %}<li><span class="k">{{ loop.index }}. {{ k }}</span><strong>{{ t }}</strong><p>{{ x }}</p><p class="out">{{ o }}</p></li>
+      {% endfor %}
+    </ol>
+    <div class="gantt">
+      <h3>Les délais d'instruction, à partir d'un dossier complet</h3>
+      <div class="gantt-scale" aria-hidden="true"><span class="lab"></span><div class="ticks"><span>0</span><span>1 mois</span><span>2</span><span>3</span><span>4</span><span>5 mois</span></div></div>
+      {% for l, s, d, e, ref in gantt %}<div class="gantt-row"><div class="lab">{{ l }}<small>{{ s }}</small></div><div class="bar-track"><span class="bar" style="left:0;width:{{ (d / 6 * 100) | round(2) }}%">{{ d }} mois</span>{% if e %}<span class="bar ext" style="left:{{ (d / 6 * 100) | round(2) }}%;width:{{ (e / 6 * 100) | round(2) }}%" title="Majoration en site patrimonial remarquable ou aux abords d'un monument historique"></span>{% endif %}</div></div>
+      {% endfor %}
+      <p class="gantt-note">Sources : code de l'urbanisme, R*423-23, R423-24 et R*423-28 ; code de l'environnement, R581-13 ; code de la construction, R122-16. Hachures : majoration d'un mois en site patrimonial remarquable ou aux abords d'un monument historique. Déposés ensemble, les dossiers s'instruisent en parallèle. <a href="/guides/calendrier-ouverture-magasin" style="color:#fff">Construire votre calendrier</a>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sec on-paper" aria-labelledby="pourquoi">
+  <div class="wrap g12">
+    <div class="sec-head">
+      <h2 id="pourquoi">Ce que vous obtenez, concrètement.</h2>
+      <p>L'agenceur et l'entreprise générale vendent des travaux. L'architecte est rémunéré par vous seul pour conduire votre projet, du choix du local au procès-verbal de réception.</p>
+    </div>
+    <div class="deliv">
+      {% for t, x in deliverables %}<div><strong>{{ t }}</strong><p>{{ x }}</p></div>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec-tight sec-plan" aria-labelledby="erp">
+  <div class="wrap g12">
+    <div class="sec-head">
+      <h2 id="erp">Un commerce est un ERP. Deux sites pour aller au fond du dossier.</h2>
+      <p>Autorisation de travaux, commission de sécurité, accessibilité : le même architecte publie deux sites spécialisés, sourcés texte par texte.</p>
+    </div>
+    <div class="erp-sites">
+      <a class="erp-site" href="{{ erp.dep[1] }}" rel="noopener"><strong>{{ erp.dep[0] }}</strong><span>{{ erp.dep[2] }}</span><em>Ouvrir le site</em></a>
+      <a class="erp-site" href="{{ erp.aerp[1] }}" rel="noopener"><strong>{{ erp.aerp[0] }}</strong><span>{{ erp.aerp[2] }}</span><em>Ouvrir le site</em></a>
+    </div>
+  </div>
+</section>
+
+<section class="sec on-paper faq" aria-labelledby="faq">
+  <div class="wrap g12">
+    <div class="faq-l"><div class="sticky">
+      <h2 id="faq">Questions fréquentes</h2>
+      <p class="muted">Réponses vérifiées le {{ verified }} sur les textes en vigueur. Une question sur votre local ? Appelez le <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>.</p>
+    </div></div>
+    <div class="faq-r">
+      {% for f in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% include "final.html" %}
+{% endblock %}

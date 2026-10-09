@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block main %}
+<section class="planche draw" aria-labelledby="h1">
+  <div class="wrap">
+    <nav class="crumbs" aria-label="Fil d'Ariane"><ol>{% for h, l in crumbs %}<li>{% if loop.last %}<span aria-current="page">{{ l }}</span>{% else %}<a href="{{ h }}">{{ l }}</a>{% endif %}</li>{% endfor %}</ol></nav>
+    <h1 id="h1">{{ p.h1 }}</h1>
+    <p class="lede">{{ p.answer }}</p>
+  </div>
+</section>
+<div class="wrap body-g">
+  <div>
+    <form id="eff" class="tool" novalidate>
+      <fieldset class="q"><legend>Votre établissement</legend>
+        <div class="chips"><label class="chip"><input type="radio" name="type" value="M" checked><span>Magasin, boutique (type M)</span></label><label class="chip"><input type="radio" name="type" value="N"><span>Restaurant, bar (type N)</span></label></div>
+      </fieldset>
+      <div data-type="M">
+        <fieldset class="q"><legend>Cas du magasin</legend>
+          <div class="field"><select id="m-cas" name="mcas" aria-label="Cas du magasin">
+            <option value="std">Règle générale</option>
+            <option value="cc300">Boutique de moins de 300 m² dans un centre commercial</option>
+            <option value="faible">Magasin à faible densité de public (à justifier)</option>
+            <option value="pro">Magasin réservé aux professionnels (effectif déclaré)</option>
+          </select></div>
+        </fieldset>
+        <fieldset class="q"><legend>Surface de vente par niveau (m²)</legend>
+          <div class="calc-grid">
+            <div class="field"><label for="m-ss">Sous-sol</label><input id="m-ss" name="m_ss" inputmode="decimal" placeholder="0"></div>
+            <div class="field"><label for="m-rdc">Rez-de-chaussée</label><input id="m-rdc" name="m_rdc" inputmode="decimal" placeholder="0" value="120"></div>
+            <div class="field"><label for="m-e1">1er étage</label><input id="m-e1" name="m_e1" inputmode="decimal" placeholder="0"></div>
+            <div class="field"><label for="m-e2">2e étage</label><input id="m-e2" name="m_e2" inputmode="decimal" placeholder="0"></div>
+            <div class="field"><label for="m-e3">Étages supérieurs (total)</label><input id="m-e3" name="m_e3" inputmode="decimal" placeholder="0"></div>
+            <div class="field" data-pro hidden><label for="m-decl">Effectif déclaré</label><input id="m-decl" name="m_decl" inputmode="numeric" placeholder="0"></div>
+          </div>
+        </fieldset>
+      </div>
+      <div data-type="N" hidden>
+        <fieldset class="q"><legend>Zones par niveau (m²), ou places assises déclarées</legend>
+          <p class="qh">Surfaces diminuées des estrades et des aménagements fixes autres que tables et sièges. Si vous déclarez un nombre de places assises, il est plafonné à 1 personne pour 2 m² de la zone assise.</p>
+          <div class="table-wrap"><table class="calc-table">
+            <thead><tr><th scope="col">Niveau</th><th scope="col">Assis (m²)</th><th scope="col">Places déclarées</th><th scope="col">Debout (m²)</th><th scope="col">File d'attente (m²)</th></tr></thead>
+            <tbody>
+            {% for k, l in [("ss","Sous-sol"),("rdc","Rez-de-chaussée"),("et","Étages (total)")] %}
+            <tr><th scope="row">{{ l }}</th><td><input name="n_{{k}}_a" aria-label="{{ l }}, surface assise" inputmode="decimal"{% if k == 'rdc' %} value="80"{% endif %}></td><td><input name="n_{{k}}_p" aria-label="{{ l }}, places déclarées" inputmode="numeric"></td><td><input name="n_{{k}}_d" aria-label="{{ l }}, surface debout" inputmode="decimal"></td><td><input name="n_{{k}}_f" aria-label="{{ l }}, file d'attente" inputmode="decimal"></td></tr>
+            {% endfor %}
+            </tbody></table></div>
+        </fieldset>
+      </div>
+      <fieldset class="q"><legend>Personnel sans sortie propre</legend>
+        <p class="qh">Il ne compte pas pour classer en 5e catégorie, mais compte pour la catégorie au-delà et pour les sorties.</p>
+        <div class="field" style="max-width:220px"><label for="pers">Nombre de personnes</label><input id="pers" name="pers" inputmode="numeric" value="3"></div>
+      </fieldset>
+      <div class="res" id="eff-res" aria-live="polite"></div>
+      <div class="res-note" id="eff-note"></div>
+    </form>
+    <article class="prose" style="margin-top:56px">
+      <h2 id="regles">Les règles appliquées</h2>
+      <p><strong>Magasin (M 2)</strong> : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage ; 1 pour 6 m² au 2e étage ; 1 pour 15 m² aux étages supérieurs. Boutique de moins de 300 m² en centre commercial : 1 pour 6 m² à tous les niveaux. Magasin à faible densité : 1 pour 9 m². Magasin réservé aux professionnels : déclaration contrôlée.</p>
+      <p><strong>Restaurant (N 2)</strong> : places assises déclarées, dans la limite d'1 personne pour 2 m² ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m².</p>
+      <p><strong>5e catégorie (PE 2)</strong> : magasin sous 100 personnes au sous-sol, 100 aux étages, 200 au total ; restaurant sous 100, 200 et 200. <strong>Catégories 1 à 4 (R143-19)</strong> : 4e jusqu'à 300 personnes, 3e de 301 à 700, 2e de 701 à 1 500, 1re au-delà. <strong>Sorties (PE 11)</strong> : selon l'effectif, de 1 dégagement de 0,90 m à 2 de 1,40 m.</p>
+      <p>Les résultats sont arrondis à l'unité supérieure, par prudence. Pour une boutique à rez-de-chaussée de moins de 500 m² dont les circulations principales font au moins 1,80 m, PE 3 prévoit 1 personne par m² sur le tiers de la surface accessible au public : le résultat est du même ordre, sur une base de surface différente.</p>
+      <h2 id="faq">Questions fréquentes</h2>
+      <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>{% endfor %}</div>
+      <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><p class="verif">Consultés le {{ verified }}. Résultat indicatif : la notice de sécurité du projet fait foi.</p><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol></aside>
+    </article>
+  </div>
+  <aside class="aside"><div class="aside-in">
+    <div class="aside-cta"><h2>Faire établir la notice</h2><p>Classement, sorties, accessibilité : l'architecte établit la notice de sécurité et le dossier d'autorisation de travaux.</p><a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div>
+    <nav class="related" aria-label="À lire"><h2>À lire</h2><ul>
+      <li><a href="/guides/erp-commerce-categorie-effectif"><b>Classement ERP d'un commerce</b><span>Type, effectif, catégorie, obligations.</span></a></li>
+      <li><a href="https://dossier-erp-paris.fr/classement-erp-types-categories/" rel="noopener"><b>Classement des ERP</b><span>Sur dossier-erp-paris.fr.</span></a></li>
+    </ul></nav>
+  </div></aside>
+</div>
+{% endblock %}
+{% block scripts %}<script src="/js/outils.js?v={{ v }}" defer></script>{% endblock %}
