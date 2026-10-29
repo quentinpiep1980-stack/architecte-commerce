@@ -291,7 +291,7 @@ def main():
                 {"key": "X-Frame-Options", "value": "DENY"},
                 {"key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"},
                 {"key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains"},
-                {"key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; font-src 'self'; connect-src 'self'; form-action 'self' https://architecte-erp.app.n8n.cloud; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"}]},
+                {"key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; font-src 'self'; connect-src 'self'; form-action 'self' https://architecte-erp.app.n8n.cloud; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"}]},
             {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
             {"source": "/(img|brand|og)/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=2592000"}]},
             {"source": "/(css|js)/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
