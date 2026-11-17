@@ -122,7 +122,13 @@ def interior(act, L, R, top, bot):
                 bxp = rv[0] + 124 + j * 12
                 a(rect(bxp, y - 14, 7, 14, 'int', 2))
         px = rv[1] - 24
-        a(path(f'M{f(px-12)} {f(floor)} l3 -22 h18 l3 22 z M{f(px)} {f(floor-22)} C{f(px-30)} {f(floor-50)} {f(px-8)} {f(floor-70)} {f(px)} {f(floor-54)} C{f(px+8)} {f(floor-74)} {f(px+30)} {f(floor-48)} {f(px)} {f(floor-22)}', 'int'))
+        # plante en pot : tiges et feuilles en amande
+        a(path(f'M{f(px-10)} {f(floor)} l3 -18 h14 l3 18 z', 'int'))
+        a(path(f'M{f(px)} {f(floor-18)} C{f(px-2)} {f(floor-38)} {f(px-10)} {f(floor-54)} {f(px-15)} {f(floor-66)} '
+               f'M{f(px)} {f(floor-18)} C{f(px+2)} {f(floor-42)} {f(px+9)} {f(floor-56)} {f(px+13)} {f(floor-70)} '
+               f'M{f(px)} {f(floor-18)} V{f(floor-76)}', 'int'))
+        for lx, ly, sd in ((px-4, floor-34, -1), (px-11, floor-52, -1), (px+4, floor-40, 1), (px+10, floor-58, 1), (px, floor-62, -1), (px, floor-70, 1)):
+            a(path(f'M{f(lx)} {f(ly)} q{f(7*sd)} -7 {f(15*sd)} -2 q{f(-7*sd)} 7 {f(-15*sd)} 2 z', 'int'))
     elif act == 'bouche':
         # étagères à pain
         for k in range(3):
@@ -506,7 +512,7 @@ def scene(active='boutique', uid='sc'):
     lit_s, frame, _, _, (gl_t, gl_b, door_w) = devanture_parts('boutique', L, R, '')
     top = RDC_TOP - 8
     band_b = top + 36
-    oy = band_b - 3
+    oy = top - 12
     H = GROUND + 6 - oy
     body, lit = lit_s.split('/>', 1)[0] + '/>', lit_s.split('/>', 1)[1]
     o = []
@@ -533,8 +539,15 @@ def scene(active='boutique', uid='sc'):
     a(f'<g clip-path="url(#{uid}-c)">')
     for k, _, _ in ACTS:
         a(f'<g class="act act-{k}">{interior(k, L + pil, R - pil, gl_t + 4, gl_b)}</g>')
+    # reflets du vitrage
+    c = (L + R) / 2
+    for x0 in (L + pil + 40, c + door_w / 2 + 70):
+        a(f'<path class="reflet" d="M{f(x0)} {f(gl_t)} h34 L{f(x0-58)} {f(gl_b)} h-34 Z"/>')
+        a(f'<path class="reflet" d="M{f(x0+48)} {f(gl_t)} h10 L{f(x0-24)} {f(gl_b)} h-10 Z"/>')
     a('</g>')
     a(frame)
+    for k, _, s in ACTS:
+        a(f'<g class="act act-{k}"><text class="sign" x="{f(c)}" y="{f(top + 25)}" text-anchor="middle">{s}</text></g>')
     a(f'<g clip-path="url(#{uid}-r)"><g class="rideau">'
       f'<rect x="{L+pil}" y="{f(band_b+7)}" width="{R-L-2*pil}" height="{f(GROUND-band_b-7)}" fill="url(#{uid}-l)"/>'
       f'{line(L+pil, GROUND-1, R-pil, GROUND-1, "ln ln-b")}'

@@ -144,7 +144,7 @@ PAGES = [
         "description": "Architecte obligatoire ou non pour un commerce ou un restaurant : permis de construire (toujours pour une société), déclaration préalable, autorisation de travaux ERP, enseigne.",
         "h1": "Faut-il un architecte pour ouvrir un commerce ou un restaurant ?",
         "verified": "new",
-        "answer": "Le recours à un architecte est obligatoire pour établir le projet d'un permis de construire. Seule une personne physique qui construit pour elle-même 150 m² de surface de plancher au plus en est dispensée : une société (SARL, SAS, SCI) qui dépose un permis de construire doit toujours recourir à un architecte. Pour une déclaration préalable de devanture, une autorisation de travaux ERP ou une autorisation d'enseigne, la loi n'impose pas d'architecte.",
+        "answer": "Le recours à un architecte est obligatoire pour établir le projet d'un permis de construire. Seule une personne physique qui construit pour elle-même 150 m² de surface de plancher au plus en est dispensée, et sur un bâtiment existant, seulement si l'ensemble reste sous ce seuil : une société (SARL, SAS, SCI) qui dépose un permis de construire doit toujours recourir à un architecte. Pour une déclaration préalable de devanture, une autorisation de travaux ERP ou une autorisation d'enseigne, la loi n'impose pas d'architecte.",
         "bullets": [
             "Permis de construire : architecte obligatoire (loi du 3 janvier 1977, art. 3 et 4), sauf personne physique construisant pour elle-même au plus 150 m² de surface de plancher (code de l'urbanisme, R*431-2).",
             "Une société n'entre pas dans cette exception : un permis de construire déposé par une SARL ou une SAS passe par un architecte.",
@@ -157,7 +157,7 @@ PAGES = [
 <caption class="sr">Recours obligatoire à un architecte selon l'autorisation demandée pour un commerce</caption>
 <thead><tr><th scope="col">Autorisation</th><th scope="col">Quand un commerce en a besoin</th><th scope="col">Architecte obligatoire ?</th></tr></thead>
 <tbody>
-<tr><td>Permis de construire</td><td>Façade ou structure modifiées avec changement de destination, création de surface au-delà des seuils de la déclaration préalable</td><td>Oui, pour une société ; pour une personne physique, au-delà de 150 m² de surface de plancher (R*431-2)</td></tr>
+<tr><td>Permis de construire</td><td>Façade ou structure modifiées avec changement de destination, création de surface au-delà des seuils de la déclaration préalable</td><td>Oui, pour une société ; pour une personne physique, au-delà de 150 m² de surface de plancher, ou si l'ensemble existant dépasse ce seuil en surface de plancher ou en emprise au sol (R*431-2)</td></tr>
 <tr><td>Déclaration préalable</td><td>Devanture, vitrine, store, aspect extérieur modifié</td><td>Non</td></tr>
 <tr><td>Autorisation de travaux ERP</td><td>Aménager, cloisonner ou modifier un établissement recevant du public</td><td>Non</td></tr>
 <tr><td>Autorisation d'enseigne</td><td>Poser ou changer une enseigne, à Paris toujours</td><td>Non</td></tr>

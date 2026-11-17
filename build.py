@@ -18,6 +18,8 @@ SITE = S.SITE
 URL = SITE['url']
 
 env = Environment(loader=FileSystemLoader(str(ROOT / 'src/templates')), autoescape=True, undefined=ChainableUndefined)
+from markupsafe import Markup, escape
+env.filters['unit'] = lambda s: Markup(re.sub(r' (€ HT|€|%)$', r'&nbsp;<small class="u">\1</small>', str(escape(s))))
 
 EDITORIAL = P.PAGES + G.PAGES
 ALL = {p['path']: p for p in EDITORIAL + C.PAGES}
@@ -65,8 +67,10 @@ def crumbs_for(path):
     k = p['kind'] if p else None
     if path.startswith('/guides/'):
         items.append(('/guides', 'Guides'))
-    elif k in ('situation', 'activite'):
+    elif k == 'situation':
         items.append(('/votre-projet', 'Projets'))
+    elif k == 'activite':
+        items.append(('/votre-projet#activites', 'Activités'))
     elif k == 'outil':
         items.append(('/outils', 'Outils'))
     if path != '/':
@@ -91,6 +95,9 @@ def related_items(paths):
 # ---------------------------------------------------------------- données structurées
 ORG_ID, PERSON_ID, SITE_ID = URL + '/#kalya', URL + '/#quentin-piepszownik', URL + '/#site'
 AREA = [{"@type": "City", "name": "Paris"}, {"@type": "AdministrativeArea", "name": "Île-de-France"}]
+PETITE_COURONNE = [{"@type": "City", "name": "Paris"}] + [{"@type": "AdministrativeArea", "name": n} for n in ("Hauts-de-Seine", "Seine-Saint-Denis", "Val-de-Marne")]
+INLINE_JS = "document.documentElement.classList.add('js')"
+INLINE_HASH = "'sha256-" + __import__('base64').b64encode(hashlib.sha256(INLINE_JS.encode()).digest()).decode() + "'"
 
 
 def base_graph():
@@ -100,7 +107,8 @@ def base_graph():
          "logo": {"@type": "ImageObject", "url": URL + "/icon-512.png", "width": 512, "height": 512},
          "image": URL + "/og/architecte-commerce.png", "telephone": "+33 7 56 83 24 28", "email": SITE['email'],
          "address": {"@type": "PostalAddress", "streetAddress": SITE['street'], "postalCode": SITE['postal'], "addressLocality": SITE['city'], "addressCountry": "FR"},
-         "areaServed": AREA, "founder": {"@id": PERSON_ID}, "priceRange": "Faisabilité 790 € HT ; autorisation de travaux ERP à partir de 2 200 € HT ; autres missions sur devis",
+         "areaServed": AREA, "founder": {"@id": PERSON_ID}, "identifier": {"@type": "PropertyValue", "propertyID": "SIREN", "value": SITE['siren'].replace(' ', '')},
+         "hasOfferCatalog": {"@id": URL + "/honoraires#tarifs"}, "priceRange": "Faisabilité 790 € HT ; autorisation de travaux ERP à partir de 2 200 € HT ; autres missions sur devis",
          "knowsAbout": ["architecture commerciale", "aménagement de local commercial", "création de boutique", "restaurant", "devanture et enseigne",
                         "établissements recevant du public", "autorisation de travaux", "accessibilité", "bail commercial", "PLU de Paris"],
          "sameAs": ["https://kalya-architecte.fr/", "https://www.architecte-erp.fr/", "https://dossier-erp-paris.fr/"],
@@ -108,7 +116,7 @@ def base_graph():
         {"@type": "Person", "@id": PERSON_ID, "name": SITE['person'], "jobTitle": "Architecte", "worksFor": {"@id": ORG_ID},
          "image": URL + "/img/portrait-800.jpg",
          "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Inscription au tableau de l'Ordre des architectes d'Île-de-France", "identifier": SITE['ordre']}},
-        {"@type": "WebSite", "@id": SITE_ID, "url": URL + '/', "name": "Architecte Commerce — Kalya Architecte", "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
+        {"@type": "WebSite", "@id": SITE_ID, "url": URL + '/', "name": "Kalya Architecte, architecte de commerces", "inLanguage": "fr-FR", "publisher": {"@id": ORG_ID}},
     ]
 
 
@@ -138,8 +146,9 @@ def page_graph(path, page, kind='WebPage', faq=None, article=None, service=None,
     if page.get('jsonld_offers'):
         g.append({"@type": "OfferCatalog", "@id": URL + path + '#tarifs', "name": "Honoraires publiés de Kalya Architecte pour les commerces",
                   "itemListElement": [{"@type": "Offer", "name": n, "price": str(v), "priceCurrency": "EUR", "description": d,
+                                       "itemOffered": {"@type": "Service", "name": n, "provider": {"@id": ORG_ID}},
                                        "priceSpecification": {"@type": "PriceSpecification", "price": str(v), "priceCurrency": "EUR", "valueAddedTaxIncluded": False},
-                                       "seller": {"@id": ORG_ID}, "areaServed": AREA, "url": URL + path}
+                                       "seller": {"@id": ORG_ID}, "areaServed": PETITE_COURONNE, "url": URL + path}
                                       for n, v, d in page['jsonld_offers']]})
     if extra:
         g.extend(extra)
@@ -162,6 +171,8 @@ def typo(doc):
         part = re.sub(r'(\d) (\d{3})(?!\d)', '\\1\u00a0\\2', part)
         part = re.sub(r'(\d) (€|%|m²|m\b|cm\b|km\b|mois\b|ans\b|HT\b|TTC\b|heures\b|jours\b|personnes\b|places\b)', '\\1\u00a0\\2', part)
         part = part.replace('n° ', 'n°\u00a0')
+        part = part.replace('art. ', 'art.\u00a0')
+        part = re.sub(r'\b(PE|GN|CO|EL|MS|UG|M|N) (\d)', '\\1\u00a0\\2', part)
         out.append(part)
     return ''.join(out)
 
@@ -305,7 +316,8 @@ def main():
         llms.append('')
     llms.append("## Questions fréquentes")
     for f in HOME.FAQ:
-        llms.append(f"- {f['q']} {strip(f['a'])}")
+        a = re.sub(r'<a href="(/[^"]*)">(.*?)</a>', lambda m: f"{m.group(2)} ({URL}{m.group(1)})", f['a'])
+        llms.append(f"- {f['q']} {strip(a)}")
     llms.append('')
     (DIST / 'llms.txt').write_text('\n'.join(llms), encoding='utf-8')
 
@@ -325,7 +337,7 @@ def main():
                 {"key": "X-Frame-Options", "value": "DENY"},
                 {"key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=(), interest-cohort=()"},
                 {"key": "Strict-Transport-Security", "value": "max-age=63072000; includeSubDomains"},
-                {"key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; font-src 'self'; connect-src 'self'; form-action 'self' https://architecte-erp.app.n8n.cloud; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"}]},
+                {"key": "Content-Security-Policy", "value": "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' " + INLINE_HASH + " https://challenges.cloudflare.com; frame-src https://challenges.cloudflare.com; font-src 'self'; connect-src 'self'; form-action 'self' https://architecte-erp.app.n8n.cloud; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"}]},
             {"source": "/fonts/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},
             {"source": "/(img|brand|og)/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=2592000"}]},
             {"source": "/(css|js)/(.*)", "headers": [{"key": "Cache-Control", "value": "public, max-age=31536000, immutable"}]},

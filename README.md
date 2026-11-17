@@ -1,7 +1,7 @@
 # architecte-commerce.fr — Kalya Architecte
 
 Site de Kalya Architecte (Quentin Piepszownik, architecte, Ordre des architectes d'Île-de-France n° 077297) consacré aux commerces à Paris et en Île-de-France : boutiques, restaurants, métiers de bouche, instituts, showrooms, enseignes.
-HTML entièrement pré-rendu (contenu, liens, JSON-LD et canoniques lisibles sans JavaScript), sans cookie ni script tiers. Direction artistique : tirage de plan (bleu cyanotype #133A63, traits #A9C6E8) et lumière de vitrine (ambre #FFB52E) ; police Archivo variable auto-hébergée (OFL), sous-ensemble latin.
+HTML entièrement pré-rendu (contenu, liens, JSON-LD et canoniques lisibles sans JavaScript), sans cookie ni mesure d'audience ; seul script tiers : Cloudflare Turnstile sur les formulaires. Direction artistique « Devanture » (novembre 2026) : la page est une devanture parisienne — bandeau (le H1), vitrine éclairée avec rideau métallique, soubassement de faits sourcés, plaque de rue. Laque #0F201B, laiton #C49A5A, craie #F3F3EE ; Bodoni Moda (titres, axes wght et opsz) et Archivo (texte), auto-hébergées (OFL), sous-ensembles latins. Le script en ligne qui pose la classe `js` est autorisé par son empreinte SHA-256 dans la CSP (calculée par build.py).
 
 ## Structure
 - `content/site.py` — identité, navigation, redirections, **sources datées** (`SOURCES`, lues le 9 octobre 2026).

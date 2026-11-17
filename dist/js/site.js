@@ -43,8 +43,19 @@
   var mnav = d.getElementById('mnav');
   function toggleMenu(open) {
     burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.querySelector('.sr').textContent = open ? 'Fermer le menu' : 'Menu';
     mnav.classList.toggle('open', open);
     d.body.style.overflow = open ? 'hidden' : '';
+    if (open) { var first = mnav.querySelector('a'); if (first) first.focus(); }
+    else burger.focus();
+  }
+  if (mnav) {
+    mnav.addEventListener('keydown', function (e) {
+      if (e.key !== 'Tab' || !mnav.classList.contains('open')) return;
+      var f = mnav.querySelectorAll('a'); var last = f[f.length - 1];
+      if (e.shiftKey && d.activeElement === f[0]) { e.preventDefault(); burger.focus(); }
+      else if (!e.shiftKey && d.activeElement === last) { e.preventDefault(); burger.focus(); }
+    });
   }
   if (burger && mnav) {
     burger.addEventListener('click', function () {

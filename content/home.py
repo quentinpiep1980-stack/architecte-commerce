@@ -8,7 +8,7 @@ LEGEND = {
         "facts": [
             ("Type M", "ERP de 5e catégorie sous 200 personnes, dont 100 au sous-sol et 100 aux étages", "Règlement de sécurité, art. PE 2"),
             ("1 pour 3 m²", "effectif du public en surface de vente, du sous-sol au 1er étage", "Règlement de sécurité, art. M 2"),
-            ("2 mois", "pour l'autorisation d'enseigne à Paris ; sans réponse, elle est acquise", "Code de l'environnement, art. R581-13"),
+            ("2 mois", "pour l'autorisation d'enseigne à Paris, dossier complet ; sans réponse, elle est acquise", "Code de l'environnement, art. R581-13"),
         ],
     },
     "restaurant": {
@@ -86,7 +86,7 @@ DELIVERABLES = [
 
 FAQ = [
     {"q": "Faut-il un architecte pour aménager un commerce à Paris ?",
-     "a": "<p>Il est obligatoire pour un permis de construire (loi du 3 janvier 1977, art. 3). La dispense ne vaut que pour une personne physique qui construit pour elle-même une construction dont la surface de plancher n'excède pas 150 m² (code de l'urbanisme, R*431-2) : une société qui exploite un commerce et dépose un permis passe toujours par un architecte. Pour une déclaration préalable de devanture ou une autorisation de travaux ERP sans permis, il n'est pas imposé, mais il garantit des plans conformes aux règles de sécurité et d'accessibilité et des dossiers complets. Voir <a href=\"/guides/architecte-obligatoire-commerce\">faut-il un architecte ?</a></p>"},
+     "a": "<p>Il est obligatoire pour un permis de construire (loi du 3 janvier 1977, art. 3). La dispense ne vaut que pour une personne physique qui édifie ou modifie pour elle-même une construction dont la surface de plancher n'excède pas 150 m² ; sur un bâtiment existant, elle tombe dès que la surface de plancher ou l'emprise au sol de l'ensemble dépasse ce seuil (code de l'urbanisme, R*431-2). Une société qui exploite un commerce et dépose un permis passe toujours par un architecte. Pour une déclaration préalable de devanture ou une autorisation de travaux ERP sans permis, il n'est pas imposé, mais il garantit des plans conformes aux règles de sécurité et d'accessibilité et des dossiers complets. Voir <a href=\"/guides/architecte-obligatoire-commerce\">faut-il un architecte ?</a></p>"},
     {"q": "Combien coûte un architecte pour un commerce ?",
      "a": "<p>Chez Kalya Architecte, la faisabilité avant signature du bail coûte 790 € HT ; le dossier d'autorisation de travaux ERP, 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m², pour un établissement de 5e catégorie sans hébergement à Paris et en petite couronne. Devanture, enseigne, permis de construire, conception et suivi de chantier : sur devis, gratuit. Voir les <a href=\"/honoraires\">honoraires</a>.</p>"},
     {"q": "Combien de temps faut-il pour obtenir les autorisations d'un commerce ?",

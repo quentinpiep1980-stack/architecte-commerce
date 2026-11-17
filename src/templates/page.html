@@ -14,7 +14,7 @@
       </div>
       <div>
         {% if mini %}<div class="mini-wrap" aria-hidden="true">{{ mini | safe }}</div>{% endif %}
-        {% if p.plate %}<ul class="plate-prix">{% for v, l in p.plate %}<li><b>{{ v }}</b><span>{{ l }}</span></li>{% endfor %}</ul>{% endif %}
+        {% if p.plate %}<ul class="plate-prix">{% for v, l in p.plate %}<li><b>{{ v | unit }}</b><span>{{ l }}</span></li>{% endfor %}</ul>{% endif %}
         <div class="cartouche">
           <dl>
             <div><dt>Lieu</dt><dd>{{ p.lieu or 'Paris et Île-de-France' }}</dd></div>

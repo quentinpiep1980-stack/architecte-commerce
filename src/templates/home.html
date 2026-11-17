@@ -17,24 +17,26 @@
     </div>
   </div>
   <div class="vitrine">
-    <div class="pil" aria-hidden="true"></div>
-    <div class="scene-box">
-      <div class="scene" id="scene" data-act="boutique">{{ scene | safe }}</div>
-    </div>
-    <div class="pil" aria-hidden="true"></div>
+    <div class="sw-row">
     <p class="enseignes-sw-l" id="sw-l">Votre commerce</p>
     <div class="enseignes-sw" role="radiogroup" aria-labelledby="sw-l">
       {% for k, l, s in acts %}<div class="sw"><input type="radio" name="act" id="act-{{ k }}" value="{{ k }}" data-desc="{{ scene_desc[k] }}"{% if loop.first %} checked{% endif %}><label for="act-{{ k }}">{{ l }}</label></div>
       {% endfor %}
     </div>
+    </div>
+    <div class="pil" aria-hidden="true"></div>
+    <div class="scene-box">
+      <div class="scene" id="scene" data-act="boutique">{{ scene | safe }}</div>
+    </div>
+    <div class="pil" aria-hidden="true"></div>
   </div>
   <div class="soubassement">
     <div class="wrap soub-g" aria-live="polite">
       {% for i in range(3) %}<div>
-        {% for k, d in legend.items() %}{% set fct = d.facts[i] %}<div class="v" data-act="{{ k }}"{% if not loop.first %} hidden{% endif %}><b>{{ fct[0] }}</b><span>{{ fct[1] }}</span><cite>{{ fct[2] }}</cite></div>{% endfor %}
+        {% for k, d in legend.items() %}{% set fct = d.facts[i] %}<div class="v" data-act="{{ k }}"{% if not loop.first %} hidden{% endif %}><b>{{ fct[0] | unit }}</b><span>{{ fct[1] }}</span><cite>{{ fct[2] }}</cite></div>{% endfor %}
       </div>
       {% endfor %}
-      <div><b>2 200 € HT</b><span>le dossier d'autorisation de travaux ERP jusqu'à 100 m², 5e catégorie</span><cite><a href="/honoraires">Tous les prix publiés</a></cite></div>
+      <div><b>2&nbsp;200&nbsp;<small class="u">€ HT</small></b><span>le dossier d'autorisation de travaux ERP jusqu'à 100 m², 5e catégorie</span><cite><a href="/honoraires">Tous les prix publiés</a></cite></div>
       <div>
         {% for k, d in legend.items() %}<a class="go" data-act="{{ k }}" href="{{ d.href }}"{% if not loop.first %} hidden{% endif %}>{{ d.go }}</a>{% endfor %}
         <a class="plaque" href="/a-propos"><small>6<sup>e</sup> arrondissement</small><strong>71 rue du Cherche-Midi</strong><em>75006 Paris</em></a>
@@ -103,7 +105,7 @@
         <a class="btn btn-filet" href="/diagnostic-local-commercial">Tester le local en 12 questions</a>
       </div>
     </div>
-    <div class="local-plan">{{ plan | safe }}</div>
+    <div class="local-plan"><div class="plan-scroll">{{ plan | safe }}</div></div>
   </div>
 </section>
 
@@ -123,7 +125,7 @@
 <section class="sec on-laque" aria-labelledby="calendrier" id="calendrier-home">
   <div class="wrap">
     <div class="sec-head">
-      <h2 id="calendrier">Quand pourrez-vous ouvrir ?</h2>
+      <h2 id="calendrier">Quand <span class="nw">pourrez-vous</span> ouvrir ?</h2>
       <p>Cochez ce que comporte votre projet : la décision la plus tardive s'affiche, à partir des délais d'instruction réglementaires. Déposés ensemble, les dossiers s'instruisent en parallèle.</p>
     </div>
     <div class="cal" id="cal" data-cal>
@@ -183,9 +185,10 @@
       <p>Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
     </div>
     <div class="chiffres">
-      <div><b>11 sur 100</b><p>locaux en rez-de-chaussée étaient vacants à Paris en avril 2023 ; 73 accueillaient un commerce ou un service commercial.</p><cite>Apur, note n° 236, septembre 2023</cite></div>
-      <div><b>329 km</b><p>de linéaires protégés où un rez-de-chaussée commercial ne peut pas devenir un bureau, plus 29 km pour l'artisanat et 9 km pour le commerce culturel.</p><cite>Ville de Paris, PLU bioclimatique</cite></div>
-      <div><b>+10 %</b><p>de restauration rapide entre 2020 et 2023, quand l'équipement de la personne recule de 8 %.</p><cite>Apur, note n° 236, septembre 2023</cite></div>
+      <div><b>11,7&nbsp;<small class="u">%</small></b><p>des locaux en rez-de-chaussée sont vacants à Paris en 2026 : 9&nbsp;725 sur 83&nbsp;115 recensés, contre 10,9&nbsp;% en 2023.</p><cite><a href="https://www.paris.fr/pages/cafes-patisseries-friperies-salles-de-sport-le-nouveau-visage-du-commerce-parisien-36819" rel="noopener">Apur, Ville de Paris et CCI Paris, enquête 2026</a></cite></div>
+      <div><b>329 km</b><p>de linéaires protégés où un rez-de-chaussée commercial ne peut pas devenir un bureau, plus 29 km pour l'artisanat et 9 km pour le commerce culturel.</p><cite><a href="https://www.paris.fr/pages/plan-local-d-urbanisme-bioclimatique-vers-un-paris-plus-vert-et-plus-solidaire-23805" rel="noopener">Ville de Paris, PLU bioclimatique</a></cite></div>
+      <div><b>497</b><p>bars et cafés de plus en trois ans, surtout des coffee shops ; 4&nbsp;053 restaurants rapides pour 9&nbsp;209 restaurants traditionnels.</p><cite><a href="https://www.paris.fr/pages/cafes-patisseries-friperies-salles-de-sport-le-nouveau-visage-du-commerce-parisien-36819" rel="noopener">Apur, Ville de Paris et CCI Paris, enquête 2026</a></cite></div>
+    </div>
     </div>
   </div>
 </section>
@@ -227,19 +230,6 @@
       <div><dt>Statut</dt><dd>Entrepreneur individuel, SIREN {{ site.siren }}</dd></div>
       <div><dt>Téléphone</dt><dd><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></dd></div>
     </dl>
-  </div>
-</section>
-
-<section class="sec-tight on-calcaire" aria-labelledby="erp">
-  <div class="wrap">
-    <div class="sec-head">
-      <h2 id="erp">Le même architecte, sur trois autres sites.</h2>
-      <p>Un commerce est un établissement recevant du public. Pour aller au fond du dossier ERP, ou pour un projet hors commerce à Paris :</p>
-    </div>
-    <div class="erp-sites three">
-      {% for key in ('aerp', 'dep', 'kalya') %}{% set e = erp[key] %}<a class="erp-site" href="{{ e[1] }}" rel="noopener"><strong>{{ e[0] }}</strong><span>{{ e[2] }}</span><em>Ouvrir le site</em></a>
-      {% endfor %}
-    </div>
   </div>
 </section>
 

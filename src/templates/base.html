@@ -11,7 +11,7 @@
 <meta name="theme-color" content="#0F201B">
 <meta property="og:type" content="{{ 'website' if page.path == '/' else 'article' }}">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:site_name" content="{{ site.brand }} — Architecte commerce">
+<meta property="og:site_name" content="Kalya Architecte, architecte de commerces">
 <meta property="og:title" content="{{ page.og_title or page.title }}">
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.path }}">
@@ -47,7 +47,7 @@
     </nav>
     <a class="head-tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
     <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
-    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav"><span class="sr">Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7h20M2 12h20M2 17h20" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav"><span class="sr">Menu</span><svg class="b-o" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7h20M2 12h20M2 17h20" stroke="currentColor" stroke-width="1.5" fill="none"/></svg><svg class="b-x" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
   </div>
   <div class="panel" id="p-projets">
     <div class="wrap">
@@ -67,11 +67,11 @@
   </div>
   <nav class="mnav" id="mnav" aria-label="Menu">
     <div class="wrap">
-      <h2>Projets</h2>
+      <p class="mnav-h">Projets</p>
       <ul>{% for h, l, sub in situations %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
-      <h2>Activités</h2>
+      <p class="mnav-h">Activités</p>
       <ul>{% for h, l, sub in activites %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
-      <h2>Kalya Architecte</h2>
+      <p class="mnav-h">Kalya Architecte</p>
       <ul>{% for h, l in nav %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
       <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
       <a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>

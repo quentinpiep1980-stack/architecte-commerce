@@ -328,7 +328,7 @@ PAGES = [
     {
         "path": "/architecte-restaurant", "kind": "activite", "mini": "restaurant", "short": "Restaurant, bar, café",
         "teaser": "Type N, cuisine, extraction, terrasse.",
-        "title": "Architecte restaurant à Paris : dossier ERP, extraction, cuisine | Kalya",
+        "title": "Architecte restaurant à Paris : ERP, extraction, cuisine | Kalya",
         "description": "Ouvrir un restaurant, un bar ou un café à Paris : effectif ERP type N, extraction (RSD de Paris), hygiène de la cuisine, bac à graisses, licences, sons amplifiés, terrasse.",
         "h1": "Architecte restaurant à Paris : la salle se voit, la cuisine décide",
         "answer": "Un restaurant est un ERP de type N : il reste en 5e catégorie sous 100 personnes au sous-sol, 200 aux étages et 200 au total. Le projet se joue sur ce que la salle ne montre pas : l'extraction (à Paris, air de cuisine rejeté à 8 m au moins de toute fenêtre, sauf aménagement empêchant toute reprise d'air pollué), l'organisation hygiénique de la cuisine et le prétraitement des graisses.",
