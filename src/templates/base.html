@@ -2,30 +2,32 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>{{ page.title }}</title>
 <meta name="description" content="{{ page.description }}">
-{% if page.noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large">
+{% if page.noindex %}<meta name="robots" content="noindex, follow">{% else %}<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <link rel="canonical" href="{{ site.url }}{{ page.path if page.path != '/' else '/' }}">{% endif %}
 <meta name="author" content="{{ site.person }}, architecte">
-<meta name="theme-color" content="#133A63">
+<meta name="theme-color" content="#0F201B">
 <meta property="og:type" content="{{ 'website' if page.path == '/' else 'article' }}">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:site_name" content="{{ site.brand }} — {{ site.domain }}">
+<meta property="og:site_name" content="{{ site.brand }} — Architecte commerce">
 <meta property="og:title" content="{{ page.og_title or page.title }}">
 <meta property="og:description" content="{{ page.description }}">
 <meta property="og:url" content="{{ site.url }}{{ page.path }}">
 <meta property="og:image" content="{{ site.url }}/og/{{ page.og or 'architecte-commerce' }}.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Élévation dessinée d'une devanture parisienne éclairée, Kalya Architecte">
+<meta property="og:image:alt" content="Devanture parisienne dessinée au trait laiton, Kalya Architecte, architecte de commerces à Paris">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/fonts/bodoni.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/site.css?v={{ v }}">
+<script>document.documentElement.classList.add('js')</script>
 <script type="application/ld+json">{{ jsonld | safe }}</script>
 </head>
 <body>
@@ -33,26 +35,25 @@
 {% set S = page.section %}
 <header class="site-head">
   <div class="wrap">
-    <a class="logo" href="/" aria-label="Kalya Architecte, accueil">
-      <img src="/brand/kalya-blanc.svg" alt="Kalya" width="125" height="34">
-      <span class="logo-sub">Architecte commerces<br>Paris et Île-de-France</span>
+    <a class="logo" href="/" aria-label="Kalya Architecte, architecte de commerces, accueil">
+      <img src="/brand/kalya-laiton.svg" alt="Kalya" width="110" height="30">
+      <span class="logo-sub">Architecte de commerces<br>Paris et Île-de-France</span>
     </a>
     <nav class="nav" aria-label="Navigation principale">
-      <a href="/votre-projet" data-panel="p-projets"{% if S == 'projets' %} data-section="true"{% endif %}>Projets <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
-      <a href="/votre-projet#activites" data-panel="p-activites"{% if S == 'activites' %} data-section="true"{% endif %}>Activités <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
-      <a href="/outils" data-panel="p-outils"{% if S == 'outils' %} data-section="true"{% endif %}>Outils <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6"/></svg></a>
+      <a href="/votre-projet" data-panel="p-projets"{% if S == 'projets' %} data-section="true"{% endif %}>Projets <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
+      <a href="/votre-projet#activites" data-panel="p-activites"{% if S == 'activites' %} data-section="true"{% endif %}>Activités <svg class="caret" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg></a>
       {% for h, l in nav %}<a href="{{ h }}"{% if page.path == h %} aria-current="page"{% elif S == h %} data-section="true"{% endif %}>{{ l }}</a>
       {% endfor %}
     </nav>
     <a class="head-tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
-    <a class="btn btn-vitrine" href="/etudier-mon-projet">Étudier mon projet</a>
-    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav"><span class="sr">Menu</span><svg viewBox="0 0 26 26" aria-hidden="true"><path d="M3 7h20M3 13h20M3 19h20" stroke="currentColor" stroke-width="2" fill="none"/></svg></button>
+    <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="mnav"><span class="sr">Menu</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 7h20M2 12h20M2 17h20" stroke="currentColor" stroke-width="1.5" fill="none"/></svg></button>
   </div>
   <div class="panel" id="p-projets">
     <div class="wrap">
       <div class="panel-grid">
         {% for h, l, sub in situations %}<a href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}
-        <a href="/votre-projet"><strong>Tous les projets</strong><span>Situations et activités, en un coup d'œil.</span></a>
+        {% for h, l, sub in outils %}<a href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}
       </div>
     </div>
   </div>
@@ -61,14 +62,7 @@
       <div class="panel-acts">
         {% for h, l, sub in activites %}<a href="{{ h }}">{{ minis[loop.index0] | safe }}<strong>{{ l }}</strong></a>{% endfor %}
       </div>
-      <p class="panel-foot">Commerce ouvert au public = établissement recevant du public (ERP). Pour le dossier ERP à Paris : <a href="https://dossier-erp-paris.fr/" rel="noopener">dossier-erp-paris.fr</a>.</p>
-    </div>
-  </div>
-  <div class="panel" id="p-outils">
-    <div class="wrap">
-      <div class="panel-grid">
-        {% for h, l, sub in outils %}<a href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span></a>{% endfor %}
-      </div>
+      <p class="panel-foot">Un commerce qui reçoit du public est un établissement recevant du public (ERP) : classement, sorties, accessibilité et autorisation de travaux font partie du projet.</p>
     </div>
   </div>
   <nav class="mnav" id="mnav" aria-label="Menu">
@@ -77,11 +71,9 @@
       <ul>{% for h, l, sub in situations %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
       <h2>Activités</h2>
       <ul>{% for h, l, sub in activites %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
-      <h2>Outils</h2>
-      <ul>{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
       <h2>Kalya Architecte</h2>
-      <ul>{% for h, l in nav %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
-      <a class="btn btn-vitrine" href="/etudier-mon-projet">Étudier mon projet</a>
+      <ul>{% for h, l in nav %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
+      <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
       <a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
     </div>
   </nav>
@@ -93,9 +85,10 @@
   <div class="wrap">
     <div class="foot-top">
       <div class="foot-id">
-        <img src="/brand/kalya-empile-blanc.svg" alt="Kalya" width="60" height="64">
-        <p><strong style="color:#fff">Kalya Architecte</strong>, {{ site.person }}, architecte inscrit à l'Ordre des architectes d'Île-de-France (n° {{ site.ordre }}). Commerces, restaurants et enseignes à Paris et en Île-de-France.</p>
-        <p>{{ site.address }}<br><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <img src="/brand/kalya-empile-laiton.svg" alt="Kalya" width="53" height="56" loading="lazy">
+        <p><strong style="color:var(--craie)">Kalya Architecte</strong>, {{ site.person }}, architecte inscrit à l'Ordre des architectes d'Île-de-France sous le n° {{ site.ordre }}. Conception, autorisations et chantier de commerces à Paris et en Île-de-France.</p>
+        <a class="plaque" href="/a-propos"><small>6<sup>e</sup> arrondissement</small><strong>71 rue du Cherche-Midi</strong><em>75006 Paris</em></a>
+        <p><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><br><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       </div>
       <div>
         <h2>Projets</h2>
@@ -104,7 +97,7 @@
       <div>
         <h2>Activités</h2>
         <ul>{% for h, l, sub in activites %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
-        <h2>Paris et Île-de-France</h2>
+        <h2>Territoire</h2>
         <ul>{% for h, l in zones %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
       </div>
       <div>
@@ -112,31 +105,34 @@
         <ul>{% for g in guides_nav %}<li><a href="{{ g.path }}">{{ g.short }}</a></li>{% endfor %}</ul>
       </div>
       <div>
-        <h2>Outils</h2>
-        <ul>{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
         <h2>Kalya Architecte</h2>
         <ul>
+          <li><a href="/honoraires">Honoraires</a></li>
           <li><a href="/mission">Méthode</a></li>
           <li><a href="/references">Références</a></li>
           <li><a href="/a-propos">L'architecte</a></li>
-          <li><a href="/etudier-mon-projet">Étudier mon projet</a></li>
+          <li><a href="/etudier-mon-projet">Présenter mon projet</a></li>
         </ul>
+        <h2>Outils</h2>
+        <ul>{% for h, l, sub in outils %}<li><a href="{{ h }}">{{ l }}</a></li>{% endfor %}</ul>
       </div>
     </div>
     <div class="foot-erp">
-      <p><strong style="color:#fff">Un commerce est un ERP.</strong> Deux sites du même architecte pour aller au fond du sujet :</p>
-      <p><a href="{{ erp.dep[1] }}" rel="noopener"><strong>{{ erp.dep[0] }}</strong></a><br>Les guides sourcés du dossier ERP à Paris : autorisation de travaux, commission de sécurité, ouverture.</p>
-      <p><a href="{{ erp.aerp[1] }}" rel="noopener"><strong>{{ erp.aerp[0] }}</strong></a><br>L'architecte des établissements recevant du public : faisabilité, accessibilité, sécurité incendie.</p>
+      <p><strong style="color:var(--craie)">Le même architecte, sur trois autres sites.</strong> Chacun traite un sujet ; les règles citées renvoient à leurs textes.</p>
+      {% for key in ('kalya', 'aerp', 'dep') %}<p><a href="{{ erp[key][1] }}" rel="noopener"><strong>{{ erp[key][0] }}</strong></a><br>{{ erp[key][2] }}</p>{% endfor %}
     </div>
     <div class="foot-bot">
-      <span>© 2026 Kalya Architecte — Quentin Piepszownik EI</span>
+      <span>© 2026 Kalya Architecte, Quentin Piepszownik, entrepreneur individuel</span>
       <a href="/mentions-legales">Mentions légales</a>
       <a href="/confidentialite">Confidentialité</a>
       <a href="/plan-du-site">Plan du site</a>
-      <span>Faits réglementaires vérifiés le {{ verified }}</span>
     </div>
   </div>
 </footer>
+<div class="dock" aria-label="Contact rapide">
+  <a class="btn btn-filet" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
+  <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
+</div>
 <script src="/js/site.js?v={{ v }}" defer></script>
 {% block scripts %}{% endblock %}
 </body>

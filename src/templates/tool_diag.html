@@ -14,16 +14,16 @@
   ("livr", "Livraisons, réserve, déchets : le local est-il bien desservi ?", "", [("oui","Oui"),("lim","Limité"),("non","Non")]),
 ] %}
 {% block main %}
-<section class="planche draw" aria-labelledby="h1">
+<section class="planche" aria-labelledby="h1">
   <div class="wrap">
     <nav class="crumbs" aria-label="Fil d'Ariane"><ol>{% for h, l in crumbs %}<li>{% if loop.last %}<span aria-current="page">{{ l }}</span>{% else %}<a href="{{ h }}">{{ l }}</a>{% endif %}</li>{% endfor %}</ol></nav>
     <div class="planche-g">
       <div><h1 id="h1">{{ p.h1 }}</h1><p class="lede">{{ p.answer }}</p></div>
-      <div class="draw" style="max-width:460px;justify-self:end;width:100%">{{ plan | safe }}</div>
+      <div class="local-plan diag-plan" aria-hidden="true">{{ plan | safe }}</div>
     </div>
   </div>
 </section>
-<div class="wrap body-g">
+<div class="wrap body-g two">
   <div>
     <form id="diag" class="tool" novalidate>
       {% for name, q, hint, opts in Q %}
@@ -33,11 +33,11 @@
         <div class="chips">{% for v, l in opts %}<label class="chip"><input type="radio" name="{{ name }}" value="{{ v }}"><span>{{ l }}</span></label>{% endfor %}</div>
       </fieldset>
       {% endfor %}
-      <p style="margin-top:20px"><button class="btn btn-ink" type="button" id="diag-go">Voir le verdict</button> <span class="small muted" id="diag-miss" aria-live="polite"></span></p>
+      <p style="margin-top:20px"><button class="btn btn-laque" type="button" id="diag-go">Voir le verdict</button> <span class="small muted" id="diag-miss" aria-live="polite"></span></p>
       <div class="verdict" id="verdict" hidden tabindex="-1" aria-live="polite"></div>
     </form>
     <form class="form tool" id="diag-send" method="post" action="{{ site.form_action }}" accept-charset="UTF-8" hidden style="margin-top:24px">
-      <div class="full"><h2 style="font-size:1.5rem;margin-bottom:.3em">Envoyer ce diagnostic à l'architecte</h2><p class="muted">Il vous rappelle avec les points à vérifier sur place. Seuls ce résumé et vos coordonnées sont transmis.</p></div>
+      <div class="full"><h2 style="font-size:1.5rem;margin-bottom:.3em">Envoyer ce diagnostic à l'architecte</h2><p class="muted">Il vous répond sous 24 heures avec les points à vérifier. Seuls ce résumé et vos coordonnées sont transmis.</p></div>
       {% set form_source = '/diagnostic-local-commercial' %}{% include "form_fields.html" %}
       <div class="field full"><label for="f-adr">Adresse du local <span class="req" aria-hidden="true">*</span></label><input id="f-adr" name="adresse" required maxlength="160"></div>
       <input type="hidden" name="activite" id="f-act-h" value="">
@@ -46,21 +46,21 @@
       <div class="hp" aria-hidden="true"><label for="f-web">Site web</label><input id="f-web" name="site_web" tabindex="-1" autocomplete="off"></div>
       <div class="cf-turnstile" data-sitekey="0x4AAAAAAFq4yarA8dKbeKK9" data-language="fr" data-theme="light" data-size="flexible" style="margin:8px 0"></div><script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
       <p class="form-note full">Voir la <a href="/confidentialite">politique de confidentialité</a>.</p>
-      <div class="full"><button class="btn btn-vitrine" type="submit">Envoyer le diagnostic</button></div>
+      <div class="full"><button class="btn btn-or" type="submit">Envoyer le diagnostic</button></div>
     </form>
     <article class="prose" style="margin-top:56px">
       <h2 id="lire">Comment lire le verdict</h2>
       <p><strong>Non pour ce format, en l'état</strong> : un point bloque l'activité telle que décrite (par exemple une cuisine sans extraction possible). Le local peut convenir à une autre activité.</p>
       <p><strong>Risque élevé</strong> : un point peut faire échouer le projet ou le retarder fortement (bail, PLU, changement d'usage). À faire vérifier avant toute signature.</p>
       <p><strong>Oui, sous conditions</strong> : le projet est faisable si des démarches ou des travaux sont menés (autorisations, copropriété, accessibilité).</p>
-      <p><strong>Oui, a priori</strong> : rien de bloquant dans vos réponses ; la visite le confirme.</p>
+      <p><strong>Oui, a priori</strong> : rien de bloquant dans vos réponses ; la faisabilité d'architecte le confirme, documents en main.</p>
       <h2 id="faq">Questions fréquentes</h2>
       <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>{% endfor %}</div>
-      <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><p class="verif">Consultés le {{ verified }}.</p><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol></aside>
+      <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><p class="verif">Consultés le {{ verified }}.</p><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> {% if s[2] %}<span class="meta">({{ s[2] }})</span>{% endif %}</li>{% endfor %}</ol></aside>
     </article>
   </div>
   <aside class="aside"><div class="aside-in">
-    <div class="aside-cta"><h2>Faire visiter le local</h2><p>Le diagnostic prépare la visite ; la visite tranche. Envoyez l'adresse et votre activité.</p><a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div>
+    <div class="aside-cta"><h2>Faire trancher</h2><p>Le diagnostic donne une première lecture ; la faisabilité avant signature tranche, sur vos plans et documents. 790 € HT jusqu'à 100 m².</p><a class="btn btn-or" href="/avant-signature-bail-commercial">Demander la faisabilité</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div>
     <nav class="related" aria-label="À lire"><h2>À lire</h2><ul>
       <li><a href="/avant-signature-bail-commercial"><b>Avant de signer le bail</b><span>Les neuf points, en détail.</span></a></li>
       <li><a href="/guides/plu-paris-commerce"><b>PLU de Paris et commerce</b><span>Linéaires protégés, devantures.</span></a></li>

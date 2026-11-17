@@ -52,16 +52,91 @@
     });
   }
 
-  /* Accueil : la devanture change avec l'activité choisie */
-  var elev = d.querySelector('.hero .elev');
-  var sets = d.querySelectorAll('.legend-set');
-  d.querySelectorAll('.plates input').forEach(function (r) {
+  /* Accueil : le rideau descend, l'enseigne change, le rideau remonte */
+  var scene = d.getElementById('scene');
+  var still = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var timer;
+  if (scene) {
+    var rid = scene.querySelector('.rideau');
+    if (rid) rid.addEventListener('animationend', function () { scene.classList.add('leve'); });
+    if (still) scene.classList.add('leve');
+  }
+  function show(act) {
+    d.querySelectorAll('.soub-g [data-act]').forEach(function (el) { el.hidden = el.dataset.act !== act; });
+  }
+  d.querySelectorAll('.enseignes-sw input').forEach(function (r) {
     r.addEventListener('change', function () {
-      if (!r.checked) return;
-      if (elev) elev.setAttribute('data-act', r.value);
-      sets.forEach(function (s) { s.hidden = s.dataset.act !== r.value; });
+      if (!r.checked || !scene) return;
+      var act = r.value;
+      var desc = scene.querySelector('desc');
+      clearTimeout(timer);
+      scene.classList.add('leve');
+      show(act);
+      if (still) {
+        scene.setAttribute('data-act', act);
+      } else {
+        scene.classList.add('ferme');
+        timer = setTimeout(function () {
+          scene.setAttribute('data-act', act);
+          scene.classList.remove('ferme');
+        }, 460);
+      }
+      if (desc && r.dataset.desc) desc.textContent = "Dessin d'illustration : une devanture en applique, avec deux vitrines, une porte vitrée et un rideau métallique. À travers le vitrage, on voit " + r.dataset.desc + '.';
     });
   });
+
+  /* Calendrier d'ouverture : décision la plus tardive */
+  var cal = d.querySelector('[data-cal]');
+  if (cal) {
+    var din = cal.querySelector('input[type=date]');
+    var t0 = new Date(); t0.setDate(t0.getDate() + 7);
+    var iso = function (x) { return x.getFullYear() + '-' + ('0' + (x.getMonth() + 1)).slice(-2) + '-' + ('0' + x.getDate()).slice(-2); };
+    if (din && !din.value) din.value = iso(t0);
+    var MOIS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];
+    var rowsC = cal.querySelectorAll('[data-row]');
+    var outD = cal.querySelector('[data-cal-date]'), outL = cal.querySelector('[data-cal-l]');
+    var outM = cal.querySelector('[data-cal-max]'), outW = cal.querySelector('[data-cal-w]');
+    var calc = function () {
+      var spr = cal.querySelector('input[name=spr]').checked;
+      var max = 0, who = '';
+      rowsC.forEach(function (row) {
+        var on = cal.querySelector('input[name=k][value="' + row.dataset.row + '"]').checked;
+        var m = parseFloat(row.dataset.m) + (spr ? parseFloat(row.dataset.e || 0) : 0);
+        row.classList.toggle('off', !on);
+        var ext = row.querySelector('[data-ext]');
+        if (ext) ext.hidden = !spr;
+        if (on && m > max) { max = m; who = row.querySelector('.lab').firstChild.textContent.trim(); }
+      });
+      if (!max) {
+        outD.textContent = '—'; outL.textContent = 'cochez au moins un dossier';
+        outM.textContent = '—'; outW.textContent = '';
+        return;
+      }
+      outM.textContent = max + ' mois';
+      outW.textContent = 'délai le plus long : ' + who.charAt(0).toLowerCase() + who.slice(1);
+      var v = din && din.value ? din.value.split('-') : null;
+      if (v && v.length === 3) {
+        var x = new Date(+v[0], +v[1] - 1, +v[2]);
+        var day = x.getDate();
+        x.setMonth(x.getMonth() + max);
+        if (x.getDate() !== day) x.setDate(0);
+        outD.textContent = x.getDate() + (x.getDate() === 1 ? 'er' : '') + ' ' + MOIS[x.getMonth()] + ' ' + x.getFullYear();
+        outL.textContent = 'dernière décision attendue, sans demande de pièces';
+      } else {
+        outD.textContent = max + ' mois'; outL.textContent = 'après le dépôt d\'un dossier complet';
+      }
+    };
+    cal.addEventListener('change', calc);
+    cal.addEventListener('input', calc);
+    calc();
+  }
+
+  /* Mobile : barre d'appel après la devanture */
+  var dock = d.querySelector('.dock');
+  var hero = d.querySelector('.devanture, .planche');
+  if (dock && hero && 'IntersectionObserver' in window) {
+    new IntersectionObserver(function (en) { dock.classList.toggle('on', !en[0].isIntersecting); }).observe(hero);
+  } else if (dock) { dock.classList.add('on'); }
 
   /* Accueil : liste « avant de signer » reliée aux repères du plan */
   var pins = {};

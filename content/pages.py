@@ -52,11 +52,12 @@ PAGES = [
     # ================================================================ SITUATIONS
     {
         "path": "/avant-signature-bail-commercial", "kind": "situation", "short": "Avant de signer le bail",
-        "teaser": "Le local tient-il votre activité ? Réponse avant l'engagement.",
-        "title": "Avant de signer un bail commercial : faire vérifier le local | Kalya",
-        "description": "Avant de signer un bail commercial à Paris : destination, PLU, extraction, accessibilité, effectif ERP, façade, copropriété. Ce qu'un architecte vérifie, texte à l'appui.",
-        "h1": "Avant de signer un bail commercial, faites lire le local par un architecte",
-        "answer": "Un bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions. Avant de signer, vérifiez que le local tient votre activité : destination prévue au bail, protections du PLU sur la rue, extraction si vous cuisinez, accessibilité de l'entrée, effectif et sorties, façade, enseigne, copropriété. La réponse tient en trois mots : oui, oui sous conditions, ou non.",
+        "teaser": "Ce qu'il faut vérifier, et la faisabilité à 790 € HT.",
+        "title": "Que vérifier avant de signer un bail commercial ? | Kalya Architecte",
+        "description": "Avant de signer un bail commercial à Paris : destination, PLU, extraction, accessibilité, effectif ERP, façade, copropriété. Les neuf points, et la faisabilité à 790 € HT.",
+        "h1": "Avant de signer un bail commercial : les neuf points qui décident d'un local",
+        "verified": "new", "cta": "Demander la faisabilité", "cta_href": "/etudier-mon-projet",
+        "answer": "Un bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions. Avant de signer, vérifiez que le local tient votre activité : destination prévue au bail, protections du PLU sur la rue, extraction si vous cuisinez, accessibilité de l'entrée, effectif et sorties, façade, enseigne, copropriété. Kalya Architecte en fait une faisabilité avant signature : 790 € HT, une note avec croquis et un avis, faisable, faisable sous conditions ou bloquant.",
         "cta2": ("/diagnostic-local-commercial", "Tester le local en 12 questions"),
         "bullets": [
             "Durée : neuf ans au moins, avec faculté de résiliation à chaque période triennale, sauf exceptions (code de commerce, L145-4).",
@@ -66,7 +67,7 @@ PAGES = [
             "Baux conclus ou renouvelés depuis la loi n° 2026-403 du 26 mai 2026 : dépôt de garantie et autres garanties limités aux loyers d'un trimestre (L145-40).",
         ],
         "sections": [
-            ("Ce que la visite doit établir", """<p>Un local se juge sur ce qu'il permet, pas sur ce qu'il montre. La visite d'un architecte vise un verdict : <strong>oui</strong>, <strong>oui sous conditions</strong> (travaux, autorisations, accord du bailleur ou de la copropriété) ou <strong>non pour cette activité</strong>. Neuf points le fondent.</p>
+            ("Les neuf points qui décident d'un local", """<p>Un local se juge sur ce qu'il permet, pas sur ce qu'il montre. La réponse tient en trois mots : <strong>faisable</strong>, <strong>faisable sous conditions</strong> (travaux, autorisations, accord du bailleur ou de la copropriété) ou <strong>bloquant pour cette activité</strong>. Neuf points la fondent.</p>
 <ol>
 <li><strong>Destination et bail.</strong> La clause de destination autorise-t-elle votre activité ? Une activité connexe ou complémentaire se notifie au bailleur, qui a deux mois pour en contester le caractère connexe ou complémentaire (L145-47) ; une activité différente suit la procédure de l'article L145-48.</li>
 <li><strong>Protections du PLU.</strong> À Paris, 329 km de linéaires protégés imposent de garder les rez-de-chaussée en commerce, artisanat, restauration ou commerce de gros (ou en activités médicales et paramédicales de proximité). Sur certaines, l'artisanat de proximité ou le commerce culturel est lui-même protégé (voir le <a href="/guides/plu-paris-commerce">guide du PLU de Paris</a>).</li>
@@ -78,7 +79,7 @@ PAGES = [
 <li><strong>Façade et enseigne.</strong> Modifier la devanture demande une déclaration préalable ; poser une enseigne, une autorisation du maire. En site patrimonial remarquable ou aux abords d'un monument historique, l'architecte des Bâtiments de France donne son accord.</li>
 <li><strong>Copropriété.</strong> Un conduit en façade ou des travaux sur les parties communes demandent un vote de l'assemblée générale (loi du 10 juillet 1965, art. 25 b) ; le règlement de copropriété peut encadrer l'activité.</li>
 </ol>
-<p>Le <a href="/diagnostic-local-commercial">diagnostic en 12 questions</a> vous donne une première lecture en deux minutes ; la visite la confirme.</p>"""),
+<p>Le <a href="/diagnostic-local-commercial">diagnostic en 12 questions</a> vous donne une première lecture en deux minutes ; la faisabilité d'architecte la confirme, documents en main.</p>"""),
             ("Les documents à demander au bailleur", """<ul>
 <li><strong>Le diagnostic de performance énergétique</strong>, joint au bail (code de la construction, L126-29).</li>
 <li><strong>L'état des risques</strong>, annexé aux baux commerciaux (code de l'environnement, L125-5).</li>
@@ -90,8 +91,14 @@ PAGES = [
 </ul>"""),
             ("Les clauses qui touchent aux travaux", """<p>La loi fixe quelques bornes ; le reste dépend du bail. Ne peuvent pas être imputées au locataire les grosses réparations de l'article 606 du code civil, ni les dépenses de mise en conformité lorsqu'elles relèvent de ces grosses réparations (code de commerce, R145-35). L'autorisation des travaux du preneur, leur sort en fin de bail et la remise en état se lisent dans les clauses.</p>
 <p>Deux nouveautés de la loi n° 2026-403 du 26 mai 2026 : le paiement mensuel du loyer est de droit à la demande du preneur, en l'absence d'arriérés (L145-32-1) ; pour les baux conclus ou renouvelés depuis cette loi, le dépôt de garantie et les autres garanties ne peuvent excéder le montant des loyers dus au titre d'un trimestre (L145-40).</p>
-<div class="callout"><strong>Ce que l'architecte apporte à la négociation</strong><p>Les conditions relevées pendant la visite (travaux lourds, autorisations à obtenir, accord de la copropriété) peuvent nourrir la négociation : franchise de loyer, travaux à la charge du bailleur, délai pour obtenir les autorisations. Leur rédaction relève de votre avocat ou de votre notaire.</p></div>"""),
-            ("Ce que vous recevez", """<p>Une note de faisabilité, datée et sourcée : votre activité est-elle possible dans ce local, à quelles conditions, avec quels travaux et quelles autorisations, dans quel ordre de délais. Elle se lit en dix minutes et sert de base à la négociation, au budget et au calendrier.</p>
+<div class="callout"><strong>Ce que l'architecte apporte à la négociation</strong><p>Les conditions identifiées par la faisabilité (travaux lourds, autorisations à obtenir, accord de la copropriété) peuvent nourrir la négociation : franchise de loyer, travaux à la charge du bailleur, délai pour obtenir les autorisations. Leur rédaction relève de votre avocat ou de votre notaire.</p></div>"""),
+            ("La faisabilité avant signature : 790 € HT", """<p>L'architecte analyse la destination du local, le classement de l'établissement, l'accessibilité, la sécurité incendie et les autorisations nécessaires, puis vous remet une note avec croquis et son avis : <strong>faisable</strong>, <strong>faisable sous conditions</strong> ou <strong>bloquant</strong>.</p>
+<ul>
+<li><strong>Prix</strong> : 790 € HT (948 € TTC) pour un établissement de 5e catégorie sans hébergement jusqu'à 100 m², à Paris et en petite couronne ; au-delà, sur devis.</li>
+<li><strong>Ce qu'il faut transmettre</strong> : l'adresse, le projet de bail, les plans existants cotés du local, la description de l'activité et de l'effectif prévu.</li>
+<li><strong>Ce que ce n'est pas</strong> : une mission distincte de l'autorisation de travaux, dont le forfait ne comprend pas la conception de l'aménagement. Voir les <a href="/honoraires">honoraires</a>.</li>
+</ul>
+<p>La note se lit en dix minutes et sert de base à la négociation, au budget et au calendrier.</p>
 <p>Pour comparer plusieurs locaux, la même grille s'applique à chacun : vous choisissez sur des critères identiques, pas sur un coup de cœur.</p>"""),
         ],
         "faq": [
@@ -101,16 +108,16 @@ PAGES = [
         ],
         "sources": ["l1454", "l1455", "l14547", "l14548", "plub", "plubreg", "rsd631", "rsd1303", "r1641", "r1642", "r1643", "pe2", "pe11", "r42117", "l58118", "copro25", "l12629", "l1255", "l145401", "l145402", "r133429", "r14535", "l145321", "l14540", "r42114"],
         "related": ["/diagnostic-local-commercial", "/guides/bail-commercial-travaux", "/guides/plu-paris-commerce", "/guides/extraction-restaurant-paris"],
-        "service_type": "Vérification de local commercial avant bail",
+        "service_type": "Étude de faisabilité de local commercial avant bail",
     },
     {
         "path": "/architecte-boutique", "kind": "activite", "mini": "boutique", "short": "Créer une boutique",
         "teaser": "Du concept à l'ouverture, autorisations comprises.",
-        "title": "Architecte boutique à Paris : créer et aménager votre magasin | Kalya",
+        "title": "Architecte boutique à Paris : agencement, devanture, autorisations | Kalya",
         "description": "Créer une boutique à Paris : concept, plan de vente, classement ERP type M, devanture conforme au PLU, enseigne, autorisation de travaux. Un architecte du local à l'ouverture.",
         "h1": "Créer une boutique à Paris, du concept à la vitrine allumée",
         "answer": "Une boutique est un ERP de type M. Son effectif se calcule à 1 personne pour 3 m² de surface de vente au rez-de-chaussée, et elle reste en 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total. À Paris, la devanture suit le PLU, l'enseigne demande une autorisation et les travaux intérieurs une autorisation de travaux ERP.",
-        "cta2": ("/calcul-effectif-erp-commerce", "Calculer l'effectif"),
+        "cta2": ("/guides/erp-commerce-categorie-effectif#calcul", "Calculer l'effectif"),
         "bullets": [
             "Type M : 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total (règlement de sécurité, PE 2).",
             "Effectif : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage (M 2).",
@@ -131,7 +138,7 @@ PAGES = [
             ("Le classement ERP d'une boutique", f"""<p>Dès qu'elle reçoit du public, une boutique est un établissement recevant du public de <strong>type M</strong> (magasins de vente, centres commerciaux). Sa catégorie dépend de l'effectif du public, calculé selon l'article M 2 :</p>
 {M2_TABLE}
 <p>Elle reste en <strong>5e catégorie</strong> tant que l'effectif est inférieur à 100 personnes au sous-sol, 100 aux étages et 200 pour l'ensemble (PE 2). Pour une boutique en rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m, l'effectif se calcule à 1 personne par m² sur le tiers de la surface accessible au public (PE 3). Le personnel ne compte pas pour classer en 5e catégorie.</p>
-<p>Faites le calcul avec le <a href="/calcul-effectif-erp-commerce">calculateur d'effectif</a>.</p>
+<p>Faites le calcul avec le <a href="/guides/erp-commerce-categorie-effectif#calcul">calculateur d'effectif</a>.</p>
 {erp_link('/erp-boutique-commerce-paris/', 'Boutique ou magasin à Paris : classement ERP et dossier', 'Le détail du type M, des boutiques voisines non isolées et des stockages, sur dossier-erp-paris.fr.')}"""),
             ("Les autorisations, dossier par dossier", f"""{AUTOS_TABLE}
 <p>Ces dossiers sont distincts : une déclaration préalable ne vaut pas autorisation de travaux, alors qu'un permis de construire en tient lieu lorsque l'autorité compétente a donné son accord (code de l'urbanisme, R*425-15). Déposés ensemble, ils s'instruisent en parallèle. Le détail figure dans le <a href="/guides/autorisations-travaux-commerce">guide des autorisations</a>.</p>"""),
@@ -154,14 +161,14 @@ PAGES = [
             {"q": "Peut-on poser une grille de fermeture à l'extérieur ?", "a": "<p>À Paris, le PLU demande que coffres et grilles soient implantés à l'intérieur, en retrait des vitrines, sauf impossibilité technique ou architecturale, et que la protection maintienne les transparences (UG.2.1.4).</p>"},
         ],
         "sources": ["m2", "pe2", "pe3", "gn1", "l1223", "r12216", "cerfa13824", "r42117", "r42323", "r42324", "r42114", "r42515", "r42328", "l58118", "r58113", "cerfa16308", "parisenseignes", "plubreg", "l7521"],
-        "related": ["/calcul-effectif-erp-commerce", "/vitrine-et-devanture-commerce", "/guides/autorisations-travaux-commerce", DEP + "/erp-boutique-commerce-paris/"],
+        "related": ["/guides/erp-commerce-categorie-effectif#calcul", "/vitrine-et-devanture-commerce", "/guides/autorisations-travaux-commerce", DEP + "/erp-boutique-commerce-paris/"],
         "service_type": "Conception et aménagement de boutique",
     },
     {
         "path": "/amenagement-local-commercial", "kind": "situation", "short": "Aménager un local commercial",
         "teaser": "Plan, réserve, caisse, réseaux : un local qui tourne.",
         "title": "Aménagement de local commercial à Paris : plan, ERP, accessibilité | Kalya",
-        "description": "Aménager un local commercial : relevé de l'existant, zones de vente et réserve, dégagements selon l'effectif, accessibilité dans le bâti existant, autorisation de travaux ERP.",
+        "description": "Aménager un local commercial : plans existants, zones de vente et réserve, dégagements selon l'effectif, accessibilité dans le bâti existant, autorisation de travaux ERP.",
         "h1": "Aménager un local commercial : faire tenir l'activité dans des murs existants",
         "answer": "Aménager un local commercial, c'est faire entrer un parcours client, une réserve, des réseaux et des règles dans des murs qui existent déjà. Le plan se dessine avec l'effectif, les sorties et l'accessibilité dès l'esquisse. Les travaux qui aménagent ou modifient un ERP demandent une autorisation de travaux, instruite en quatre mois.",
         "bullets": [
@@ -172,7 +179,7 @@ PAGES = [
             "Tout ERP, 5e catégorie comprise, tient un registre public d'accessibilité (R164-6).",
         ],
         "sections": [
-            ("Partir d'un relevé, pas d'une intuition", """<p>Le projet commence par un relevé précis du local : surfaces, hauteurs sous plafond et sous poutres, niveaux et marches, structure apparente, état des sols et des murs, arrivées d'eau, évacuations, tableau électrique, ventilation, gaines, accès de service. C'est ce relevé qui dit ce qui coûte cher (déplacer une évacuation, créer une gaine) et ce qui est gratuit (profiter d'une hauteur, d'une vitrine d'angle).</p>"""),
+            ("Partir de vos plans existants", """<p>Le projet part des plans existants cotés du local, fournis par le bailleur, l'exploitant précédent ou l'enseigne : surfaces, hauteurs sous plafond et sous poutres, niveaux de l'accès (seuil, marches, pentes), structure, arrivées d'eau, évacuations, tableau électrique, ventilation, gaines, accès de service. S'ils ne sont pas exploitables, un relevé par un géomètre est proposé en option, avant le devis. Ces plans disent ce qui coûte cher (déplacer une évacuation, créer une gaine) et ce qui est gratuit (profiter d'une hauteur, d'une vitrine d'angle).</p>"""),
             ("Le zoning : la vente devant, le service derrière", """<p>Un local commercial fonctionne en deux mondes reliés :</p>
 <ul>
 <li><strong>La salle</strong> : seuil, présentation, essayage ou dégustation, conseil, caisse, retrait de commande.</li>
@@ -181,7 +188,7 @@ PAGES = [
 <p>La distance entre la réserve et la vente, la largeur des passages de réassort et la place de la caisse se décident sur plan, avec l'exploitant : c'est lui qui vivra le local tous les jours.</p>"""),
             ("Dégagements : l'effectif décide", f"""<p>En 5e catégorie, le nombre et la largeur des sorties découlent de l'effectif, en comptant le personnel qui ne dispose pas de sorties propres :</p>
 {DEGAGEMENTS}
-<p>L'effectif lui-même se calcule selon le type d'activité : voir le <a href="/calcul-effectif-erp-commerce">calculateur</a> et le <a href="/guides/erp-commerce-categorie-effectif">guide du classement ERP</a>.</p>"""),
+<p>L'effectif lui-même se calcule selon le type d'activité : voir le <a href="/guides/erp-commerce-categorie-effectif#calcul">calculateur</a> et le <a href="/guides/erp-commerce-categorie-effectif">guide du classement ERP</a>.</p>"""),
             ("Accessibilité dans le bâti existant", """<p>Un commerce qui s'installe dans un bâtiment existant n'est pas, pour ce seul motif, une construction neuve : il relève des articles R164-1 à R164-6 du code de la construction et de l'arrêté du 8 décembre 2014. En 5e catégorie, l'obligation porte sur une partie du local, la plus proche possible de l'entrée principale, qui doit donner accès à l'ensemble des prestations (R164-2) ; certaines prestations peuvent être délivrées par des mesures de substitution.</p>
 <p>Une dérogation est possible pour un point identifié, dans des cas prévus par les textes : impossibilité technique, conservation du patrimoine, disproportion manifeste, refus de la copropriété dans les conditions fixées. Elle se motive et se justifie dans le dossier. Le <a href="/guides/accessibilite-commerce">guide de l'accessibilité</a> détaille la démarche.</p>"""),
             ("L'autorisation de travaux", """<p>Les travaux qui conduisent à créer, aménager ou modifier un ERP ne peuvent être exécutés qu'après autorisation (code de la construction, L122-3). La demande se fait sur le Cerfa n° 13824*04, avec plans, notice d'accessibilité et, lorsque le volet incendie est demandé, notice de sécurité. Le délai d'instruction est de quatre mois à compter d'un dossier complet ; à défaut de décision notifiée, l'autorisation est en principe accordée (R122-16, R122-21).</p>
@@ -192,14 +199,15 @@ PAGES = [
             {"q": "Mon local a une marche à l'entrée : est-ce rédhibitoire ?", "a": "<p>Non, mais c'est un point à traiter dans le dossier : adaptation de l'entrée, solution d'effet équivalent ou dérogation motivée. Une rampe sur le trottoir relève en principe d'une autorisation d'occupation du domaine public.</p>"},
         ],
         "sources": ["pe11", "pe2", "pe3", "m2", "r1641", "r1642", "a2014", "r1643", "r1646", "a2017reg", "l1223", "r12216", "r12221", "r1227", "cerfa13824"],
-        "related": ["/calcul-effectif-erp-commerce", "/guides/accessibilite-commerce", "/guides/erp-commerce-categorie-effectif", DEP + "/autorisation-travaux-erp-paris/"],
+        "related": ["/guides/erp-commerce-categorie-effectif#calcul", "/guides/accessibilite-commerce", "/guides/erp-commerce-categorie-effectif", DEP + "/autorisation-travaux-erp-paris/"],
         "service_type": "Aménagement de local commercial",
     },
     {
         "path": "/renovation-magasin", "kind": "situation", "short": "Rénover un magasin",
-        "teaser": "Remettre à niveau sans perdre la clientèle.",
-        "title": "Rénovation de magasin à Paris : diagnostic, autorisations, phasage | Kalya",
-        "description": "Rénover un magasin : diagnostiquer avant de changer, ce que la rénovation déclenche (autorisation de travaux, devanture, enseigne, accessibilité), phaser pour rester ouvert.",
+        "teaser": "Remettre à niveau, au besoin sans fermer.",
+        "title": "Rénovation de magasin à Paris : autorisations, travaux sans fermer | Kalya",
+        "description": "Rénover un magasin à Paris : ce que la rénovation déclenche (autorisation de travaux, devanture, enseigne, accessibilité) et comment rester ouvert pendant les travaux.",
+        "verified": "new",
         "h1": "Rénover un magasin : décider ce qui reste, ce qui change, et pourquoi",
         "answer": "Rénover un magasin commence par un diagnostic : une baisse des ventes vient rarement du seul décor. Ensuite, toute modification d'un ERP existant relève d'une autorisation de travaux ; la devanture, d'une déclaration préalable ; une nouvelle enseigne, d'une autorisation du maire. La rénovation est aussi le moment de remettre l'accessibilité à niveau.",
         "bullets": [
@@ -208,6 +216,7 @@ PAGES = [
             "Changer la devanture : déclaration préalable, un mois ou deux selon le secteur (R*421-17, R423-24).",
             "Nouvelle enseigne : nouvelle autorisation du maire (code de l'environnement, L581-18).",
             "Accessibilité : registre public à mettre à jour (R164-6).",
+            "Rester ouvert : les dégagements exigés par l'effectif admis restent disponibles à chaque phase, sinon l'effectif admis baisse (règlement de sécurité, PE 11).",
         ],
         "sections": [
             ("Diagnostiquer avant de rénover", """<p>Un magasin qui vend moins peut souffrir d'une baisse de fréquentation, d'une moins bonne transformation, d'un panier plus faible, de ruptures, d'un effectif insuffisant aux heures de pointe, d'un assortiment mal lu, ou d'un marché local qui a changé. Le décor n'est qu'une cause parmi d'autres. Avant de dessiner, on regarde les chiffres de l'exploitant et le magasin en fonctionnement.</p>
@@ -215,51 +224,31 @@ PAGES = [
             ("Ce que la rénovation déclenche", f"""{AUTOS_TABLE}
 <p>Une rénovation qui modifie le cloisonnement, les sorties ou les sanitaires ouverts au public touche l'ERP : elle passe par l'autorisation de travaux pour l'accessibilité et, hors 5e catégorie sans hébergement du public, pour la sécurité incendie. En 5e catégorie sans hébergement, une description succincte des travaux est communiquée à l'autorité de police et les règles de sécurité restent applicables (R122-7, II). Un simple rafraîchissement (peinture, mobilier libre) n'a pas cet effet, mais les règles du règlement de sécurité sur les matériaux d'aménagement restent à respecter.</p>"""),
             ("L'occasion de remettre l'accessibilité à niveau", """<p>Les travaux sont le bon moment pour traiter l'accessibilité : entrée, circulation, caisse, cabines, sanitaires ouverts au public. Les règles applicables sont celles des ERP existants (R164-1, arrêté du 8 décembre 2014). Le registre public d'accessibilité, obligatoire pour tout ERP, se met à jour à la fin du chantier (R164-6).</p>"""),
-            ("Rester ouvert pendant les travaux", """<p>Une rénovation peut se mener magasin ouvert, par zones, avec les travaux bruyants hors des heures d'ouverture et des sorties maintenues à chaque phase. Voir la page <a href="/renovation-commerce-site-occupe">travaux sans fermer</a>.</p>"""),
+            ("Rester ouvert pendant les travaux", """<p>Rester ouvert est possible si le chantier est conçu pour. Le phasage se dessine sur plan, avant de consulter les entreprises : quelles zones ferment, dans quel ordre, combien de temps, par où passent le public, le personnel et les ouvriers. Chaque phase a son plan : surfaces ouvertes, cloisons provisoires, sorties, protections, stockage du chantier.</p>
+<ul>
+<li><strong>Travaux bruyants et poussiéreux</strong> : hors des heures d'ouverture, la nuit ou le jour de fermeture, dans le respect du voisinage et du règlement de copropriété.</li>
+<li><strong>Livraisons du chantier</strong> : à des heures qui ne croisent pas celles du magasin.</li>
+<li><strong>Nettoyage</strong> : chaque matin avant l'ouverture, compris dans les marchés.</li>
+</ul>
+<p>Le public admis doit toujours disposer des dégagements que son effectif exige :</p>
+{DEGAGEMENTS}
+<p>Si une sortie est neutralisée par une phase, l'effectif admis doit baisser en conséquence, ou la phase être réorganisée. Réduire temporairement la surface ouverte réduit l'effectif admissible. Les installations de sécurité (éclairage de sécurité, alarme, extincteurs) restent en service, et les travaux qui modifient l'ERP restent soumis à autorisation, même phasés (L122-3).</p>
+<p>Le planning se construit avec l'exploitant (jours forts, livraisons, inventaires, soldes), le bailleur, le syndic et, le cas échéant, le coordonnateur de sécurité et de protection de la santé.</p>"""),
         ],
         "faq": [
             {"q": "Repeindre et changer le mobilier demande-t-il une autorisation ?", "a": "<p>En général non au titre de l'autorisation de travaux, tant que l'aménagement n'a d'incidence ni sur l'accessibilité ni sur la sécurité incendie (cloisons, sorties, sanitaires, installations de sécurité) ; en 5e catégorie sans hébergement, une modification des installations de sécurité donne lieu à une description succincte communiquée à l'autorité de police (R122-7, II). Les matériaux posés restent soumis aux règles du règlement de sécurité.</p>"},
             {"q": "Changer seulement l'enseigne suffit-il à déclencher une démarche ?", "a": "<p>Oui : à Paris, toute enseigne est soumise à autorisation du maire, y compris son remplacement (code de l'environnement, L581-18).</p>"},
         ],
-        "sources": ["l1223", "r12216", "cerfa13824", "r42117", "r42323", "r42324", "l58118", "r58113", "r1641", "r1642", "a2014", "r1646"],
-        "related": ["/renovation-commerce-site-occupe", "/vitrine-et-devanture-commerce", "/guides/budget-renovation-commerce", "/guides/accessibilite-commerce"],
+        "sources": ["l1223", "r12216", "cerfa13824", "r42117", "r42323", "r42324", "l58118", "r58113", "r1641", "r1642", "a2014", "r1646", "pe11", "pe2"],
+        "related": ["/amenagement-local-commercial", "/vitrine-et-devanture-commerce", "/guides/budget-renovation-commerce", "/guides/accessibilite-commerce"],
         "service_type": "Rénovation de magasin",
-    },
-    {
-        "path": "/renovation-commerce-site-occupe", "kind": "situation", "short": "Travaux sans fermer",
-        "teaser": "Phasage, nuit, week-end : rester ouvert.",
-        "title": "Travaux dans un commerce ouvert : phasage et sécurité du public | Kalya",
-        "description": "Rénover un commerce sans fermer : phasage par zones, travaux hors horaires, sorties maintenues, protection du public, coordination avec l'exploitant et la copropriété.",
-        "h1": "Travaux sans fermer : rénover un commerce qui reste ouvert",
-        "answer": "Rester ouvert pendant les travaux est possible si le chantier est conçu pour : phasage par zones, travaux bruyants hors des heures d'ouverture, cheminements et sorties maintenus à chaque phase, protections, nettoyage. Dans un ERP, les dégagements exigés pour l'effectif admis doivent rester disponibles pendant tout le chantier.",
-        "bullets": [
-            "Les dégagements exigés par l'effectif admis (règlement de sécurité, PE 11) doivent rester disponibles à chaque phase : sinon, l'effectif admis baisse.",
-            "Réduire temporairement la surface ouverte réduit l'effectif admissible : à intégrer au phasage.",
-            "Les travaux qui modifient l'ERP restent soumis à autorisation, même phasés (L122-3).",
-            "Le planning se construit avec l'exploitant : jours forts, livraisons, inventaires, soldes.",
-        ],
-        "sections": [
-            ("Concevoir le chantier autour de la vente", """<p>Le phasage se dessine sur plan, avant de consulter les entreprises : quelles zones ferment, dans quel ordre, combien de temps, par où passent le public, le personnel et les ouvriers. Chaque phase a son plan : surfaces ouvertes, cloisons provisoires, sorties, protections, stockage du chantier.</p>
-<ul>
-<li><strong>Travaux bruyants et poussiéreux</strong> : hors des heures d'ouverture, la nuit ou le jour de fermeture, dans le respect du voisinage et du règlement de copropriété.</li>
-<li><strong>Livraisons du chantier</strong> : à des heures qui ne croisent pas celles du magasin.</li>
-<li><strong>Nettoyage</strong> : chaque matin avant l'ouverture, compris dans les marchés.</li>
-</ul>"""),
-            ("La sécurité du public pendant les travaux", f"""<p>Le public admis doit toujours disposer des dégagements que son effectif exige :</p>
-{DEGAGEMENTS}
-<p>Si une sortie est neutralisée par une phase, l'effectif admis doit baisser en conséquence, ou la phase être réorganisée. Les installations de sécurité (éclairage de sécurité, alarme, extincteurs) restent en service.</p>"""),
-            ("Coordonner les acteurs", """<p>L'exploitant, le bailleur, le syndic, les entreprises et, le cas échéant, le coordonnateur de sécurité et de protection de la santé se mettent d'accord sur un planning commun. L'architecte tient ce planning, prépare les marchés en conséquence (clauses d'horaires, de nettoyage, de pénalités) et vérifie leur respect en visite de chantier.</p>"""),
-        ],
-        "sources": ["pe11", "pe2", "l1223"],
-        "related": ["/renovation-magasin", "/amenagement-local-commercial", "/guides/calendrier-ouverture-magasin"],
-        "service_type": "Travaux en site occupé",
     },
     {
         "path": "/vitrine-et-devanture-commerce", "kind": "situation", "short": "Vitrine et devanture",
         "teaser": "Façade, enseigne, store : ce que Paris autorise.",
-        "title": "Devanture, vitrine et enseigne à Paris : règles et autorisations | Kalya",
+        "title": "Modifier une devanture à Paris : autorisations et PLU | Kalya",
         "description": "Devanture de commerce à Paris : règles du PLU (UG.2.1.4), déclaration préalable, accord de l'ABF, enseigne (autorisation, Cerfa 16308, 2 mois), extinction nocturne, terrasses.",
-        "h1": "Vitrine et devanture à Paris : ce que la ville autorise, et comment",
+        "h1": "Modifier une devanture à Paris : ce que la ville autorise, et comment",
         "answer": "À Paris, une devanture s'intègre à la façade : de préférence en applique, ou en feuillure avec un retrait limité de 10 à 20 cm, vitrage le plus clair possible, grilles à l'intérieur sauf impossibilité (PLU, UG.2.1.4). La modifier demande une déclaration préalable, instruite en un mois, deux en site patrimonial remarquable ou aux abords d'un monument. L'enseigne demande une autorisation du maire, accordée tacitement après deux mois.",
         "bullets": [
             "PLU de Paris : pas de comptoir ouvert sur la voie sans devanture ; vitrage clair et non réfléchissant (UG.2.1.4).",
@@ -304,9 +293,9 @@ PAGES = [
     {
         "path": "/concept-et-deploiement-enseigne", "kind": "situation", "short": "Déployer une enseigne",
         "teaser": "Un concept, des locaux tous différents.",
-        "title": "Déploiement d'enseigne et concept retail : architecte réseau | Kalya",
+        "title": "Architecte réseau de franchise et concept retail en Île-de-France | Kalya",
         "description": "Déployer une enseigne en Île-de-France : traduire le concept en manuel, adapter chaque local sans copier-coller, vérifier PLU, ERP, copropriété et façade adresse par adresse.",
-        "h1": "Déployer une enseigne : un concept reconnaissable, des locaux tous différents",
+        "h1": "Déployer un réseau de boutiques : un concept reconnaissable, des locaux tous différents",
         "answer": "Déployer une enseigne, c'est écrire des règles assez fermes pour être reconnues et assez souples pour entrer dans des locaux tous différents. Le concept se traduit en manuel : codes fixes, éléments adaptables, variantes de format. Chaque local reste un projet : PLU, ERP, copropriété, façade et enseigne se vérifient adresse par adresse.",
         "bullets": [
             "Le concept n'est pas un décor : offre, parcours, service, stock, opérations et économie du point de vente.",
@@ -339,11 +328,11 @@ PAGES = [
     {
         "path": "/architecte-restaurant", "kind": "activite", "mini": "restaurant", "short": "Restaurant, bar, café",
         "teaser": "Type N, cuisine, extraction, terrasse.",
-        "title": "Architecte restaurant à Paris : cuisine, extraction, ERP type N | Kalya",
+        "title": "Architecte restaurant à Paris : dossier ERP, extraction, cuisine | Kalya",
         "description": "Ouvrir un restaurant, un bar ou un café à Paris : effectif ERP type N, extraction (RSD de Paris), hygiène de la cuisine, bac à graisses, licences, sons amplifiés, terrasse.",
         "h1": "Architecte restaurant à Paris : la salle se voit, la cuisine décide",
         "answer": "Un restaurant est un ERP de type N : il reste en 5e catégorie sous 100 personnes au sous-sol, 200 aux étages et 200 au total. Le projet se joue sur ce que la salle ne montre pas : l'extraction (à Paris, air de cuisine rejeté à 8 m au moins de toute fenêtre, sauf aménagement empêchant toute reprise d'air pollué), l'organisation hygiénique de la cuisine et le prétraitement des graisses.",
-        "cta2": ("/calcul-effectif-erp-commerce", "Calculer l'effectif"),
+        "cta2": ("/guides/erp-commerce-categorie-effectif#calcul", "Calculer l'effectif"),
         "bullets": [
             "Places assises : nombre déclaré, dans la limite d'1 personne pour 2 m² ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m² (N 2).",
             "Cuisine : hotte débordante, conduit unique indépendant des conduits de fumée, filtres et conduits nettoyés au moins une fois par mois (RSD de Paris, art. 130-3).",
@@ -382,13 +371,13 @@ PAGES = [
             {"q": "Un restaurant de 5e catégorie passe-t-il en commission de sécurité ?", "a": "<p>Pas systématiquement : un ERP de 5e catégorie sans locaux à sommeil n'a ni avis préalable ni visite périodique systématiques, mais il doit respecter les règles, et l'autorité de police (à Paris, le préfet de police) peut faire procéder à une visite. Voir <a href=\"https://dossier-erp-paris.fr/commission-securite-erp-paris/\" rel=\"noopener\">la commission de sécurité à Paris</a>.</p>"},
         ],
         "sources": ["n2", "pe2", "gn1", "rsd631", "rsd1303", "copro25", "ce852", "f32189", "r2334", "ddpp", "l2334", "assainissement", "d23311", "licences", "l33312", "l333211", "r13361", "r57127", "terrasses", "r42117", "r42114", "l4218", "plubreg", "l1223"],
-        "related": ["/guides/extraction-restaurant-paris", "/calcul-effectif-erp-commerce", "/avant-signature-bail-commercial", DEP + "/erp-restaurant-bar-paris/"],
+        "related": ["/guides/extraction-restaurant-paris", "/guides/erp-commerce-categorie-effectif#calcul", "/avant-signature-bail-commercial", DEP + "/erp-restaurant-bar-paris/"],
         "service_type": "Conception de restaurant, bar et café", "og": "restaurant",
     },
     {
         "path": "/architecte-metiers-de-bouche", "kind": "activite", "mini": "bouche", "short": "Boulangerie et métiers de bouche",
         "teaser": "Laboratoire, hygiène, vente.",
-        "title": "Architecte boulangerie et métiers de bouche à Paris | Kalya",
+        "title": "Architecte boulangerie, boucherie, traiteur à Paris | Kalya",
         "description": "Boulangerie, pâtisserie, boucherie, fromagerie, traiteur à Paris : laboratoire conforme au règlement 852/2004, extraction, froid, prétraitement des graisses, vente type M.",
         "h1": "Boulangerie, boucherie, traiteur : un laboratoire derrière la vitrine",
         "answer": "Un commerce de bouche associe une vente, qui reçoit du public, et un laboratoire, qui produit. Le laboratoire doit prévenir les contaminations entre les opérations (règlement CE n° 852/2004), avec hotte et conduit nettoyés chaque mois (RSD de Paris, art. 130-3). À Paris, les métiers de bouche équipent leurs évacuations d'un prétraitement des graisses.",
@@ -462,43 +451,11 @@ PAGES = [
 <p>Au-delà de 1 000 m² de surface de vente au détail, la création d'un magasin est soumise à autorisation d'exploitation commerciale (code de commerce, L752-1).</p>"""),
         ],
         "sources": ["m2", "gn1", "a2016", "r15128", "plubreg", "l7521", "l4254"],
-        "related": ["/concept-et-deploiement-enseigne", "/calcul-effectif-erp-commerce", "/architecte-commerce-ile-de-france"],
+        "related": ["/concept-et-deploiement-enseigne", "/guides/erp-commerce-categorie-effectif#calcul", "/architecte-commerce-ile-de-france"],
         "service_type": "Conception de showroom",
     },
 
     # ================================================================ ZONES
-    {
-        "path": "/architecte-commerce-paris", "kind": "zone", "short": "Paris", "lieu": "Paris, 20 arrondissements",
-        "teaser": "PLU, linéaires, devantures, marché.",
-        "title": "Architecte commerce Paris : PLU, devantures, ERP, marché | Kalya",
-        "description": "Architecte de commerces à Paris : linéaires protégés du PLU, devantures, sites patrimoniaux, enseignes, extraction, préemption commerciale, chiffres de l'Apur.",
-        "h1": "Architecte commerce à Paris : ce qui change quand le local est parisien",
-        "answer": "À Paris, un projet de commerce passe par des règles que l'on ne trouve pas ailleurs : 329 km de linéaires où le rez-de-chaussée commercial est protégé, un article du PLU dédié aux devantures, deux sites patrimoniaux remarquables, des enseignes demandées en ligne, un règlement sanitaire qui fixe l'extraction des cuisines. Kalya Architecte, dont l'adresse parisienne est rue du Cherche-Midi (6e), intervient dans tous les arrondissements.",
-        "bullets": [
-            "PLU bioclimatique approuvé le 20 novembre 2024 : protection du commerce et de l'artisanat sur 329 km de voies, plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel.",
-            "Dark stores et dark kitchens : changement interdit pour les rez-de-chaussée sur rue (UG.1.3.1 et UG.1.3.5).",
-            "Sites patrimoniaux remarquables du Marais et du 7e : déclaration préalable en deux mois.",
-            "Droit de préemption commercial depuis le 7 août 2024 dans les 5e, 6e et une partie du 7e arrondissement.",
-            "60 846 commerces et services commerciaux en rez-de-chaussée et 10,9 % de locaux vacants en avril 2023 (Apur).",
-        ],
-        "sections": [
-            ("Le PLU bioclimatique et les rez-de-chaussée", """<p>Le PLU bioclimatique de Paris, approuvé le 20 novembre 2024 et modifié depuis, protège les rez-de-chaussée commerciaux le long des voies repérées (UG.1.4.2) :</p>
-<ul>
-<li><strong>protection du commerce et de l'artisanat</strong> : un local d'artisanat et commerce de détail, de restauration ou de commerce de gros ne peut pas changer pour une autre sous-destination, sauf activités médicales et paramédicales de proximité ;</li>
-<li><strong>protection particulière du commerce artisanal de proximité</strong> et <strong>du commerce culturel</strong> : l'activité elle-même est protégée ;</li>
-<li><strong>sites de protection des grands magasins</strong> : la part de commerce et de restauration ne peut pas diminuer.</li>
-</ul>
-<p>Le règlement interdit aussi de transformer un rez-de-chaussée sur rue en entrepôt (hors logistique urbaine) ou en cuisine dédiée à la vente en ligne (UG.1.3.1, UG.1.3.5). La carte des protections est publiée en données ouvertes, sans valeur réglementaire : le règlement graphique fait foi. Voir le <a href="/guides/plu-paris-commerce">guide du PLU de Paris</a>.</p>"""),
-            ("Devantures, patrimoine, enseignes", """<p>L'article UG.2.1.4 encadre les devantures : intégration à la façade, devanture de préférence en applique ou en feuillure avec un retrait limité de 10 à 20 cm, vitrage le plus clair possible, grilles intérieures sauf impossibilité technique ou architecturale. Dans les deux sites patrimoniaux remarquables (Marais, 7e) et aux abords des monuments historiques, la déclaration préalable est instruite en deux mois et suppose l'accord de l'architecte des Bâtiments de France. Les enseignes se demandent en ligne à la Ville depuis le 1er octobre 2025 ; l'autorisation est acquise après deux mois de silence. Voir <a href="/vitrine-et-devanture-commerce">vitrine et devanture</a>.</p>"""),
-            ("Restaurants : règles sanitaires parisiennes", """<p>Le règlement sanitaire départemental de Paris fixe le rejet de l'air des cuisines à 8 m au moins de toute fenêtre ou prise d'air neuf, sauf aménagement empêchant toute reprise d'air pollué (art. 63-1) et le nettoyage mensuel des conduits et filtres (art. 130-3). Le règlement d'assainissement, en vigueur depuis le 1er janvier 2026, impose le prétraitement des graisses aux restaurants et métiers de bouche (art. 17.1). Voir <a href="/architecte-restaurant">architecte restaurant</a>.</p>"""),
-            ("Le marché parisien en quelques repères", """<p>L'Apur a recensé en avril 2023 83 154 locaux en rez-de-chaussée, dont 60 846 commerces, bars-restaurants et services commerciaux, soit 28 pour 1 000 habitants, et 9 059 locaux vacants : 10,9 %, contre 10,2 % en 2020. Entre 2020 et 2023, la restauration rapide progresse de 10 %, l'alimentaire de 4 % ; l'équipement de la personne recule de 8 % selon la Ville de Paris. Le relevé d'avril 2026 doit être publié fin 2026.</p>
-<p>Sur les grands axes, BNP Paribas Real Estate relève au 1er semestre 2026 des loyers prime de 18 000 €/m²/an sur les Champs-Élysées, 14 000 € avenue Montaigne et rue Saint-Honoré, 5 500 € rue des Francs-Bourgeois et 5 000 € boulevard Haussmann. Depuis le 7 août 2024, la Ville dispose d'un droit de préemption commercial dans les 5e et 6e arrondissements et sur certaines rues du 7e.</p>"""),
-            ("Où et comment Kalya Architecte intervient", """<p>L'adresse parisienne de Kalya Architecte est au 71 rue du Cherche-Midi, dans le 6e arrondissement. L'architecte se déplace dans tout Paris pour visiter les locaux, de préférence avant la signature du bail. Les dossiers ERP parisiens suivent un circuit propre, décrit sur <a href="https://dossier-erp-paris.fr/autorisation-travaux-erp-paris/" rel="noopener">dossier-erp-paris.fr</a>.</p>"""),
-        ],
-        "sources": ["plub", "plubreg", "plubcarte", "spr", "r42324", "r4251", "r4252", "parisenseignes", "r58113", "rsd631", "rsd1303", "assainissement", "preemption", "apur2023", "paris28", "bnpre"],
-        "related": ["/guides/plu-paris-commerce", "/vitrine-et-devanture-commerce", "/architecte-commerce-ile-de-france", DEP + "/"],
-        "service_type": "Architecture de commerces à Paris",
-    },
     {
         "path": "/architecte-commerce-ile-de-france", "kind": "zone", "short": "Île-de-France", "lieu": "Île-de-France",
         "teaser": "Centres commerciaux, retail parks, centres-villes.",
@@ -521,7 +478,7 @@ PAGES = [
             ("Où intervient Kalya Architecte", """<p>Dans toute l'Île-de-France, depuis Paris. Pour la procédure ERP hors de Paris, voir aussi <a href="https://dossier-erp-paris.fr/erp-hors-paris-ile-de-france/" rel="noopener">ERP hors de Paris</a> sur dossier-erp-paris.fr.</p>"""),
         ],
         "sources": ["r1227", "m2", "l58118", "l7521", "l4254", "cci2023"],
-        "related": ["/architecte-commerce-paris", "/concept-et-deploiement-enseigne", "/architecte-showroom", DEP + "/erp-hors-paris-ile-de-france/"],
+        "related": ["/concept-et-deploiement-enseigne", "/architecte-showroom", DEP + "/erp-hors-paris-ile-de-france/"],
         "service_type": "Architecture de commerces en Île-de-France",
     },
 ]

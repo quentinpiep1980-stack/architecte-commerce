@@ -35,17 +35,28 @@ def strip(s):
 
 
 def label_of(path):
-    p = ALL.get(path)
+    p = ALL.get(path.split('#')[0])
     if p:
+        if '#calcul' in path:
+            return "Calcul d'effectif ERP"
         return p.get('short') or p['h1']
     return {'/': 'Accueil', '/guides': 'Guides', '/votre-projet': 'Projets', '/outils': 'Outils',
-            '/etudier-mon-projet': 'Étudier mon projet', '/mentions-legales': 'Mentions légales',
+            '/etudier-mon-projet': 'Présenter mon projet', '/mentions-legales': 'Mentions légales',
             '/confidentialite': 'Confidentialité', '/plan-du-site': 'Plan du site'}.get(path, path)
 
 
 def teaser_of(path):
-    p = ALL.get(path)
+    p = ALL.get(path.split('#')[0])
+    if p and '#calcul' in path:
+        return "Effectif du public, catégorie et sorties, calculés dans le navigateur."
     return (p.get('teaser') or strip(p.get('description'))) if p else ''
+
+
+def verified_of(p):
+    """Date de vérification d'une page : les pages créées ou reprises le 17 novembre 2026 portent cette date."""
+    if p and p.get('verified') == 'new':
+        return S.VERIFIED_NEW, S.VERIFIED_NEW_ISO
+    return S.VERIFIED, S.VERIFIED_ISO
 
 
 def crumbs_for(path):
@@ -89,10 +100,11 @@ def base_graph():
          "logo": {"@type": "ImageObject", "url": URL + "/icon-512.png", "width": 512, "height": 512},
          "image": URL + "/og/architecte-commerce.png", "telephone": "+33 7 56 83 24 28", "email": SITE['email'],
          "address": {"@type": "PostalAddress", "streetAddress": SITE['street'], "postalCode": SITE['postal'], "addressLocality": SITE['city'], "addressCountry": "FR"},
-         "areaServed": AREA, "founder": {"@id": PERSON_ID}, "priceRange": "Sur devis",
+         "areaServed": AREA, "founder": {"@id": PERSON_ID}, "priceRange": "Faisabilité 790 € HT ; autorisation de travaux ERP à partir de 2 200 € HT ; autres missions sur devis",
          "knowsAbout": ["architecture commerciale", "aménagement de local commercial", "création de boutique", "restaurant", "devanture et enseigne",
                         "établissements recevant du public", "autorisation de travaux", "accessibilité", "bail commercial", "PLU de Paris"],
-         "sameAs": ["https://dossier-erp-paris.fr/"], "description": "Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants, instituts, showrooms et enseignes, de la vérification du local avant le bail à l'ouverture."},
+         "sameAs": ["https://kalya-architecte.fr/", "https://www.architecte-erp.fr/", "https://dossier-erp-paris.fr/"],
+         "description": "Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants, instituts, showrooms et enseignes, de la faisabilité avant le bail à l'ouverture."},
         {"@type": "Person", "@id": PERSON_ID, "name": SITE['person'], "jobTitle": "Architecte", "worksFor": {"@id": ORG_ID},
          "image": URL + "/img/portrait-800.jpg",
          "hasCredential": {"@type": "EducationalOccupationalCredential", "credentialCategory": "Inscription au tableau de l'Ordre des architectes d'Île-de-France", "identifier": SITE['ordre']}},
@@ -102,8 +114,10 @@ def base_graph():
 
 def page_graph(path, page, kind='WebPage', faq=None, article=None, service=None, extra=None):
     g = base_graph()
+    _, iso = verified_of(page)
+    pub = S.VERIFIED_NEW_ISO if page.get('new_page') else S.VERIFIED_ISO
     wp = {"@type": kind, "@id": URL + path + '#page', "url": URL + path, "name": page['title'], "description": page['description'],
-          "inLanguage": "fr-FR", "isPartOf": {"@id": SITE_ID}, "about": {"@id": ORG_ID}, "dateModified": S.VERIFIED_ISO}
+          "inLanguage": "fr-FR", "isPartOf": {"@id": SITE_ID}, "about": {"@id": ORG_ID}, "dateModified": iso}
     if path != '/':
         g.append({"@type": "BreadcrumbList", "@id": URL + path + '#ariane', "itemListElement": [
             {"@type": "ListItem", "position": i + 1, "name": n, "item": URL + h} for i, (h, n) in enumerate(crumbs_for(path))]})
@@ -114,13 +128,19 @@ def page_graph(path, page, kind='WebPage', faq=None, article=None, service=None,
             {"@type": "Question", "name": f['q'], "acceptedAnswer": {"@type": "Answer", "text": strip(f['a'])}} for f in faq]})
     if article:
         g.append({"@type": "Article", "@id": URL + path + '#article', "headline": article['h1'], "description": article['description'],
-                  "author": {"@id": PERSON_ID}, "publisher": {"@id": ORG_ID}, "datePublished": S.VERIFIED_ISO, "dateModified": S.VERIFIED_ISO,
+                  "author": {"@id": PERSON_ID}, "publisher": {"@id": ORG_ID}, "datePublished": pub, "dateModified": iso,
                   "mainEntityOfPage": {"@id": URL + path + '#page'}, "inLanguage": "fr-FR",
                   "citation": [S.SOURCES[k][1] for k in article.get('sources', [])]})
     if service:
         g.append({"@type": "Service", "@id": URL + path + '#service', "name": service.get('short') or service['h1'],
                   "serviceType": service.get('service_type', 'Architecture commerciale'), "provider": {"@id": ORG_ID},
                   "description": service['description'], "areaServed": AREA})
+    if page.get('jsonld_offers'):
+        g.append({"@type": "OfferCatalog", "@id": URL + path + '#tarifs', "name": "Honoraires publiés de Kalya Architecte pour les commerces",
+                  "itemListElement": [{"@type": "Offer", "name": n, "price": str(v), "priceCurrency": "EUR", "description": d,
+                                       "priceSpecification": {"@type": "PriceSpecification", "price": str(v), "priceCurrency": "EUR", "valueAddedTaxIncluded": False},
+                                       "seller": {"@id": ORG_ID}, "areaServed": AREA, "url": URL + path}
+                                      for n, v, d in page['jsonld_offers']]})
     if extra:
         g.extend(extra)
     return json.dumps({"@context": "https://schema.org", "@graph": g}, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/')
@@ -139,6 +159,9 @@ def typo(doc):
             out.append(part); continue
         part = re.sub(r' ([:;?!])(?=\s|$|<|[^/\w])', ' \\1', part)
         part = part.replace('« ', '« ').replace(' »', ' »')
+        part = re.sub(r'(\d) (\d{3})(?!\d)', '\\1\u202f\\2', part)
+        part = re.sub(r'(\d) (€|%|m²|m\b|cm\b|km\b|mois\b|ans\b|HT\b|TTC\b|heures\b|jours\b|personnes\b|places\b)', '\\1\u00a0\\2', part)
+        part = part.replace('n° ', 'n°\u00a0')
         out.append(part)
     return ''.join(out)
 
@@ -158,13 +181,15 @@ def write(path, tpl, page, jsonld, indexable=True, **kw):
     page['path'] = path
     page.setdefault('noindex', not indexable)
     ctx = common(path, page)
+    ctx['pv'], ctx['pv_iso'] = verified_of(kw.get('p'))
+    page['lastmod'] = ctx['pv_iso']
     ctx.update(kw)
     ctx['jsonld'] = jsonld
     out = typo(env.get_template(tpl).render(**ctx))
     f = DIST / ('index.html' if path == '/' else path.lstrip('/') + '.html')
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(out, encoding='utf-8')
-    PAGES_OUT.append((path, indexable, page.get('title', ''), page.get('description', '')))
+    PAGES_OUT.append((path, indexable, page.get('title', ''), page.get('description', ''), page['lastmod']))
 
 
 def prep(p):
@@ -188,12 +213,12 @@ def main():
     shutil.copytree(STATIC, DIST)
 
     # Accueil
-    home = {"title": "Architecte commerce à Paris : boutique, restaurant, enseigne | Kalya",
-            "description": "Architecte de commerces à Paris et en Île-de-France : local vérifié avant le bail, plans conformes ERP, autorisations (devanture, enseigne, travaux), chantier jusqu'à l'ouverture.",
-            "section": "/"}
+    home = {"title": "Architecte commerce à Paris : boutique, restaurant, ERP | Kalya",
+            "description": "Architecte de commerces à Paris : local vérifié avant le bail (790 € HT), autorisation de travaux ERP dès 2 200 € HT, devanture, enseigne, chantier. Réponse sous 24 h.",
+            "section": "/", "verified": "new"}
     write('/', 'home.html', home, page_graph('/', home, faq=HOME.FAQ, service={"h1": "Architecture de commerces", "short": "Architecture de commerces à Paris", "description": home['description']}),
-          acts=D.ACTS, elevation=D.elevation('boutique', 'hero'), plan=D.plan_local('plan'), legend=HOME.LEGEND, checks=HOME.CHECKS,
-          vac=HOME.VACANCY, steps=HOME.STEPS, gantt=HOME.GANTT, deliverables=HOME.DELIVERABLES, faq=HOME.FAQ)
+          p=home, acts=D.ACTS, scene=D.scene('boutique', 'hero'), scene_desc=D.SCENE_DESC, plan=D.plan_local('plan'), legend=HOME.LEGEND, checks=HOME.CHECKS,
+          steps=HOME.STEPS, gantt=HOME.GANTT, faq=HOME.FAQ)
 
     # Pages éditoriales
     for raw in EDITORIAL:
@@ -229,7 +254,7 @@ def main():
 
     # Plan du site
     groups = [
-        ("Kalya Architecte", [('/', 'Accueil'), ('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Étudier mon projet')]),
+        ("Kalya Architecte", [('/', 'Accueil'), ('/honoraires', 'Honoraires'), ('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Présenter mon projet')]),
         ("Projets", [('/votre-projet', 'Tous les projets')] + [(h, l) for h, l, _ in S.SITUATIONS]),
         ("Activités", [(h, l) for h, l, _ in S.ACTIVITES]),
         ("Outils", [('/outils', 'Tous les outils')] + [(h, l) for h, l, _ in S.OUTILS]),
@@ -244,29 +269,38 @@ def main():
 
     # ---------------------------------------------------------------- fichiers techniques
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for path, idx, _, _ in PAGES_OUT:
+    for path, idx, _, _, lm in PAGES_OUT:
         if idx:
-            sm.append(f'<url><loc>{URL}{path}</loc><lastmod>{S.VERIFIED_ISO}</lastmod></url>')
+            sm.append(f'<url><loc>{URL}{path}</loc><lastmod>{lm}</lastmod></url>')
     sm.append('</urlset>')
     (DIST / 'sitemap.xml').write_text('\n'.join(sm) + '\n', encoding='utf-8')
     (DIST / 'robots.txt').write_text(f"User-agent: *\nAllow: /\n\nSitemap: {URL}/sitemap.xml\n", encoding='utf-8')
 
-    llms = ["# Kalya Architecte — architecte-commerce.fr", "",
-            "> Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants et bars, instituts et salons, boulangeries et métiers de bouche, showrooms, enseignes en réseau. "
-            "Vérification du local avant la signature du bail, conception, dossiers d'autorisation (déclaration préalable, autorisation de travaux ERP, enseigne, permis de construire), consultation des entreprises, suivi de chantier, ouverture. "
-            f"Kalya Architecte est le nom commercial de Quentin Piepszownik, architecte inscrit à l'Ordre des architectes d'Île-de-France (n° {SITE['ordre']}). Adresse : {SITE['address']}. Téléphone : {SITE['phone']}. Courriel : {SITE['email']}.", "",
-            f"Les règles citées sur ce site renvoient à leurs textes (règlement de sécurité ERP, code de la construction, code de l'urbanisme, PLU bioclimatique de Paris, code de l'environnement, règlement sanitaire de Paris, code de commerce) et ont été vérifiées le {S.VERIFIED}.", "",
-            "Sites spécialisés du même architecte : dossier-erp-paris.fr (dossier ERP à Paris, par Kalya Architecte) ; architecte-erp.fr (établissements recevant du public).", ""]
+    llms = ["# Kalya Architecte, architecte-commerce.fr", "",
+            "> Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants et bars, instituts et salons, boulangeries et métiers de bouche, showrooms, réseaux d'enseignes. "
+            "Faisabilité d'un local avant la signature du bail, conception, dossiers d'autorisation (autorisation de travaux ERP, déclaration préalable de devanture, enseigne, permis de construire), consultation des entreprises et, sur demande, suivi de chantier.", "",
+            "## Identité",
+            f"- Kalya Architecte est le nom commercial de {SITE['person']}, architecte DE-HMONP inscrit à l'Ordre des architectes d'Île-de-France (n° {SITE['ordre']}), entrepreneur individuel (SIREN {SITE['siren']}), assuré à la Mutuelle des Architectes Français.",
+            f"- Établissement parisien : {SITE['address']}. Téléphone : {SITE['phone']}. Courriel : {SITE['email']}. Réponse sous 24 heures ; devis gratuit, rien à payer avant sa signature.", "",
+            "## Prix publiés (HT, Paris et petite couronne, établissement de 5e catégorie sans hébergement)",
+            "- Faisabilité avant signature d'un bail : 790 € HT (948 € TTC) jusqu'à 100 m² ; note avec croquis et avis : faisable, faisable sous conditions ou bloquant.",
+            "- Autorisation de travaux ERP : 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² (150 m² : 2 550 € ; 200 m² : 2 900 € ; 300 m² : 3 600 € ; 400 m² : 4 300 €). Dossier prêt en une semaine environ, pièces réunies.",
+            "- Options : relevé par géomètre 900 € HT jusqu'à 100 m² puis 4 € HT/m² ; dérogation d'accessibilité 450 € HT par règle ; visite supplémentaire 250 € HT ; modification après validation 110 € HT de l'heure.",
+            "- Déclaration préalable de devanture, enseigne, permis de construire, conception complète et suivi de chantier : sur devis.",
+            f"- Détail : {URL}/honoraires (mêmes prix que https://www.architecte-erp.fr/tarifs).", "",
+            f"Les règles citées sur ce site renvoient à leurs textes (règlement de sécurité ERP, code de la construction, code de l'urbanisme, PLU bioclimatique de Paris, code de l'environnement, règlement sanitaire de Paris, code de commerce), dans leur version en vigueur à la date indiquée sur chaque page.", "",
+            "Sites du même architecte : kalya-architecte.fr (Kalya Architecte à Paris) ; architecte-erp.fr (établissements recevant du public) ; dossier-erp-paris.fr (guides du dossier ERP à Paris).", ""]
     for title, items in [("Projets", [(h, l) for h, l, _ in S.SITUATIONS]), ("Activités", [(h, l) for h, l, _ in S.ACTIVITES]),
-                         ("Outils", [(h, l) for h, l, _ in S.OUTILS]), ("Guides", [(g['path'], g['h1']) for g in G.PAGES]),
-                         ("Zones", S.ZONES), ("Kalya Architecte", [('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Contact')])]:
+                         ("Guides", [(g['path'], g['h1']) for g in G.PAGES]), ("Outils", [(h, l) for h, l, _ in S.OUTILS]),
+                         ("Zones", S.ZONES), ("Kalya Architecte", [('/honoraires', 'Honoraires'), ('/mission', 'Méthode'), ('/references', 'Références'), ('/a-propos', "L'architecte"), ('/etudier-mon-projet', 'Présenter mon projet')])]:
         llms.append(f"## {title}")
         seen = set()
         for h, l in items:
             if h in seen:
                 continue
             seen.add(h)
-            d = ALL[h]['description'] if h in ALL else ''
+            base = h.split('#')[0]
+            d = ALL[base]['description'] if base in ALL else ''
             llms.append(f"- [{l}]({URL}{h}){': ' + d if d else ''}")
         llms.append('')
     llms.append("## Questions fréquentes")
@@ -276,7 +310,7 @@ def main():
     (DIST / 'llms.txt').write_text('\n'.join(llms), encoding='utf-8')
 
     (DIST / 'site.webmanifest').write_text(json.dumps({"name": "Kalya Architecte — commerces", "short_name": "Kalya", "start_url": "/", "display": "standalone",
-        "background_color": "#133A63", "theme_color": "#133A63", "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False), encoding='utf-8')
+        "background_color": "#0F201B", "theme_color": "#0F201B", "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False), encoding='utf-8')
 
     vercel = {
         "$schema": "https://openapi.vercel.sh/vercel.json", "framework": None, "buildCommand": "", "installCommand": "", "outputDirectory": "dist",

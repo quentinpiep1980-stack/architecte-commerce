@@ -1,14 +1,13 @@
 <section class="final" aria-labelledby="final-t">
-  <div class="wrap">
-    <h2 id="final-t">Parlons de votre local.</h2>
+  <div class="wrap final-g">
+    <h2 id="final-t">{{ final_t or 'Parlons de votre local.' }}</h2>
     <div>
-      <p>Décrivez votre projet en cinq minutes : activité, adresse ou quartier, surface, échéance. Réponse d'un architecte, pas d'un commercial.</p>
-      <ul class="coords">
-        <li><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></li>
-        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        <li>{{ site.address }}</li>
-      </ul>
-      <a class="btn btn-ink" href="/etudier-mon-projet">Faire étudier mon projet</a>
+      <p>Décrivez votre projet en cinq minutes : activité, adresse ou quartier, surface, échéance. Réponse d'un architecte sous 24 heures, devis gratuit.</p>
+      <a class="big-tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
+      <div class="ctas">
+        <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
+        <a class="btn btn-filet" href="mailto:{{ site.email }}">{{ site.email }}</a>
+      </div>
     </div>
   </div>
 </section>

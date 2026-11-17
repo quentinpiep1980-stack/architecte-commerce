@@ -1,15 +1,4 @@
-{% extends "base.html" %}
-{% block main %}
-<section class="planche draw" aria-labelledby="h1">
-  <div class="wrap">
-    <nav class="crumbs" aria-label="Fil d'Ariane"><ol>{% for h, l in crumbs %}<li>{% if loop.last %}<span aria-current="page">{{ l }}</span>{% else %}<a href="{{ h }}">{{ l }}</a>{% endif %}</li>{% endfor %}</ol></nav>
-    <h1 id="h1">{{ p.h1 }}</h1>
-    <p class="lede">{{ p.answer }}</p>
-  </div>
-</section>
-<div class="wrap body-g">
-  <div>
-    <form id="eff" class="tool" novalidate>
+<form id="eff" class="tool" novalidate>
       <fieldset class="q"><legend>Votre établissement</legend>
         <div class="chips"><label class="chip"><input type="radio" name="type" value="M" checked><span>Magasin, boutique (type M)</span></label><label class="chip"><input type="radio" name="type" value="N"><span>Restaurant, bar (type N)</span></label></div>
       </fieldset>
@@ -52,24 +41,3 @@
       <div class="res" id="eff-res" aria-live="polite"></div>
       <div class="res-note" id="eff-note"></div>
     </form>
-    <article class="prose" style="margin-top:56px">
-      <h2 id="regles">Les règles appliquées</h2>
-      <p><strong>Magasin (M 2)</strong> : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage ; 1 pour 6 m² au 2e étage ; 1 pour 15 m² aux étages supérieurs. Boutique de moins de 300 m² en centre commercial : 1 pour 6 m² à tous les niveaux. Magasin à faible densité : 1 pour 9 m². Magasin réservé aux professionnels : déclaration contrôlée.</p>
-      <p><strong>Restaurant (N 2)</strong> : places assises déclarées, « dans la limite de 1 personne pour 2 m² » ; le texte ne dit pas s'il s'agit d'un plafond ou d'un plancher, et des commissions ont retenu des places déclarées au-delà de cette densité : le calcul retient donc la plus élevée des deux valeurs ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m².</p>
-      <p><strong>5e catégorie (PE 2)</strong> : magasin sous 100 personnes au sous-sol, 100 aux étages, 200 au total ; restaurant sous 100, 200 et 200. <strong>Catégories 1 à 4 (R143-19)</strong> : 4e jusqu'à 300 personnes, 3e de 301 à 700, 2e de 701 à 1 500, 1re au-delà. <strong>Sorties (PE 11)</strong> : selon l'effectif de chaque local, niveau et établissement, de 1 dégagement de 0,90 m à 2 de 1,40 m.</p>
-      <p>Les résultats sont arrondis à l'unité supérieure, par prudence. Pour une boutique à rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m, PE 3 § 3 calcule l'effectif à 1 personne par m² sur le tiers de la surface des locaux accessibles au public : saisissez alors cette surface au rez-de-chaussée, et non la seule surface de vente.</p>
-      <h2 id="faq">Questions fréquentes</h2>
-      <div class="faq">{% for f in p.faq %}<details><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>{% endfor %}</div>
-      <aside class="sources" aria-labelledby="src-t"><h2 id="src-t">Textes et sources</h2><p class="verif">Consultés le {{ verified }}. Résultat indicatif : la notice de sécurité du projet fait foi.</p><ol>{% for k in p.sources %}{% set s = sources[k] %}<li><a href="{{ s[1] }}" rel="noopener">{{ s[0] }}</a> <span class="meta">— {{ s[2] }}</span></li>{% endfor %}</ol></aside>
-    </article>
-  </div>
-  <aside class="aside"><div class="aside-in">
-    <div class="aside-cta"><h2>Faire établir la notice</h2><p>Classement, sorties, accessibilité : l'architecte établit la notice de sécurité et le dossier d'autorisation de travaux.</p><a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a><a class="tel" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></div>
-    <nav class="related" aria-label="À lire"><h2>À lire</h2><ul>
-      <li><a href="/guides/erp-commerce-categorie-effectif"><b>Classement ERP d'un commerce</b><span>Type, effectif, catégorie, obligations.</span></a></li>
-      <li><a href="https://dossier-erp-paris.fr/classement-erp-types-categories/" rel="noopener"><b>Classement des ERP</b><span>Sur dossier-erp-paris.fr.</span></a></li>
-    </ul></nav>
-  </div></aside>
-</div>
-{% endblock %}
-{% block scripts %}<script src="/js/outils.js?v={{ v }}" defer></script>{% endblock %}

@@ -1,32 +1,34 @@
 {% extends "base.html" %}
 {% block main %}
 {% include "planche_simple.html" %}
-<div class="wrap body-g">
+<div class="wrap body-g two">
   <article class="prose">
-    <h2>Un architecte pour les commerces</h2>
-    <p>{{ site.person }} est architecte diplômé d'État, habilité à exercer la maîtrise d'œuvre en son nom propre, inscrit au tableau de l'Ordre des architectes d'{{ site.ordre_region }} sous le numéro {{ site.ordre }}. Il exerce en entreprise individuelle sous le nom commercial Kalya Architecte et conduit lui-même chaque mission, de la visite du local à la réception des travaux.</p>
+    <h2 id="architecte">Un architecte pour les commerces</h2>
+    <p>{{ site.person }} est architecte diplômé d'État, habilité à exercer la maîtrise d'œuvre en son nom propre (DE-HMONP), inscrit au tableau de l'Ordre des architectes d'{{ site.ordre_region }} sous le numéro {{ site.ordre }}. Il exerce en entreprise individuelle sous le nom commercial Kalya Architecte et conduit lui-même chaque mission, de la faisabilité à la réception des travaux.</p>
     <p>Son exercice est centré sur ce qui fait échouer les projets de commerce quand on le découvre trop tard : la réglementation des établissements recevant du public, les autorisations d'urbanisme, la faisabilité d'un local, les dossiers de consultation des entreprises. Il conduit des dossiers ERP de restaurants, de commerces et d'établissements de service à Paris et en Île-de-France.</p>
-    <h2>Deux sites spécialisés</h2>
-    <p>Sous le nom de Kalya Architecte, il publie <a href="https://dossier-erp-paris.fr/" rel="noopener">dossier-erp-paris.fr</a>, une série de guides sur le dossier d'un ERP à Paris où chaque règle renvoie à son texte. <a href="https://www.architecte-erp.fr/" rel="noopener">architecte-erp.fr</a> présente son activité consacrée aux établissements recevant du public. Ce site, architecte-commerce.fr, en est le versant commerce : boutiques, restaurants, instituts, enseignes.</p>
-    <h2>Comment nous travaillons</h2>
+    <h2 id="sites">Trois autres sites</h2>
+    <p><a href="{{ erp.kalya[1] }}" rel="noopener">kalya-architecte.fr</a> présente Kalya Architecte à Paris, pour les particuliers, les copropriétés et les professionnels. <a href="{{ erp.dep[1] }}" rel="noopener">dossier-erp-paris.fr</a> réunit des guides sur le dossier d'un ERP à Paris, où chaque règle renvoie à son texte. <a href="{{ erp.aerp[1] }}" rel="noopener">architecte-erp.fr</a> présente son activité consacrée aux établissements recevant du public. Ce site, architecte-commerce.fr, en est le versant commerce : boutiques, restaurants, instituts, enseignes.</p>
+    <h2 id="principes">Comment il travaille</h2>
     <ul>
-      <li>Le local d'abord : une visite avant le bail vaut mieux que dix plans après.</li>
-      <li>Une mission écrite, avec ses livrables et sa rémunération, avant de commencer.</li>
+      <li>Le local d'abord : une faisabilité avant le bail vaut mieux que dix plans après.</li>
+      <li>Un devis écrit, gratuit, avec ses livrables et son prix, avant de commencer ; rien à payer avant sa signature.</li>
       <li>Des règles citées avec leur texte ; des hypothèses annoncées comme telles.</li>
       <li>Aucun intérêt dans les travaux, le mobilier ou les équipements prescrits.</li>
       <li>Les compétences complémentaires (bureaux d'études, économiste, cuisiniste) nommées dans la proposition lorsque le projet les exige.</li>
     </ul>
-    <h2>Nous joindre</h2>
-    <p>{{ site.address }}. Téléphone : <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>. Courriel : <a href="mailto:{{ site.email }}">{{ site.email }}</a>. L'architecte se déplace pour visiter le local que vous visez.</p>
+    <h2 id="joindre">Le joindre</h2>
+    <p>{{ site.address }}. Téléphone : <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>. Courriel : <a href="mailto:{{ site.email }}">{{ site.email }}</a>. Réponse sous 24 heures.</p>
   </article>
-  <aside class="aside"><div class="aside-in">
-    <figure style="margin:0"><picture><source type="image/avif" srcset="/img/portrait-480.avif 480w, /img/portrait-800.avif 800w" sizes="(max-width: 1080px) 100vw, 30vw"><source type="image/webp" srcset="/img/portrait-480.webp 480w, /img/portrait-800.webp 800w" sizes="(max-width: 1080px) 100vw, 30vw"><img class="portrait" src="/img/portrait-800.jpg" width="800" height="800" alt="Portrait de Quentin Piepszownik, architecte." loading="lazy" decoding="async"></picture><figcaption class="small muted" style="margin-top:8px">{{ site.person }}, architecte</figcaption></figure>
-    <div class="cartouche" style="border-color:var(--plan);color:var(--encre)"><div class="ttl" style="color:var(--encre);border-color:var(--plan)"><span>Kalya Architecte</span><span>Identité</span></div><dl>
-      <dt style="color:var(--encre-2)">Architecte</dt><dd style="color:var(--encre)">{{ site.person }}</dd>
-      <dt style="color:var(--encre-2)">Ordre</dt><dd style="color:var(--encre)">Île-de-France, n° {{ site.ordre }}</dd>
-      <dt style="color:var(--encre-2)">Assurance</dt><dd style="color:var(--encre)">MAF, RC professionnelle et décennale</dd>
-      <dt style="color:var(--encre-2)">SIREN</dt><dd style="color:var(--encre)">{{ site.siren }}</dd>
-    </dl></div>
+  <aside class="aside" aria-label="Identité"><div class="aside-in">
+    <figure class="portrait-f"><picture><source type="image/avif" srcset="/img/portrait-480.avif 480w, /img/portrait-800.avif 800w" sizes="(max-width: 1100px) 260px, 30vw"><source type="image/webp" srcset="/img/portrait-480.webp 480w, /img/portrait-800.webp 800w" sizes="(max-width: 1100px) 260px, 30vw"><img src="/img/portrait-800.jpg" width="800" height="800" alt="Portrait de Quentin Piepszownik, architecte" loading="lazy" decoding="async"></picture><figcaption>{{ site.person }}, architecte</figcaption></figure>
+    <dl class="fiche">
+      <div><dt>Titre</dt><dd>Architecte DE-HMONP</dd></div>
+      <div><dt>Ordre</dt><dd>Île-de-France, n° {{ site.ordre }}</dd></div>
+      <div><dt>Assurance</dt><dd>MAF, responsabilités civile professionnelle et décennale</dd></div>
+      <div><dt>Statut</dt><dd>Entrepreneur individuel, nom commercial Kalya Architecte</dd></div>
+      <div><dt>SIREN</dt><dd>{{ site.siren }}</dd></div>
+      <div><dt>Adresse</dt><dd>{{ site.address }}</dd></div>
+    </dl>
   </div></aside>
 </div>
 {% include "final.html" %}

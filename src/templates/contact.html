@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block main %}
 {% include "planche_simple.html" %}
-<div class="wrap body-g">
+<div class="wrap body-g two">
   <div>
     <div id="erreur" class="form-err callout" role="alert"><strong>La demande n'est pas partie.</strong><p>Un champ obligatoire manquait ou l'envoi a échoué. Vérifiez le formulaire, ou écrivez directement à <a href="mailto:{{ site.email }}">{{ site.email }}</a>, ou appelez le {{ site.phone }}.</p></div>
     <form class="form tool" method="post" action="{{ site.form_action }}" accept-charset="UTF-8">
@@ -15,14 +15,35 @@
       <div class="hp" aria-hidden="true"><label for="f-web">Site web</label><input id="f-web" name="site_web" tabindex="-1" autocomplete="off"></div>
       <div class="cf-turnstile" data-sitekey="0x4AAAAAAFq4yarA8dKbeKK9" data-language="fr" data-theme="light" data-size="flexible" style="margin:8px 0"></div><script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
       <p class="form-note full">Les champs marqués <span class="req">*</span> sont obligatoires. Vos données servent uniquement à répondre à votre demande : voir la <a href="/confidentialite">politique de confidentialité</a>.</p>
-      <div class="full"><button class="btn btn-vitrine" type="submit">Envoyer ma demande</button></div>
+      <div class="full"><button class="btn btn-or" type="submit">Envoyer ma demande</button></div>
     </form>
+    <div class="prose prep">
+      <h2 id="preparer">Ce qu'il faut préparer</h2>
+      <p>Un premier échange utile tient en six réponses. Avec elles, l'architecte peut déjà dire ce qui est jouable et vous adresser un devis.</p>
+      <ol>
+        <li><strong>Activité</strong> : que vend-on, que prépare-t-on sur place, combien de personnes travaillent ?</li>
+        <li><strong>Client</strong> : qui entre, pourquoi, combien de temps reste-t-il ?</li>
+        <li><strong>Format</strong> : surface de vente, réserve, laboratoire ou cuisine, places assises.</li>
+        <li><strong>Budget</strong> : l'enveloppe globale, préouverture comprise.</li>
+        <li><strong>Échéance</strong> : date d'ouverture souhaitée, date à laquelle le loyer commence à courir.</li>
+        <li><strong>Local</strong> : adresse, photos, annonce, projet de bail ou bail signé.</li>
+      </ol>
+      <h3>Les documents utiles</h3>
+      <ul>
+        <li>Les plans existants du local, cotés, avec les niveaux de l'accès : ils servent de base aux plans du projet. S'ils ne sont pas exploitables, un relevé par géomètre est proposé en option, et vous le savez avant le devis.</li>
+        <li>Le projet de bail et ses annexes : diagnostic de performance énergétique, état des risques, inventaire des charges.</li>
+        <li>Le règlement de copropriété et les derniers procès-verbaux d'assemblée.</li>
+        <li>Les autorisations obtenues par l'exploitant précédent, s'il y en a.</li>
+        <li>Votre concept : planche d'ambiance, références, charte de marque.</li>
+      </ul>
+    </div>
   </div>
   <aside class="aside"><div class="aside-in">
-    <div class="aside-cta"><h2>Préférez le téléphone ?</h2><p>{{ site.address }}<br>Du lundi au vendredi.</p><a class="btn btn-vitrine" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><a class="tel" href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+    <div class="aside-cta"><h2>Préférez le téléphone ?</h2><p>Réponse sous 24 heures. Devis gratuit, rien à payer avant sa signature.<br>{{ site.address }}</p><a class="btn btn-or" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a><a class="tel" href="mailto:{{ site.email }}">{{ site.email }}</a></div>
     <nav class="related" aria-label="Avant d'écrire"><h2>Avant d'écrire</h2><ul>
-      <li><a href="/diagnostic-local-commercial"><b>Tester un local en 12 questions</b><span>Un premier verdict avant la visite.</span></a></li>
-      <li><a href="/guides/preparer-projet-commerce"><b>Préparer son projet</b><span>Les six réponses qui font gagner du temps.</span></a></li>
+      <li><a href="#preparer"><b>Ce qu'il faut préparer</b><span>Six réponses et quelques documents.</span></a></li>
+      <li><a href="/honoraires"><b>Les honoraires</b><span>Faisabilité 790 € HT, autorisation de travaux dès 2 200 € HT.</span></a></li>
+      <li><a href="/diagnostic-local-commercial"><b>Tester un local en 12 questions</b><span>Un premier verdict, avant la faisabilité.</span></a></li>
     </ul></nav>
   </div></aside>
 </div>

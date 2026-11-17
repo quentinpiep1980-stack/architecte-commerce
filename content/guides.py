@@ -80,7 +80,7 @@ PAGES = [
             ("Simuler votre calendrier administratif", CAL_WIDGET),
             ("Le chemin critique d'une ouverture", """<ol>
 <li><strong>Maîtrise du local</strong> : vérification avant bail, négociation, signature.</li>
-<li><strong>Conception</strong> : relevé, esquisse, plans, notices de sécurité et d'accessibilité.</li>
+<li><strong>Conception</strong> : à partir des plans existants, esquisse, plans, notices de sécurité et d'accessibilité.</li>
 <li><strong>Dossiers</strong> : dépôt simultané de la déclaration préalable, de l'autorisation de travaux, de l'enseigne.</li>
 <li><strong>Consultation des entreprises</strong> pendant l'instruction, pour signer dès l'accord.</li>
 <li><strong>Commandes longues</strong> : mobilier sur mesure, enseigne, froid, cuisine, à lancer tôt.</li>
@@ -94,7 +94,7 @@ PAGES = [
              + erp_link('/autorisation-ouverture-erp-paris/', 'Fin de travaux et autorisation d\'ouverture à Paris', 'Déclaration d\'achèvement, attestations, commission : les trois formalités à ne pas confondre.')),
         ],
         "sources": ["r42323", "r42324", "r58113", "r12216", "r12221", "r42328", "r42515", "r1227", "pe4", "vie_erp"],
-        "related": ["/guides/autorisations-travaux-commerce", "/guides/preparer-projet-commerce", "/renovation-commerce-site-occupe"],
+        "related": ["/guides/autorisations-travaux-commerce", "/renovation-magasin"],
     },
     {
         "path": "/guides/budget-renovation-commerce", "kind": "guide", "short": "Budget d'un commerce",
@@ -138,47 +138,59 @@ PAGES = [
         "related": ["/avant-signature-bail-commercial", "/guides/bail-commercial-travaux", "/guides/calendrier-ouverture-magasin"],
     },
     {
-        "path": "/guides/preparer-projet-commerce", "kind": "guide", "short": "Préparer son projet",
-        "teaser": "Ce qu'il faut réunir avant le premier échange.",
-        "title": "Préparer son projet de commerce avant le premier rendez-vous | Kalya",
-        "description": "Préparer un projet de boutique ou de restaurant : activité, client, surface, budget, échéance, locaux repérés, bail, documents. La liste à réunir avant d'appeler un architecte.",
-        "h1": "Préparer son projet de commerce : ce qu'il faut réunir avant d'appeler",
-        "answer": "Un premier échange utile tient en six réponses : votre activité et votre client, la surface et le format visés, le budget global, l'échéance d'ouverture, les locaux repérés (adresses, photos, plans) et l'état du bail (projet, signé, à renouveler). Avec cela, un architecte peut déjà dire ce qui est jouable.",
+        "path": "/guides/architecte-obligatoire-commerce", "kind": "guide", "short": "Faut-il un architecte ?",
+        "teaser": "Obligatoire pour un permis de construire déposé par une société ; ailleurs, un choix.",
+        "title": "Faut-il un architecte pour un commerce ou un restaurant ? | Kalya",
+        "description": "Architecte obligatoire ou non pour un commerce ou un restaurant : permis de construire (toujours pour une société), déclaration préalable, autorisation de travaux ERP, enseigne.",
+        "h1": "Faut-il un architecte pour ouvrir un commerce ou un restaurant ?",
+        "verified": "new",
+        "answer": "Le recours à un architecte est obligatoire pour établir le projet d'un permis de construire. Seule une personne physique qui construit pour elle-même 150 m² de surface de plancher au plus en est dispensée : une société (SARL, SAS, SCI) qui dépose un permis de construire doit toujours recourir à un architecte. Pour une déclaration préalable de devanture, une autorisation de travaux ERP ou une autorisation d'enseigne, la loi n'impose pas d'architecte.",
         "bullets": [
-            "L'activité exacte : vente, restauration, service, production sur place.",
-            "Le client et sa mission d'achat : urgence, découverte, conseil, retrait de commande.",
-            "La surface visée, le budget global, l'échéance d'ouverture.",
-            "Les locaux repérés : adresse, photos, plans, annonce, projet de bail.",
+            "Permis de construire : architecte obligatoire (loi du 3 janvier 1977, art. 3 et 4), sauf personne physique construisant pour elle-même au plus 150 m² de surface de plancher (code de l'urbanisme, R*431-2).",
+            "Une société n'entre pas dans cette exception : un permis de construire déposé par une SARL ou une SAS passe par un architecte.",
+            "Déclaration préalable (devanture, vitrine, store) : pas d'obligation de recourir à un architecte.",
+            "Autorisation de travaux ERP (Cerfa n° 13824) : pas d'obligation légale d'architecte ; le dossier comprend des plans et une notice d'accessibilité (D122-12).",
+            "Enseigne : autorisation du maire, sans obligation d'architecte (code de l'environnement, L581-18).",
         ],
         "sections": [
-            ("Les six réponses à préparer", """<ol>
-<li><strong>Activité</strong> : que vend-on, que prépare-t-on sur place, combien de personnes travaillent ?</li>
-<li><strong>Client</strong> : qui entre, pourquoi, combien de temps reste-t-il, combien dépense-t-il ?</li>
-<li><strong>Format</strong> : surface de vente, réserve, laboratoire ou cuisine, places assises.</li>
-<li><strong>Budget</strong> : l'enveloppe globale, y compris préouverture.</li>
-<li><strong>Échéance</strong> : date d'ouverture souhaitée, date à laquelle le loyer commence à courir.</li>
-<li><strong>Local</strong> : adresse, photos, plans, annonce, projet de bail ou bail signé.</li>
-</ol>"""),
-            ("Les documents utiles", """<ul>
-<li>Le projet de bail et ses annexes : diagnostic de performance énergétique, état des risques, inventaire des charges.</li>
-<li>Les plans du local et ceux de l'immeuble, s'ils existent.</li>
-<li>Le règlement de copropriété et les derniers procès-verbaux d'assemblée.</li>
-<li>Les autorisations obtenues par l'exploitant précédent, s'il y en a.</li>
-<li>Votre concept : planche d'ambiance, références, charte de marque.</li>
+            ("La règle, autorisation par autorisation", """<div class="table-wrap"><table>
+<caption class="sr">Recours obligatoire à un architecte selon l'autorisation demandée pour un commerce</caption>
+<thead><tr><th scope="col">Autorisation</th><th scope="col">Quand un commerce en a besoin</th><th scope="col">Architecte obligatoire ?</th></tr></thead>
+<tbody>
+<tr><td>Permis de construire</td><td>Façade ou structure modifiées avec changement de destination, création de surface au-delà des seuils de la déclaration préalable</td><td>Oui, pour une société ; pour une personne physique, au-delà de 150 m² de surface de plancher (R*431-2)</td></tr>
+<tr><td>Déclaration préalable</td><td>Devanture, vitrine, store, aspect extérieur modifié</td><td>Non</td></tr>
+<tr><td>Autorisation de travaux ERP</td><td>Aménager, cloisonner ou modifier un établissement recevant du public</td><td>Non</td></tr>
+<tr><td>Autorisation d'enseigne</td><td>Poser ou changer une enseigne, à Paris toujours</td><td>Non</td></tr>
+</tbody></table></div>
+<p>Un permis de construire portant sur un ERP tient lieu d'autorisation de travaux : dans ce cas, l'architecte établit l'ensemble.</p>"""),
+            ("Pourquoi une société n'échappe pas à l'architecte", """<p>L'exception de l'article R*431-2 du code de l'urbanisme vise « les personnes physiques » (et certaines exploitations agricoles) qui déclarent vouloir édifier ou modifier pour elles-mêmes une construction dont la surface de plancher n'excède pas 150 m². Une SARL, une SAS ou une SCI n'est pas une personne physique : dès qu'un permis de construire est nécessaire, son projet architectural est établi par un architecte (loi n° 77-2 du 3 janvier 1977, art. 3).</p>
+<p>Pour des travaux sur une construction existante, le recours devient aussi obligatoire lorsque les travaux portent la surface de plancher ou l'emprise au sol de l'ensemble au-delà de ces plafonds (R*431-2, dernier alinéa).</p>"""),
+            ("Quand l'architecte reste utile sans être obligatoire", """<p>La plupart des ouvertures de boutique ou de restaurant se font sans permis de construire : une déclaration préalable pour la devanture, une autorisation de travaux pour l'intérieur, une autorisation d'enseigne. La loi n'impose alors personne. Ce qui se joue est ailleurs :</p>
+<ul>
+<li><strong>La faisabilité avant signature</strong> : destination, classement ERP, accessibilité, extraction, copropriété, autorisations nécessaires.</li>
+<li><strong>Le plan</strong> : effectif, dégagements, accessibilité dessinés avec le règlement, plutôt que corrigés après un refus.</li>
+<li><strong>Le dossier</strong> : un dossier incomplet suspend le délai d'instruction de quatre mois jusqu'à la réception des pièces manquantes (code de la construction, R122-16).</li>
+<li><strong>La responsabilité</strong> : un architecte inscrit à l'Ordre est assuré pour les missions qu'il signe (loi du 3 janvier 1977, art. 16).</li>
 </ul>"""),
-            ("Ensuite", """<p>Envoyez ces éléments par le <a href="/etudier-mon-projet">formulaire</a> ou appelez le 07 56 83 24 28. Si le bail n'est pas signé, la priorité est la visite du local : le <a href="/diagnostic-local-commercial">diagnostic en 12 questions</a> vous prépare à cette visite.</p>"""),
+            ("Architecte, architecte d'intérieur, agenceur", """<p>Le titre d'architecte est protégé : seul un architecte inscrit au tableau de l'Ordre peut le porter et signer le projet architectural d'un permis de construire. Un architecte d'intérieur ou un agenceur peut concevoir un aménagement et préparer une déclaration préalable ou une autorisation de travaux ; il ne peut pas signer un permis de construire soumis au recours obligatoire. Pour vérifier une inscription, l'annuaire de l'Ordre des architectes est public.</p>"""),
         ],
-        "sources": ["l12629", "l1255", "l145402"],
-        "related": ["/diagnostic-local-commercial", "/avant-signature-bail-commercial", "/guides/budget-renovation-commerce"],
+        "faq": [
+            {"q": "Une SAS qui ouvre un restaurant de 80 m² doit-elle prendre un architecte ?", "a": "<p>Seulement si un permis de construire est nécessaire, par exemple parce que la façade ou la structure change en même temps que la destination. Dans ce cas, oui, quelle que soit la surface : l'exception des 150 m² ne vise que les personnes physiques (R*431-2). Si le projet ne demande qu'une déclaration préalable, une autorisation de travaux et une autorisation d'enseigne, la loi n'impose pas d'architecte.</p>"},
+            {"q": "L'autorisation de travaux d'un ERP doit-elle être signée par un architecte ?", "a": "<p>Non, la loi ne l'impose pas. Le dossier (Cerfa n° 13824) comprend notamment des plans et une notice d'accessibilité ; un permis de construire portant sur un ERP, lui, tient lieu d'autorisation de travaux et suit la règle du permis.</p>"},
+            {"q": "Combien coûte un architecte pour un commerce ?", "a": "<p>Kalya Architecte publie ses prix : 790 € HT pour la faisabilité avant signature, 2 200 € HT pour l'autorisation de travaux d'un local jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² ; conception complète et suivi de chantier sur devis. Voir les <a href=\"/honoraires\">honoraires</a>.</p>"},
+        ],
+        "sources": ["loi77_3", "loi77_4", "r4312", "loi77", "loi77_16", "r12216", "cerfa13824", "l58118", "aerp_tarifs"],
+        "related": ["/honoraires", "/guides/autorisations-travaux-commerce", "/avant-signature-bail-commercial"],
     },
     {
         "path": "/guides/erp-commerce-categorie-effectif", "kind": "guide", "short": "Classement ERP d'un commerce",
         "teaser": "Type M ou N, effectif, catégorie, sorties.",
-        "title": "Classement ERP d'un commerce : type M, type N, effectif, catégorie | Kalya",
+        "title": "Calcul d'effectif ERP d'un commerce : type M ou N, catégorie | Kalya",
+        "tool": "eff", "verified": "new",
         "description": "Classer un commerce en ERP : type M ou N, calcul de l'effectif (M 2, N 2), seuils de la 5e catégorie (PE 2), catégories 1 à 4, sorties (PE 11), obligations.",
-        "h1": "Classement ERP d'un commerce : type, effectif, catégorie",
+        "h1": "Classement ERP d'un commerce : calculer l'effectif, trouver la catégorie",
         "answer": "Un commerce ouvert au public est un ERP. Son type dépend de l'activité (M pour un magasin, N pour un restaurant ou un bar) et sa catégorie de l'effectif (public seul pour la 5e catégorie ; public et personnel sans dégagements propres pour les catégories 1 à 4). Un magasin reste en 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total ; un restaurant sous 100, 200 et 200 (règlement de sécurité, PE 2).",
-        "cta": "Calculer mon effectif", "cta_href": "/calcul-effectif-erp-commerce",
+        "cta": "Calculer mon effectif", "cta_href": "#calcul",
         "bullets": [
             "Catégories : 1re au-delà de 1 500 personnes, 2e de 701 à 1 500, 3e de 301 à 700, 4e 300 et moins hors 5e (code de la construction, R143-19).",
             "Magasin : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage (M 2).",
@@ -208,7 +220,7 @@ PAGES = [
              + erp_link('/securite-incendie-erp/', 'Sécurité incendie d\'un ERP de 5e catégorie', 'Le règlement PE article par article, sur dossier-erp-paris.fr.')),
         ],
         "sources": ["gn1", "r14319", "pe2", "pe3", "m2", "n2", "pe11", "pe14", "pe24", "pe26", "pe4"],
-        "related": ["/calcul-effectif-erp-commerce", "/architecte-boutique", "/architecte-restaurant", DEP + "/classement-erp-types-categories/"],
+        "related": ["/architecte-boutique", "/architecte-restaurant", DEP + "/classement-erp-types-categories/"],
     },
     {
         "path": "/guides/accessibilite-commerce", "kind": "guide", "short": "Accessibilité d'un commerce",
@@ -295,7 +307,7 @@ PAGES = [
 <li>une façade arrière ou une toiture accessibles, avec l'accord de la copropriété ;</li>
 <li>des traversées de planchers et de logements, souvent impossibles en pratique.</li>
 </ul>
-<p>Un relevé du local et de l'immeuble, avant le bail, dit si l'un de ces tracés existe. Sans tracé, le projet de cuisson n'est pas faisable en l'état.</p>"""),
+<p>La lecture des plans du local et de l'immeuble, avant le bail, dit si l'un de ces tracés existe. Sans tracé, le projet de cuisson n'est pas faisable en l'état.</p>"""),
             ("Copropriété et bail", """<p>La façade (gros œuvre) et les gaines sont présumées parties communes ; y faire passer un conduit demande l'autorisation de l'assemblée générale, à la majorité de l'article 25 b de la loi du 10 juillet 1965. Le règlement de copropriété peut aussi encadrer l'activité exercée dans les lots. Côté bail, la destination doit autoriser la restauration ; l'autorisation des travaux d'extraction, le sort des ouvrages et la remise en état se lisent dans les clauses du bail. C'est le bailleur, copropriétaire, qui porte la demande à l'assemblée générale.</p>"""),
         ],
         "sources": ["rsd631", "rsd1303", "copro25", "copro3", "copro8", "copro9"],
@@ -335,9 +347,9 @@ PAGES = [
     {
         "path": "/guides/changement-destination-local-commercial", "kind": "guide", "short": "Changement de destination",
         "teaser": "Destination, sous-destination, usage, ERP.",
-        "title": "Changement de destination d'un local commercial : DP, PC, PLU, ERP | Kalya",
-        "description": "Changer la destination d'un local : destinations et sous-destinations, déclaration préalable ou permis, PLU de Paris, changement d'usage, type d'ERP.",
-        "h1": "Changement de destination d'un local commercial : trois régimes à ne pas confondre",
+        "title": "Local en commerce ou restaurant : destination, PLU, ERP | Kalya",
+        "description": "Transformer un bureau, un atelier ou une boutique en commerce ou en restaurant : destinations et sous-destinations, déclaration préalable ou permis, PLU de Paris, type d'ERP.",
+        "h1": "Transformer un local en commerce ou en restaurant : trois régimes à ne pas confondre",
         "answer": "Changer d'activité dans un local fait jouer trois régimes : la destination d'urbanisme (déclaration préalable entre destinations, permis si la façade ou la structure change en même temps), le classement ERP (le type change avec l'activité) et, pour un logement à Paris, le changement d'usage. Entre sous-destinations d'une même destination, comme boutique et restaurant, aucune déclaration n'est due sans travaux.",
         "bullets": [
             "Cinq destinations, dont « commerce et activités de service » et « autres activités des secteurs primaire, secondaire ou tertiaire » (R151-27).",
@@ -393,6 +405,6 @@ PAGES = [
             ("Vérifier une adresse", """<p>La Ville publie en données ouvertes une carte des protections du commerce et de l'artisanat. Elle aide à repérer une rue, mais n'a pas de valeur réglementaire : seul le règlement graphique du PLU fait foi. Le PLU approuvé le 20 novembre 2024 a fait l'objet de modifications simplifiées en décembre 2025 et en juin 2026 : la version en vigueur se vérifie à la date du projet.</p>"""),
         ],
         "sources": ["plub", "plubreg", "plubcarte", "a2016", "a2016e", "l4218", "spr"],
-        "related": ["/architecte-commerce-paris", "/guides/changement-destination-local-commercial", "/vitrine-et-devanture-commerce", "/avant-signature-bail-commercial"],
+        "related": ["/", "/guides/changement-destination-local-commercial", "/vitrine-et-devanture-commerce", "/avant-signature-bail-commercial"],
     },
 ]

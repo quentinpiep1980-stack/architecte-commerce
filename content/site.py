@@ -8,6 +8,9 @@ Les hypothèses et les exemples sont présentés comme tels ; aucun chiffre de c
 
 VERIFIED = "9 octobre 2026"
 VERIFIED_ISO = "2026-10-09"
+# Pages créées ou refondues le 17 novembre 2026 : date propre (clé « verified » de la page)
+VERIFIED_NEW = "17 novembre 2026"
+VERIFIED_NEW_ISO = "2026-11-17"
 
 SITE = {
     "domain": "architecte-commerce.fr",
@@ -26,6 +29,9 @@ SITE = {
     "address": "71 rue du Cherche-Midi, 75006 Paris",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=71%20rue%20du%20Cherche-Midi%2C%2075006%20Paris",
     "legal_name": "Quentin Piepszownik",
+    "siege": "1 bis rue Gallieni, 95160 Montmorency",
+    "siret_siege": "513 794 768 00046",
+    "siret_paris": "513 794 768 00053",
     "siren": "513 794 768",
     "tva": "FR93513794768",
     "ordre": "077297",
@@ -36,6 +42,7 @@ SITE = {
 
 # Sites du même architecte (liens éditoriaux)
 ERP_SITES = {
+    "kalya": ("kalya-architecte.fr", "https://kalya-architecte.fr/", "Le site de Kalya Architecte à Paris : particuliers, copropriétés et professionnels."),
     "dep": ("dossier-erp-paris.fr", "https://dossier-erp-paris.fr/", "Les guides sourcés du dossier ERP à Paris, par Kalya Architecte : autorisation de travaux, pièces, commission de sécurité, ouverture."),
     "aerp": ("architecte-erp.fr", "https://www.architecte-erp.fr/", "L'architecte des établissements recevant du public : faisabilité, conception, autorisations de travaux, accessibilité et sécurité incendie."),
 }
@@ -43,13 +50,12 @@ DEP = "https://dossier-erp-paris.fr"
 
 # Projets (situations) : chemin, libellé, accroche
 SITUATIONS = [
-    ("/avant-signature-bail-commercial", "Avant de signer le bail", "Le local tient-il votre activité ? Réponse avant l'engagement."),
+    ("/avant-signature-bail-commercial", "Avant de signer le bail", "Ce qu'il faut vérifier, et la faisabilité à 790 € HT."),
     ("/architecte-boutique", "Créer une boutique", "Du concept à l'ouverture, autorisations comprises."),
     ("/amenagement-local-commercial", "Aménager un local commercial", "Plan, réserve, caisse, réseaux : un local qui tourne."),
-    ("/renovation-magasin", "Rénover un magasin", "Remettre à niveau sans perdre la clientèle."),
-    ("/renovation-commerce-site-occupe", "Travaux sans fermer", "Phasage, nuit, week-end : rester ouvert."),
-    ("/vitrine-et-devanture-commerce", "Vitrine et devanture", "Façade, enseigne, store : ce que Paris autorise."),
-    ("/concept-et-deploiement-enseigne", "Déployer une enseigne", "Un concept, des locaux tous différents."),
+    ("/renovation-magasin", "Rénover un magasin", "Remettre à niveau, au besoin sans fermer."),
+    ("/vitrine-et-devanture-commerce", "Modifier une devanture", "Déclaration préalable, PLU de Paris, enseigne."),
+    ("/concept-et-deploiement-enseigne", "Déployer un réseau", "Franchise ou succursales : un concept, des locaux tous différents."),
 ]
 # Activités : chemin, libellé, accroche
 ACTIVITES = [
@@ -61,18 +67,18 @@ ACTIVITES = [
 ]
 OUTILS = [
     ("/diagnostic-local-commercial", "Ce local est-il bon ?", "Diagnostic en 12 questions avant de signer."),
-    ("/calcul-effectif-erp-commerce", "Calcul d'effectif et catégorie", "Magasin ou restaurant : effectif, catégorie, sorties."),
+    ("/guides/erp-commerce-categorie-effectif#calcul", "Calcul d'effectif ERP", "Magasin ou restaurant : effectif, catégorie, sorties."),
     ("/guides/calendrier-ouverture-magasin", "Calendrier d'ouverture", "Les délais d'autorisation, scénario par scénario."),
 ]
 NAV = [
-    ("/mission", "Méthode"),
+    ("/honoraires", "Honoraires"),
     ("/guides", "Guides"),
-    ("/references", "Références"),
+    ("/mission", "Méthode"),
     ("/a-propos", "L'architecte"),
 ]
 ZONES = [
-    ("/architecte-commerce-paris", "Architecte commerce Paris"),
-    ("/architecte-commerce-ile-de-france", "Architecte commerce Île-de-France"),
+    ("/", "Architecte commerce à Paris"),
+    ("/architecte-commerce-ile-de-france", "Architecte commerce en Île-de-France"),
 ]
 
 # Redirections permanentes (anciennes adresses du site)
@@ -80,7 +86,10 @@ REDIRECTS = [
     ("/fixia", "/a-propos"),
     ("/kalya", "/a-propos"),
     ("/contact", "/etudier-mon-projet"),
-    ("/guides/preparer-projet-commerce", "/guides/preparer-projet-commerce"),
+    ("/guides/preparer-projet-commerce", "/etudier-mon-projet"),
+    ("/architecte-commerce-paris", "/"),
+    ("/renovation-commerce-site-occupe", "/renovation-magasin"),
+    ("/calcul-effectif-erp-commerce", "/guides/erp-commerce-categorie-effectif"),
 ]
 REDIRECTS = [r for r in REDIRECTS if r[0] != r[1]]
 
@@ -168,6 +177,11 @@ SOURCES = {
     "bnpre": ("BNP Paribas Real Estate, marché des commerces en France, 2e trimestre 2026", "https://www.realestate.bnpparibas.fr/media/france/2026-08/REVIEW%20COMMERCE%20-%20T2%202026_FR.pdf", "loyers prime du 1er semestre 2026"),
     "insee2111": ("Insee Première n° 2111, « Le compte du commerce en 2025 »", "https://www.insee.fr/fr/statistiques/9008999", "publié le 18 juin 2026"),
     # --- Profession
+    "loi77_3": ("Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 3 (recours obligatoire à l'architecte pour le permis de construire)", LL + "LEGIARTI000025577118", "version en vigueur depuis le 24 mars 2012"),
+    "loi77_4": ("Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 4 (dérogations au recours à l'architecte)", LL + "LEGIARTI000006847393", "version en vigueur"),
+    "loi77_16": ("Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 16 (assurance de l'architecte)", LL + "LEGIARTI000006847418", "version en vigueur"),
+    "r4312": ("Code de l'urbanisme, article R*431-2 (dispense de recours à l'architecte : personnes physiques, 150 m²)", LF + "LEGIARTI000038682379", "version en vigueur depuis le 23 juin 2019"),
+    "aerp_tarifs": ("architecte-erp.fr, page « Tarif autorisation de travaux ERP à Paris » (prix publiés par le même architecte)", "https://www.architecte-erp.fr/tarifs", "consultée le 17 novembre 2026"),
     "loi77": ("Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 9 (inscription au tableau)", LL + "LEGIARTI000006847402", "version en vigueur"),
     "l4311": ("Code de l'urbanisme, article L431-1 (recours à un architecte pour le permis de construire)", LF + "LEGIARTI000006815974", "version en vigueur depuis le 1er octobre 2007"),
     # --- Ajouts : bail 2026, sons, licences, amiante, Paris, autorité ERP, accessibilité, sécurité 5e catégorie

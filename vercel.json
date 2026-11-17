@@ -34,6 +34,26 @@
       "permanent": true
     },
     {
+      "source": "/guides/preparer-projet-commerce",
+      "destination": "/etudier-mon-projet",
+      "permanent": true
+    },
+    {
+      "source": "/architecte-commerce-paris",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/renovation-commerce-site-occupe",
+      "destination": "/renovation-magasin",
+      "permanent": true
+    },
+    {
+      "source": "/calcul-effectif-erp-commerce",
+      "destination": "/guides/erp-commerce-categorie-effectif",
+      "permanent": true
+    },
+    {
       "source": "/fixia/",
       "destination": "/a-propos",
       "permanent": true
@@ -46,6 +66,26 @@
     {
       "source": "/contact/",
       "destination": "/etudier-mon-projet",
+      "permanent": true
+    },
+    {
+      "source": "/guides/preparer-projet-commerce/",
+      "destination": "/etudier-mon-projet",
+      "permanent": true
+    },
+    {
+      "source": "/architecte-commerce-paris/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/renovation-commerce-site-occupe/",
+      "destination": "/renovation-magasin",
+      "permanent": true
+    },
+    {
+      "source": "/calcul-effectif-erp-commerce/",
+      "destination": "/guides/erp-commerce-categorie-effectif",
       "permanent": true
     }
   ],

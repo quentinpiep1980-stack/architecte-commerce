@@ -1,156 +1,255 @@
 {% extends "base.html" %}
 {% block main %}
-<section class="hero draw" aria-labelledby="h1">
-  <div class="hero-top wrap">
-    <h1 id="h1"><span>Architecte commerce</span> <span>à Paris</span></h1>
-    <div class="hero-row">
-      <div class="hero-text">
-        <p class="lede">Boutiques, restaurants, instituts, enseignes : <strong>du local vide à la vitrine allumée.</strong> Votre local vérifié avant le bail, des plans conformes, des autorisations obtenues, un chantier suivi jusqu'à l'ouverture.</p>
-        <div class="ctas">
-          <a class="btn btn-vitrine" href="/etudier-mon-projet">Faire étudier mon projet</a>
-          <a class="btn btn-line" href="/diagnostic-local-commercial">Tester un local avant de signer</a>
-        </div>
+<section class="devanture" aria-labelledby="h1">
+  <div class="bandeau">
+    <div class="wrap bandeau-g">
+      <div>
+        <p class="bandeau-meta"><span>Kalya Architecte</span><span>Quentin Piepszownik, architecte, Ordre n° {{ site.ordre }}</span><span>Paris 6e</span></p>
+        <h1 id="h1">Architecte de commerces à Paris</h1>
       </div>
-      <div class="switch">
-        <p class="switch-l" id="sw-l">Choisissez votre commerce, le dessin s'adapte :</p>
-        <div class="plates" role="radiogroup" aria-labelledby="sw-l">
-          {% for k, l, s in acts %}<div class="plate"><input type="radio" name="act" id="act-{{ k }}" value="{{ k }}"{% if loop.first %} checked{% endif %}><label for="act-{{ k }}">{{ l }}</label></div>
-          {% endfor %}
+      <div>
+        <p class="lede">Boutiques, restaurants, instituts, enseignes : le local vérifié avant le bail, des plans conformes, les autorisations obtenues. <strong>Réponse sous 24 heures, devis gratuit.</strong></p>
+        <div class="ctas">
+          <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
+          <a class="btn btn-filet" href="/avant-signature-bail-commercial">Faire vérifier un local</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="hero-drawing" id="dessin">{{ elevation | safe }}</div>
-  <div class="legend">
-    {% for k, d in legend.items() %}
-    <div class="wrap legend-set" data-act="{{ k }}"{% if not loop.first %} hidden{% endif %}>
-      <h2>Ce qui compte pour <span>{{ d.label }} à Paris</span></h2>
-      {% for t, x, c in d.facts %}<p class="fact"><strong>{{ t }}</strong>{{ x }}<cite>{{ c }}</cite></p>{% endfor %}
-      <a class="go" href="{{ d.href }}">{{ d.go }}</a>
+  <div class="vitrine">
+    <div class="pil" aria-hidden="true"></div>
+    <div class="scene-box">
+      <div class="scene" id="scene" data-act="boutique">{{ scene | safe }}</div>
     </div>
-    {% endfor %}
+    <div class="pil" aria-hidden="true"></div>
+    <p class="enseignes-sw-l" id="sw-l">Votre commerce</p>
+    <div class="enseignes-sw" role="radiogroup" aria-labelledby="sw-l">
+      {% for k, l, s in acts %}<div class="sw"><input type="radio" name="act" id="act-{{ k }}" value="{{ k }}" data-desc="{{ scene_desc[k] }}"{% if loop.first %} checked{% endif %}><label for="act-{{ k }}">{{ l }}</label></div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="soubassement">
+    <div class="wrap soub-g" aria-live="polite">
+      {% for i in range(3) %}<div>
+        {% for k, d in legend.items() %}{% set fct = d.facts[i] %}<div class="v" data-act="{{ k }}"{% if not loop.first %} hidden{% endif %}><b>{{ fct[0] }}</b><span>{{ fct[1] }}</span><cite>{{ fct[2] }}</cite></div>{% endfor %}
+      </div>
+      {% endfor %}
+      <div><b>2 200 € HT</b><span>le dossier d'autorisation de travaux ERP jusqu'à 100 m², 5e catégorie</span><cite><a href="/honoraires">Tous les prix publiés</a></cite></div>
+      <div>
+        {% for k, d in legend.items() %}<a class="go" data-act="{{ k }}" href="{{ d.href }}"{% if not loop.first %} hidden{% endif %}>{{ d.go }}</a>{% endfor %}
+        <a class="plaque" href="/a-propos"><small>6<sup>e</sup> arrondissement</small><strong>71 rue du Cherche-Midi</strong><em>75006 Paris</em></a>
+      </div>
+    </div>
   </div>
 </section>
 
-<section class="sec on-paper" aria-labelledby="signer">
-  <div class="wrap g12">
-    <div class="sign-text">
-      <h2 id="signer">Le bon local se décide avant la signature.</h2>
-      <p class="muted">Un bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions (code de commerce, L145-4). Neuf points font qu'un local tient, ou non, votre activité. Chacun est repéré sur le plan.</p>
+<section class="sec" aria-labelledby="metiers">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="metiers">Vérifier, autoriser, construire. Les prix sont écrits.</h2>
+      <p>Un architecte inscrit à l'Ordre, rémunéré par vous seul. Le devis est gratuit, rien n'est à payer avant sa signature, et les forfaits sont publiés.</p>
+    </div>
+    <div class="meneaux">
+      <div>
+        <h3>Vérifier le local avant le bail</h3>
+        <ul>
+          <li>Destination, protections du PLU, classement ERP</li>
+          <li>Accessibilité, sécurité incendie, extraction</li>
+          <li>Autorisations nécessaires et délais</li>
+          <li>Note avec croquis : faisable, sous conditions ou bloquant</li>
+        </ul>
+        <p><span class="prix">790 € HT, jusqu'à 100 m²</span></p>
+        <a class="more" href="/avant-signature-bail-commercial">La faisabilité avant signature</a>
+      </div>
+      <div>
+        <h3>Obtenir les autorisations</h3>
+        <ul>
+          <li>Autorisation de travaux ERP : plans, notice d'accessibilité, sécurité</li>
+          <li>Déclaration préalable de devanture</li>
+          <li>Autorisation d'enseigne, permis de construire</li>
+          <li>Dossier prêt en une semaine, pièces réunies</li>
+        </ul>
+        <p><span class="prix">2 200 € HT jusqu'à 100 m², puis 7 € HT par m²</span></p>
+        <a class="more" href="/honoraires">Le détail du forfait</a>
+      </div>
+      <div>
+        <h3>Concevoir et suivre le chantier</h3>
+        <ul>
+          <li>Parcours client, vente, réserve, caisse, lumière</li>
+          <li>Plans et estimation par lots</li>
+          <li>Consultation et comparaison des entreprises</li>
+          <li>Suivi du chantier, si vous le demandez</li>
+        </ul>
+        <p><span class="prix">Sur devis, après un premier échange</span></p>
+        <a class="more" href="/mission">La méthode, étape par étape</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec on-calcaire" aria-labelledby="signer">
+  <div class="wrap local-g">
+    <div>
+      <div class="sec-head one">
+        <h2 id="signer">Le bon local se décide avant la signature.</h2>
+        <p>Un bail commercial engage pour neuf ans au moins, avec une faculté de congé à chaque période triennale, sauf exceptions (code de commerce, L145-4). Neuf points font qu'un local tient votre activité, ou non.</p>
+      </div>
       <ol class="checks" id="checks">
-        {% for n, t, x, c in checks %}<li data-pin="{{ n }}"><button type="button" aria-describedby="plan-t"><span class="n">{{ n }}</span><span><strong>{{ t }}</strong><span class="t">{{ x }}</span><cite>{{ c }}</cite></span></button></li>
+        {% for n, t, x, c in checks %}<li data-pin="{{ n }}"><button type="button"><span class="n">{{ n }}</span><span><strong>{{ t }}</strong><span class="t">{{ x }}</span><cite>{{ c }}</cite></span></button></li>
         {% endfor %}
       </ol>
       <div class="ctas">
-        <a class="btn btn-ink" href="/diagnostic-local-commercial">Tester mon local en 12 questions</a>
-        <a class="btn btn-line" href="/avant-signature-bail-commercial">Faire visiter le local</a>
+        <a class="btn btn-laque" href="/avant-signature-bail-commercial">Demander la faisabilité, 790 € HT</a>
+        <a class="btn btn-filet" href="/diagnostic-local-commercial">Tester le local en 12 questions</a>
       </div>
     </div>
-    <div class="sign-plan draw">{{ plan | safe }}</div>
+    <div class="local-plan">{{ plan | safe }}</div>
   </div>
 </section>
 
-<section class="sec sec-plan" aria-labelledby="marche">
-  <div class="wrap g12">
-    <div class="vac">
-      <div>
-        <h2 id="marche">En 2023, à Paris, un local sur neuf était vide.</h2>
-        <p class="muted">Sur 100 locaux en rez-de-chaussée, 73 accueillaient un commerce, un bar-restaurant ou un service commercial, 11 étaient vacants. Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
-        <p class="small muted">Apur, note n° 236, « Premiers résultats 2023 de l'enquête sur les commerces parisiens », septembre 2023 (relevé d'avril 2023, 83 154 locaux recensés) ; le relevé d'avril 2026 doit être publié fin 2026.</p>
-      </div>
-      <div>
-        <div class="vac-grid" role="img" aria-label="100 locaux en rez-de-chaussée à Paris : 73 commerces et services, 11 vacants, 16 autres usages">
-          {% for i in range(vac.commerces) %}<i></i>{% endfor %}{% for i in range(vac.vacants) %}<i class="v"></i>{% endfor %}{% for i in range(vac.autres) %}<i style="background:#2A5788;box-shadow:none"></i>{% endfor %}
+<section class="sec" aria-labelledby="activites" id="activites-home">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="activites">Chaque enseigne a ses règles.</h2>
+      <p>Un restaurant n'est pas une boutique avec des tables : type d'établissement, effectif, extraction, hygiène et réseaux changent tout le projet.</p>
+    </div>
+    <div class="enseignes">
+      {% for h, l, sub in activites %}<a class="enseigne" href="{{ h }}"><b>{{ l }}</b><span>{{ sub }}</span><span class="mini-box" aria-hidden="true">{{ minis[loop.index0] | safe }}</span></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sec on-laque" aria-labelledby="calendrier" id="calendrier-home">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="calendrier">Quand pourrez-vous ouvrir ?</h2>
+      <p>Cochez ce que comporte votre projet : la décision la plus tardive s'affiche, à partir des délais d'instruction réglementaires. Déposés ensemble, les dossiers s'instruisent en parallèle.</p>
+    </div>
+    <div class="cal" id="cal" data-cal>
+      <form class="cal-in" onsubmit="return false">
+        <div class="date">
+          <label for="cal-d">Dépôt du dossier complet</label>
+          <input type="date" id="cal-d" name="d">
+          <span class="small" style="color:var(--brume)">Kalya prépare le dossier en une semaine environ, une fois les pièces réunies.</span>
         </div>
-        <p class="vac-key"><span>73 commerces et services</span><span class="v">11 locaux vacants</span><span style="--c:#2A5788" class="o">16 autres usages</span></p>
+        <fieldset>
+          <legend>Votre projet comporte</legend>
+          <div class="chips">
+            {% for l, s, m, e, ref in gantt %}<label class="chip"><input type="checkbox" name="k" value="{{ loop.index0 }}"{% if loop.index0 in (0, 1, 2) %} checked{% endif %}><span>{{ l }}</span></label>
+            {% endfor %}
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Le local est situé</legend>
+          <div class="chips">
+            <label class="chip"><input type="checkbox" name="spr" value="1"><span>En site patrimonial ou aux abords d'un monument</span></label>
+          </div>
+        </fieldset>
+      </form>
+      <div class="cal-out">
+        <div class="cal-res">
+          <div><b data-cal-date>4 mois</b><span data-cal-l>après le dépôt d'un dossier complet</span></div>
+          <div><b data-cal-max>4 mois</b><span data-cal-w>autorisation de travaux ERP</span></div>
+        </div>
+        <div class="gantt">
+          <div class="gantt-scale" aria-hidden="true"><span class="lab"></span><div class="ticks"><span>0</span><span>1 mois</span><span>2</span><span>3</span><span>4</span><span>5 mois</span></div></div>
+          {% for l, s, d, e, ref in gantt %}<div class="gantt-row" data-row="{{ loop.index0 }}" data-m="{{ d }}" data-e="{{ e }}"><div class="lab">{{ l }}<small>{{ s }}</small></div><div class="bar-track"><span class="bar" style="left:0;width:{{ (d / 6 * 100) | round(2) }}%">{{ d }} mois</span>{% if e %}<span class="bar ext" data-ext hidden style="left:{{ (d / 6 * 100) | round(2) }}%;width:{{ (e / 6 * 100) | round(2) }}%"></span>{% endif %}</div></div>
+          {% endfor %}
+          <p class="gantt-note">Code de l'urbanisme, R*423-23, R423-24 et R*423-28 ; code de l'environnement, R581-13 ; code de la construction, R122-16. Lorsqu'un permis de construire est nécessaire, il tient lieu d'autorisation de travaux si l'autorité compétente a donné son accord (code de l'urbanisme, L425-3). Délais d'instruction, hors demande de pièces et hors délai de copropriété. <a href="/guides/calendrier-ouverture-magasin" style="color:var(--laiton-2)">Le calendrier complet d'une ouverture</a>.</p>
+        </div>
       </div>
-    </div>
-    <div class="figs">
-      <p><b>+10 % de restauration rapide</b>entre 2020 et 2023 à Paris, quand l'équipement de la personne recule de 8 %.<cite>Apur, note n° 236, septembre 2023 ; Ville de Paris, janvier 2024</cite></p>
-      <p><b>329 km de linéaires protégés</b>où un rez-de-chaussée commercial ne peut pas devenir un bureau ou une agence, plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel.<cite>Ville de Paris, PLU bioclimatique</cite></p>
-      <p><b>18 000 €/m²/an</b>loyer prime des Champs-Élysées au 1er semestre 2026 ; 5 500 € rue des Francs-Bourgeois.<cite>BNP Paribas Real Estate, 2e trimestre 2026</cite></p>
     </div>
   </div>
 </section>
 
-<section class="sec on-paper" aria-labelledby="projets">
-  <div class="wrap g12">
+<section class="sec" aria-labelledby="projets">
+  <div class="wrap">
     <div class="sec-head">
       <h2 id="projets">Votre projet commence où vous en êtes.</h2>
-      <p>Un local repéré, un bail à signer, une boutique à rafraîchir, un réseau à déployer : chaque situation a sa page, ses règles et ses pièges.</p>
+      <p>Un local repéré, un bail à signer, une boutique à rénover, une devanture à refaire, un réseau à déployer : chaque situation a sa page, ses règles et ses délais.</p>
     </div>
     <div class="rows">
-      {% for h, l, sub in situations %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span><em>Voir</em></a>
+      {% for h, l, sub in situations %}<a class="row" href="{{ h }}"><strong>{{ l }}</strong><span>{{ sub }}</span><em>Lire</em></a>
       {% endfor %}
     </div>
   </div>
 </section>
 
-<section class="sec sec-calque" aria-labelledby="activites" id="activites-home">
-  <div class="wrap g12">
+<section class="sec on-calcaire" aria-labelledby="marche">
+  <div class="wrap">
     <div class="sec-head">
-      <h2 id="activites">Chaque activité a sa devanture, et ses règles.</h2>
-      <p>Un restaurant n'est pas une boutique avec des tables : type d'ERP, effectif, extraction, hygiène, réseaux changent tout le projet.</p>
+      <h2 id="marche">Paris, en trois chiffres publics.</h2>
+      <p>Ce qui sépare un local qui marche d'un local qui ferme se joue souvent avant l'ouverture : emplacement, format, budget, conformité.</p>
     </div>
-    <div class="acts">
-      {% for h, l, sub in activites %}<a class="act-card draw" href="{{ h }}">{{ minis[loop.index0] | safe }}<strong>{{ l }}</strong><span>{{ sub }}</span></a>
-      {% endfor %}
+    <div class="chiffres">
+      <div><b>11 sur 100</b><p>locaux en rez-de-chaussée étaient vacants à Paris en avril 2023 ; 73 accueillaient un commerce ou un service commercial.</p><cite>Apur, note n° 236, septembre 2023</cite></div>
+      <div><b>329 km</b><p>de linéaires protégés où un rez-de-chaussée commercial ne peut pas devenir un bureau, plus 29 km pour l'artisanat et 9 km pour le commerce culturel.</p><cite>Ville de Paris, PLU bioclimatique</cite></div>
+      <div><b>+10 %</b><p>de restauration rapide entre 2020 et 2023, quand l'équipement de la personne recule de 8 %.</p><cite>Apur, note n° 236, septembre 2023</cite></div>
     </div>
   </div>
 </section>
 
-<section class="sec sec-plan" aria-labelledby="methode">
-  <div class="wrap g12">
+<section class="sec on-laque" aria-labelledby="methode">
+  <div class="wrap">
     <div class="sec-head">
       <h2 id="methode">Six étapes, un livrable à chacune.</h2>
-      <p>Du bail à l'ouverture, une seule personne responsable du projet : l'architecte qui l'a dessiné.</p>
+      <p>Du bail à l'ouverture, un seul responsable du projet : l'architecte qui l'a dessiné. Vous choisissez les étapes que vous lui confiez.</p>
     </div>
     <ol class="steps">
-      {% for k, t, x, o in steps %}<li><span class="k">{{ loop.index }}. {{ k }}</span><strong>{{ t }}</strong><p>{{ x }}</p><p class="out">{{ o }}</p></li>
+      {% for k, t, x, o in steps %}<li><span class="k">{{ loop.index }}</span><strong>{{ t }}<small>{{ k }}</small></strong><p>{{ x }}</p><p class="out">{{ o }}</p></li>
       {% endfor %}
     </ol>
-    <div class="gantt">
-      <h3>Les délais d'instruction, à partir d'un dossier complet</h3>
-      <div class="gantt-scale" aria-hidden="true"><span class="lab"></span><div class="ticks"><span>0</span><span>1 mois</span><span>2</span><span>3</span><span>4</span><span>5 mois</span></div></div>
-      {% for l, s, d, e, ref in gantt %}<div class="gantt-row"><div class="lab">{{ l }}<small>{{ s }}</small></div><div class="bar-track"><span class="bar" style="left:0;width:{{ (d / 6 * 100) | round(2) }}%">{{ d }} mois</span>{% if e %}<span class="bar ext" style="left:{{ (d / 6 * 100) | round(2) }}%;width:{{ (e / 6 * 100) | round(2) }}%" title="Majoration en site patrimonial remarquable ou aux abords d'un monument historique"></span>{% endif %}</div></div>
+  </div>
+</section>
+
+<section class="sec" aria-labelledby="auteur">
+  <div class="wrap auteur">
+    <figure>
+      <picture>
+        <source type="image/avif" srcset="/img/portrait-480.avif 480w, /img/portrait-800.avif 800w" sizes="(max-width: 760px) 260px, 25vw">
+        <source type="image/webp" srcset="/img/portrait-480.webp 480w, /img/portrait-800.webp 800w" sizes="(max-width: 760px) 260px, 25vw">
+        <img src="/img/portrait-800.jpg" alt="Quentin Piepszownik, architecte" width="800" height="800" loading="lazy" decoding="async">
+      </picture>
+      <figcaption>Quentin Piepszownik, architecte DE-HMONP</figcaption>
+    </figure>
+    <div>
+      <h2 id="auteur">Un architecte, pas un agenceur.</h2>
+      <p>Kalya Architecte est le nom commercial sous lequel Quentin Piepszownik, architecte inscrit à l'Ordre des architectes d'Île-de-France, conduit ses missions. Il signe les plans, il répond de leur conformité et il est assuré pour cela.</p>
+      <p>L'agenceur et l'entreprise générale vendent des travaux. L'architecte est rémunéré par vous seul : il défend votre budget, votre calendrier et la conformité du local, de la faisabilité au procès-verbal de réception.</p>
+      <p><a href="/a-propos">Le parcours de l'architecte</a></p>
+    </div>
+    <dl class="fiche">
+      <div><dt>Titre</dt><dd>Architecte DE-HMONP</dd></div>
+      <div><dt>Ordre</dt><dd>Île-de-France, n° {{ site.ordre }}</dd></div>
+      <div><dt>Assurance</dt><dd>Mutuelle des Architectes Français</dd></div>
+      <div><dt>Adresse</dt><dd>{{ site.address }}</dd></div>
+      <div><dt>Statut</dt><dd>Entrepreneur individuel, SIREN {{ site.siren }}</dd></div>
+      <div><dt>Téléphone</dt><dd><a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="sec-tight on-calcaire" aria-labelledby="erp">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2 id="erp">Le même architecte, sur trois autres sites.</h2>
+      <p>Un commerce est un établissement recevant du public. Pour aller au fond du dossier ERP, ou pour un projet hors commerce à Paris :</p>
+    </div>
+    <div class="erp-sites three">
+      {% for key in ('aerp', 'dep', 'kalya') %}{% set e = erp[key] %}<a class="erp-site" href="{{ e[1] }}" rel="noopener"><strong>{{ e[0] }}</strong><span>{{ e[2] }}</span><em>Ouvrir le site</em></a>
       {% endfor %}
-      <p class="gantt-note">Sources : code de l'urbanisme, R*423-23, R423-24 et R*423-28 ; code de l'environnement, R581-13 ; code de la construction, R122-16. Hachures : majoration d'un mois en site patrimonial remarquable ou aux abords d'un monument historique. Déposés ensemble, les dossiers s'instruisent en parallèle. <a href="/guides/calendrier-ouverture-magasin" style="color:#fff">Construire votre calendrier</a>.</p>
     </div>
   </div>
 </section>
 
-<section class="sec on-paper" aria-labelledby="pourquoi">
-  <div class="wrap g12">
-    <div class="sec-head">
-      <h2 id="pourquoi">Ce que vous obtenez, concrètement.</h2>
-      <p>L'agenceur et l'entreprise générale vendent des travaux. L'architecte est rémunéré par vous seul pour conduire votre projet, du choix du local au procès-verbal de réception.</p>
-    </div>
-    <div class="deliv">
-      {% for t, x in deliverables %}<div><strong>{{ t }}</strong><p>{{ x }}</p></div>{% endfor %}
-    </div>
-  </div>
-</section>
-
-<section class="sec-tight sec-plan" aria-labelledby="erp">
-  <div class="wrap g12">
-    <div class="sec-head">
-      <h2 id="erp">Un commerce est un ERP. Deux sites pour aller au fond du dossier.</h2>
-      <p>Autorisation de travaux, commission de sécurité, accessibilité : le même architecte publie deux sites spécialisés, sourcés texte par texte.</p>
-    </div>
-    <div class="erp-sites">
-      <a class="erp-site" href="{{ erp.dep[1] }}" rel="noopener"><strong>{{ erp.dep[0] }}</strong><span>{{ erp.dep[2] }}</span><em>Ouvrir le site</em></a>
-      <a class="erp-site" href="{{ erp.aerp[1] }}" rel="noopener"><strong>{{ erp.aerp[0] }}</strong><span>{{ erp.aerp[2] }}</span><em>Ouvrir le site</em></a>
-    </div>
-  </div>
-</section>
-
-<section class="sec on-paper faq" aria-labelledby="faq">
-  <div class="wrap g12">
-    <div class="faq-l"><div class="sticky">
+<section class="sec" aria-labelledby="faq">
+  <div class="wrap faq-g">
+    <div><div class="sticky">
       <h2 id="faq">Questions fréquentes</h2>
-      <p class="muted">Réponses vérifiées le {{ verified }} sur les textes en vigueur publiés par Légifrance et la Ville de Paris. Une question sur votre local ? Appelez le <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>.</p>
+      <p class="muted">Réponses vérifiées sur les textes en vigueur publiés par Légifrance et la Ville de Paris. Une question sur votre local ? Appelez le <a href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>.</p>
     </div></div>
-    <div class="faq-r">
+    <div class="faq">
       {% for f in faq %}<details{% if loop.first %} open{% endif %}><summary>{{ f.q }}</summary><div class="a">{{ f.a | safe }}</div></details>
       {% endfor %}
     </div>

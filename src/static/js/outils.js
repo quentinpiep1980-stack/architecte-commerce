@@ -15,7 +15,7 @@
       nogo: ['Non pour ce format, en l\'état', 'Un point bloque l\'activité telle que décrite. Le local peut convenir à une autre activité : faites-le vérifier avant d\'abandonner, et surtout avant de signer.'],
       risk: ['Risque élevé : à faire vérifier avant de signer', 'Un ou plusieurs points peuvent faire échouer le projet ou le retarder fortement. Ne signez pas sans réponse écrite sur ces points.'],
       cond: ['Oui, sous conditions', 'Le projet paraît faisable si les démarches et les travaux listés sont menés. Intégrez-les au budget et au calendrier, et négociez-les avec le bailleur.'],
-      ok: ['Oui, a priori', 'Rien de bloquant dans vos réponses. La visite du local le confirme, plans et documents en main.']
+      ok: ['Oui, a priori', 'Rien de bloquant dans vos réponses. La faisabilité d\'architecte le confirme, plans et documents en main.']
     };
     var ACT_LABEL = { boutique: 'Boutique ou concept store', resto: 'Restaurant, bar, café', froid: 'Restaurant, bar, café', beaute: 'Institut ou salon de coiffure', bouche: 'Boulangerie ou métier de bouche', showroom: 'Showroom' };
     var LABELS = {};
@@ -68,7 +68,7 @@
       // Accessibilité
       if (a.entree === 'marche') add('cond', 'Ressaut à l\'entrée', 'L\'accessibilité reste due : adaptation de l\'entrée, solution d\'effet équivalent ou dérogation motivée, à intégrer au dossier.', 'Code de la construction, R164-2 et R164-3');
       else if (a.entree === 'marches') add('risk', 'Plusieurs marches à l\'entrée', 'Une solution d\'accès ou une dérogation motivée est à établir avant de signer ; une rampe sur le trottoir relève en principe d\'une autorisation d\'occupation du domaine public.', 'Code de la construction, R164-2 et R164-3 ; règlement des étalages et terrasses, art. DG.1');
-      else if (a.entree === 'nsp') add('cond', 'Entrée à relever', 'Hauteur du seuil, largeur de passage : à relever pendant la visite.', 'Code de la construction, R164-2');
+      else if (a.entree === 'nsp') add('cond', 'Entrée à mesurer', 'Hauteur du seuil, largeur de passage : à mesurer et à reporter sur les plans.', 'Code de la construction, R164-2');
 
       // Effectif, niveaux
       if (a.niveaux === 'oui') add('cond', 'Public à l\'étage ou au sous-sol', 'L\'effectif augmente, parfois la catégorie, et chaque niveau demande ses sorties. Calculez l\'effectif avant de signer.', 'Règlement de sécurité, PE 2 et PE 11');
@@ -111,7 +111,7 @@
       r.items.forEach(function (i) {
         html += '<li><span class="tag ' + TAG[i.lv][0] + '">' + TAG[i.lv][1] + '</span><b style="display:inline">' + esc(i.t) + '</b><br>' + esc(i.x) + (i.src ? '<br><span class="small muted">' + esc(i.src) + '</span>' : '') + '</li>';
       });
-      html += '</ul><p class="small muted">Première lecture à partir de vos réponses : elle ne remplace pas la visite du local ni la lecture des documents.</p>';
+      html += '</ul><p class="small muted">Première lecture à partir de vos réponses : elle ne remplace pas l\'étude du local ni la lecture des documents.</p>';
       v.innerHTML = html;
       v.dataset.v = r.worst === 'ok' ? 'go' : r.worst;
       v.hidden = false;

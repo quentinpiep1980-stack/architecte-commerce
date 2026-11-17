@@ -9,8 +9,9 @@ LEGAL_BODY = """
 <p>Le site architecte-commerce.fr est édité par <strong>Quentin Piepszownik, entrepreneur individuel (EI)</strong>, architecte exerçant sous le nom commercial <strong>Kalya Architecte</strong>.</p>
 <ul>
 <li>SIREN : {siren}</li>
+<li>Siège : {siege} (SIRET {siret_siege})</li>
+<li>Établissement parisien, exploité sous le nom commercial Kalya Architecte : {address} (SIRET {siret_paris})</li>
 <li>N° de TVA intracommunautaire : {tva}</li>
-<li>Adresse de l'établissement parisien : {address}</li>
 <li>Courriel : <a href="mailto:{email}">{email}</a></li>
 <li>Téléphone : <a href="tel:{phone_intl}">{phone}</a></li>
 </ul>
@@ -24,6 +25,9 @@ LEGAL_BODY = """
 
 <h2 id="assurance">Assurance professionnelle</h2>
 <p>Assurance professionnelle de Quentin Piepszownik, entrepreneur individuel exerçant sous le nom commercial Kalya Architecte : responsabilités civile professionnelle et décennale auprès de la Mutuelle des Architectes Français assurances (MAF), 189 boulevard Malesherbes, 75856 Paris Cedex 17. Couverture géographique : France métropolitaine et départements d'outre-mer.</p>
+
+<h2 id="mediation">Médiation de la consommation</h2>
+<p>Si vous agissez en qualité de consommateur et qu'un litige n'a pu être réglé par une réclamation écrite adressée à l'éditeur, vous pouvez recourir gratuitement au médiateur de la consommation : <strong>CM2C</strong> (Centre de la médiation de la consommation de conciliateurs de justice), médiateur désigné par le Conseil national de l'Ordre des architectes : <a href="https://www.cm2c.net" rel="noopener">www.cm2c.net</a>.</p>
 
 <h2 id="hebergement">Hébergement</h2>
 <p>Le site est hébergé par <strong>Vercel Inc.</strong>, 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis. Téléphone : +1 559 288 7060 (numéro publié par Vercel pour son contact juridique). Site : <a href="https://vercel.com/legal/terms" rel="noopener">vercel.com</a>.</p>

@@ -485,3 +485,60 @@ def plan_local(uid='plan'):
       '<text class="ann" x="40" y="530" text-anchor="middle">0</text><text class="ann" x="120" y="530" text-anchor="middle">2</text><text class="ann" x="200" y="530" text-anchor="middle">4 m</text></g>')
     a('</svg>')
     return ''.join(o)
+
+
+# ---------------------------------------------------------------- scène de vitrine (accueil)
+SCENE_DESC = {
+    "boutique": "un portant de vêtements, une table de présentation et un buste",
+    "restaurant": "des suspensions, des tables bistrot et un comptoir avec ses étagères à bouteilles",
+    "beaute": "des miroirs ronds, des fauteuils et une banque d'accueil",
+    "bouche": "des étagères à pain et une vitrine réfrigérée",
+    "showroom": "un canapé, un lampadaire et des objets sur socle",
+}
+
+
+def scene(active='boutique', uid='sc'):
+    """Vitrine de l'accueil : la devanture vue sous son bandeau, éclairée, avec un rideau métallique
+    qui se lève au chargement et retombe quand on change d'activité. Les cinq intérieurs sont dans le SVG."""
+    L, R = 30, 538
+    W = 568
+    pil = 16
+    lit_s, frame, _, _, (gl_t, gl_b, door_w) = devanture_parts('boutique', L, R, '')
+    top = RDC_TOP - 8
+    band_b = top + 36
+    oy = band_b - 3
+    H = GROUND + 6 - oy
+    body, lit = lit_s.split('/>', 1)[0] + '/>', lit_s.split('/>', 1)[1]
+    o = []
+    a = o.append
+    a(f'<svg viewBox="0 {f(oy)} {W} {f(H)}" role="img" aria-labelledby="{uid}-t {uid}-d">')
+    a(f'<title id="{uid}-t">Devanture parisienne éclairée, dessinée en élévation</title>')
+    a(f'<desc id="{uid}-d">Dessin d\'illustration : une devanture en applique, avec deux vitrines, une porte vitrée et un rideau métallique. '
+      f'À travers le vitrage, on voit {SCENE_DESC[active]}.</desc>')
+    a('<defs>'
+      f'<clipPath id="{uid}-c"><rect x="{L+pil}" y="{f(gl_t)}" width="{R-L-2*pil}" height="{f(gl_b-gl_t)}"/></clipPath>'
+      f'<clipPath id="{uid}-r"><rect x="{L+pil}" y="{f(band_b+7)}" width="{R-L-2*pil}" height="{f(GROUND-band_b-7)}"/></clipPath>'
+      f'<pattern id="{uid}-l" width="12" height="5" patternUnits="userSpaceOnUse"><rect class="lame" width="12" height="5"/>'
+      '<line class="lame-l" x1="0" y1="4.6" x2="12" y2="4.6"/><line class="lame-h" x1="0" y1=".7" x2="12" y2=".7"/></pattern>'
+      '</defs>')
+    # pierre de part et d'autre
+    y = GROUND - 22
+    while y > oy:
+        a(line(0, y, L, y, 'ln ln-j'))
+        a(line(R, y, W, y, 'ln ln-j'))
+        y -= 22
+    a(body)
+    a(f'<g class="glow">{lit}</g>')
+    a(f'<g clip-path="url(#{uid}-c)">')
+    for k, _, _ in ACTS:
+        a(f'<g class="act act-{k}">{interior(k, L + pil, R - pil, gl_t + 4, gl_b)}</g>')
+    a('</g>')
+    a(frame)
+    a(f'<g clip-path="url(#{uid}-r)"><g class="rideau">'
+      f'<rect x="{L+pil}" y="{f(band_b+7)}" width="{R-L-2*pil}" height="{f(GROUND-band_b-7)}" fill="url(#{uid}-l)"/>'
+      f'{line(L+pil, GROUND-1, R-pil, GROUND-1, "ln ln-b")}'
+      '</g></g>')
+    a(rect(L + pil - 2, band_b, R - L - 2 * pil + 4, 7, 'coffre'))
+    a(line(0, GROUND, W, GROUND, 'ln ln-b'))
+    a('</svg>')
+    return ''.join(o)
