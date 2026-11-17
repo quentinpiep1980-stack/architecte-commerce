@@ -100,7 +100,7 @@ FAQ = [
     {"q": "Quels documents le bailleur doit-il fournir ?",
      "a": "<p>Le diagnostic de performance énergétique est joint au bail (code de la construction, L126-29) et l'état des risques y est annexé (code de l'environnement, L125-5). Le bail comporte un inventaire des charges ; le bailleur communique à la signature, puis tous les trois ans, l'état des travaux prévus et réalisés (code de commerce, L145-40-2) ; un état des lieux est établi à l'entrée (L145-40-1).</p>"},
     {"q": "Où intervient Kalya Architecte ?",
-     "a": "<p>À Paris et en Île-de-France. Hors de Paris, les règles de fond sont les mêmes, mais l'autorisation de travaux est délivrée par le maire, sauf compétence du préfet, après avis des commissions compétentes, en principe les sous-commissions départementales. L'adresse parisienne de Kalya Architecte est au 71 rue du Cherche-Midi, Paris 6e ; l'architecte se déplace pour visiter les locaux. Téléphone : 09 70 70 17 99.</p>"},
+     "a": "<p>À Paris et en Île-de-France. Hors de Paris, les règles de fond sont les mêmes, mais l'autorisation de travaux est délivrée par le maire, sauf compétence du préfet, après avis des commissions compétentes, en principe les sous-commissions départementales. L'adresse parisienne de Kalya Architecte est au 71 rue du Cherche-Midi, Paris 6e ; l'architecte se déplace pour visiter les locaux. Téléphone : 07 56 83 24 28.</p>"},
 ]
 
 # Marché parisien (Apur, PLU, BNP Paribas Real Estate)

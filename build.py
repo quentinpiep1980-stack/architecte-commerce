@@ -87,7 +87,7 @@ def base_graph():
         {"@type": ["ProfessionalService", "LocalBusiness"], "@id": ORG_ID, "name": SITE['brand'],
          "alternateName": ["Kalya", "Architecte Commerce"], "url": URL + '/',
          "logo": {"@type": "ImageObject", "url": URL + "/icon-512.png", "width": 512, "height": 512},
-         "image": URL + "/og/architecte-commerce.png", "telephone": "+33 9 70 70 17 99", "email": SITE['email'],
+         "image": URL + "/og/architecte-commerce.png", "telephone": "+33 7 56 83 24 28", "email": SITE['email'],
          "address": {"@type": "PostalAddress", "streetAddress": SITE['street'], "postalCode": SITE['postal'], "addressLocality": SITE['city'], "addressCountry": "FR"},
          "areaServed": AREA, "founder": {"@id": PERSON_ID}, "priceRange": "Sur devis",
          "knowsAbout": ["architecture commerciale", "aménagement de local commercial", "création de boutique", "restaurant", "devanture et enseigne",

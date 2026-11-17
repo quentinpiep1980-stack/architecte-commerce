@@ -51,7 +51,7 @@ PAGES = [
     {
         "path": "/etudier-mon-projet", "kind": "core", "tpl": "contact.html", "schema": "ContactPage",
         "title": "Faire étudier mon projet de commerce | Kalya Architecte, Paris",
-        "description": "Décrivez votre projet de commerce : activité, adresse ou quartier, surface, avancement, échéance. Réponse d'un architecte. 71 rue du Cherche-Midi, Paris 6e. 09 70 70 17 99.",
+        "description": "Décrivez votre projet de commerce : activité, adresse ou quartier, surface, avancement, échéance. Réponse d'un architecte. 71 rue du Cherche-Midi, Paris 6e. 07 56 83 24 28.",
         "h1": "Faire étudier mon projet",
         "lede": "Cinq minutes pour décrire votre projet ; une réponse d'architecte, avec les premières questions à se poser sur votre local.",
     },

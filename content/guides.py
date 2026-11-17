@@ -166,7 +166,7 @@ PAGES = [
 <li>Les autorisations obtenues par l'exploitant précédent, s'il y en a.</li>
 <li>Votre concept : planche d'ambiance, références, charte de marque.</li>
 </ul>"""),
-            ("Ensuite", """<p>Envoyez ces éléments par le <a href="/etudier-mon-projet">formulaire</a> ou appelez le 09 70 70 17 99. Si le bail n'est pas signé, la priorité est la visite du local : le <a href="/diagnostic-local-commercial">diagnostic en 12 questions</a> vous prépare à cette visite.</p>"""),
+            ("Ensuite", """<p>Envoyez ces éléments par le <a href="/etudier-mon-projet">formulaire</a> ou appelez le 07 56 83 24 28. Si le bail n'est pas signé, la priorité est la visite du local : le <a href="/diagnostic-local-commercial">diagnostic en 12 questions</a> vous prépare à cette visite.</p>"""),
         ],
         "sources": ["l12629", "l1255", "l145402"],
         "related": ["/diagnostic-local-commercial", "/avant-signature-bail-commercial", "/guides/budget-renovation-commerce"],

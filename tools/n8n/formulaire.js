@@ -125,7 +125,7 @@ const accuse = node({
       sendTo: expr('{{ $("Valider et préparer").first().json.email }}'),
       subject: 'Votre demande a bien été reçue — Kalya Architecte',
       emailType: 'text',
-      message: 'Bonjour,\n\nVotre demande est bien arrivée. Nous l’étudions et revenons vers vous par courriel ou par téléphone.\n\nSi votre demande est urgente, vous pouvez nous joindre au 09 70 70 17 99.\n\nCet accusé de réception est automatique. Il ne constitue ni un devis, ni un engagement, ni un avis sur votre projet.\n\nLes informations transmises servent uniquement à répondre à votre demande. Vos droits et la durée de conservation : https://architecte-commerce.fr/confidentialite\n\nQuentin Piepszownik, architecte, entrepreneur individuel\nArchitecte exerçant sous le nom commercial Kalya Architecte\n71 rue du Cherche-Midi, 75006 Paris\ncontact@kalya-architecte.fr\nhttps://architecte-commerce.fr',
+      message: 'Bonjour,\n\nVotre demande est bien arrivée. Nous l’étudions et revenons vers vous par courriel ou par téléphone.\n\nSi votre demande est urgente, vous pouvez nous joindre au 07 56 83 24 28.\n\nCet accusé de réception est automatique. Il ne constitue ni un devis, ni un engagement, ni un avis sur votre projet.\n\nLes informations transmises servent uniquement à répondre à votre demande. Vos droits et la durée de conservation : https://architecte-commerce.fr/confidentialite\n\nQuentin Piepszownik, architecte, entrepreneur individuel\nArchitecte exerçant sous le nom commercial Kalya Architecte\n71 rue du Cherche-Midi, 75006 Paris\ncontact@kalya-architecte.fr\nhttps://architecte-commerce.fr',
       options: { appendAttribution: false, senderName: 'Kalya Architecte — Architecte Commerce', replyTo: 'contact@kalya-architecte.fr' }
     }
   }
