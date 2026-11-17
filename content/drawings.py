@@ -520,6 +520,7 @@ def scene(active='boutique', uid='sc'):
       f'<clipPath id="{uid}-r"><rect x="{L+pil}" y="{f(band_b+7)}" width="{R-L-2*pil}" height="{f(GROUND-band_b-7)}"/></clipPath>'
       f'<pattern id="{uid}-l" width="12" height="5" patternUnits="userSpaceOnUse"><rect class="lame" width="12" height="5"/>'
       '<line class="lame-l" x1="0" y1="4.6" x2="12" y2="4.6"/><line class="lame-h" x1="0" y1=".7" x2="12" y2=".7"/></pattern>'
+      f'<radialGradient id="{uid}-g" cx="50%" cy="8%" r="95%" fx="50%" fy="0%"><stop offset="0" stop-color="#FFF1D2"/><stop offset=".55" stop-color="#F4D9A4"/><stop offset="1" stop-color="#D9AE6A"/></radialGradient>'
       '</defs>')
     # pierre de part et d'autre
     y = GROUND - 22
@@ -528,7 +529,7 @@ def scene(active='boutique', uid='sc'):
         a(line(R, y, W, y, 'ln ln-j'))
         y -= 22
     a(body)
-    a(f'<g class="glow">{lit}</g>')
+    a(f'<g class="glow">{lit.replace(chr(34) + "lit" + chr(34), chr(34) + "lit" + chr(34) + f' style="fill:url(#{uid}-g)"')}</g>')
     a(f'<g clip-path="url(#{uid}-c)">')
     for k, _, _ in ACTS:
         a(f'<g class="act act-{k}">{interior(k, L + pil, R - pil, gl_t + 4, gl_b)}</g>')

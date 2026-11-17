@@ -159,7 +159,7 @@ def typo(doc):
             out.append(part); continue
         part = re.sub(r' ([:;?!])(?=\s|$|<|[^/\w])', ' \\1', part)
         part = part.replace('« ', '« ').replace(' »', ' »')
-        part = re.sub(r'(\d) (\d{3})(?!\d)', '\\1\u202f\\2', part)
+        part = re.sub(r'(\d) (\d{3})(?!\d)', '\\1\u00a0\\2', part)
         part = re.sub(r'(\d) (€|%|m²|m\b|cm\b|km\b|mois\b|ans\b|HT\b|TTC\b|heures\b|jours\b|personnes\b|places\b)', '\\1\u00a0\\2', part)
         part = part.replace('n° ', 'n°\u00a0')
         out.append(part)
