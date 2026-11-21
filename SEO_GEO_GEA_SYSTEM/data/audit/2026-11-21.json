@@ -2,9 +2,7 @@
  "date": "2026-11-21",
  "pages": 37,
  "indexables": 35,
- "erreurs": [
-  "étiquette git « faits-valides » introuvable : impossible de vérifier faits_controles.json (git fetch --tags)"
- ],
+ "erreurs": [],
  "avertissements": [
   "/ : titre de 63 signes (60 au plus)",
   "/ : description de 167 signes (70 à 155)",

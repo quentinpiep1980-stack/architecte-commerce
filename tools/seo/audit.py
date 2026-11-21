@@ -11,8 +11,8 @@ Complète tools/check.py (liens, ancres, h1, JSON-LD lisible, mots interdits). I
 - faits contrôlés (SEO_GEO_GEA_SYSTEM/faits_controles.json) : tout montant en euros (« 1 500 € », « 1500€ », « 1.500 € »,
   « 3 000 EUR », « € 900 ») doit y figurer pour la page où il apparaît ; prix du JSON-LD = honoraires publiés ;
   téléphones et courriels fermés ;
-- la partie « kalya » de ce fichier (honoraires, téléphones, courriels, phrases publiées) doit être identique à sa version
-  de l'étiquette git « faits-valides » : le pilote ne peut pas l'élargir lui-même ;
+- la partie « kalya » de ce fichier (honoraires, téléphones, courriels, phrases publiées) doit avoir l'empreinte KALYA_EMPREINTE,
+  également inscrite dans la consigne de la tâche programmée : le pilote ne peut pas l'élargir lui-même ;
 - promesses : superlatifs, « résultat / délai / prix garanti », gratuités et prestations non publiées interdits ;
   toute phrase contenant « garanti… », « gratuit… », « offert… » ou un délai (« sous 48 heures », « en 5 jours ») doit
   être une phrase déjà publiée et validée (liste « phrases_publiees ») ;
@@ -20,7 +20,7 @@ Complète tools/check.py (liens, ancres, h1, JSON-LD lisible, mots interdits). I
   (stricts pour les pages créées après le 21/11/2026), maillage éditorial, réponse courte, sources, fraîcheur,
   couverture de llms.txt et llms-full.txt, clé IndexNow, robots.txt.
 """
-import csv, datetime, html, json, pathlib, re, subprocess, sys
+import csv, datetime, hashlib, html, json, pathlib, re, sys
 from collections import defaultdict
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -33,7 +33,8 @@ URL = S.SITE['url']
 TODAY = datetime.date.today()
 INDEXNOW_KEY = '12457e08790f31ac0fc9c51152218be1'
 FRAICHEUR_JOURS = 120
-TAG = 'faits-valides'
+# Empreinte de la partie Kalya de faits_controles.json validée par Quentin (21/11/2026). Ne jamais la changer seul.
+KALYA_EMPREINTE = 'eda634c372c242b7'
 
 errs, warns = [], []
 def E(m): errs.append(m)
@@ -108,22 +109,21 @@ def date_fr(s):
     return datetime.date(int(m.group(3)), MOIS[m.group(2)], int(m.group(1))) if m and m.group(2) in MOIS else None
 
 
-# ------------------------------------------------------------------ faits contrôlés et étiquette « faits-valides »
+# ------------------------------------------------------------------ faits contrôlés et empreinte de la partie Kalya
 def partie_kalya(f):
     return {'montants': sorted((m['montant'], tuple(sorted(m.get('pages', [])))) for m in f.get('montants', []) if m.get('type') == 'kalya'),
             'telephones': sorted(f.get('telephones', [])), 'courriels': sorted(f.get('courriels', [])),
             'phrases_publiees': sorted(f.get('phrases_publiees', []))}
 
 
-try:
-    ref = subprocess.run(['git', '-C', str(ROOT), 'show', f'{TAG}:SEO_GEO_GEA_SYSTEM/faits_controles.json'],
-                         capture_output=True, text=True, check=True).stdout
-    if partie_kalya(json.loads(ref)) != partie_kalya(faits):
-        E(f"faits_controles.json : honoraires, téléphones, courriels ou phrases publiées différents de l'étiquette git « {TAG} » "
-          "(seul Quentin peut les changer ; une session validée par lui déplace l'étiquette)")
-except (subprocess.CalledProcessError, FileNotFoundError, json.JSONDecodeError):
-    if '--releve' not in sys.argv:
-        E(f"étiquette git « {TAG} » introuvable : impossible de vérifier faits_controles.json (git fetch --tags)")
+def empreinte_kalya(f):
+    return hashlib.sha256(json.dumps(partie_kalya(f), ensure_ascii=False, sort_keys=True).encode()).hexdigest()[:16]
+
+
+EMPREINTE = empreinte_kalya(faits)
+if EMPREINTE != KALYA_EMPREINTE and '--releve' not in sys.argv:
+    E(f"faits_controles.json : honoraires, téléphones, courriels ou phrases publiées modifiés (empreinte {EMPREINTE}, attendue {KALYA_EMPREINTE}). "
+      "Seul Quentin les change : une session qu'il valide met à jour le fichier, KALYA_EMPREINTE et la consigne de la tâche programmée.")
 
 AUTORISE_KALYA, AUTORISE_MARCHE = defaultdict(set), defaultdict(set)  # montant normalisé -> pages où il est admis
 KALYA = set()
@@ -343,7 +343,7 @@ if '--inventaire' in sys.argv:
         {'date': TODAY.isoformat(), 'pages': len(pages), 'indexables': sum(1 for r in inv if r['indexable'] == 'oui'),
          'erreurs': errs, 'avertissements': warns}, ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
 
-print(f"{len(pages)} pages, {len(sitemap)} au sitemap, {len(errs)} erreur(s), {len(warns)} avertissement(s)")
+print(f"{len(pages)} pages, {len(sitemap)} au sitemap, {len(errs)} erreur(s), {len(warns)} avertissement(s) ; empreinte des faits Kalya : {EMPREINTE}")
 for w_ in warns:
     print('AVERTISSEMENT', w_)
 for e in errs:
