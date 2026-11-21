@@ -281,5 +281,29 @@
  "formulaire": {
   "n8n": "non mesurable : historique d'exécution du workflow su50ih0Q6dvATejB non conservé (search_workflow_executions renvoie 0)",
   "formulaire_envoye_7j": null
+ },
+ "indexnow": {
+  "workflow": "KvDC80cHkNCDw8xe",
+  "execution": "70788",
+  "adresses": 35,
+  "reponse": "202 Accepted",
+  "date": "2026-11-21"
+ },
+ "deploiements": [
+  {
+   "id": "dpl_6V1cNYZPCF4aaSgBKnw4ufyapaQ4",
+   "commit": "4caec5c",
+   "etat": "READY"
+  },
+  {
+   "id": "dpl_HLW7tJvHP6HmQ7HBAum18XPBG7j8",
+   "commit": "89d861e",
+   "etat": "READY"
+  }
+ ],
+ "tache_programmee": {
+  "id": "trig_01TaCosgZWSMx2QTZNk6QRaf",
+  "cron": "CRON_TZ=Europe/Paris 14 10 * * 2,6",
+  "premiere_execution": "2026-11-24"
  }
 }
