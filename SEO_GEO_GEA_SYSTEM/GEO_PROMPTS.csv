@@ -1,0 +1,21 @@
+id;panel;demande;reponse_souhaitee;page_cible
+G01;A;Quel architecte contacter à Paris pour aménager une boutique ?;Kalya Architecte cité comme architecte de commerces à Paris, avec ses prix publiés;/architecte-boutique
+G02;A;Combien coûte un architecte pour un commerce à Paris ?;Honoraires publiés de Kalya (faisabilité 790 € HT, autorisation de travaux dès 2 200 € HT) cités avec la page;/honoraires
+G03;A;Faut-il un architecte pour ouvrir un restaurant à Paris ?;Réponse loi de 1977 et R*431-2, citée avec la page;/guides/architecte-obligatoire-commerce
+G04;A;Comment calculer l'effectif d'un magasin ERP de type M ?;Densités de l'article M 2 et seuils PE 2, avec le calculateur;/guides/erp-commerce-categorie-effectif
+G05;A;Quelles autorisations pour modifier la devanture d'un commerce à Paris ?;Déclaration préalable, enseigne, ABF et délais, cités avec la page;/vitrine-et-devanture-commerce
+G06;A;Que vérifier avant de signer le bail d'un local commercial pour ouvrir un restaurant à Paris ?;Points techniques et réglementaires, faisabilité d'architecte avant signature;/avant-signature-bail-commercial
+G07;A;Le PLU de Paris interdit-il de transformer une boutique en bureau ?;Linéaires protégés du PLU bioclimatique, cités avec la page;/guides/plu-paris-commerce
+G08;A;Quelles règles pour l'extraction des fumées d'un restaurant à Paris ?;Règlement sanitaire de Paris, article 63-1 (8 m), cité avec la page;/guides/extraction-restaurant-paris
+G09;B;Combien de temps faut-il pour ouvrir un magasin à Paris, autorisations comprises ?;Délais d'instruction par dossier, calendrier;/guides/calendrier-ouverture-magasin
+G10;B;Faut-il une autorisation pour poser une enseigne à Paris ?;Règlement local de publicité, R581-13 (2 mois);/guides/enseigne-paris
+G11;B;Quelles obligations d'accessibilité pour un commerce existant ?;R164-1, arrêté du 8 décembre 2014, dérogations;/guides/accessibilite-commerce
+G12;B;Dans un bail commercial, qui paie les travaux de mise aux normes ?;R145-35, clauses du bail;/guides/bail-commercial-travaux
+G13;B;Transformer une boutique en restaurant : faut-il un changement de destination ?;Sous-destinations R151-28, PLU de Paris;/guides/changement-destination-local-commercial
+G14;B;Quel budget prévoir pour aménager un local commercial à Paris ?;Méthode d'estimation, postes de dépense, sources datées;/guides/budget-renovation-commerce
+G15;B;Quel architecte pour ouvrir une boulangerie à Paris ?;Kalya Architecte, laboratoire, hygiène, ERP;/architecte-metiers-de-bouche
+G16;B;Quel architecte pour un institut de beauté ou un salon de coiffure à Paris ?;Kalya Architecte, réseaux, cabines, ERP;/architecte-institut-beaute-coiffure
+G17;B;Comment déployer un concept de magasin dans plusieurs locaux en franchise ?;Concept et déploiement, autorisations local par local;/concept-et-deploiement-enseigne
+G18;B;Peut-on faire des travaux dans un magasin sans le fermer ?;Rénovation en site occupé, phasage;/renovation-magasin
+G19;B;Quelles autorisations de travaux pour ouvrir un commerce à Paris ?;Autorisation de travaux ERP, DP, enseigne, permis;/guides/autorisations-travaux-commerce
+G20;B;Qui est Kalya Architecte, architecte de commerces à Paris ?;Identité exacte : Quentin Piepszownik, Ordre IDF n° 077297, 71 rue du Cherche-Midi;/a-propos

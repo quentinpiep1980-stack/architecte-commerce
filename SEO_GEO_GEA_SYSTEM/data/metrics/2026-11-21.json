@@ -1,0 +1,285 @@
+{
+ "date": "2026-11-21",
+ "cycle": "initial (mise en place du pilote)",
+ "search_console": {
+  "statut": "connecté (Windsor.ai, sc-domain:architecte-commerce.fr)",
+  "j28": {
+   "clics": 27,
+   "impressions": 1792,
+   "ctr": 0.015,
+   "position": null,
+   "periode": "23/10 au 19/11/2026, série quotidienne",
+   "impressions_somme_par_page_last_28d": 1921
+  },
+  "j28_precedent": {
+   "clics": 7,
+   "impressions": 511,
+   "periode": "25/09 au 22/10/2026, somme par jour"
+  },
+  "j7": {
+   "clics": 7,
+   "impressions": 551,
+   "periode": "13/11 au 19/11/2026"
+  },
+  "j7_precedent": {
+   "clics": 6,
+   "impressions": 416,
+   "periode": "06/11 au 12/11/2026"
+  },
+  "top_pages": [
+   [
+    "/guides/plu-paris-commerce",
+    13,
+    253,
+    3.93
+   ],
+   [
+    "/vitrine-et-devanture-commerce",
+    7,
+    257,
+    18.24
+   ],
+   [
+    "/guides/budget-renovation-commerce",
+    2,
+    122,
+    41.61
+   ],
+   [
+    "/guides/erp-commerce-categorie-effectif",
+    2,
+    245,
+    24.48
+   ],
+   [
+    "/",
+    1,
+    373,
+    61.99
+   ],
+   [
+    "/guides/calendrier-ouverture-magasin",
+    1,
+    136,
+    11.34
+   ],
+   [
+    "/votre-projet",
+    1,
+    230,
+    36.32
+   ]
+  ],
+  "top_requetes": [
+   [
+    "architecte commerce",
+    1,
+    202,
+    63.03,
+    "/"
+   ],
+   [
+    "architecte pour commerce",
+    0,
+    109,
+    40.49,
+    "/votre-projet"
+   ],
+   [
+    "architecte pour commerce",
+    0,
+    64,
+    79.11,
+    "/"
+   ],
+   [
+    "devanture de magasin à paris",
+    0,
+    57,
+    39.49,
+    "/vitrine-et-devanture-commerce"
+   ],
+   [
+    "prix aménagement local commercial au m2",
+    0,
+    47,
+    64.26,
+    "/guides/budget-renovation-commerce"
+   ],
+   [
+    "architecte local commercial",
+    0,
+    27,
+    35.96,
+    "/votre-projet"
+   ],
+   [
+    "déploiement réseau d’enseigne",
+    0,
+    26,
+    17.38,
+    "/concept-et-deploiement-enseigne"
+   ],
+   [
+    "visite locaux professionnels",
+    0,
+    24,
+    89.29,
+    "/diagnostic-local-commercial"
+   ],
+   [
+    "déploiement enseigne",
+    0,
+    23,
+    21.13,
+    "/concept-et-deploiement-enseigne"
+   ],
+   [
+    "calcul effectif erp type m",
+    0,
+    21,
+    38.0,
+    "/guides/erp-commerce-categorie-effectif"
+   ]
+  ],
+  "positions_4_20": [
+   [
+    "déploiement réseau d’enseigne",
+    17.38,
+    26,
+    "/concept-et-deploiement-enseigne"
+   ],
+   [
+    "quentin piepszownik",
+    16.54,
+    13,
+    "/mentions-legales"
+   ],
+   [
+    "date ouverture",
+    8.5,
+    8,
+    "/guides/calendrier-ouverture-magasin (hors sujet)"
+   ],
+   [
+    "erp commerce détail",
+    17.6,
+    5,
+    "/guides/erp-commerce-categorie-effectif"
+   ]
+  ],
+  "mauvaises_pages": {
+   "seuil": "pilote.py opportunites --min 4",
+   "lignes": [
+    [
+     "architecte pour commerce",
+     173,
+     "/votre-projet",
+     "/"
+    ],
+    [
+     "architecte local commercial",
+     50,
+     "/votre-projet",
+     "/"
+    ],
+    [
+     "quentin piepszownik",
+     14,
+     "/mentions-legales",
+     "/a-propos"
+    ],
+    [
+     "enseigne boulangerie devanture commerce",
+     10,
+     "/vitrine-et-devanture-commerce",
+     "/guides/enseigne-paris"
+    ],
+    [
+     "architecte galerie commerciale",
+     9,
+     "/votre-projet",
+     "/"
+    ],
+    [
+     "projet bâtiment commercial",
+     7,
+     "/votre-projet",
+     "/"
+    ],
+    [
+     "architecte espaces commerciaux",
+     6,
+     "/votre-projet",
+     "/"
+    ],
+    [
+     "faisabilité local commercial",
+     4,
+     "/diagnostic-local-commercial",
+     "/avant-signature-bail-commercial"
+    ],
+    [
+     "ouvert pendant les travaux",
+     4,
+     "/renovation-commerce-site-occupe (301)",
+     "/renovation-magasin"
+    ]
+   ]
+  },
+  "autres_sites": [
+   [
+    "architecte commerce paris",
+    "architecte-erp.fr/architecte-commerce-paris 18e (Firecrawl)"
+   ]
+  ],
+  "fichiers": [
+   "data/searchconsole/2026-11-21-requetes.csv",
+   "data/searchconsole/2026-11-21-pages.csv",
+   "data/searchconsole/2026-11-21-jours.csv"
+  ]
+ },
+ "vercel": {
+  "statut": "non activé (web_analytics_not_enabled)",
+  "visiteurs_7j": null,
+  "pages_vues_7j": null,
+  "top_pages": [],
+  "origines": [],
+  "ia": [],
+  "clic_telephone": null,
+  "formulaire_envoye": null
+ },
+ "positions": {
+  "panel": 24,
+  "top3": 2,
+  "top10": 4,
+  "top20": 7,
+  "source": "Firecrawl, index web, location Paris (proxy, pas Google)"
+ },
+ "geo": {
+  "demandes": 8,
+  "cite": 0,
+  "mentionne": 0,
+  "absent": 8,
+  "methode": "WebSearch, panel A"
+ },
+ "audit": {
+  "erreurs": 0,
+  "avertissements": 58
+ },
+ "publie": [
+  "à la mise en ligne de ce jour : /llms-full.txt, /12457e08790f31ac0fc9c51152218be1.txt (clé IndexNow)"
+ ],
+ "modifie": [
+  "/confidentialite (Cloudflare Turnstile décrit, « aucun script tiers » retiré)",
+  "/diagnostic-local-commercial (description)",
+  "/ et /llms.txt (« délai indicatif » ajouté au dossier en une semaine)",
+  "/llms.txt (lien vers la version intégrale)",
+  "/js/site.js (file d'attente et événements de mesure, inactifs sans Web Analytics)",
+  "/sitemap.xml : dates réelles par empreinte du contenu ; /, /confidentialite et /diagnostic-local-commercial datées du 21/11/2026, les autres inchangées"
+ ],
+ "formulaire": {
+  "n8n": "non mesurable : historique d'exécution du workflow su50ih0Q6dvATejB non conservé (search_workflow_executions renvoie 0)",
+  "formulaire_envoye_7j": null
+ }
+}

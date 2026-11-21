@@ -1,0 +1,355 @@
+{
+ "_lisez_moi": "Liste fermée des faits chiffrés, coordonnées et formulations sensibles que le site peut afficher, contrôlée par tools/seo/audit.py. Montants « kalya » (honoraires publiés sur /honoraires), téléphones, courriels et « phrases_publiees » (phrases déjà publiées contenant une garantie, une gratuité ou un délai) : figés par l'étiquette git « faits-valides » ; seul Quentin les change (une session qu'il valide met à jour ce fichier et déplace l'étiquette). « pages » : où chaque montant est admis (« * » = partout, « llms.txt » et « llms-full.txt » = fichiers texte). Montants « marche » : chiffres tiers ajoutés par le pilote après relecture indépendante, avec « source » (clé de content/site.py SOURCES citée par la page), « page » et « lu_le » (AAAA-MM-JJ).",
+ "montants": [
+  {
+   "montant": "4",
+   "type": "kalya",
+   "objet": "option relevé géomètre, par m² au-delà de 100 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "4,80",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "7",
+   "type": "kalya",
+   "objet": "autorisation de travaux ERP, par m² de 101 à 400 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/",
+    "/guides/architecte-obligatoire-commerce",
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "110",
+   "type": "kalya",
+   "objet": "modification après validation, de l'heure (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "132",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "250",
+   "type": "kalya",
+   "objet": "visite supplémentaire (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "300",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "450",
+   "type": "kalya",
+   "objet": "dérogation d'accessibilité, par règle (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "540",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "790",
+   "type": "kalya",
+   "objet": "faisabilité avant signature, jusqu'à 100 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "*"
+   ]
+  },
+  {
+   "montant": "948",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "*"
+   ]
+  },
+  {
+   "montant": "900",
+   "type": "kalya",
+   "objet": "relevé géomètre jusqu'à 100 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "1 080",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "2 200",
+   "type": "kalya",
+   "objet": "autorisation de travaux ERP jusqu'à 100 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "*"
+   ]
+  },
+  {
+   "montant": "2 640",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "2 550",
+   "type": "kalya",
+   "objet": "AT ERP 150 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "3 060",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "2 900",
+   "type": "kalya",
+   "objet": "AT ERP 200 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "3 480",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "3 250",
+   "type": "kalya",
+   "objet": "AT ERP 250 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "3 900",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "3 600",
+   "type": "kalya",
+   "objet": "AT ERP 300 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "4 320",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  },
+  {
+   "montant": "4 300",
+   "type": "kalya",
+   "objet": "AT ERP 400 m² (HT)",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt",
+    "llms.txt"
+   ]
+  },
+  {
+   "montant": "5 160",
+   "type": "kalya",
+   "objet": "idem TTC",
+   "source": "/honoraires (prix publiés le 17/11/2026, mêmes prix que architecte-erp.fr/tarifs)",
+   "pages": [
+    "/honoraires",
+    "llms-full.txt"
+   ]
+  }
+ ],
+ "telephones": [
+  "07 56 83 24 28"
+ ],
+ "courriels": [
+  "contact@kalya-architecte.fr"
+ ],
+ "phrases_publiees": [
+  "- Baux conclus ou renouvelés depuis la loi n° 2026-403 du 26 mai 2026 : dépôt de garantie et autres garanties limités aux loyers d'un trimestre (L145-40).",
+  "- Code de commerce, article L145-40 (garanties limitées à un trimestre de loyer, loi n° 2026-403 du 26 mai 2026), version issue de la loi du 26 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142450",
+  "- Dossier prêt en une semaine, une fois toutes les pièces nécessaires réunies (délai indicatif).",
+  "- Le délai d'instruction n'est ni la durée du projet, ni un résultat garanti.",
+  "- Loi du 26 mai 2026 : loyer mensuel de droit à la demande du preneur (L145-32-1) ; garanties plafonnées à un trimestre pour les baux conclus ou renouvelés depuis la loi (L145-40).",
+  "- Réponse sous 24 heures ; devis gratuit ; échéancier : 50 % à la signature du devis, 50 % à la remise du dossier.",
+  "- Un échange par téléphone pour cadrer le projet, puis le devis écrit, gratuit.",
+  "- [Ce local est-il bon ?](https://architecte-commerce.fr/diagnostic-local-commercial): Outil en ligne gratuit : 12 questions pour tester un local commercial avant le bail (activité, PLU de Paris, extraction, accessibilité, devanture).",
+  "Baux conclus ou renouvelés depuis la loi n° 2026-403 du 26 mai 2026 : dépôt de garantie et autres garanties limités aux loyers d'un trimestre (L145-40).",
+  "Ces plans disent ce qui coûte cher (déplacer une évacuation, créer une gaine) et ce qui est gratuit (profiter d'une hauteur, d'une vitrine d'angle).",
+  "Code de commerce, article L145-40 (garanties limitées à un trimestre de loyer, loi n° 2026-403 du 26 mai 2026) (version issue de la loi du 26 mai 2026)",
+  "Deux nouveautés de la loi n° 2026-403 du 26 mai 2026 : le paiement mensuel du loyer est de droit à la demande du preneur, en l'absence d'arriérés (L145-32-1) ; pour les baux conclus ou renouvelés depuis cette loi, le dépôt de garantie et les autres garanties ne peuvent excéder le montant des loyers dus au titre d'un trimestre (L145-40).",
+  "Devanture, enseigne, permis de construire, conception et suivi de chantier : sur devis, gratuit.",
+  "Devis gratuit, rien à payer avant sa signature.",
+  "Dossier prêt en une semaine environ, pièces réunies (délai indicatif).",
+  "Dossier prêt en une semaine, pièces réunies (délai indicatif)",
+  "Dossier prêt en une semaine, une fois toutes les pièces nécessaires réunies (délai indicatif).",
+  "Gratuits, sans inscription, calculés dans votre navigateur.",
+  "Il vous répond sous 24 heures avec les points à vérifier.",
+  "Kalya prépare le dossier en une semaine environ, une fois les pièces réunies (délai indicatif).",
+  "Le devis est gratuit ; rien n'est à payer avant sa signature.",
+  "Le devis est gratuit, rien n'est à payer avant sa signature, et les forfaits sont publiés.",
+  "Le délai d'instruction n'est ni la durée du projet, ni un résultat garanti.",
+  "Le délai d'une semaine est-il garanti ?",
+  "Le dépôt de garantie et les autres garanties ne peuvent excéder le montant des loyers d'un trimestre ; le dépôt est restitué dans un délai de trois mois au plus après la remise des clés (L145-40).",
+  "Le paiement mensuel vaut aussi pour les baux en cours ; le plafond des garanties vise les baux conclus ou renouvelés à compter de la promulgation de la loi (la fiche service-public F23927 retient le 28 mai 2026).",
+  "Le reste sur devis gratuit.",
+  "Loi du 26 mai 2026 : loyer mensuel de droit à la demande du preneur (L145-32-1) ; garanties plafonnées à un trimestre pour les baux conclus ou renouvelés depuis la loi (L145-40).",
+  "Outil en ligne gratuit : 12 questions pour tester un local commercial avant le bail (activité, PLU de Paris, extraction, accessibilité, devanture).",
+  "Pour les autres transferts concernés, les garanties contractuelles applicables, dont les clauses contractuelles types lorsque requises, figurent dans les accords des prestataires.",
+  "Pour les baux conclus ou renouvelés depuis la loi du 26 mai 2026, les garanties sont limitées à un trimestre de loyer.",
+  "Présenter mon projet de commerce : devis gratuit | Kalya Architecte",
+  "Q : Le délai d'une semaine est-il garanti ?",
+  "Réponse d'un architecte sous 24 heures, devis gratuit.",
+  "Réponse sous 24 h.",
+  "Réponse sous 24 heures ; devis gratuit ; échéancier : 50 % à la signature du devis, 50 % à la remise du dossier.",
+  "Réponse sous 24 heures ; devis gratuit, rien à payer avant sa signature.",
+  "Réponse sous 24 heures au [tél] ou par le formulaire.",
+  "Réponse sous 24 heures, devis gratuit, rien à payer avant sa signature.",
+  "Réponse sous 24 heures, devis gratuit.",
+  "Réponse sous 24 heures.",
+  "Si vous agissez en qualité de consommateur et qu'un litige n'a pu être réglé par une réclamation écrite adressée à l'éditeur, vous pouvez recourir gratuitement au médiateur de la consommation : CM2C (Centre de la médiation de la consommation de conciliateurs de justice), médiateur désigné par le Conseil national de l'Ordre des architectes : www.cm2c.net .",
+  "Trois outils gratuits, sans inscription : diagnostic d'un local avant le bail, calcul d'effectif et de catégorie ERP, calendrier des autorisations.",
+  "Un devis écrit et gratuit, avec ses livrables et son prix, avant de commencer ; rien à payer avant sa signature.",
+  "Un devis écrit, gratuit, avec ses livrables et son prix, avant de commencer ; rien à payer avant sa signature.",
+  "Un échange par téléphone pour cadrer le projet, puis le devis écrit, gratuit."
+ ],
+ "pages_initiales": [
+  "/",
+  "/avant-signature-bail-commercial",
+  "/architecte-boutique",
+  "/amenagement-local-commercial",
+  "/renovation-magasin",
+  "/vitrine-et-devanture-commerce",
+  "/concept-et-deploiement-enseigne",
+  "/architecte-restaurant",
+  "/architecte-metiers-de-bouche",
+  "/architecte-institut-beaute-coiffure",
+  "/architecte-showroom",
+  "/architecte-commerce-ile-de-france",
+  "/guides/autorisations-travaux-commerce",
+  "/guides/calendrier-ouverture-magasin",
+  "/guides/budget-renovation-commerce",
+  "/guides/architecte-obligatoire-commerce",
+  "/guides/erp-commerce-categorie-effectif",
+  "/guides/accessibilite-commerce",
+  "/guides/enseigne-paris",
+  "/guides/extraction-restaurant-paris",
+  "/guides/bail-commercial-travaux",
+  "/guides/changement-destination-local-commercial",
+  "/guides/plu-paris-commerce",
+  "/votre-projet",
+  "/outils",
+  "/guides",
+  "/mission",
+  "/honoraires",
+  "/references",
+  "/a-propos",
+  "/etudier-mon-projet",
+  "/diagnostic-local-commercial",
+  "/mentions-legales",
+  "/confidentialite",
+  "/plan-du-site"
+ ]
+}

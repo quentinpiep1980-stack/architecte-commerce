@@ -36,6 +36,10 @@ SITE = {
     "tva": "FR93513794768",
     "ordre": "077297",
     "ordre_region": "Île-de-France",
+    # Mesure d'audience Vercel Web Analytics : False tant que Quentin ne l'a pas activée sur le projet Vercel
+    # (aggregate_pageviews répond web_analytics_not_enabled). True : script /_vercel/insights/script.js,
+    # événements (clic_telephone, clic_email, formulaire_envoye) et paragraphe dédié de la politique de confidentialité.
+    "analytics": False,
     # Formulaire : webhook n8n « ARCHITECTE COMMERCE (Kalya Architecte) — formulaire de contact (production) » (su50ih0Q6dvATejB)
     "form_action": "https://architecte-erp.app.n8n.cloud/webhook/architecte-commerce-demande-5d8e2a71c4f9b036",
 }

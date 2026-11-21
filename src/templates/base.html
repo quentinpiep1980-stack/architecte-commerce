@@ -133,7 +133,7 @@
   <a class="btn btn-filet" href="tel:{{ site.phone_intl }}">{{ site.phone }}</a>
   <a class="btn btn-or" href="/etudier-mon-projet">Présenter mon projet</a>
 </div>
-<script src="/js/site.js?v={{ v }}" defer></script>
+<script src="/js/site.js?v={{ v }}" defer></script>{% if site.analytics %}<script src="/_vercel/insights/script.js" defer></script>{% endif %}
 {% block scripts %}{% endblock %}
 </body>
 </html>

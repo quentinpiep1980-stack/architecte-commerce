@@ -1,0 +1,1321 @@
+# Kalya Architecte, architecte-commerce.fr
+
+> Architecte de commerces à Paris et en Île-de-France : boutiques, restaurants et bars, instituts et salons, boulangeries et métiers de bouche, showrooms, réseaux d'enseignes. Faisabilité d'un local avant la signature du bail, conception, dossiers d'autorisation (autorisation de travaux ERP, déclaration préalable de devanture, enseigne, permis de construire), consultation des entreprises et, sur demande, suivi de chantier.
+
+## Identité
+- Kalya Architecte est le nom commercial de Quentin Piepszownik, architecte DE-HMONP inscrit à l'Ordre des architectes d'Île-de-France (n° 077297), entrepreneur individuel (SIREN 513 794 768), assuré à la Mutuelle des Architectes Français.
+- Établissement parisien : 71 rue du Cherche-Midi, 75006 Paris. Téléphone : 07 56 83 24 28. Courriel : contact@kalya-architecte.fr. Réponse sous 24 heures ; devis gratuit, rien à payer avant sa signature.
+
+## Prix publiés (HT, Paris et petite couronne, établissement de 5e catégorie sans hébergement)
+- Faisabilité avant signature d'un bail : 790 € HT (948 € TTC) jusqu'à 100 m² ; note avec croquis et avis : faisable, faisable sous conditions ou bloquant.
+- Autorisation de travaux ERP : 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² (150 m² : 2 550 € ; 200 m² : 2 900 € ; 300 m² : 3 600 € ; 400 m² : 4 300 €). Dossier prêt en une semaine environ, pièces réunies (délai indicatif).
+- Options : relevé par géomètre 900 € HT jusqu'à 100 m² puis 4 € HT/m² ; dérogation d'accessibilité 450 € HT par règle ; visite supplémentaire 250 € HT ; modification après validation 110 € HT de l'heure.
+- Déclaration préalable de devanture, enseigne, permis de construire, conception complète et suivi de chantier : sur devis.
+- Détail : https://architecte-commerce.fr/honoraires (mêmes prix que https://www.architecte-erp.fr/tarifs).
+
+Les règles citées sur ce site renvoient à leurs textes (règlement de sécurité ERP, code de la construction, code de l'urbanisme, PLU bioclimatique de Paris, code de l'environnement, règlement sanitaire de Paris, code de commerce), dans leur version en vigueur à la date indiquée sur chaque page.
+
+Sites du même architecte : kalya-architecte.fr (Kalya Architecte à Paris) ; architecte-erp.fr (établissements recevant du public) ; dossier-erp-paris.fr (guides du dossier ERP à Paris).
+
+Ce fichier reprend le texte des pages du site, dans l'ordre : réponse courte, sections, questions fréquentes, sources. Il ne contient rien qui ne soit publié sur les pages elles-mêmes.
+
+
+========================================================================
+# Avant de signer un bail commercial : les neuf points qui décident d'un local
+URL : https://architecte-commerce.fr/avant-signature-bail-commercial
+Vérifié le 17 novembre 2026.
+
+Un bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions. Avant de signer, vérifiez que le local tient votre activité : destination prévue au bail, protections du PLU sur la rue, extraction si vous cuisinez, accessibilité de l'entrée, effectif et sorties, façade, enseigne, copropriété. Kalya Architecte en fait une faisabilité avant signature : 790 € HT, une note avec croquis et un avis, faisable, faisable sous conditions ou bloquant.
+
+- Durée : neuf ans au moins, avec faculté de résiliation à chaque période triennale, sauf exceptions (code de commerce, L145-4).
+- Activité : la clause de destination fixe ce que vous pouvez exercer ; en changer passe par l'article L145-47 ou L145-48.
+- Paris : sur les rues protégées du PLU, un rez-de-chaussée commercial ne peut pas devenir un bureau ou une agence (UG.1.4.2).
+- Restaurant : l'air de cuisine est rejeté à 8 m au moins de toute fenêtre, sauf aménagement empêchant toute reprise d'air pollué (règlement sanitaire de Paris, art. 63-1).
+- Baux conclus ou renouvelés depuis la loi n° 2026-403 du 26 mai 2026 : dépôt de garantie et autres garanties limités aux loyers d'un trimestre (L145-40).
+
+## Les neuf points qui décident d'un local
+Un local se juge sur ce qu'il permet, pas sur ce qu'il montre. La réponse tient en trois mots : faisable, faisable sous conditions (travaux, autorisations, accord du bailleur ou de la copropriété) ou bloquant pour cette activité. Neuf points la fondent.
+- Destination et bail. La clause de destination autorise-t-elle votre activité ? Une activité connexe ou complémentaire se notifie au bailleur, qui a deux mois pour en contester le caractère connexe ou complémentaire (L145-47) ; une activité différente suit la procédure de l'article L145-48.
+- Protections du PLU. À Paris, 329 km de linéaires protégés imposent de garder les rez-de-chaussée en commerce, artisanat, restauration ou commerce de gros (ou en activités médicales et paramédicales de proximité). Sur certaines, l'artisanat de proximité ou le commerce culturel est lui-même protégé (voir le guide du PLU de Paris (https://architecte-commerce.fr/guides/plu-paris-commerce)).
+- Extraction. Pour cuisiner : hotte débordante, conduit de ventilation unique, indépendant des conduits de fumée, rejet de l'air à 8 m au moins de toute fenêtre ou prise d'air neuf, sauf aménagement empêchant toute reprise d'air pollué (RSD de Paris, art. 63-1 et 130-3). Si aucun tracé n'est réalisable, la cuisine n'est pas faisable en l'état (voir le guide de l'extraction (https://architecte-commerce.fr/guides/extraction-restaurant-paris)).
+- Puissance électrique et fluides. Froid, cuisson, climatisation, éclairage : la puissance disponible et la possibilité de l'augmenter se vérifient avant de s'engager, comme les arrivées d'eau et les évacuations.
+- Accessibilité. Une marche à l'entrée ne dispense de rien : un ERP de 5e catégorie dans l'existant doit rendre accessible une partie du local donnant accès à l'ensemble des prestations ; une dérogation se motive point par point (code de la construction, R164-2 et R164-3).
+- Effectif et sorties. Ouvrir un sous-sol ou un étage au public change l'effectif, donc parfois la catégorie et le nombre de dégagements exigés (règlement de sécurité, PE 2 et PE 11).
+- Réserve, livraisons, déchets. Le back-office se dessine aussi : où livrer, où stocker, où sortir les déchets, par où passe le personnel.
+- Façade et enseigne. Modifier la devanture demande une déclaration préalable ; poser une enseigne, une autorisation du maire. En site patrimonial remarquable ou aux abords d'un monument historique, l'architecte des Bâtiments de France donne son accord.
+- Copropriété. Un conduit en façade ou des travaux sur les parties communes demandent un vote de l'assemblée générale (loi du 10 juillet 1965, art. 25 b) ; le règlement de copropriété peut encadrer l'activité.
+Le diagnostic en 12 questions (https://architecte-commerce.fr/diagnostic-local-commercial) vous donne une première lecture en deux minutes ; la faisabilité d'architecte la confirme, documents en main.
+
+## Les documents à demander au bailleur
+- Le diagnostic de performance énergétique, joint au bail (code de la construction, L126-29).
+- L'état des risques, annexé aux baux commerciaux (code de l'environnement, L125-5).
+- L'inventaire précis et limitatif des catégories de charges, impôts, taxes et redevances, que le bail doit comporter, et l'état prévisionnel des travaux des trois années suivantes ainsi que l'état récapitulatif des trois années précédentes, que le bailleur communique à la conclusion du bail puis tous les trois ans (code de commerce, L145-40-2).
+- L'état des lieux d'entrée, établi contradictoirement (L145-40-1).
+- Le dossier technique amiante pour un immeuble dont le permis est antérieur au 1er juillet 1997 : le propriétaire le tient à la disposition des occupants (code de la santé publique, R1334-29-5).
+- Le règlement de copropriété et les derniers procès-verbaux d'assemblée générale, pour lire les clauses d'activité et les travaux votés.
+- Les plans et les autorisations antérieures du local, s'ils existent : ils disent ce qui a déjà été accordé.
+
+## Les clauses qui touchent aux travaux
+La loi fixe quelques bornes ; le reste dépend du bail. Ne peuvent pas être imputées au locataire les grosses réparations de l'article 606 du code civil, ni les dépenses de mise en conformité lorsqu'elles relèvent de ces grosses réparations (code de commerce, R145-35). L'autorisation des travaux du preneur, leur sort en fin de bail et la remise en état se lisent dans les clauses.
+Deux nouveautés de la loi n° 2026-403 du 26 mai 2026 : le paiement mensuel du loyer est de droit à la demande du preneur, en l'absence d'arriérés (L145-32-1) ; pour les baux conclus ou renouvelés depuis cette loi, le dépôt de garantie et les autres garanties ne peuvent excéder le montant des loyers dus au titre d'un trimestre (L145-40).
+Ce que l'architecte apporte à la négociation
+Les conditions identifiées par la faisabilité (travaux lourds, autorisations à obtenir, accord de la copropriété) peuvent nourrir la négociation : franchise de loyer, travaux à la charge du bailleur, délai pour obtenir les autorisations. Leur rédaction relève de votre avocat ou de votre notaire.
+
+## La faisabilité avant signature : 790 € HT
+L'architecte analyse la destination du local, le classement de l'établissement, l'accessibilité, la sécurité incendie et les autorisations nécessaires, puis vous remet une note avec croquis et son avis : faisable, faisable sous conditions ou bloquant.
+- Prix : 790 € HT (948 € TTC) pour un établissement de 5e catégorie sans hébergement jusqu'à 100 m², à Paris et en petite couronne ; au-delà, sur devis.
+- Ce qu'il faut transmettre : l'adresse, le projet de bail, les plans existants cotés du local, la description de l'activité et de l'effectif prévu.
+- Ce que ce n'est pas : une mission distincte de l'autorisation de travaux, dont le forfait ne comprend pas la conception de l'aménagement. Voir les honoraires (https://architecte-commerce.fr/honoraires).
+La note se lit en dix minutes et sert de base à la négociation, au budget et au calendrier.
+Pour comparer plusieurs locaux, la même grille s'applique à chacun : vous choisissez sur des critères identiques, pas sur un coup de cœur.
+
+## Questions fréquentes
+Q : Combien de temps engage un bail commercial ?
+R : Neuf ans au moins (code de commerce, L145-4). Le preneur peut en principe donner congé à l'expiration de chaque période triennale, sauf exceptions prévues par la loi (bail de plus de neuf ans, locaux monovalents, bureaux, stockage). Un bail dérogatoire ne peut dépasser trois ans (L145-5).
+Q : Puis-je ouvrir un restaurant dans une ancienne boutique ?
+R : Souvent, si le bail l'autorise, si l'extraction est réalisable et si le PLU le permet. En urbanisme, passer de l'artisanat et commerce de détail à la restauration ne change pas de destination ; des travaux sur la façade ou la structure imposent toutefois un permis de construire (R*421-14 c). Le type d'ERP passe de M à N : les travaux d'aménagement relèvent de l'autorisation de travaux (L122-3).
+Q : Le bailleur doit-il fournir des diagnostics ?
+R : Oui : le diagnostic de performance énergétique est joint au bail et l'état des risques y est annexé. Le bail comporte aussi un inventaire des charges, et le bailleur communique un état des travaux prévus et réalisés.
+
+## Sources
+- Code de commerce, article L145-4 (durée du bail : neuf ans au moins, résiliation triennale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667139
+- Code de commerce, article L145-5 (bail dérogatoire : trois ans au plus), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029108698
+- Code de commerce, article L145-47 (activités connexes ou complémentaires), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039280354
+- Code de commerce, article L145-48 (déspécialisation plénière), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006222140
+- Ville de Paris, PLU bioclimatique approuvé le 20 novembre 2024, page consultée le 9 octobre 2026 : https://www.paris.fr/pages/plan-local-d-urbanisme-bioclimatique-vers-un-paris-plus-vert-et-plus-solidaire-23805
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué), consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928
+- Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2, consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité, article PE 11 (dégagements en 5e catégorie), version en vigueur depuis le 1er juillet 2004 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024751142
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur), version en vigueur depuis le 18 juin 2025 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749507
+- Code de la construction et de l'habitation, article L126-29 (diagnostic de performance énergétique joint au bail), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977041
+- Code de l'environnement, article L125-5 (état des risques annexé au bail), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006832938
+- Code de commerce, article L145-40-1 (état des lieux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103499
+- Code de commerce, article L145-40-2 (inventaire des charges, état des travaux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103688
+- Code de la santé publique, article R1334-29-5 (dossier technique amiante tenu à disposition), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841389
+- Code de commerce, article R145-35 (charges et travaux non imputables au locataire), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029704677
+- Code de commerce, article L145-32-1 (paiement mensuel du loyer de droit, loi n° 2026-403 du 26 mai 2026), en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137998
+- Code de commerce, article L145-40 (garanties limitées à un trimestre de loyer, loi n° 2026-403 du 26 mai 2026), version issue de la loi du 26 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142450
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+
+========================================================================
+# Créer une boutique à Paris, du concept à la vitrine allumée
+URL : https://architecte-commerce.fr/architecte-boutique
+Vérifié le 9 octobre 2026.
+
+Une boutique est un ERP de type M. Son effectif se calcule à 1 personne pour 3 m² de surface de vente au rez-de-chaussée, et elle reste en 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total. À Paris, la devanture suit le PLU, l'enseigne demande une autorisation et les travaux intérieurs une autorisation de travaux ERP.
+
+- Type M : 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total (règlement de sécurité, PE 2).
+- Effectif : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage (M 2).
+- Boutique à rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m : 1 personne par m² sur le tiers de la surface accessible au public (PE 3).
+- Devanture de préférence en applique, ou en feuillure avec un retrait limité de 10 à 20 cm ; grilles et coffres à l'intérieur sauf impossibilité (PLU de Paris, UG.2.1.4).
+- Enseigne : autorisation du maire, demandée en ligne à Paris ; sans réponse sous deux mois, elle est acquise (R581-13).
+
+## Du concept au plan de vente
+Une boutique ne se dessine pas d'abord : elle se comprend. Qui entre, pour quelle mission d'achat (découvrir, comparer, être conseillé, retirer une commande), avec quelle offre et quel panier ? Le plan découle de ces réponses.
+- Le seuil. Les premiers mètres après la porte servent à ralentir et à s'orienter : les surcharger fait fuir.
+- Les lignes de vue. Depuis l'entrée, on doit comprendre ce qui est vendu, pour qui et à quel prix.
+- La circulation. Intuitive, accessible, commerciale, et compatible avec les dégagements exigés par le règlement.
+- La caisse et le service. Visibles sans encombrer, dimensionnées pour les pics, reliées au retrait des commandes en ligne si vous en faites.
+- Le back-office. Réserve, réception, personnel, déchets : un arrière mal pensé dégrade la vente chaque jour.
+Le concept se traduit ensuite en matériaux, lumière, mobilier et signalétique, choisis aussi pour leur entretien et leur remplacement : qui nettoie, qui répare, à quel coût.
+
+## Le classement ERP d'une boutique
+Dès qu'elle reçoit du public, une boutique est un établissement recevant du public de type M (magasins de vente, centres commerciaux). Sa catégorie dépend de l'effectif du public, calculé selon l'article M 2 :
+Densité d'occupation des magasins de vente (article M 2)
+Niveau ou cas | Effectif théorique du public
+Sous-sol, rez-de-chaussée, 1er étage | 1 personne pour 3 m² de surface de vente
+2e étage | 1 personne pour 6 m²
+Étages supérieurs | 1 personne pour 15 m²
+Boutique de moins de 300 m² dans un centre commercial | 1 personne pour 6 m², quel que soit le niveau
+Mails d'un centre commercial | 1 personne pour 5 m² de leur surface totale
+Magasin à faible densité de public | 1 personne pour 9 m², quel que soit le niveau
+Magasin réservé aux professionnels | Déclaration contrôlée du chef d'établissement
+Règlement de sécurité, article M 2, version en vigueur depuis le 1er décembre 2017. L'ancienne règle « 2 personnes par m² sur le tiers de la surface » est abrogée.
+Elle reste en 5e catégorie tant que l'effectif est inférieur à 100 personnes au sous-sol, 100 aux étages et 200 pour l'ensemble (PE 2). Pour une boutique en rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m, l'effectif se calcule à 1 personne par m² sur le tiers de la surface accessible au public (PE 3). Le personnel ne compte pas pour classer en 5e catégorie.
+Faites le calcul avec le calculateur d'effectif (https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif#calcul).
+Boutique ou magasin à Paris : classement ERP et dossier : Le détail du type M, des boutiques voisines non isolées et des stockages, sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/erp-boutique-commerce-paris/)
+
+## Les autorisations, dossier par dossier
+Autorisations d'un commerce à Paris et délais d'instruction
+Ce que vous faites | Autorisation | Délai
+Aménager, cloisonner, modifier un ERP | Autorisation de travaux (Cerfa n° 13824*04) ; en 5e catégorie sans hébergement, volet accessibilité seul et description succincte à l'autorité de police | 4 mois ; silence vaut accord, sauf dérogation refusée
+Modifier la devanture, l'aspect extérieur | Déclaration préalable | 1 mois ; 2 mois en site patrimonial remarquable ou aux abords d'un monument
+Poser ou changer une enseigne | Autorisation du maire (Cerfa n° 16308*01, en ligne à Paris) | 2 mois ; silence vaut accord
+Toucher la façade ou la structure en changeant de destination | Permis de construire, qui vaut autorisation de travaux | 5 mois pour un ERP
+Créer plus de 1 000 m² de surface de vente | Autorisation d'exploitation commerciale | Si un permis est nécessaire, il en tient lieu après avis favorable de la CDAC (L425-4)
+Ces dossiers sont distincts : une déclaration préalable ne vaut pas autorisation de travaux, alors qu'un permis de construire en tient lieu lorsque l'autorité compétente a donné son accord (code de l'urbanisme, R*425-15). Déposés ensemble, ils s'instruisent en parallèle. Le détail figure dans le guide des autorisations (https://architecte-commerce.fr/guides/autorisations-travaux-commerce).
+
+## La devanture selon le PLU de Paris
+Le règlement du PLU bioclimatique consacre un article aux devantures commerciales (UG.2.1.4). Il demande notamment :
+- une devanture intégrée « de façon harmonieuse au cadre bâti et à la composition architecturale des façades » ;
+- pas de comptoir ouvert directement sur la voie sans devanture ;
+- une devanture de préférence dans le plan de la façade : en applique, ou en feuillure avec un retrait limité de 10 à 20 cm ;
+- un vitrage « le plus clair possible et non réfléchissant » ;
+- des coffres et grilles de fermeture à l'intérieur, en retrait des vitrines, sauf impossibilité ;
+- le maintien ou la restitution d'une devanture d'intérêt historique ou architectural, qui peuvent être exigés.
+Voir la page vitrine et devanture (https://architecte-commerce.fr/vitrine-et-devanture-commerce).
+
+## Le budget, structuré avant d'être chiffré
+Un budget de boutique se construit par enveloppes : travaux, mobilier et agencement, enseigne et signalétique, éclairage, sécurité et accessibilité, informatique et caisse, honoraires et autorisations, préouverture, aléas. Chaque enveloppe a sa maturité : un ordre de grandeur avant le bail, une estimation détaillée sur plans, un prix consulté auprès des entreprises, un prix contracté.
+Ce site ne publie pas de prix au mètre carré : ils dépendent trop du local, de l'état existant et du concept pour être honnêtes hors étude. Le guide du budget (https://architecte-commerce.fr/guides/budget-renovation-commerce) détaille la méthode.
+
+## Questions fréquentes
+Q : Ma boutique fait moins de 300 m² : est-elle en 5e catégorie ?
+R : On ne peut pas le conclure à la surface seule. La catégorie dépend de l'effectif du public calculé selon l'article M 2, comparé aux seuils de PE 2 : moins de 100 personnes au sous-sol, 100 aux étages, 200 au total.
+Q : Faut-il un permis de construire pour ouvrir une boutique ?
+R : Pas en général. Un permis est exigé notamment lorsque des travaux modifient les structures porteuses ou la façade et s'accompagnent d'un changement de destination (R*421-14 c). Les aménagements intérieurs relèvent de l'autorisation de travaux ERP ; la devanture, d'une déclaration préalable.
+Q : Peut-on poser une grille de fermeture à l'extérieur ?
+R : À Paris, le PLU demande que coffres et grilles soient implantés à l'intérieur, en retrait des vitrines, sauf impossibilité technique ou architecturale, et que la protection maintienne les transparences (UG.2.1.4).
+
+## Sources
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité, article PE 3 (calcul de l'effectif en 5e catégorie), version en vigueur depuis le 27 août 1990 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751105
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+- Code de l'urbanisme, article R*425-15 (le permis de construire vaut autorisation de travaux), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841073
+- Code de l'urbanisme, article R*423-28, b (permis portant sur des travaux relatifs à un ERP soumis à l'autorisation de L122-3 : cinq mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841115
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838), fiche vérifiée le 25 septembre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R77838
+- Ville de Paris, enseignes et publicités (demande en ligne), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/enseignes-et-publicites-3514
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de commerce, article L752-1 (autorisation d'exploitation commerciale au-delà de 1 000 m² de surface de vente), version en vigueur depuis le 25 novembre 2018 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037671151
+
+========================================================================
+# Aménager un local commercial : faire tenir l'activité dans des murs existants
+URL : https://architecte-commerce.fr/amenagement-local-commercial
+Vérifié le 9 octobre 2026.
+
+Aménager un local commercial, c'est faire entrer un parcours client, une réserve, des réseaux et des règles dans des murs qui existent déjà. Le plan se dessine avec l'effectif, les sorties et l'accessibilité dès l'esquisse. Les travaux qui aménagent ou modifient un ERP demandent une autorisation de travaux, instruite en quatre mois.
+
+- Les sorties dépendent de l'effectif : un dégagement de 0,90 m sous 20 personnes, deux de 1,40 m de 201 à 300 (PE 11).
+- Un commerce ouvert dans un bâtiment existant relève des règles d'accessibilité des ERP existants (R164-1 et R164-2, arrêté du 8 décembre 2014).
+- Une dérogation d'accessibilité se motive point par point ; la petite surface ne figure pas parmi les motifs prévus (L164-3, R164-3).
+- Autorisation de travaux : quatre mois d'instruction ; sans réponse, elle est en principe accordée (R122-16, R122-21).
+- Tout ERP, 5e catégorie comprise, tient un registre public d'accessibilité (R164-6).
+
+## Partir de vos plans existants
+Le projet part des plans existants cotés du local, fournis par le bailleur, l'exploitant précédent ou l'enseigne : surfaces, hauteurs sous plafond et sous poutres, niveaux de l'accès (seuil, marches, pentes), structure, arrivées d'eau, évacuations, tableau électrique, ventilation, gaines, accès de service. S'ils ne sont pas exploitables, un relevé par un géomètre est proposé en option, avant le devis. Ces plans disent ce qui coûte cher (déplacer une évacuation, créer une gaine) et ce qui est gratuit (profiter d'une hauteur, d'une vitrine d'angle).
+
+## Le zoning : la vente devant, le service derrière
+Un local commercial fonctionne en deux mondes reliés :
+- La salle : seuil, présentation, essayage ou dégustation, conseil, caisse, retrait de commande.
+- L'arrière : réserve, réception des livraisons, préparation, vestiaire et sanitaires du personnel, déchets, local technique.
+La distance entre la réserve et la vente, la largeur des passages de réassort et la place de la caisse se décident sur plan, avec l'exploitant : c'est lui qui vivra le local tous les jours.
+
+## Dégagements : l'effectif décide
+En 5e catégorie, le nombre et la largeur des sorties découlent de l'effectif, en comptant le personnel qui ne dispose pas de sorties propres :
+Dégagements exigés en 5e catégorie selon l'effectif
+Effectif (public et personnel sans sortie propre) | Dégagements exigés
+Moins de 20 personnes | 1 dégagement de 0,90 m
+De 20 à 50 personnes | Soit 1 dégagement de 1,40 m débouchant directement sur l'extérieur, le public n'ayant jamais plus de 25 m à parcourir ; soit 2 dégagements (0,90 m et 0,60 m, ou dégagement accessoire) débouchant directement sur l'extérieur ou sur des locaux différents non en cul-de-sac
+De 51 à 100 personnes | 2 dégagements de 0,90 m, ou 1 de 1,40 m et 1 de 0,60 m (ou dégagement accessoire)
+De 101 à 200 personnes | 1 dégagement de 1,40 m et 1 de 0,90 m
+De 201 à 300 personnes | 2 dégagements de 1,40 m
+Règlement de sécurité, article PE 11. Chaque local, niveau et établissement se vérifie sur son propre effectif. Dans un bâtiment existant, une largeur de 0,90 m peut être ramenée à 0,80 m.
+L'effectif lui-même se calcule selon le type d'activité : voir le calculateur (https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif#calcul) et le guide du classement ERP (https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif).
+
+## Accessibilité dans le bâti existant
+Un commerce qui s'installe dans un bâtiment existant n'est pas, pour ce seul motif, une construction neuve : il relève des articles R164-1 à R164-6 du code de la construction et de l'arrêté du 8 décembre 2014. En 5e catégorie, l'obligation porte sur une partie du local, la plus proche possible de l'entrée principale, qui doit donner accès à l'ensemble des prestations (R164-2) ; certaines prestations peuvent être délivrées par des mesures de substitution.
+Une dérogation est possible pour un point identifié, dans des cas prévus par les textes : impossibilité technique, conservation du patrimoine, disproportion manifeste, refus de la copropriété dans les conditions fixées. Elle se motive et se justifie dans le dossier. Le guide de l'accessibilité (https://architecte-commerce.fr/guides/accessibilite-commerce) détaille la démarche.
+
+## L'autorisation de travaux
+Les travaux qui conduisent à créer, aménager ou modifier un ERP ne peuvent être exécutés qu'après autorisation (code de la construction, L122-3). La demande se fait sur le Cerfa n° 13824*04, avec plans, notice d'accessibilité et, lorsque le volet incendie est demandé, notice de sécurité. Le délai d'instruction est de quatre mois à compter d'un dossier complet ; à défaut de décision notifiée, l'autorisation est en principe accordée (R122-16, R122-21).
+Pour un ERP de 5e catégorie sans locaux d'hébergement du public, la demande d'autorisation n'est pas exigée au titre de l'incendie : une description succincte des travaux envisagés est communiquée, pour information, à l'autorité de police, et les règles de sécurité restent applicables ; l'accessibilité, elle, est instruite (R122-7, II).
+
+## Questions fréquentes
+Q : Faut-il une autorisation pour aménager l'intérieur d'une boutique ?
+R : En principe oui, dès lors que les travaux aménagent ou modifient un établissement recevant du public : c'est l'autorisation de travaux de l'article L122-3 du code de la construction, instruite en quatre mois. Elle vérifie l'accessibilité lorsque les travaux y touchent ; en 5e catégorie sans hébergement du public, elle ne porte pas sur l'incendie, et une description succincte des travaux est communiquée à l'autorité de police (R122-7, II).
+Q : Mon local a une marche à l'entrée : est-ce rédhibitoire ?
+R : Non, mais c'est un point à traiter dans le dossier : adaptation de l'entrée, solution d'effet équivalent ou dérogation motivée. Une rampe sur le trottoir relève en principe d'une autorisation d'occupation du domaine public.
+
+## Sources
+- Règlement de sécurité, article PE 11 (dégagements en 5e catégorie), version en vigueur depuis le 1er juillet 2004 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024751142
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité, article PE 3 (calcul de l'effectif en 5e catégorie), version en vigueur depuis le 27 août 1990 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751105
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Arrêté du 8 décembre 2014 (accessibilité des ERP situés dans un cadre bâti existant), article 1 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034797402
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+- Code de la construction et de l'habitation, article R164-6 (registre public d'accessibilité), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819305
+- Arrêté du 19 avril 2017 (registre public d'accessibilité), articles 1 et 3 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034480997
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Code de la construction et de l'habitation, article R122-21 (accord implicite), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818463
+- Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public), version en vigueur depuis le 21 novembre 2025 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+
+========================================================================
+# Rénover un magasin : décider ce qui reste, ce qui change, et pourquoi
+URL : https://architecte-commerce.fr/renovation-magasin
+Vérifié le 17 novembre 2026.
+
+Rénover un magasin commence par un diagnostic : une baisse des ventes vient rarement du seul décor. Ensuite, toute modification d'un ERP existant relève d'une autorisation de travaux ; la devanture, d'une déclaration préalable ; une nouvelle enseigne, d'une autorisation du maire. La rénovation est aussi le moment de remettre l'accessibilité à niveau.
+
+- Diagnostiquer d'abord : fréquentation, transformation, panier, ruptures, effectifs aux heures de pointe.
+- Modifier un ERP existant : autorisation de travaux, quatre mois (code de la construction, L122-3 et R122-16).
+- Changer la devanture : déclaration préalable, un mois ou deux selon le secteur (R*421-17, R423-24).
+- Nouvelle enseigne : nouvelle autorisation du maire (code de l'environnement, L581-18).
+- Accessibilité : registre public à mettre à jour (R164-6).
+- Rester ouvert : les dégagements exigés par l'effectif admis restent disponibles à chaque phase, sinon l'effectif admis baisse (règlement de sécurité, PE 11).
+
+## Diagnostiquer avant de rénover
+Un magasin qui vend moins peut souffrir d'une baisse de fréquentation, d'une moins bonne transformation, d'un panier plus faible, de ruptures, d'un effectif insuffisant aux heures de pointe, d'un assortiment mal lu, ou d'un marché local qui a changé. Le décor n'est qu'une cause parmi d'autres. Avant de dessiner, on regarde les chiffres de l'exploitant et le magasin en fonctionnement.
+La rénovation se décide ensuite en trois colonnes : ce qui reste (ce qui marche et fait l'identité), ce qui change (ce qui freine la vente ou l'exploitation), et l'effet attendu de chaque changement.
+
+## Ce que la rénovation déclenche
+Autorisations d'un commerce à Paris et délais d'instruction
+Ce que vous faites | Autorisation | Délai
+Aménager, cloisonner, modifier un ERP | Autorisation de travaux (Cerfa n° 13824*04) ; en 5e catégorie sans hébergement, volet accessibilité seul et description succincte à l'autorité de police | 4 mois ; silence vaut accord, sauf dérogation refusée
+Modifier la devanture, l'aspect extérieur | Déclaration préalable | 1 mois ; 2 mois en site patrimonial remarquable ou aux abords d'un monument
+Poser ou changer une enseigne | Autorisation du maire (Cerfa n° 16308*01, en ligne à Paris) | 2 mois ; silence vaut accord
+Toucher la façade ou la structure en changeant de destination | Permis de construire, qui vaut autorisation de travaux | 5 mois pour un ERP
+Créer plus de 1 000 m² de surface de vente | Autorisation d'exploitation commerciale | Si un permis est nécessaire, il en tient lieu après avis favorable de la CDAC (L425-4)
+Une rénovation qui modifie le cloisonnement, les sorties ou les sanitaires ouverts au public touche l'ERP : elle passe par l'autorisation de travaux pour l'accessibilité et, hors 5e catégorie sans hébergement du public, pour la sécurité incendie. En 5e catégorie sans hébergement, une description succincte des travaux est communiquée à l'autorité de police et les règles de sécurité restent applicables (R122-7, II). Un simple rafraîchissement (peinture, mobilier libre) n'a pas cet effet, mais les règles du règlement de sécurité sur les matériaux d'aménagement restent à respecter.
+
+## L'occasion de remettre l'accessibilité à niveau
+Les travaux sont le bon moment pour traiter l'accessibilité : entrée, circulation, caisse, cabines, sanitaires ouverts au public. Les règles applicables sont celles des ERP existants (R164-1, arrêté du 8 décembre 2014). Le registre public d'accessibilité, obligatoire pour tout ERP, se met à jour à la fin du chantier (R164-6).
+
+## Rester ouvert pendant les travaux
+Rester ouvert est possible si le chantier est conçu pour. Le phasage se dessine sur plan, avant de consulter les entreprises : quelles zones ferment, dans quel ordre, combien de temps, par où passent le public, le personnel et les ouvriers. Chaque phase a son plan : surfaces ouvertes, cloisons provisoires, sorties, protections, stockage du chantier.
+- Travaux bruyants et poussiéreux : hors des heures d'ouverture, la nuit ou le jour de fermeture, dans le respect du voisinage et du règlement de copropriété.
+- Livraisons du chantier : à des heures qui ne croisent pas celles du magasin.
+- Nettoyage : chaque matin avant l'ouverture, compris dans les marchés.
+Le public admis doit toujours disposer des dégagements que son effectif exige :
+{DEGAGEMENTS}
+Si une sortie est neutralisée par une phase, l'effectif admis doit baisser en conséquence, ou la phase être réorganisée. Réduire temporairement la surface ouverte réduit l'effectif admissible. Les installations de sécurité (éclairage de sécurité, alarme, extincteurs) restent en service, et les travaux qui modifient l'ERP restent soumis à autorisation, même phasés (L122-3).
+Le planning se construit avec l'exploitant (jours forts, livraisons, inventaires, soldes), le bailleur, le syndic et, le cas échéant, le coordonnateur de sécurité et de protection de la santé.
+
+## Questions fréquentes
+Q : Repeindre et changer le mobilier demande-t-il une autorisation ?
+R : En général non au titre de l'autorisation de travaux, tant que l'aménagement n'a d'incidence ni sur l'accessibilité ni sur la sécurité incendie (cloisons, sorties, sanitaires, installations de sécurité) ; en 5e catégorie sans hébergement, une modification des installations de sécurité donne lieu à une description succincte communiquée à l'autorité de police (R122-7, II). Les matériaux posés restent soumis aux règles du règlement de sécurité.
+Q : Changer seulement l'enseigne suffit-il à déclencher une démarche ?
+R : Oui : à Paris, toute enseigne est soumise à autorisation du maire, y compris son remplacement (code de l'environnement, L581-18).
+
+## Sources
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Arrêté du 8 décembre 2014 (accessibilité des ERP situés dans un cadre bâti existant), article 1 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034797402
+- Code de la construction et de l'habitation, article R164-6 (registre public d'accessibilité), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819305
+- Règlement de sécurité, article PE 11 (dégagements en 5e catégorie), version en vigueur depuis le 1er juillet 2004 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024751142
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+
+========================================================================
+# Modifier une devanture à Paris : ce que la ville autorise, et comment
+URL : https://architecte-commerce.fr/vitrine-et-devanture-commerce
+Vérifié le 9 octobre 2026.
+
+À Paris, une devanture s'intègre à la façade : de préférence en applique, ou en feuillure avec un retrait limité de 10 à 20 cm, vitrage le plus clair possible, grilles à l'intérieur sauf impossibilité (PLU, UG.2.1.4). La modifier demande une déclaration préalable, instruite en un mois, deux en site patrimonial remarquable ou aux abords d'un monument. L'enseigne demande une autorisation du maire, accordée tacitement après deux mois.
+
+- PLU de Paris : pas de comptoir ouvert sur la voie sans devanture ; vitrage clair et non réfléchissant (UG.2.1.4).
+- Déclaration préalable : 1 mois ; 2 mois en site patrimonial remarquable ou aux abords d'un monument historique (R*423-23, R423-24).
+- Abords et sites patrimoniaux : la décision vaut autorisation patrimoniale si l'architecte des Bâtiments de France a donné son accord (R*425-1, R*425-2).
+- Enseigne : Cerfa n° 16308*01, demande en ligne à Paris depuis le 1er octobre 2025, deux mois (R581-13).
+- Enseignes lumineuses éteintes entre 1 h et 6 h lorsque l'activité a cessé ; clignotement interdit sauf pharmacie et urgences (R581-59).
+
+## Ce que demande le PLU de Paris
+L'article UG.2.1.4 du règlement du PLU bioclimatique fixe les principes des devantures commerciales :
+- « Les devantures participent à l'animation visuelle et commerciale de la ville. Elles doivent s'intégrer de façon harmonieuse au cadre bâti et à la composition architecturale des façades. »
+- Les locaux ouverts directement sur la voie, de type comptoir sans devanture, sont proscrits.
+- Les devantures se placent préférentiellement dans le plan de la façade : en saillie pour une devanture en applique, en retrait limité de 10 à 20 cm pour une devanture en feuillure.
+- Une devanture d'intérêt historique ou architectural peut devoir être maintenue, restituée ou refaite.
+- Le vitrage est le plus clair possible et non réfléchissant.
+- Les devantures ne masquent ni baies, ni porches, ni moulurations, ni consoles de balcons.
+- Coffres et grilles de fermeture s'implantent à l'intérieur, en retrait des vitrines, sauf impossibilité ; la protection maintient les transparences.
+L'article UG.2.1.3 ajoute que les rez-de-chaussée sur rue présentent des façades ouvertes, en évitant les locaux aveugles en bordure de voie.
+
+## La déclaration préalable
+Les travaux qui modifient l'aspect extérieur d'un bâtiment existant sont soumis à déclaration préalable (code de l'urbanisme, R*421-17 a). Le délai d'instruction est d'un mois (R*423-23), majoré d'un mois en site patrimonial remarquable ou aux abords d'un monument historique (R423-24). Dans ces secteurs, la décision vaut autorisation au titre du patrimoine si l'architecte des Bâtiments de France a donné son accord, le cas échéant avec prescriptions (R*425-1, R*425-2).
+Paris compte deux sites patrimoniaux remarquables : le Marais et une partie du 7e arrondissement. Dans le périmètre d'un plan de sauvegarde, une déclaration préalable vise aussi les travaux qui modifient les éléments d'architecture et de décoration protégés, extérieurs ou intérieurs (R*421-17 c).
+
+## L'enseigne, une autorisation à part
+Paris est couverte par un règlement local de publicité : l'installation de toute enseigne y est soumise à autorisation (code de l'environnement, L581-18). Depuis le 1er juillet 2026, la procédure est réécrite :
+- la demande est présentée par l'exploitant de l'activité signalée, sur le Cerfa n° 16308*01 ;
+- à Paris, elle se dépose uniquement en ligne, sur le téléservice de la Ville, depuis le 1er octobre 2025 ;
+- le dossier montre l'enseigne en situation, avec et sans le dispositif ;
+- l'autorité statue dans les deux mois suivant la réception d'un dossier complet ; sans notification, l'autorisation est réputée accordée (R581-13) ; lorsque l'accord de l'architecte des Bâtiments de France est requis (R581-16-1), ce texte ne prévoit pas de délai plus long.
+Les enseignes lumineuses sont éteintes entre 1 heure et 6 heures lorsque l'activité a cessé ; les enseignes clignotantes sont interdites, sauf pour les pharmacies et les services d'urgence (R581-59). Le guide de l'enseigne (https://architecte-commerce.fr/guides/enseigne-paris) détaille le dossier.
+
+## Store, terrasse, étalage
+Un store banne ou une marquise modifie l'aspect extérieur : il relève en principe de la déclaration préalable de la devanture. Une terrasse ou un étalage sur le trottoir relève d'une autorisation d'occupation du domaine public, précaire et révocable, délivrée par la Ville selon le règlement des étalages et terrasses applicable depuis le 1er juillet 2021 ; les terrasses estivales vont du 1er avril au 31 octobre.
+
+## Questions fréquentes
+Q : Puis-je repeindre ma devanture sans démarche ?
+R : Changer la couleur modifie l'aspect extérieur : c'est en principe une déclaration préalable (R*421-17 a). En site patrimonial remarquable ou aux abords d'un monument, l'accord de l'architecte des Bâtiments de France est requis.
+Q : Combien de temps pour une enseigne à Paris ?
+R : Deux mois à compter d'un dossier complet ; sans réponse, l'autorisation est acquise (R581-13). La demande se fait en ligne sur le téléservice de la Ville.
+Q : Mon enseigne peut-elle rester allumée la nuit ?
+R : Non, si l'activité a cessé : les enseignes lumineuses sont éteintes entre 1 h et 6 h (R581-59). Si l'activité cesse ou commence entre minuit et 7 h, l'enseigne s'éteint au plus tard une heure après la fermeture et peut s'allumer une heure avant l'ouverture.
+
+## Sources
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'urbanisme, article R*425-1 (accord de l'architecte des Bâtiments de France, abords), version en vigueur depuis le 23 juin 2019 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038682307
+- Code de l'urbanisme, article R*425-2 (accord de l'architecte des Bâtiments de France, site patrimonial remarquable), version en vigueur depuis le 23 juin 2019 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038682299
+- Ville de Paris, sites patrimoniaux remarquables (Marais, 7e arrondissement), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/secteurs-sauvegardes-psmv-2351
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838), fiche vérifiée le 25 septembre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R77838
+- Ville de Paris, enseignes et publicités (demande en ligne), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/enseignes-et-publicites-3514
+- Code de l'environnement, article R581-59 (extinction des enseignes lumineuses), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048869649
+- Ville de Paris, terrasses et étalages (règlement publié le 18 juin 2021, applicable au 1er juillet 2021), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/terrasses-et-etalages-3516
+
+========================================================================
+# Déployer un réseau de boutiques : un concept reconnaissable, des locaux tous différents
+URL : https://architecte-commerce.fr/concept-et-deploiement-enseigne
+Vérifié le 9 octobre 2026.
+
+Déployer une enseigne, c'est écrire des règles assez fermes pour être reconnues et assez souples pour entrer dans des locaux tous différents. Le concept se traduit en manuel : codes fixes, éléments adaptables, variantes de format. Chaque local reste un projet : PLU, ERP, copropriété, façade et enseigne se vérifient adresse par adresse.
+
+- Le concept n'est pas un décor : offre, parcours, service, stock, opérations et économie du point de vente.
+- Un manuel de déploiement fixe ce qui est imposé, ce qui s'adapte et qui valide les écarts.
+- À Paris, le délai de déclaration préalable passe de 1 à 2 mois en site patrimonial ou aux abords (R423-24).
+- Chaque commune dotée d'un règlement local de publicité soumet l'enseigne à autorisation (L581-18).
+- Au-delà de 1 000 m² de surface de vente : autorisation d'exploitation commerciale (L752-1).
+
+## Le concept n'est pas un décor
+Un concept de magasin traduit une promesse : quel client, quelle mission d'achat, quelle offre, quel service, quel modèle d'exploitation, quelle économie. Les matériaux et la lumière viennent après. Un concept qui ne tient pas l'exploitation (réassort, caisse, réserve, nettoyage) ne se déploie pas : il se répare à chaque ouverture.
+
+## Le manuel de déploiement
+Le manuel est l'outil qui permet d'ouvrir vite sans tout redessiner :
+- codes fixes : ce qui fait reconnaître l'enseigne partout ;
+- éléments adaptables : modules de mobilier, gammes de matériaux, variantes d'éclairage ;
+- variantes de format : grand format, format compact, corner ;
+- plans-types et détails, avec leurs tolérances et les alternatives approuvées ;
+- règles techniques : réseaux, back-office, sécurité, accessibilité ;
+- gouvernance : qui valide le site, le plan, la façade, le budget, les écarts, l'ouverture.
+
+## Chaque local reste un projet
+Le copier-coller échoue sur les murs réels : une façade d'immeuble ancien, un linéaire protégé, une copropriété restrictive, une extraction impossible, un sous-sol ouvert au public qui change la catégorie. Chaque adresse fait donc l'objet d'une vérification avant engagement, avec la même grille, puis d'une adaptation du concept sans perte d'identité.
+À Paris, ce qui varie d'une adresse à l'autre tient en quatre questions : la rue est-elle protégée au PLU ? le bâtiment est-il en site patrimonial remarquable ou aux abords d'un monument ? que dit le règlement de copropriété ? que permet la devanture existante ?
+
+## Grandes surfaces et centres commerciaux
+La création d'un magasin de plus de 1 000 m² de surface de vente est soumise à autorisation d'exploitation commerciale (code de commerce, L752-1) ; lorsqu'un permis de construire est nécessaire, il en tient lieu après avis favorable de la commission départementale d'aménagement commercial (code de l'urbanisme, L425-4). Dans un centre commercial, une boutique de moins de 300 m² compte 1 personne pour 6 m² quel que soit le niveau, et les mails 1 personne pour 5 m² (règlement de sécurité, M 2).
+
+## Sources
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Ville de Paris, sites patrimoniaux remarquables (Marais, 7e arrondissement), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/secteurs-sauvegardes-psmv-2351
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de commerce, article L752-1 (autorisation d'exploitation commerciale au-delà de 1 000 m² de surface de vente), version en vigueur depuis le 25 novembre 2018 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037671151
+- Code de l'urbanisme, article L425-4 (le permis tient lieu d'autorisation d'exploitation commerciale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031008816
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur), version en vigueur depuis le 18 juin 2025 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749507
+
+========================================================================
+# Architecte restaurant à Paris : la salle se voit, la cuisine décide
+URL : https://architecte-commerce.fr/architecte-restaurant
+Vérifié le 9 octobre 2026.
+
+Un restaurant est un ERP de type N : il reste en 5e catégorie sous 100 personnes au sous-sol, 200 aux étages et 200 au total. Le projet se joue sur ce que la salle ne montre pas : l'extraction (à Paris, air de cuisine rejeté à 8 m au moins de toute fenêtre, sauf aménagement empêchant toute reprise d'air pollué), l'organisation hygiénique de la cuisine et le prétraitement des graisses.
+
+- Places assises : nombre déclaré, dans la limite d'1 personne pour 2 m² ; sans déclaration, 1 par m² ; debout, 2 par m² ; files d'attente, 3 par m² (N 2).
+- Cuisine : hotte débordante, conduit unique indépendant des conduits de fumée, filtres et conduits nettoyés au moins une fois par mois (RSD de Paris, art. 130-3).
+- Air extrait rejeté à 8 m au moins de toute fenêtre ou prise d'air neuf, sauf aménagement empêchant toute reprise d'air pollué (RSD de Paris, art. 63-1).
+- Eaux grasses : dispositif de prétraitement obligatoire pour les restaurants à Paris (règlement d'assainissement, art. 17.1).
+- Au moins une personne formée à l'hygiène alimentaire en restauration commerciale, ou justifiant de trois ans d'expérience comme gestionnaire ou exploitant (code rural, L233-4 et D233-11).
+
+## Effectif et catégorie
+L'effectif d'un restaurant se calcule zone par zone, sur la surface diminuée des estrades et des aménagements fixes autres que les tables et les sièges (règlement de sécurité, N 2) :
+Densité d'occupation des restaurants (article N 2)
+Zone | Effectif théorique
+Restauration assise, sur déclaration | Nombre de places déclaré, dans la limite d'1 personne pour 2 m²
+Restauration assise, sans déclaration | 1 personne par m²
+Restauration debout | 2 personnes par m²
+Files d'attente | 3 personnes par m²
+Le restaurant reste en 5e catégorie sous 100 personnes au sous-sol, 200 aux étages et 200 au total (PE 2). Aucune densité propre à la restauration rapide n'existe : on applique la règle de chaque zone.
+Restaurant ou bar à Paris : classement ERP et dossier (type N) : Cuisine, gaz, ventilation et vérifications périodiques, sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/erp-restaurant-bar-paris/)
+
+## Extraction : la question à trancher avant le bail
+Le règlement sanitaire départemental de Paris classe les cuisines parmi les locaux à pollution spécifique : l'air extrait est rejeté sans recyclage, « à au moins huit mètres de toute fenêtre, de toute prise d'air neuf », de tout débouché de conduit de fumée et de tout conduit de ventilation, « sauf aménagements tels qu'une reprise d'air pollué ne soit pas possible » (art. 63-1). Les fourneaux sont équipés d'une hotte débordante, raccordée à un conduit de ventilation unique, indépendant des conduits de fumée ; conduits et filtres à graisse sont nettoyés au moins une fois par mois (art. 130-3, applicable aux restaurants par l'art. 152-2).
+Les articles du RSD consultés ne fixent pas de hauteur de rejet en toiture : ils imposent la distance aux ouvertures et l'absence de gêne pour le voisinage. Le tracé du conduit (cour, gaine, façade arrière, toiture) se vérifie avant de signer, avec la copropriété : un conduit sur les parties communes demande un vote de l'assemblée générale (loi du 10 juillet 1965, art. 25 b). Le guide de l'extraction (https://architecte-commerce.fr/guides/extraction-restaurant-paris) détaille la démarche.
+
+## Une cuisine qui sépare les opérations
+Le règlement (CE) n° 852/2004 impose des locaux conçus pour prévenir la contamination « entre et durant les opérations » (annexe II). La « marche en avant » n'est pas un article : c'est la méthode d'organisation qui répond à cette exigence. Concrètement : réception et stockage, préparation, cuisson, dressage, plonge et déchets s'enchaînent sans croiser le propre et le sale.
+- Déclaration de l'établissement avant l'ouverture (code rural, R233-4 ; Cerfa n° 13984).
+- Au moins une personne justifiant d'une formation en hygiène alimentaire adaptée à la restauration commerciale, ou de trois ans d'expérience comme gestionnaire ou exploitant (code rural, L233-4 et D233-11).
+- Prétraitement des eaux grasses et déclaration de déversement à Paris (règlement d'assainissement, art. 17.1 et 15).
+
+## Licences, musique, terrasse
+Boissons. Les débits de boissons relèvent de la licence III ou IV (code de la santé publique, L3331-1) ; un restaurant peut se contenter de la petite licence restaurant ou de la licence restaurant, qui ne permettent de servir qu'à l'occasion des repas (L3331-2). Le permis d'exploitation, obtenu après formation, vaut dix ans (L3332-1-1).
+Sons amplifiés. Au-delà d'un niveau moyen de 80 dB(A) sur huit heures, les limites de 102 dB(A) et 118 dB(C) sur 15 minutes s'appliquent (code de la santé publique, R1336-1) ; une étude de l'impact des nuisances sonores est obligatoire pour une diffusion habituelle (code de l'environnement, R571-27).
+Terrasse. Autorisation d'occupation du domaine public, délivrée par la Ville selon le règlement des étalages et terrasses.
+
+## Transformer une boutique en restaurant
+Quatre régimes se croisent. Urbanisme : la restauration et le commerce de détail sont deux sous-destinations de la même destination ; sans travaux, aucune déclaration n'est due au titre du changement (R*421-17 b), mais des travaux sur la façade ou la structure imposent un permis (R*421-14 c), et le PLU s'applique même sans formalité (L421-8). ERP : le type passe de M à N ; les travaux d'aménagement (cuisine, extraction, salle) relèvent de l'autorisation de travaux (L122-3), et le classement est à refaire. Bail : l'activité doit être autorisée par la clause de destination ou faire l'objet d'une déspécialisation. Technique : l'extraction doit être réalisable. À Paris, la transformation d'un rez-de-chaussée sur rue en cuisine dédiée à la vente en ligne est interdite (PLU, UG.1.3.5).
+
+## Questions fréquentes
+Q : Combien de couverts dans 80 m² de salle ?
+R : Le règlement ne fixe pas un nombre de couverts mais un effectif : le nombre de places assises que vous déclarez, dans la limite d'1 personne pour 2 m² (N 2). Sur 80 m² de zone assise, la déclaration ne peut donc dépasser 40 places ; sans déclaration, l'effectif retenu est de 80 personnes. Le confort de service conduit souvent à moins.
+Q : Peut-on ouvrir un restaurant sans conduit d'extraction ?
+R : Une cuisine qui cuit doit évacuer son air selon le RSD de Paris : hotte, conduit de ventilation unique, rejet à 8 m au moins de toute fenêtre, sauf aménagement empêchant toute reprise d'air pollué. Sans tracé possible, le projet de cuisson n'est pas faisable en l'état ; une offre sans cuisson ou avec des équipements adaptés se discute au cas par cas.
+Q : Un restaurant de 5e catégorie passe-t-il en commission de sécurité ?
+R : Pas systématiquement : un ERP de 5e catégorie sans locaux à sommeil n'a ni avis préalable ni visite périodique systématiques, mais il doit respecter les règles, et l'autorité de police (à Paris, le préfet de police) peut faire procéder à une visite. Voir la commission de sécurité à Paris.
+
+## Sources
+- Règlement de sécurité, article N 2 (effectif des restaurants et débits de boissons), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751045
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué), consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928
+- Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2, consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019
+- Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur), version en vigueur depuis le 18 juin 2025 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749507
+- Règlement (CE) n° 852/2004 relatif à l'hygiène des denrées alimentaires, annexe II, version consolidée du 24 mars 2021 : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02004R0852-20210324
+- Service-public, « Règles d'hygiène dans les restaurants » (fiche F32189), fiche vérifiée le 12 mars 2024 : https://entreprendre.service-public.gouv.fr/vosdroits/F32189
+- Code rural, article R233-4 (déclaration des établissements manipulant des denrées), version en vigueur depuis le 30 septembre 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044116307
+- Déclaration de manipulation de denrées alimentaires d'origine animale, Cerfa n° 13984 (service-public, fiche R17520), consultée le 9 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R17520
+- Code rural, article L233-4 (formation à l'hygiène alimentaire ; équivalence par trois ans d'expérience), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022657498
+- Ville de Paris, règlement d'assainissement en vigueur au 1er janvier 2026 (articles 15 et 17.1), page mise à jour le 5 octobre 2026 : https://www.paris.fr/pages/evacuation-des-eaux-usees-non-domestiques-3547
+- Code rural, article D233-11 (au moins une personne formée en restauration traditionnelle, cafétérias, restauration rapide), version en vigueur depuis le 15 décembre 2012 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000026485283
+- Code de la santé publique, article L3331-1 (licences de débit de boissons), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031643392
+- Code de la santé publique, article L3331-2 (licences de restaurant), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031643400
+- Code de la santé publique, article L3332-1-1 (permis d'exploitation, valable dix ans), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000041510405
+- Code de la santé publique, article R1336-1 (lieux diffusant des sons amplifiés), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035425898
+- Code de l'environnement, article R571-27 (étude de l'impact des nuisances sonores), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000035426072
+- Ville de Paris, terrasses et étalages (règlement publié le 18 juin 2021, applicable au 1er juillet 2021), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/terrasses-et-etalages-3516
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+- Code de l'urbanisme, article L421-8 (travaux dispensés de formalité : respect du PLU), version en vigueur depuis le 11 avril 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398814
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+
+========================================================================
+# Boulangerie, boucherie, traiteur : un laboratoire derrière la vitrine
+URL : https://architecte-commerce.fr/architecte-metiers-de-bouche
+Vérifié le 9 octobre 2026.
+
+Un commerce de bouche associe une vente, qui reçoit du public, et un laboratoire, qui produit. Le laboratoire doit prévenir les contaminations entre les opérations (règlement CE n° 852/2004), avec hotte et conduit nettoyés chaque mois (RSD de Paris, art. 130-3). À Paris, les métiers de bouche équipent leurs évacuations d'un prétraitement des graisses.
+
+- Laboratoire : agencement qui sépare les opérations, surfaces faciles à nettoyer, lave-mains (règlement (CE) n° 852/2004, annexe II).
+- Ateliers et laboratoires de préparation : hotte, conduit unique, nettoyage mensuel des conduits et filtres (RSD de Paris, art. 130-3).
+- Déclaration de l'établissement avant l'ouverture (code rural, R233-4 ; Cerfa n° 13984).
+- Prétraitement des graisses : restaurants et métiers de bouche (règlement d'assainissement de Paris, art. 17.1).
+- La partie vente reste un ERP : type, catégorie et accessibilité à établir (GN 1, R164-2).
+
+## Deux mondes dans un même local
+La vente demande de la visibilité, un comptoir lisible, une file d'attente qui ne bloque pas l'entrée, une vitrine réfrigérée accessible au service. Le laboratoire demande de la surface utile, des flux propres, du froid, de l'extraction, des évacuations et de la puissance. Le plan se joue à la frontière : passe-plats, réassort de la vitrine, livraisons qui ne traversent pas la boutique.
+
+## Le laboratoire selon le règlement 852/2004
+L'annexe II du règlement (CE) n° 852/2004 fixe les exigences des locaux : conception permettant un nettoyage adéquat, prévention de la contamination « entre et durant les opérations », lave-mains en nombre suffisant, ventilation adaptée, surfaces faciles à nettoyer. L'arrêté du 21 décembre 2009 complète ces règles pour le commerce de détail. La « marche en avant » est la manière d'organiser ces exigences : du sale vers le propre, sans retour en arrière.
+Avant l'ouverture, l'établissement est déclaré (code rural, R233-4 ; Cerfa n° 13984 adressé à la direction départementale de la protection des populations).
+
+## Fours, froid, extraction, évacuations
+Le règlement sanitaire de Paris consacre son titre VII aux ateliers et laboratoires de préparation des aliments : hotte débordante à captage total, conduit de ventilation unique et indépendant des conduits de fumée, nettoyage des conduits et filtres au moins une fois par mois (art. 130-3). L'air des locaux à pollution spécifique est rejeté à 8 m au moins de toute fenêtre ou prise d'air neuf, sauf aménagement empêchant toute reprise d'air pollué (art. 63-1).
+Le règlement d'assainissement de Paris, en vigueur depuis le 1er janvier 2026, impose aux restaurants, à la restauration collective et aux métiers de bouche un dispositif de prétraitement des effluents gras (art. 17.1) et une déclaration de déversement (art. 15). Puissance électrique, gaz éventuel et groupes froids se vérifient avant de signer : voir avant de signer le bail (https://architecte-commerce.fr/avant-signature-bail-commercial).
+
+## La vente : un ERP à part entière
+La partie ouverte au public est un établissement recevant du public : son type se qualifie selon l'exploitation réelle et sa catégorie selon l'effectif. Pour un magasin de vente, l'effectif se calcule à 1 personne pour 3 m² de surface de vente au rez-de-chaussée (M 2). L'accessibilité porte sur l'entrée, la circulation jusqu'au comptoir et la caisse (R164-2, arrêté du 8 décembre 2014). Sur les rues de Paris protégées pour le commerce artisanal de proximité, un local affecté à ce commerce, au sens du lexique du PLU, ne peut pas devenir une autre activité (PLU, UG.1.4.2).
+
+## Sources
+- Règlement (CE) n° 852/2004 relatif à l'hygiène des denrées alimentaires, annexe II, version consolidée du 24 mars 2021 : https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:02004R0852-20210324
+- Arrêté du 21 décembre 2009 (règles sanitaires du commerce de détail), version en vigueur : https://www.legifrance.gouv.fr/loda/id/LEGITEXT000021676844/
+- Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2, consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019
+- Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué), consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928
+- Code rural, article R233-4 (déclaration des établissements manipulant des denrées), version en vigueur depuis le 30 septembre 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000044116307
+- Déclaration de manipulation de denrées alimentaires d'origine animale, Cerfa n° 13984 (service-public, fiche R17520), consultée le 9 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R17520
+- Ville de Paris, règlement d'assainissement en vigueur au 1er janvier 2026 (articles 15 et 17.1), page mise à jour le 5 octobre 2026 : https://www.paris.fr/pages/evacuation-des-eaux-usees-non-domestiques-3547
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Arrêté du 8 décembre 2014 (accessibilité des ERP situés dans un cadre bâti existant), article 1 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034797402
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+
+========================================================================
+# Institut de beauté, salon de coiffure : des cabines, des réseaux, un accueil
+URL : https://architecte-commerce.fr/architecte-institut-beaute-coiffure
+Vérifié le 9 octobre 2026.
+
+Un institut ou un salon qui reçoit des clients est un ERP : son type se qualifie selon l'exploitation réelle (soins, prestations, vente de produits), puis sa catégorie selon l'effectif. À Paris, la qualification compte aussi pour le PLU : sur les rues protégées, un rez-de-chaussée commercial ne peut pas devenir une activité de services hors des sous-destinations autorisées.
+
+- Recevoir des clients fait du salon un ERP ; le type se qualifie selon l'exploitation réelle (règlement de sécurité, GN 1).
+- Urbanisme : « artisanat et commerce de détail » couvre la prestation de services artisanale ; « activités de services où s'effectue l'accueil d'une clientèle » est une autre sous-destination (R151-28, arrêté du 10 novembre 2016).
+- Sur un linéaire « protection du commerce et de l'artisanat », un local de commerce ne peut pas devenir une activité de services (PLU de Paris, UG.1.4.2).
+- Accessibilité : accueil, circulation, et les cabines ou postes nécessaires pour délivrer l'ensemble des prestations (R164-2).
+- Registre public d'accessibilité obligatoire (R164-6).
+
+## Qualifier l'activité avant de signer
+Deux qualifications se font en parallèle, et elles ne se recoupent pas forcément. En urbanisme, l'arrêté du 10 novembre 2016 rattache à « artisanat et commerce de détail » les activités artisanales de production, de transformation, de réparation ou de prestation de services, et à « activités de services où s'effectue l'accueil d'une clientèle » la conclusion directe de contrats de prestation de services, « notamment médicaux ». En sécurité, le type d'ERP suit l'exploitation réelle.
+Cette qualification compte à Paris : sur les rues soumises à la protection du commerce et de l'artisanat, un local d'artisanat et commerce de détail, de restauration ou de commerce de gros ne peut pas changer pour une autre sous-destination, sauf activités médicales et paramédicales de proximité (UG.1.4.2). Une reprise de boutique par un institut se vérifie donc sur le plan des protections et sur la nature exacte des prestations.
+
+## Cabines, bacs, réseaux
+Un institut se dessine autour de ses réseaux : arrivées d'eau et évacuations pour les bacs à shampoing et les cabines, eau chaude en quantité, ventilation pour les produits, électricité pour les appareils. Le local doit permettre ces tracés sans casser la structure : c'est un point de visite avant le bail.
+- Accueil : visible depuis l'entrée, avec une attente qui n'expose pas les clients en soin.
+- Cabines : intimité visuelle et acoustique, rangements, lavabo, ventilation.
+- Postes de coiffage : miroirs, prises, lumière sans ombre portée, circulation derrière les fauteuils.
+- Arrière : linge, stock de produits, pause du personnel.
+
+## Accessibilité des soins
+Dans un ERP existant de 5e catégorie, l'obligation porte sur une partie du local donnant accès à l'ensemble des prestations, au plus près de l'entrée (R164-2, arrêté du 8 décembre 2014). Pour un institut, cela concerne l'accueil, le cheminement et les cabines ou postes nécessaires pour délivrer l'ensemble des prestations ; les mesures de substitution et les dérogations se motivent. Le guide de l'accessibilité (https://architecte-commerce.fr/guides/accessibilite-commerce) détaille la démarche.
+
+## Sources
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Code de l'urbanisme, article R151-28 (sous-destinations), version en vigueur depuis le 1er juillet 2023 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047337108
+- Arrêté du 10 novembre 2016 modifié, article 3 (définition des sous-destinations), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336587
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Arrêté du 8 décembre 2014 (accessibilité des ERP situés dans un cadre bâti existant), article 1 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034797402
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+- Code de la construction et de l'habitation, article R164-6 (registre public d'accessibilité), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819305
+
+========================================================================
+# Showroom : montrer, conseiller, faire commander
+URL : https://architecte-commerce.fr/architecte-showroom
+Vérifié le 9 octobre 2026.
+
+Un showroom se dimensionne par ce qu'il montre et ce qu'il fait vivre, pas par le stock. S'il reçoit des clients, c'est un ERP : un magasin à faible densité de public compte 1 personne pour 9 m² de surface de vente, et un magasin réservé aux professionnels peut retenir l'effectif déclaré par le chef d'établissement (règlement de sécurité, M 2).
+
+- Magasin à faible densité de public : 1 personne pour 9 m², quel que soit le niveau, à justifier (M 2).
+- Magasin exclusivement réservé aux professionnels : effectif sur déclaration contrôlée (M 2).
+- Un showroom pour clientèle professionnelle relève de la sous-destination « commerce de gros » (arrêté du 10 novembre 2016).
+- Au-delà de 1 000 m² de surface de vente au détail : autorisation d'exploitation commerciale (L752-1).
+
+## Un parcours en six temps
+Un showroom ne vend pas toujours sur place : il fait comprendre, désirer et commander. Le plan suit six temps : exposition (mise en scène des produits), conseil (tables, écrans, échantillons), configuration (matières, finitions, options), commande, livraison et après-vente. La surface n'est pas dimensionnée par le stock, mais par la place que chaque temps demande.
+
+## Effectif et classement
+L'article M 2 prévoit deux cas utiles aux showrooms : le magasin de vente à faible densité de public, compté à 1 personne pour 9 m² de surface de vente quel que soit le niveau, et le magasin exclusivement réservé aux professionnels, dont l'effectif peut être déterminé sur déclaration contrôlée du chef d'établissement. Ces cas se justifient dans la notice de sécurité.
+Densité d'occupation des magasins de vente (article M 2)
+Niveau ou cas | Effectif théorique du public
+Sous-sol, rez-de-chaussée, 1er étage | 1 personne pour 3 m² de surface de vente
+2e étage | 1 personne pour 6 m²
+Étages supérieurs | 1 personne pour 15 m²
+Boutique de moins de 300 m² dans un centre commercial | 1 personne pour 6 m², quel que soit le niveau
+Mails d'un centre commercial | 1 personne pour 5 m² de leur surface totale
+Magasin à faible densité de public | 1 personne pour 9 m², quel que soit le niveau
+Magasin réservé aux professionnels | Déclaration contrôlée du chef d'établissement
+Règlement de sécurité, article M 2, version en vigueur depuis le 1er décembre 2017. L'ancienne règle « 2 personnes par m² sur le tiers de la surface » est abrogée.
+
+## Commerce de gros ou de détail ?
+En urbanisme, la sous-destination « commerce de gros » recouvre la présentation et la vente de biens pour une clientèle professionnelle ; « artisanat et commerce de détail » vise la vente au détail à une clientèle (arrêté du 10 novembre 2016, art. 3). Le choix compte pour le PLU, notamment à Paris où certains changements depuis le commerce de gros sont encadrés (UG.1.3.4).
+Au-delà de 1 000 m² de surface de vente au détail, la création d'un magasin est soumise à autorisation d'exploitation commerciale (code de commerce, L752-1).
+
+## Sources
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Arrêté du 10 novembre 2016 modifié, article 3 (définition des sous-destinations), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336587
+- Code de l'urbanisme, article R151-28 (sous-destinations), version en vigueur depuis le 1er juillet 2023 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047337108
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de commerce, article L752-1 (autorisation d'exploitation commerciale au-delà de 1 000 m² de surface de vente), version en vigueur depuis le 25 novembre 2018 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037671151
+- Code de l'urbanisme, article L425-4 (le permis tient lieu d'autorisation d'exploitation commerciale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031008816
+
+========================================================================
+# Architecte commerce en Île-de-France : mêmes règles, autres guichets
+URL : https://architecte-commerce.fr/architecte-commerce-ile-de-france
+Vérifié le 9 octobre 2026.
+
+Hors de Paris, les règles de fond d'un commerce sont les mêmes : classement ERP, sécurité, accessibilité. Ce qui change, c'est la procédure (autorisation de travaux délivrée par le maire, sauf compétence du préfet, avis des commissions compétentes) et le droit local : chaque commune a son PLU ; l'enseigne est soumise à autorisation si la commune a un règlement local de publicité et, partout, dans les secteurs protégés (L581-18).
+
+- 157 205 commerces actifs en Île-de-France en 2023, +2,1 % par rapport à 2021 (CCI Paris Île-de-France).
+- Centre commercial : mails à 1 personne pour 5 m², boutiques de moins de 300 m² à 1 personne pour 6 m² (M 2).
+- Enseigne soumise à autorisation dans les communes dotées d'un règlement local de publicité et dans les secteurs protégés (L581-18).
+- Plus de 1 000 m² de surface de vente : autorisation d'exploitation commerciale (L752-1).
+
+## Les règles de fond ne changent pas
+Le règlement de sécurité, le classement des ERP, les règles d'accessibilité et le code de l'urbanisme sont nationaux. Ce qui change à la sortie de Paris : l'autorité qui délivre l'autorisation de travaux (le maire, sauf compétence du préfet), le service qui instruit, les sous-commissions départementales qui rendent les avis, et le droit local (PLU ou PLU intercommunal, règlement local de publicité, protections patrimoniales).
+
+## Centres commerciaux et retail parks
+Dans un centre commercial, l'effectif des mails se compte à 1 personne pour 5 m² de leur surface totale ; les boutiques de moins de 300 m² comptent 1 personne pour 6 m², quel que soit le niveau (règlement de sécurité, M 2). Le bailleur impose en général son cahier des charges preneur : il s'ajoute aux règles, sans les remplacer.
+En retail park, le projet se joue sur la visibilité depuis la route, le stationnement, la livraison et la façade. Au-delà de 1 000 m² de surface de vente, la création d'un magasin est soumise à autorisation d'exploitation commerciale ; le permis de construire en tient lieu après avis favorable de la commission départementale (L752-1, L425-4).
+
+## Centres-villes de petite et grande couronne
+Dans les centres-villes, les sujets parisiens se retrouvent à une autre échelle : devantures en immeuble ancien, copropriétés, abords de monuments historiques, linéaires commerciaux protégés par certains PLU. La vérification avant bail suit la même grille qu'à Paris, avec les documents de la commune.
+La CCI Paris Île-de-France recensait 157 205 commerces actifs dans la région en 2023, contre 153 990 en 2021 ; l'alimentaire progresse de 5 % et la restauration rapide de 9 % sur la période.
+
+## Où intervient Kalya Architecte
+Dans toute l'Île-de-France, depuis Paris. Pour la procédure ERP hors de Paris, voir aussi ERP hors de Paris sur dossier-erp-paris.fr.
+
+## Sources
+- Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public), version en vigueur depuis le 21 novembre 2025 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de commerce, article L752-1 (autorisation d'exploitation commerciale au-delà de 1 000 m² de surface de vente), version en vigueur depuis le 25 novembre 2018 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037671151
+- Code de l'urbanisme, article L425-4 (le permis tient lieu d'autorisation d'exploitation commerciale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031008816
+- CCI Paris Île-de-France, recensement 2023 de l'équipement commercial francilien, communiqué du 25 janvier 2024 : https://www.cci-paris-idf.fr/fr/newsroom/presse/cp/recensement-2023-equipement-commercial-francilien
+
+========================================================================
+# Les autorisations de travaux d'un commerce, dossier par dossier
+URL : https://architecte-commerce.fr/guides/autorisations-travaux-commerce
+Vérifié le 9 octobre 2026.
+
+Un commerce cumule souvent trois dossiers : l'autorisation de travaux au titre des ERP pour l'intérieur (4 mois), la déclaration préalable pour la devanture (1 mois, 2 en secteur protégé) et l'autorisation d'enseigne (2 mois). Un permis de construire, exigé si la façade ou la structure change avec la destination, vaut autorisation de travaux (5 mois).
+
+- Autorisation de travaux : pour créer, aménager ou modifier un ERP (code de la construction, L122-3) ; Cerfa n° 13824*04 ; 4 mois (R122-16).
+- Déclaration préalable : travaux modifiant l'aspect extérieur (R*421-17 a) ; 1 mois, 2 en site patrimonial ou abords (R*423-23, R423-24).
+- Enseigne : autorisation du maire là où un règlement local de publicité s'applique, donc partout à Paris (L581-18) ; 2 mois (R581-13).
+- Permis de construire : structure ou façade modifiée avec changement de destination (R*421-14 c) ; 5 mois pour un ERP (R*423-28), hors majorations éventuelles.
+- Loi du 26 mai 2026 : déclaration de conformité prévue pour certains ERP de moins de 300 m², applicable après un décret.
+
+## Le tableau des autorisations
+Autorisations d'un commerce à Paris et délais d'instruction
+Ce que vous faites | Autorisation | Délai
+Aménager, cloisonner, modifier un ERP | Autorisation de travaux (Cerfa n° 13824*04) ; en 5e catégorie sans hébergement, volet accessibilité seul et description succincte à l'autorité de police | 4 mois ; silence vaut accord, sauf dérogation refusée
+Modifier la devanture, l'aspect extérieur | Déclaration préalable | 1 mois ; 2 mois en site patrimonial remarquable ou aux abords d'un monument
+Poser ou changer une enseigne | Autorisation du maire (Cerfa n° 16308*01, en ligne à Paris) | 2 mois ; silence vaut accord
+Toucher la façade ou la structure en changeant de destination | Permis de construire, qui vaut autorisation de travaux | 5 mois pour un ERP
+Créer plus de 1 000 m² de surface de vente | Autorisation d'exploitation commerciale | Si un permis est nécessaire, il en tient lieu après avis favorable de la CDAC (L425-4)
+
+## L'autorisation de travaux ERP
+Les travaux qui conduisent à la création, l'aménagement ou la modification d'un établissement recevant du public ne peuvent être exécutés qu'après autorisation (code de la construction, L122-3). La demande se fait sur le Cerfa n° 13824*04, avec plans, notice d'accessibilité et, sauf en 5e catégorie sans locaux d'hébergement du public (R122-7, II : une description succincte des travaux est alors communiquée à l'autorité de police), notice de sécurité. L'instruction dure quatre mois à compter d'un dossier complet ; sans décision notifiée, l'autorisation est en principe acquise (R122-16, R122-21), sauf refus d'une dérogation.
+Elle ne vaut pas autorisation d'ouvrir : pour les ERP soumis à visite, l'ouverture passe par la commission de sécurité. Voir fin de travaux et ouverture.
+
+## Déclaration préalable ou permis de construire ?
+L'urbanisme et l'ERP s'examinent séparément. Ce sont les travaux et la destination qui orientent l'urbanisme :
+- modifier l'aspect extérieur (devanture, store, menuiseries) : déclaration préalable (R*421-17 a) ;
+- changer de destination sans toucher la structure ni la façade : déclaration préalable, mais pas entre sous-destinations d'une même destination (R*421-17 b) ;
+- modifier la structure porteuse ou la façade en changeant de destination ou de sous-destination : permis de construire (R*421-14 c).
+Un permis de construire tient lieu d'autorisation de travaux lorsque l'autorité compétente a donné son accord (code de l'urbanisme, R*425-15) ; une déclaration préalable n'a pas cet effet.
+
+## L'enseigne
+À Paris, couverte par un règlement local de publicité, toute enseigne est soumise à autorisation du maire (code de l'environnement, L581-18). La demande se fait sur le Cerfa n° 16308*01, en ligne sur le téléservice de la Ville ; l'autorité statue dans les deux mois d'un dossier complet, et son silence vaut accord (R581-13). Voir le guide de l'enseigne (https://architecte-commerce.fr/guides/enseigne-paris).
+
+## Réforme 2026 : ce qui est prévu, ce qui ne l'est pas encore
+La loi n° 2026-403 du 26 mai 2026 a modifié l'article L122-3 du code de la construction : pour certains ERP de moins de 300 m², une déclaration de conformité certifiée par un tiers pourra remplacer l'autorisation de travaux, sous conditions cumulatives (surface, système d'extinction adapté ou situation en gare, maintien de la même activité). Le ministère subordonne son application à un décret, que nous n'avons pas identifié au 9 octobre 2026. En attendant, l'autorisation de travaux reste la règle.
+Réforme 2026 de l'autorisation de travaux ERP : Ce que dit la loi, ce qui attend un décret : l'analyse détaillée sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/reforme-2026-autorisation-travaux-erp/)
+
+## Questions fréquentes
+Q : Mon dossier de déclaration préalable vaut-il autorisation de travaux ERP ?
+R : Non. Seul le permis de construire tient lieu d'autorisation de travaux, lorsque l'autorité compétente a donné son accord (R*425-15). Avec une déclaration préalable, l'autorisation de travaux se demande à part.
+Q : Que se passe-t-il si l'administration ne répond pas ?
+R : Pour l'autorisation de travaux, le silence au terme de quatre mois vaut en principe accord (R122-21), sauf refus d'une dérogation. Pour l'enseigne, le silence au terme de deux mois vaut accord (R581-13). Encore faut-il que le dossier ait été complet.
+
+## Sources
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Code de la construction et de l'habitation, article R122-21 (accord implicite), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818463
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+- Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public), version en vigueur depuis le 21 novembre 2025 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+- Code de l'urbanisme, article R*423-28, b (permis portant sur des travaux relatifs à un ERP soumis à l'autorisation de L122-3 : cinq mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841115
+- Code de l'urbanisme, article R*425-15 (le permis de construire vaut autorisation de travaux), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841073
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838), fiche vérifiée le 25 septembre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R77838
+- Code de commerce, article L752-1 (autorisation d'exploitation commerciale au-delà de 1 000 m² de surface de vente), version en vigueur depuis le 25 novembre 2018 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037671151
+- Code de l'urbanisme, article L425-4 (le permis tient lieu d'autorisation d'exploitation commerciale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031008816
+- Dossier ERP Paris, « Réforme 2026 : la déclaration de conformité remplace-t-elle l'autorisation de travaux ? », page du 7 octobre 2026, sources Légifrance et ministère : https://dossier-erp-paris.fr/reforme-2026-autorisation-travaux-erp/
+
+========================================================================
+# Calendrier d'ouverture : le chemin critique, du bail à la vitrine allumée
+URL : https://architecte-commerce.fr/guides/calendrier-ouverture-magasin
+Vérifié le 9 octobre 2026.
+
+Le calendrier d'un commerce se lit comme un chemin critique : bail, conception, dossiers, consultation, chantier, réception, ouverture. Côté administration, les délais d'instruction courent en parallèle : un mois pour une déclaration préalable (deux en secteur protégé), deux pour une enseigne, quatre pour une autorisation de travaux ERP, cinq pour un permis de construire ERP.
+
+- Les délais courent à compter d'un dossier complet ; une demande de pièces suspend le départ.
+- Déposés ensemble, les dossiers s'instruisent en parallèle : le plus long fixe le chemin critique administratif.
+- Quand une visite est requise, les services de l'État demandent de saisir la commission au moins un mois avant la date d'ouverture prévue.
+- Le délai d'instruction n'est ni la durée du projet, ni un résultat garanti.
+
+## Simuler votre calendrier administratif
+Cochez ce que comporte votre projet
+Les dossiers déposés ensemble s'instruisent en parallèle : le délai d'instruction le plus long fixe le chemin critique administratif.
+Aménagement intérieur d'un ERP
+Devanture modifiée
+Site patrimonial ou abords d'un monument
+Nouvelle enseigne
+Façade ou structure, avec changement de destination
+01 mois2345 mois
+Déclaration préalableR*423-23
+1 mois
+Déclaration préalable en secteur protégéR423-24, accord de l'ABF
+2 mois
+EnseigneR581-13
+2 mois
+Autorisation de travaux ERPR122-16
+4 mois
+Permis de construire ERPR*423-28, hors majorations ; vaut autorisation de travaux
+5 mois
+Délai d'instruction le plus long : 4 mois, à compter de dossiers complets. Ajoutez la conception avant le dépôt, la consultation des entreprises et le chantier.
+
+## Le chemin critique d'une ouverture
+- Maîtrise du local : vérification avant bail, négociation, signature.
+- Conception : à partir des plans existants, esquisse, plans, notices de sécurité et d'accessibilité.
+- Dossiers : dépôt simultané de la déclaration préalable, de l'autorisation de travaux, de l'enseigne.
+- Consultation des entreprises pendant l'instruction, pour signer dès l'accord.
+- Commandes longues : mobilier sur mesure, enseigne, froid, cuisine, à lancer tôt.
+- Chantier, puis réception et levée des réserves.
+- Préouverture : recrutement, formation, stock, caisse, nettoyage, registres.
+- Ouverture, et commission de sécurité si l'établissement y est soumis.
+Le gain de temps vient surtout du recouvrement : consulter les entreprises pendant l'instruction, commander les éléments longs dès que le dessin est figé.
+
+## Pièces manquantes, silence, commission
+Si le dossier d'autorisation de travaux est incomplet, l'autorité demande les pièces manquantes dans le mois ; le délai de quatre mois ne court qu'à leur réception (R122-16). Au terme du délai, le silence vaut en principe accord (R122-21). Pour l'enseigne, le dossier est réputé complet faute de demande de pièces dans le mois, et le silence au terme de deux mois vaut accord (R581-13).
+Pour les établissements soumis à visite avant ouverture (1re à 4e catégorie, 5e avec locaux à sommeil), les services de l'État demandent de saisir la commission au moins un mois avant la date prévue. Un ERP de 5e catégorie sans locaux à sommeil n'a pas de visite systématique.
+Fin de travaux et autorisation d'ouverture à Paris : Déclaration d'achèvement, attestations, commission : les trois formalités à ne pas confondre. (https://dossier-erp-paris.fr/autorisation-ouverture-erp-paris/)
+
+## Sources
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Code de la construction et de l'habitation, article R122-21 (accord implicite), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818463
+- Code de l'urbanisme, article R*423-28, b (permis portant sur des travaux relatifs à un ERP soumis à l'autorisation de L122-3 : cinq mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841115
+- Code de l'urbanisme, article R*425-15 (le permis de construire vaut autorisation de travaux), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841073
+- Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public), version en vigueur depuis le 21 novembre 2025 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/
+- Règlement de sécurité du 25 juin 1980, article PE 4 (vérifications techniques, visites), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053027822
+- Services de l'État dans le Rhône, « Vie de l'ERP » (saisine de la commission un mois avant l'ouverture), consultée le 7 octobre 2026 : https://www.rhone.gouv.fr/Actions-de-l-Etat/Securite-et-protection-de-la-population/La-securite-civile/Les-etablissements-recevant-du-public/Vie-de-l-ERP
+
+========================================================================
+# Le budget d'un commerce : des enveloppes, une maturité, des responsabilités
+URL : https://architecte-commerce.fr/guides/budget-renovation-commerce
+Vérifié le 9 octobre 2026.
+
+Un budget de commerce fiable se construit par enveloppes (travaux, agencement, enseigne, sécurité et accessibilité, informatique, honoraires et autorisations, préouverture, aléas) et affiche sa maturité : ordre de grandeur, estimation sur plans, prix consultés, prix contractés. Il distingue aussi ce que le bail met à la charge du bailleur et du preneur.
+
+- Pas de prix au mètre carré hors étude : l'état du local et le concept font varier les coûts du simple au multiple.
+- Chaque estimation affiche sa maturité : ordre de grandeur, préliminaire, détaillée, consultée, contractée.
+- Les grosses réparations de l'article 606 du code civil ne peuvent pas être imputées au locataire (code de commerce, R145-35).
+- Une provision pour aléas se justifie d'autant plus que le local est ancien et mal connu.
+
+## Les enveloppes d'un budget de commerce
+Enveloppes d'un budget de commerce
+Enveloppe | Ce qu'elle couvre
+Travaux | Démolition, cloisons, sols, plafonds, électricité, plomberie, ventilation, chauffage et climatisation, menuiseries
+Agencement et mobilier | Comptoirs, présentoirs, cabines, mobilier sur mesure ou de série
+Façade et enseigne | Devanture, store, enseigne, éclairage de vitrine
+Sécurité et accessibilité | Éclairage de sécurité, alarme, extincteurs, adaptations d'accès
+Équipements d'activité | Cuisine, froid, fours, bacs, matériel spécifique
+Informatique et caisse | Caisse, réseau, écrans, comptage, vidéoprotection éventuelle
+Honoraires et autorisations | Architecte, bureau de contrôle si requis, diagnostics, frais de dossiers
+Préouverture | Recrutement, formation, stock initial, nettoyage, communication
+Aléas | Provision pour les découvertes de chantier et les décisions tardives
+
+## La maturité d'une estimation
+Un chiffre ne vaut que par sa maturité. Avant le bail, on parle d'ordre de grandeur : il sert à décider si le local est jouable. Sur esquisse, l'estimation devient préliminaire ; sur plans, détaillée par lots ; après consultation, consultée ; à la signature des marchés, contractée. Présenter un ordre de grandeur comme un prix ferme est la première cause de dérapage.
+
+## Ce que paie le bailleur, ce que paie le preneur
+La loi fixe quelques limites ; le bail fait le reste. Ne peuvent pas être imputées au locataire les dépenses relatives aux grosses réparations de l'article 606 du code civil, ni celles de mise en conformité lorsqu'elles relèvent de ces grosses réparations (code de commerce, R145-35). L'inventaire des charges et l'état des travaux figurent dans le bail (L145-40-2). La répartition des travaux d'aménagement, elle, se négocie : d'où l'intérêt de connaître leur coût avant de signer.
+
+## Où se cachent les dépassements
+- Un réseau à reprendre découvert au curage (évacuations, électricité ancienne).
+- Une extraction plus longue ou plus complexe que prévu.
+- Une sortie supplémentaire rendue nécessaire par l'effectif.
+- Des choix de finition arrêtés après la consultation des entreprises.
+- Des délais de livraison qui repoussent l'ouverture et font courir le loyer.
+La vérification avant bail et un cahier des charges complet avant consultation sont les deux meilleures assurances contre ces écarts.
+
+## Sources
+- Code de commerce, article R145-35 (charges et travaux non imputables au locataire), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029704677
+- Code de commerce, article L145-40-2 (inventaire des charges, état des travaux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103688
+- Code de commerce, article L145-40-1 (état des lieux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103499
+
+========================================================================
+# Faut-il un architecte pour ouvrir un commerce ou un restaurant ?
+URL : https://architecte-commerce.fr/guides/architecte-obligatoire-commerce
+Vérifié le 17 novembre 2026.
+
+Le recours à un architecte est obligatoire pour établir le projet d'un permis de construire. Seule une personne physique qui construit pour elle-même 150 m² de surface de plancher au plus en est dispensée, et sur un bâtiment existant, seulement si l'ensemble reste sous ce seuil : une société (SARL, SAS, SCI) qui dépose un permis de construire doit toujours recourir à un architecte. Pour une déclaration préalable de devanture, une autorisation de travaux ERP ou une autorisation d'enseigne, la loi n'impose pas d'architecte.
+
+- Permis de construire : architecte obligatoire (loi du 3 janvier 1977, art. 3 et 4), sauf personne physique construisant pour elle-même au plus 150 m² de surface de plancher (code de l'urbanisme, R*431-2).
+- Une société n'entre pas dans cette exception : un permis de construire déposé par une SARL ou une SAS passe par un architecte.
+- Déclaration préalable (devanture, vitrine, store) : pas d'obligation de recourir à un architecte.
+- Autorisation de travaux ERP (Cerfa n° 13824) : pas d'obligation légale d'architecte ; le dossier comprend des plans et une notice d'accessibilité (D122-12).
+- Enseigne : autorisation du maire, sans obligation d'architecte (code de l'environnement, L581-18).
+
+## La règle, autorisation par autorisation
+Recours obligatoire à un architecte selon l'autorisation demandée pour un commerce
+Autorisation | Quand un commerce en a besoin | Architecte obligatoire ?
+Permis de construire | Façade ou structure modifiées avec changement de destination, création de surface au-delà des seuils de la déclaration préalable | Oui, pour une société ; pour une personne physique, au-delà de 150 m² de surface de plancher, ou si l'ensemble existant dépasse ce seuil en surface de plancher ou en emprise au sol (R*431-2)
+Déclaration préalable | Devanture, vitrine, store, aspect extérieur modifié | Non
+Autorisation de travaux ERP | Aménager, cloisonner ou modifier un établissement recevant du public | Non
+Autorisation d'enseigne | Poser ou changer une enseigne, à Paris toujours | Non
+Un permis de construire portant sur un ERP tient lieu d'autorisation de travaux : dans ce cas, l'architecte établit l'ensemble.
+
+## Pourquoi une société n'échappe pas à l'architecte
+L'exception de l'article R*431-2 du code de l'urbanisme vise « les personnes physiques » (et certaines exploitations agricoles) qui déclarent vouloir édifier ou modifier pour elles-mêmes une construction dont la surface de plancher n'excède pas 150 m². Une SARL, une SAS ou une SCI n'est pas une personne physique : dès qu'un permis de construire est nécessaire, son projet architectural est établi par un architecte (loi n° 77-2 du 3 janvier 1977, art. 3).
+Pour des travaux sur une construction existante, le recours devient aussi obligatoire lorsque les travaux portent la surface de plancher ou l'emprise au sol de l'ensemble au-delà de ces plafonds (R*431-2, dernier alinéa).
+
+## Quand l'architecte reste utile sans être obligatoire
+La plupart des ouvertures de boutique ou de restaurant se font sans permis de construire : une déclaration préalable pour la devanture, une autorisation de travaux pour l'intérieur, une autorisation d'enseigne. La loi n'impose alors personne. Ce qui se joue est ailleurs :
+- La faisabilité avant signature : destination, classement ERP, accessibilité, extraction, copropriété, autorisations nécessaires.
+- Le plan : effectif, dégagements, accessibilité dessinés avec le règlement, plutôt que corrigés après un refus.
+- Le dossier : un dossier incomplet suspend le délai d'instruction de quatre mois jusqu'à la réception des pièces manquantes (code de la construction, R122-16).
+- La responsabilité : un architecte inscrit à l'Ordre est assuré pour les missions qu'il signe (loi du 3 janvier 1977, art. 16).
+
+## Architecte, architecte d'intérieur, agenceur
+Le titre d'architecte est protégé : seul un architecte inscrit au tableau de l'Ordre peut le porter et signer le projet architectural d'un permis de construire. Un architecte d'intérieur ou un agenceur peut concevoir un aménagement et préparer une déclaration préalable ou une autorisation de travaux ; il ne peut pas signer un permis de construire soumis au recours obligatoire. Pour vérifier une inscription, l'annuaire de l'Ordre des architectes est public.
+
+## Questions fréquentes
+Q : Une SAS qui ouvre un restaurant de 80 m² doit-elle prendre un architecte ?
+R : Seulement si un permis de construire est nécessaire, par exemple parce que la façade ou la structure change en même temps que la destination. Dans ce cas, oui, quelle que soit la surface : l'exception des 150 m² ne vise que les personnes physiques (R*431-2). Si le projet ne demande qu'une déclaration préalable, une autorisation de travaux et une autorisation d'enseigne, la loi n'impose pas d'architecte.
+Q : L'autorisation de travaux d'un ERP doit-elle être signée par un architecte ?
+R : Non, la loi ne l'impose pas. Le dossier (Cerfa n° 13824) comprend notamment des plans et une notice d'accessibilité ; un permis de construire portant sur un ERP, lui, tient lieu d'autorisation de travaux et suit la règle du permis.
+Q : Combien coûte un architecte pour un commerce ?
+R : Kalya Architecte publie ses prix : 790 € HT pour la faisabilité avant signature, 2 200 € HT pour l'autorisation de travaux d'un local jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² ; conception complète et suivi de chantier sur devis. Voir les honoraires (https://architecte-commerce.fr/honoraires).
+
+## Sources
+- Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 3 (recours obligatoire à l'architecte pour le permis de construire), version en vigueur depuis le 24 mars 2012 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000025577118
+- Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 4 (dérogations au recours à l'architecte), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847393
+- Code de l'urbanisme, article R*431-2 (dispense de recours à l'architecte : personnes physiques, 150 m²), version en vigueur depuis le 23 juin 2019 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038682379
+- Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 9 (inscription au tableau), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847402
+- Loi n° 77-2 du 3 janvier 1977 sur l'architecture, article 16 (assurance de l'architecte), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006847418
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- architecte-erp.fr, page « Tarif autorisation de travaux ERP à Paris » (prix publiés par le même architecte), consultée le 17 novembre 2026 : https://www.architecte-erp.fr/tarifs
+
+========================================================================
+# Classement ERP d'un commerce : calculer l'effectif, trouver la catégorie
+URL : https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif
+Vérifié le 17 novembre 2026.
+
+Un commerce ouvert au public est un ERP. Son type dépend de l'activité (M pour un magasin, N pour un restaurant ou un bar) et sa catégorie de l'effectif (public seul pour la 5e catégorie ; public et personnel sans dégagements propres pour les catégories 1 à 4). Un magasin reste en 5e catégorie sous 100 personnes au sous-sol, 100 aux étages et 200 au total ; un restaurant sous 100, 200 et 200 (règlement de sécurité, PE 2).
+
+- Catégories : 1re au-delà de 1 500 personnes, 2e de 701 à 1 500, 3e de 301 à 700, 4e 300 et moins hors 5e (code de la construction, R143-19).
+- Magasin : 1 personne pour 3 m² de surface de vente au sous-sol, au rez-de-chaussée et au 1er étage (M 2).
+- Restaurant : places assises déclarées dans la limite d'1 personne pour 2 m² ; debout 2 par m² (N 2).
+- Le personnel ne compte pas pour classer en 5e catégorie (GN 1, PE 3) ; il compte pour les catégories 1 à 4 (R143-19) et pour les sorties s'il n'a pas les siennes (PE 11 § 5).
+
+## Type et catégorie
+Le classement d'un ERP se lit en deux dimensions : une lettre pour le type, selon la nature réelle de l'exploitation, et un chiffre pour la catégorie, selon l'effectif. Les magasins de vente et centres commerciaux relèvent du type M ; les restaurants et débits de boissons du type N. La catégorie suit l'effectif total (R143-19) : 1re au-delà de 1 500 personnes, 2e de 701 à 1 500, 3e de 301 à 700, 4e jusqu'à 300 lorsque l'établissement n'est pas en 5e catégorie.
+
+## Calculer l'effectif d'un magasin (type M)
+Densité d'occupation des magasins de vente (article M 2)
+Niveau ou cas | Effectif théorique du public
+Sous-sol, rez-de-chaussée, 1er étage | 1 personne pour 3 m² de surface de vente
+2e étage | 1 personne pour 6 m²
+Étages supérieurs | 1 personne pour 15 m²
+Boutique de moins de 300 m² dans un centre commercial | 1 personne pour 6 m², quel que soit le niveau
+Mails d'un centre commercial | 1 personne pour 5 m² de leur surface totale
+Magasin à faible densité de public | 1 personne pour 9 m², quel que soit le niveau
+Magasin réservé aux professionnels | Déclaration contrôlée du chef d'établissement
+Règlement de sécurité, article M 2, version en vigueur depuis le 1er décembre 2017. L'ancienne règle « 2 personnes par m² sur le tiers de la surface » est abrogée.
+En 5e catégorie, pour les boutiques à rez-de-chaussée de moins de 500 m² ne comportant que des circulations principales d'au moins 1,80 m, l'effectif se calcule à 1 personne par m² sur le tiers de la surface des locaux accessibles au public (PE 3).
+
+## Calculer l'effectif d'un restaurant (type N)
+Densité d'occupation des restaurants (article N 2)
+Zone | Effectif théorique
+Assise, avec déclaration contrôlée du nombre de places | Nombre déclaré, dans la limite d'1 personne pour 2 m²
+Assise, sans déclaration | 1 personne par m²
+Debout | 2 personnes par m²
+Files d'attente | 3 personnes par m²
+La surface est diminuée des estrades des musiciens et des aménagements fixes autres que les tables et les sièges (N 2). La déclaration précise la capacité maximale par niveau.
+
+## Les seuils de la 5e catégorie
+Seuils de la 5e catégorie (article PE 2)
+Type | Sous-sol | Étages | Ensemble des niveaux
+M, magasins de vente | moins de 100 | moins de 100 | moins de 200
+N, restaurants et débits de boissons | moins de 100 | moins de 200 | moins de 200
+L'établissement reste en 5e catégorie tant que l'effectif du public est inférieur à chacun de ces nombres.
+
+## Sorties et obligations de base en 5e catégorie
+Dégagements exigés en 5e catégorie selon l'effectif
+Effectif (public et personnel sans sortie propre) | Dégagements exigés
+Moins de 20 personnes | 1 dégagement de 0,90 m
+De 20 à 50 personnes | Soit 1 dégagement de 1,40 m débouchant directement sur l'extérieur, le public n'ayant jamais plus de 25 m à parcourir ; soit 2 dégagements (0,90 m et 0,60 m, ou dégagement accessoire) débouchant directement sur l'extérieur ou sur des locaux différents non en cul-de-sac
+De 51 à 100 personnes | 2 dégagements de 0,90 m, ou 1 de 1,40 m et 1 de 0,60 m (ou dégagement accessoire)
+De 101 à 200 personnes | 1 dégagement de 1,40 m et 1 de 0,90 m
+De 201 à 300 personnes | 2 dégagements de 1,40 m
+Règlement de sécurité, article PE 11. Chaque local, niveau et établissement se vérifie sur son propre effectif. Dans un bâtiment existant, une largeur de 0,90 m peut être ramenée à 0,80 m.
+Autres exigences du règlement pour les petits établissements : désenfumage des salles de plus de 300 m² en rez-de-chaussée ou en étage et de plus de 100 m² en sous-sol (PE 14) ; éclairage de sécurité dans les escaliers, les circulations de plus de 10 m ou compliquées et les salles de plus de 100 m² (PE 24) ; au moins un extincteur par niveau, avec un appareil pour 300 m² au minimum, une alarme, des consignes affichées (PE 26 et PE 27) ; installations vérifiées au moins tous les trois ans (PE 4).
+Sécurité incendie d'un ERP de 5e catégorie : Le règlement PE article par article, sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/securite-incendie-erp/)
+
+## Sources
+- Règlement de sécurité du 25 juin 1980, article GN 1 (classement, effectif du personnel), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000045143487
+- Code de la construction et de l'habitation, article R143-19 (catégories 1 à 4), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818977
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité, article PE 3 (calcul de l'effectif en 5e catégorie), version en vigueur depuis le 27 août 1990 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751105
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Règlement de sécurité, article N 2 (effectif des restaurants et débits de boissons), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751045
+- Règlement de sécurité, article PE 11 (dégagements en 5e catégorie), version en vigueur depuis le 1er juillet 2004 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024751142
+- Règlement de sécurité, livre III, article PE 14 (désenfumage), texte reproduit avec ses modifications, consulté le 7 octobre 2026 : https://sitesecurite.com/contenu/_erp/erppe/pe14.php?id=PE14
+- Règlement de sécurité, livre III, article PE 24 (éclairage de sécurité), texte reproduit avec ses modifications, consulté le 7 octobre 2026 : https://sitesecurite.com/contenu/_erp/erppe/pe24.php?id=PE24
+- Règlement de sécurité, livre III, articles PE 26 et PE 27 (extincteurs, alarme, consignes), texte reproduit avec ses modifications, consulté le 7 octobre 2026 : https://sitesecurite.com/contenu/_erp/erppe/pe26a27.php?id=PE26
+- Règlement de sécurité du 25 juin 1980, article PE 4 (vérifications techniques, visites), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053027822
+
+========================================================================
+# Accessibilité d'un commerce : ce que la petite taille ne dispense pas
+URL : https://architecte-commerce.fr/guides/accessibilite-commerce
+Vérifié le 9 octobre 2026.
+
+Un commerce qui s'installe dans un bâtiment existant relève des règles des ERP existants (code de la construction, R164-1 ; arrêté du 8 décembre 2014). En 5e catégorie, une partie du local, au plus près de l'entrée, doit donner accès à l'ensemble des prestations (R164-2). Une dérogation se motive point par point, et tout ERP tient un registre public d'accessibilité.
+
+- Bâti existant : articles R164-1 à R164-6 et arrêté du 8 décembre 2014 ; construction neuve : arrêté du 20 avril 2017.
+- 5e catégorie : une partie du bâtiment donnant accès à l'ensemble des prestations, mesures de substitution possibles.
+- Dérogations : impossibilité technique, patrimoine, disproportion manifeste, refus de la copropriété dans les conditions du texte (R164-3).
+- Nouveaux Ad'AP : plus de dépôt depuis le 31 mars 2019.
+- Registre public d'accessibilité pour tout ERP, 5e catégorie comprise (R164-6).
+
+## Quel texte pour quel local ?
+Un commerce nouvellement ouvert dans un bâtiment existant n'est pas, pour ce seul motif, une construction neuve : il relève des articles R164-1 à R164-6 du code de la construction et de l'arrêté du 8 décembre 2014. La construction d'un ERP relève, elle, des articles R162-8 et suivants et de l'arrêté du 20 avril 2017. Une opération mixte se qualifie partie par partie.
+
+## Ce qu'on examine dans un commerce
+- le cheminement depuis le trottoir jusqu'à l'entrée ;
+- l'entrée, la porte, le seuil, l'accueil ;
+- les circulations, les changements de niveau ;
+- les équipements utilisés par le public : caisse, cabines, présentoirs ;
+- les sanitaires, lorsqu'ils sont ouverts au public ;
+- l'information, l'éclairage, l'acoustique.
+Les cotes précises figurent dans l'arrêté applicable : elles ne se devinent pas.
+
+## La 5e catégorie n'est pas une dispense
+Dans un ERP existant de 5e catégorie, l'obligation porte sur une partie du bâtiment qui permet d'accéder à l'ensemble des prestations, située le plus près possible de l'entrée principale et desservie par le cheminement usuel ; certaines prestations peuvent être délivrées par des mesures de substitution. Une petite surface ne suffit ni à justifier une dérogation ni à écarter l'obligation.
+
+## Dérogations, attestation, registre
+Une dérogation se demande pour un point identifié, dans l'un des cas prévus : impossibilité technique, conservation du patrimoine architectural, disproportion manifeste entre les améliorations et leurs conséquences, refus de l'assemblée générale des copropriétaires dans les conditions du texte (R164-3). Elle se justifie dans le dossier d'autorisation de travaux, avec les mesures de substitution proposées.
+Un ERP conforme le déclare par une attestation d'accessibilité (R165-3) ; en 5e catégorie, elle peut prendre la forme d'une déclaration sur l'honneur. Les nouveaux agendas d'accessibilité programmée ne se déposent plus depuis le 31 mars 2019. Enfin, tout ERP met à disposition du public un registre public d'accessibilité, mis à jour, au principal point d'accueil (R164-6, arrêté du 19 avril 2017).
+Accessibilité des ERP à Paris : Règles, dérogations, attestations et registre, en détail, sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/accessibilite-erp-paris/)
+
+## Sources
+- Code de la construction et de l'habitation, article R164-1 (ERP existants), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819295
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Arrêté du 8 décembre 2014 (accessibilité des ERP situés dans un cadre bâti existant), article 1 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034797402
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+- Code de la construction et de l'habitation, article R165-3 (attestation d'accessibilité), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819317
+- Ministère de la transition écologique, agenda d'accessibilité programmée (Ad'AP), page relue le 7 octobre 2026 : https://www.ecologie.gouv.fr/politiques-publiques/ladap-agenda-daccessibilite-programmee
+- Code de la construction et de l'habitation, article R164-6 (registre public d'accessibilité), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819305
+- Arrêté du 19 avril 2017 (registre public d'accessibilité), articles 1 et 3 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000034480997
+
+========================================================================
+# Enseigne à Paris : l'autorisation, le dossier, le délai
+URL : https://architecte-commerce.fr/guides/enseigne-paris
+Vérifié le 9 octobre 2026.
+
+À Paris, toute enseigne est soumise à autorisation du maire, parce que la ville est couverte par un règlement local de publicité (code de l'environnement, L581-18). La demande se fait en ligne sur le Cerfa n° 16308*01. L'autorité statue dans les deux mois d'un dossier complet ; son silence vaut accord (R581-13). Les enseignes lumineuses s'éteignent entre 1 h et 6 h quand l'activité a cessé.
+
+- Autorisation obligatoire dans les communes dotées d'un règlement local de publicité et dans les secteurs protégés (L581-18).
+- Procédure réécrite au 1er juillet 2026 (décret n° 2025-1354) : demande présentée par la personne ou l'entreprise qui exerce l'activité signalée (R581-9) ; formulaire en vigueur : Cerfa n° 16308*01.
+- À Paris, dépôt uniquement en ligne depuis le 1er octobre 2025.
+- Deux mois, silence valant accord (R581-13) ; ce texte ne prévoit pas de majoration lorsque l'accord de l'architecte des Bâtiments de France est requis (R581-16-1).
+- Extinction de 1 h à 6 h si l'activité a cessé ; clignotement interdit sauf pharmacie et services d'urgence (R581-59).
+
+## Pourquoi une autorisation à Paris
+L'installation d'une enseigne est soumise à autorisation sur les immeubles et dans les lieux protégés, ainsi que dans le cadre d'un règlement local de publicité (code de l'environnement, L581-18). Paris étant couverte par un tel règlement, toute enseigne y est soumise à autorisation, y compris le remplacement d'une enseigne existante. Le règlement local peut être plus restrictif que le règlement national.
+
+## Le dossier
+Depuis le 1er juillet 2026 (décret n° 2025-1354), la demande est présentée par la personne ou l'entreprise qui exerce l'activité signalée (R581-9) ; le formulaire en vigueur est le Cerfa n° 16308*01. Le dossier montre l'enseigne dans son environnement : mise en situation, vues avec et sans le dispositif, document graphique d'intégration à la façade. À Paris, il se dépose sur le téléservice de la Ville « Terrasses, étalages, enseignes ».
+Sur un immeuble protégé, aux abords d'un monument historique ou en site patrimonial remarquable, l'autorisation est délivrée après accord de l'architecte des Bâtiments de France.
+
+## Le délai
+L'autorité statue dans les deux mois suivant la réception d'un dossier complet. Le dossier est réputé complet si aucune pièce n'est demandée dans le mois. À défaut de notification dans le délai, l'autorisation est réputée accordée (R581-13). Nous n'avons trouvé aucune majoration à quatre mois en cas d'accord de l'architecte des Bâtiments de France dans la version en vigueur.
+
+## L'enseigne allumée
+Les enseignes lumineuses sont éteintes entre 1 heure et 6 heures lorsque l'activité signalée a cessé. Si l'activité cesse ou commence entre minuit et 7 heures, l'enseigne s'éteint au plus tard une heure après la fermeture et peut s'allumer une heure avant l'ouverture. Les enseignes clignotantes sont interdites, sauf pour les pharmacies et les services d'urgence (R581-59).
+
+## Questions fréquentes
+Q : Faut-il une autorisation pour remplacer une enseigne existante ?
+R : Oui à Paris : l'installation de toute enseigne est soumise à autorisation (L581-18). Une nouvelle enseigne, même à l'emplacement de l'ancienne, fait l'objet d'une demande d'autorisation.
+Q : Le Cerfa 14798 est-il encore valable ?
+R : La fiche officielle indique désormais le Cerfa n° 16308*01 pour la demande d'autorisation préalable d'une enseigne. À Paris, la demande se fait en ligne.
+
+## Sources
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-9 (demande d'autorisation d'enseigne), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219811
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Code de l'environnement, article R581-16-1 (accord de l'architecte des Bâtiments de France), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219860
+- Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838), fiche vérifiée le 25 septembre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R77838
+- Ville de Paris, enseignes et publicités (demande en ligne), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/enseignes-et-publicites-3514
+- Code de l'environnement, article R581-59 (extinction des enseignes lumineuses), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048869649
+- Ville de Paris, sites patrimoniaux remarquables (Marais, 7e arrondissement), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/secteurs-sauvegardes-psmv-2351
+
+========================================================================
+# Extraction d'un restaurant à Paris : la question à régler avant le bail
+URL : https://architecte-commerce.fr/guides/extraction-restaurant-paris
+Vérifié le 9 octobre 2026.
+
+À Paris, le règlement sanitaire départemental impose de rejeter l'air des cuisines sans recyclage, à au moins 8 m de toute fenêtre ou prise d'air neuf, sauf aménagements empêchant toute reprise d'air pollué (art. 63-1), par une hotte débordante raccordée à un conduit unique, indépendant des conduits de fumée, nettoyé avec ses filtres au moins une fois par mois (art. 130-3). Le tracé du conduit se vérifie avant de signer.
+
+- Cuisines : locaux à pollution spécifique, air extrait sans recyclage (RSD de Paris, art. 63-1).
+- Rejet à au moins 8 m de toute fenêtre, de toute prise d'air neuf, de tout débouché de conduit de fumée et de tout conduit de ventilation, sauf aménagements empêchant toute reprise d'air pollué (art. 63-1).
+- Hotte débordante, conduit unique indépendant des conduits de fumée, sans gêne pour le voisinage (art. 130-3).
+- Conduits et filtres à graisse nettoyés au moins une fois par mois (art. 130-3).
+- Conduit sur les parties communes : vote de l'assemblée générale (loi du 10 juillet 1965, art. 25 b).
+
+## Ce que dit le règlement sanitaire de Paris
+Le règlement sanitaire départemental de Paris range les cuisines parmi les locaux à pollution spécifique : l'air extrait ne peut pas être recyclé et doit être rejeté « à au moins huit mètres de toute fenêtre, de toute prise d'air neuf », de tout débouché de conduit de fumée et de tout conduit de ventilation, « sauf aménagements tels qu'une reprise d'air pollué ne soit pas possible » (art. 63-1). Les fourneaux sont équipés d'une hotte débordante à captage total, raccordée à un conduit de ventilation unique, indépendant des conduits de fumée ; l'installation ne doit pas gêner le voisinage, et conduits et filtres à graisse sont nettoyés au moins une fois par mois (art. 130-3). Ces règles s'appliquent aux cuisines des restaurants (art. 152-2) comme aux laboratoires de préparation.
+Les articles consultés ne fixent pas de hauteur de rejet en toiture. La règle souvent citée des 40 cm vient de l'arrêté du 22 octobre 1969 (art. 18), qui vise les orifices des conduits de fumée à tirage naturel desservant des logements. Les textes consultés n'établissent pas qu'elle s'applique à l'extraction mécanique d'une cuisine professionnelle.
+
+## Trouver le tracé
+La faisabilité tient au tracé du conduit, de la hotte au point de rejet :
+- une gaine existante, réutilisable, d'une section suffisante ;
+- une cour intérieure, avec un rejet qui respecte la distance aux fenêtres ;
+- une façade arrière ou une toiture accessibles, avec l'accord de la copropriété ;
+- des traversées de planchers et de logements, souvent impossibles en pratique.
+La lecture des plans du local et de l'immeuble, avant le bail, dit si l'un de ces tracés existe. Sans tracé, le projet de cuisson n'est pas faisable en l'état.
+
+## Copropriété et bail
+La façade (gros œuvre) et les gaines sont présumées parties communes ; y faire passer un conduit demande l'autorisation de l'assemblée générale, à la majorité de l'article 25 b de la loi du 10 juillet 1965. Le règlement de copropriété peut aussi encadrer l'activité exercée dans les lots. Côté bail, la destination doit autoriser la restauration ; l'autorisation des travaux d'extraction, le sort des ouvrages et la remise en état se lisent dans les clauses du bail. C'est le bailleur, copropriétaire, qui porte la demande à l'assemblée générale.
+
+## Sources
+- Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué), consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928
+- Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2, consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019
+- Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur), version en vigueur depuis le 18 juin 2025 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749507
+- Loi n° 65-557 du 10 juillet 1965, article 3 (parties communes), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037671848
+- Loi n° 65-557 du 10 juillet 1965, article 8 (règlement de copropriété, destination de l'immeuble), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000041587248
+- Loi n° 65-557 du 10 juillet 1965, article 9 (droits de chaque copropriétaire sur ses parties privatives), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749498
+
+========================================================================
+# Bail commercial et travaux : ce que la loi fixe, ce que le bail décide
+URL : https://architecte-commerce.fr/guides/bail-commercial-travaux
+Vérifié le 9 octobre 2026.
+
+Le bail commercial est conclu pour neuf ans au moins, avec une faculté de congé du locataire à chaque période triennale, sauf exceptions (code de commerce, L145-4). Sa clause de destination fixe l'activité autorisée. La loi interdit d'imputer au locataire les grosses réparations de l'article 606 du code civil (R145-35) et impose un état des lieux, un inventaire des charges, le DPE et l'état des risques. Pour les baux conclus ou renouvelés depuis la loi du 26 mai 2026, les garanties sont limitées à un trimestre de loyer.
+
+- Durée : neuf ans au moins ; bail dérogatoire : trois ans au plus (L145-4, L145-5).
+- Activité connexe : notification au bailleur, qui a deux mois pour en contester le caractère connexe ou complémentaire (L145-47) ; activité différente : L145-48.
+- Non imputables au locataire : grosses réparations de l'article 606 et mise en conformité qui en relève (R145-35).
+- État des lieux d'entrée, inventaire des charges et état des travaux obligatoires (L145-40-1, L145-40-2).
+- Loi du 26 mai 2026 : loyer mensuel de droit à la demande du preneur (L145-32-1) ; garanties plafonnées à un trimestre pour les baux conclus ou renouvelés depuis la loi (L145-40).
+
+## Durée et destination
+La durée du bail commercial ne peut être inférieure à neuf ans ; le preneur peut en principe donner congé à l'expiration de chaque période triennale, sauf exceptions (bail de plus de neuf ans, locaux monovalents, bureaux, stockage) (L145-4). Un bail dérogatoire ne peut excéder trois ans (L145-5).
+La clause de destination fixe les activités autorisées. Pour adjoindre une activité connexe ou complémentaire, le preneur en informe le bailleur, qui dispose de deux mois pour contester ce caractère (L145-47). Pour exercer une activité différente, la déspécialisation plénière suit l'article L145-48 et les suivants.
+
+## Charges et travaux : la ligne de partage
+Ne peuvent pas être imputées au locataire les dépenses relatives aux grosses réparations de l'article 606 du code civil (gros murs, voûtes, poutres, couvertures entières), ni celles de mise en conformité lorsqu'elles relèvent de ces grosses réparations (R145-35). Le bail comporte un inventaire précis et limitatif des catégories de charges, impôts, taxes et redevances ; le bailleur communique à la conclusion du bail, puis tous les trois ans, l'état prévisionnel des travaux des trois années suivantes et l'état récapitulatif des trois années précédentes (L145-40-2).
+Pour les travaux du preneur, la loi pose surtout la restitution des lieux conforme à l'état des lieux (code civil, art. 1730 et suivants). L'autorisation des travaux, leur sort en fin de bail et la remise en état se lisent dans les clauses : à négocier avant de signer, chiffrage à l'appui.
+
+## Annexes et documents obligatoires
+- État des lieux d'entrée, établi contradictoirement (L145-40-1).
+- Diagnostic de performance énergétique, joint au contrat de location (code de la construction, L126-29).
+- État des risques, annexé aux baux commerciaux (code de l'environnement, L125-5).
+- Annexe environnementale pour les locaux de plus de 2 000 m² de bureaux ou de commerces.
+- Dossier technique amiante tenu à la disposition des occupants pour les immeubles dont le permis est antérieur au 1er juillet 1997 (code de la santé publique, R1334-29-5) ; il n'a pas à être annexé au bail.
+
+## Ce qui change avec la loi du 26 mai 2026
+La loi n° 2026-403 du 26 mai 2026 a modifié le chapitre du code de commerce consacré au bail commercial. Le paiement mensuel du loyer est de droit lorsque le preneur le demande, en l'absence d'arriérés (L145-32-1). Le dépôt de garantie et les autres garanties ne peuvent excéder le montant des loyers d'un trimestre ; le dépôt est restitué dans un délai de trois mois au plus après la remise des clés (L145-40). Le paiement mensuel vaut aussi pour les baux en cours ; le plafond des garanties vise les baux conclus ou renouvelés à compter de la promulgation de la loi (la fiche service-public F23927 retient le 28 mai 2026).
+
+## Sources
+- Code de commerce, article L145-4 (durée du bail : neuf ans au moins, résiliation triennale), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037667139
+- Code de commerce, article L145-5 (bail dérogatoire : trois ans au plus), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029108698
+- Code de commerce, article L145-47 (activités connexes ou complémentaires), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039280354
+- Code de commerce, article L145-48 (déspécialisation plénière), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006222140
+- Code de commerce, article R145-35 (charges et travaux non imputables au locataire), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029704677
+- Code de commerce, article L145-40-1 (état des lieux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103499
+- Code de commerce, article L145-40-2 (inventaire des charges, état des travaux), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000029103688
+- Code de la construction et de l'habitation, article L126-29 (diagnostic de performance énergétique joint au bail), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043977041
+- Code de l'environnement, article L125-5 (état des risques annexé au bail), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006832938
+- Code de l'environnement, article L125-9 (annexe environnementale au-delà de 2 000 m²), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000025118427
+- Code de la santé publique, article R1334-29-5 (dossier technique amiante tenu à disposition), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043841389
+- Code de commerce, article L145-32-1 (paiement mensuel du loyer de droit, loi n° 2026-403 du 26 mai 2026), en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054137998
+- Code de commerce, article L145-40 (garanties limitées à un trimestre de loyer, loi n° 2026-403 du 26 mai 2026), version issue de la loi du 26 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142450
+
+========================================================================
+# Transformer un local en commerce ou en restaurant : trois régimes à ne pas confondre
+URL : https://architecte-commerce.fr/guides/changement-destination-local-commercial
+Vérifié le 9 octobre 2026.
+
+Changer d'activité dans un local fait jouer trois régimes : la destination d'urbanisme (déclaration préalable entre destinations, permis si la façade ou la structure change en même temps), le classement ERP (le type change avec l'activité) et, pour un logement à Paris, le changement d'usage. Entre sous-destinations d'une même destination, comme boutique et restaurant, aucune déclaration n'est due sans travaux.
+
+- Cinq destinations, dont « commerce et activités de service » et « autres activités des secteurs primaire, secondaire ou tertiaire » (R151-27).
+- Sous-destinations du commerce : artisanat et commerce de détail, restauration, commerce de gros, services avec accueil d'une clientèle, cinéma, hôtels, autres hébergements touristiques (R151-28).
+- Déclaration préalable entre destinations ; pas de contrôle entre sous-destinations d'une même destination (R*421-17 b).
+- Permis si la structure porteuse ou la façade change avec la destination ou la sous-destination (R*421-14 c).
+- Même sans formalité, le PLU s'applique (L421-8) : à Paris, les linéaires protégés (UG.1.4.2).
+
+## Destinations et sous-destinations
+Le code de l'urbanisme compte cinq destinations : exploitation agricole et forestière ; habitation ; commerce et activités de service ; équipements d'intérêt collectif et services publics ; autres activités des secteurs primaire, secondaire ou tertiaire (R151-27). La destination « commerce et activités de service » se divise en artisanat et commerce de détail, restauration, commerce de gros, activités de services où s'effectue l'accueil d'une clientèle, cinéma, hôtels et autres hébergements touristiques (R151-28). Le bureau, l'entrepôt et la cuisine dédiée à la vente en ligne appartiennent à la cinquième destination.
+
+## Quelle formalité ?
+Formalités d'urbanisme selon le changement
+Situation | Formalité
+Bureau devenant boutique, sans travaux sur la façade ou la structure | Déclaration préalable (R*421-17 b)
+Boutique devenant restaurant, sans travaux | Aucune au titre du changement (même destination), PLU applicable
+Changement avec travaux sur la façade ou la structure porteuse | Permis de construire (R*421-14 c)
+Changement avec seulement une devanture refaite | Déclaration préalable au titre de l'aspect extérieur (R*421-17 a)
+La frontière entre « modifier l'aspect extérieur » et « modifier la façade » s'apprécie projet par projet ; dans le doute, elle se tranche avant le dépôt.
+
+## Paris : ce que le PLU interdit
+Sur les voies protégées du PLU bioclimatique, un rez-de-chaussée sur rue en artisanat et commerce de détail, restauration ou commerce de gros ne peut pas changer pour une autre sous-destination, sauf activités médicales et paramédicales de proximité ; sur les linéaires d'artisanat de proximité ou de commerce culturel, l'activité elle-même est protégée (UG.1.4.2). En zone UG, le changement de destination ou de sous-destination en entrepôt d'un local existant en rez-de-chaussée sur rue est interdit, sauf équipements de logistique urbaine (UG.1.3.1) ; le changement en cuisine dédiée à la vente en ligne l'est aussi (UG.1.3.5). Ces règles s'appliquent même sans formalité (L421-8).
+
+## ERP et usage : deux autres régimes
+Changer d'activité change souvent le type d'ERP (boutique en type M, restaurant en type N, agence en type W) : les travaux d'aménagement relèvent de l'autorisation de travaux (L122-3), même si l'urbanisme n'exige rien ; sans travaux, l'utilisation du local pour une autre destination peut exiger une nouvelle autorisation d'ouverture. Transformer un logement en local commercial à Paris relève en plus du changement d'usage, soumis à autorisation de la Ville.
+Changement de destination et ERP à Paris : Comment s'articulent urbanisme, ERP et usage, sur dossier-erp-paris.fr. (https://dossier-erp-paris.fr/changement-destination-erp-paris/)
+Changement d'usage à Paris : Le régime propre aux logements, à ne pas confondre avec la destination. (https://dossier-erp-paris.fr/changement-usage-paris-erp/)
+
+## Sources
+- Code de l'urbanisme, article R151-27 (destinations), version en vigueur depuis le 1er juillet 2023 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047337112
+- Code de l'urbanisme, article R151-28 (sous-destinations), version en vigueur depuis le 1er juillet 2023 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047337108
+- Arrêté du 10 novembre 2016 modifié, article 3 (définition des sous-destinations), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336587
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+- Code de l'urbanisme, article R*421-13 (changements de destination ou de sous-destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561283
+- Code de l'urbanisme, article L421-8 (travaux dispensés de formalité : respect du PLU), version en vigueur depuis le 11 avril 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398814
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+
+========================================================================
+# PLU de Paris et commerce : les rez-de-chaussée sous protection
+URL : https://architecte-commerce.fr/guides/plu-paris-commerce
+Vérifié le 9 octobre 2026.
+
+Le PLU bioclimatique de Paris, approuvé le 20 novembre 2024, protège 329 km de linéaires où un rez-de-chaussée commercial doit rester commerce, artisanat, restauration ou commerce de gros (ou activité médicale et paramédicale de proximité), plus 29 km pour l'artisanat de proximité et 9 km pour le commerce culturel. Il encadre aussi les devantures et interdit les dark stores et dark kitchens en rez-de-chaussée sur rue.
+
+- Trois protections des rez-de-chaussée : commerce et artisanat ; commerce artisanal de proximité ; commerce culturel (UG.1.4.2).
+- Les locaux d'angle sont protégés en totalité, même si l'une des voies ne l'est pas.
+- Devantures : de préférence dans le plan de la façade, en applique ou en feuillure avec un retrait limité de 10 à 20 cm ; vitrage le plus clair possible et non réfléchissant ; coffres et grilles à l'intérieur, sauf impossibilité technique ou architecturale (UG.2.1.4).
+- Pas de changement vers entrepôt ni vers cuisine dédiée à la vente en ligne en rez-de-chaussée sur rue (UG.1.3.1, UG.1.3.5).
+- Une carte en données ouvertes situe les linéaires ; elle n'a pas de valeur réglementaire.
+
+## Les protections des rez-de-chaussée
+L'article UG.1.4.2 s'applique aux locaux à rez-de-chaussée situés en bordure des voies repérées sur les documents graphiques, et à la totalité des locaux d'angle :
+- Protection du commerce et de l'artisanat : le changement de sous-destination d'un local en artisanat et commerce de détail, restauration ou commerce de gros, ou affecté à des activités médicales et paramédicales de proximité, vers une sous-destination ou une activité autre que celles-ci est interdit. Une boutique peut devenir un restaurant ; elle ne peut pas devenir une agence ou un bureau.
+- Protection particulière du commerce artisanal de proximité : même règle, et un local affecté au commerce artisanal de proximité ne peut pas devenir une autre activité.
+- Protection particulière du commerce culturel : même règle pour le commerce culturel (établissements commerciaux destinés principalement à la vente de biens culturels, selon le lexique du PLU).
+- Sites de protection des grands magasins : la part de commerce et de restauration ne peut pas diminuer.
+Selon la Ville de Paris, ces protections couvrent 329 km de voies, auxquels s'ajoutent 29 km pour les commerces artisanaux et 9 km pour les commerces culturels.
+
+## Devantures et rez-de-chaussée ouverts
+L'article UG.2.1.4 demande des devantures intégrées à la composition de la façade, interdit les comptoirs ouverts sur la voie sans devanture, place les devantures de préférence dans le plan de la façade, suivant ses caractéristiques (en applique, ou en feuillure avec un retrait limité de 10 à 20 cm), demande un vitrage le plus clair possible et non réfléchissant, et des coffres et grilles à l'intérieur, sauf impossibilité technique ou architecturale. L'article UG.2.1.3 demande des rez-de-chaussée ouverts sur l'espace public, sans locaux aveugles en bordure de voie. Voir vitrine et devanture (https://architecte-commerce.fr/vitrine-et-devanture-commerce).
+
+## Dark stores et dark kitchens
+Le changement de destination ou de sous-destination en entrepôt des locaux existants en rez-de-chaussée sur rue est interdit, sauf équipements de logistique urbaine (UG.1.3.1). Le changement en cuisine dédiée à la vente en ligne est également interdit pour ces locaux (UG.1.3.5). Les points permanents de livraison, ou de livraison et de retrait, d'achats au détail commandés en ligne relèvent de la sous-destination entrepôt (arrêté du 10 novembre 2016, art. 5) ; les locaux où les clients retirent exclusivement des produits stockés sur place et commandés en ligne relèvent de l'artisanat et du commerce de détail (art. 3).
+
+## Vérifier une adresse
+La Ville publie en données ouvertes une carte des protections du commerce et de l'artisanat. Elle aide à repérer une rue, mais n'a pas de valeur réglementaire : seul le règlement graphique du PLU fait foi. Le PLU approuvé le 20 novembre 2024 a fait l'objet de modifications simplifiées en décembre 2025 et en juin 2026 : la version en vigueur se vérifie à la date du projet.
+
+## Sources
+- Ville de Paris, PLU bioclimatique approuvé le 20 novembre 2024, page consultée le 9 octobre 2026 : https://www.paris.fr/pages/plan-local-d-urbanisme-bioclimatique-vers-un-paris-plus-vert-et-plus-solidaire-23805
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Paris Data, « PLU bioclimatique : protections du commerce et de l'artisanat » (carte sans valeur réglementaire), jeu mis à jour le 5 juin 2025 : https://opendata.paris.fr/explore/dataset/plub_protcom/
+- Arrêté du 10 novembre 2016 modifié, article 3 (définition des sous-destinations), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336587
+- Arrêté du 10 novembre 2016 modifié, article 5 (entrepôt ; cuisine dédiée à la vente en ligne), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336582
+- Code de l'urbanisme, article L421-8 (travaux dispensés de formalité : respect du PLU), version en vigueur depuis le 11 avril 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398814
+- Ville de Paris, sites patrimoniaux remarquables (Marais, 7e arrondissement), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/secteurs-sauvegardes-psmv-2351
+
+========================================================================
+# Honoraires : des prix publiés, écrits dans le devis
+URL : https://architecte-commerce.fr/honoraires
+Vérifié le 17 novembre 2026.
+
+Faisabilité avant signature : 790 € HT. Autorisation de travaux ERP : forfait de 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m², pour un établissement de 5e catégorie sans hébergement à Paris et en petite couronne. Déclaration préalable de devanture, enseigne, permis de construire, conception complète de l'aménagement et suivi de chantier : sur devis. Le devis est gratuit ; rien n'est à payer avant sa signature.
+
+- Faisabilité avant signature : 790 € HT (948 € TTC), note avec croquis et avis : faisable, faisable sous conditions ou bloquant.
+- Autorisation de travaux ERP : 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire, jusqu'à 400 m².
+- Dossier prêt en une semaine, une fois toutes les pièces nécessaires réunies (délai indicatif).
+- Réponse sous 24 heures ; devis gratuit ; échéancier : 50 % à la signature du devis, 50 % à la remise du dossier.
+- Les mêmes prix sont publiés sur architecte-erp.fr, par le même architecte.
+
+## Faisabilité avant signature : 790 € HT
+L'architecte analyse la destination du local, le classement de l'établissement, l'accessibilité, la sécurité incendie et les autorisations nécessaires, puis vous remet une note avec croquis et son avis : faisable, faisable sous conditions ou bloquant. 790 € HT, soit 948 € TTC, pour un établissement de 5e catégorie sans hébergement jusqu'à 100 m², à Paris et en petite couronne ; au-delà, sur devis.
+C'est une mission distincte, en plus du forfait d'autorisation de travaux, qui ne comprend pas la conception de l'aménagement. Voir avant de signer le bail (https://architecte-commerce.fr/avant-signature-bail-commercial).
+
+## Autorisation de travaux ERP : le forfait
+Forfait d'autorisation de travaux selon la surface totale du local
+Surface totale du local (réserves, sous-sol et locaux du personnel compris) | Prix HT | Prix TTC
+Jusqu'à 100 m² | 2 200 € | 2 640 €
+150 m² | 2 550 € | 3 060 €
+200 m² | 2 900 € | 3 480 €
+250 m² | 3 250 € | 3 900 €
+300 m² | 3 600 € | 4 320 €
+400 m² | 4 300 € | 5 160 €
+Pour un établissement de 5e catégorie sans hébergement, à Paris et en petite couronne. Au-delà de 400 m², dans une autre catégorie ou ailleurs en Île-de-France : sur devis.
+Ce qui est inclus
+- Un échange par téléphone pour cadrer le projet, puis le devis écrit, gratuit.
+- Une visite du local par l'architecte, si elle est nécessaire.
+- Les plans du projet, établis à partir de vos plans existants cotés et de l'aménagement que vous décrivez, avec une série de corrections avant votre validation, dont les plans cotés en trois dimensions du volet accessibilité (code de la construction et de l'habitation, D122-12).
+- La notice d'accessibilité (D122-12) et le volet sécurité : description succincte des travaux pour un établissement de 5e catégorie sans hébergement (R122-7, II).
+- Le formulaire de demande (Cerfa n° 13824) et les exemplaires exigés (R122-11).
+- Le dépôt de la demande, présentée par vous en qualité de demandeur (R122-10).
+- La réponse à la demande de pièces manquantes (R122-16), pour les pièces établies par l'architecte et sans modification du projet.
+Ce qui n'est pas inclus
+- Le permis de construire, la déclaration préalable (façade, vitrine), l'autorisation d'enseigne et le changement de destination : sur devis.
+- Le relevé du local, si vos plans cotés ne sont pas exploitables (vous le savez avant le devis) : en option.
+- Les études techniques (désenfumage, structure, acoustique) et les diagnostics.
+- La conception complète de l'aménagement et le suivi des travaux : sur devis.
+- Une nouvelle demande après un refus : sur devis.
+
+## Options, seulement si vous les demandez
+Options et prix
+Option | Prix HT | Prix TTC
+Relevé du local par un géomètre missionné : plans cotés de chaque niveau ouvert au public, niveaux de l'accès, hauteurs sous plafond | 900 € jusqu'à 100 m², puis 4 € par m² | 1 080 €, puis 4,80 € par m²
+Demande de dérogation aux règles d'accessibilité (R164-3), par règle, hors justificatifs, qui restent à votre charge | 450 € | 540 €
+Visite supplémentaire du local | 250 € | 300 €
+Modification de l'aménagement après validation des plans, sur estimation écrite acceptée avant exécution | 110 € de l'heure | 132 € de l'heure
+
+## Conception, devanture, chantier : sur devis
+Créer une boutique ou un restaurant demande souvent davantage que l'autorisation de travaux : conception de l'aménagement, déclaration préalable de la devanture, autorisation d'enseigne, consultation des entreprises et, si vous le demandez, suivi du chantier jusqu'à la réception. Ces missions font l'objet d'un devis écrit, après un premier échange : leur contenu dépend du local, de l'activité et de ce que vous confiez à l'architecte.
+
+## Ce qui est écrit avant de commencer
+- Le prix ferme et ce qu'il comprend.
+- La liste des pièces nécessaires : adresse du local, bail, plans existants cotés avec les niveaux de l'accès, ou à défaut le relevé en option, description de l'activité et de l'aménagement, effectif prévu.
+- L'échéancier : 50 % à la signature du devis, 50 % à la remise du dossier, avant son dépôt.
+Aucun travail n'est engagé avant la signature du devis. Les missions sont signées par Quentin Piepszownik, architecte inscrit à l'Ordre, entrepreneur individuel assuré à la Mutuelle des Architectes Français.
+
+## Questions fréquentes
+Q : Combien coûte un dossier d'autorisation de travaux pour un commerce ?
+R : Chez Kalya Architecte, 2 200 € HT pour un local jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m², pour un établissement de 5e catégorie sans hébergement à Paris et en petite couronne. Le prix comprend les plans, la notice d'accessibilité, le volet sécurité, le formulaire et le dépôt.
+Q : La faisabilité est-elle déduite du forfait ?
+R : Non. La faisabilité avant signature (790 € HT) est une mission distincte, en plus du forfait d'autorisation de travaux.
+Q : Le délai d'une semaine est-il garanti ?
+R : C'est un délai indicatif de préparation du dossier, qui ne court qu'une fois toutes les pièces nécessaires réunies. L'instruction par l'administration dure ensuite quatre mois à compter d'un dossier complet (R122-16).
+
+## Sources
+- architecte-erp.fr, page « Tarif autorisation de travaux ERP à Paris » (prix publiés par le même architecte), consultée le 17 novembre 2026 : https://www.architecte-erp.fr/tarifs
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Code de la construction et de l'habitation, article R122-7 (autorité compétente ; II : 5e catégorie sans locaux d'hébergement du public), version en vigueur depuis le 21 novembre 2025 : https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006074096/LEGISCTA000043818421/
+- Formulaire Cerfa n° 13824*04, demande d'autorisation de travaux (service-public, fiche R10190), consulté le 7 octobre 2026 : https://entreprendre.service-public.gouv.fr/vosdroits/R10190
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+
+========================================================================
+# Ce local est-il bon ? Le diagnostic avant de signer
+URL : https://architecte-commerce.fr/diagnostic-local-commercial
+Vérifié le 9 octobre 2026.
+
+Douze questions, deux minutes : vous obtenez un premier verdict (oui, oui sous conditions, risque élevé, ou non pour ce format) et la liste des points à faire vérifier avant de signer le bail, avec leurs textes. Rien n'est enregistré : le calcul se fait dans votre navigateur.
+
+## Questions fréquentes
+Q : Le diagnostic remplace-t-il une étude ?
+R : Non. Il signale les points qui peuvent rendre un local impropre à votre activité et ceux qui conditionnent le projet. La faisabilité avant signature (https://architecte-commerce.fr/avant-signature-bail-commercial) (790 € HT) les vérifie, plans et documents en main.
+Q : Mes réponses sont-elles enregistrées ?
+R : Non. Le calcul se fait dans votre navigateur. Si vous choisissez d'envoyer le diagnostic à l'architecte, seul le résumé et vos coordonnées sont transmis, par le formulaire.
+
+## Sources
+- Code de commerce, article L145-47 (activités connexes ou complémentaires), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039280354
+- Code de commerce, article L145-48 (déspécialisation plénière), version en vigueur : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006222140
+- Code de l'urbanisme, article R151-28 (sous-destinations), version en vigueur depuis le 1er juillet 2023 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047337108
+- Arrêté du 10 novembre 2016 modifié, article 3 (définition des sous-destinations), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336587
+- PLU bioclimatique de Paris, règlement, tome 1, zone UG (UG.1.3.1, UG.1.3.5, UG.1.4.2, UG.2.1.4), texte consulté le 9 octobre 2026 : https://regles-urbanisme.paris.fr/plu-bioclimatique/jsp/site/Portal.jsp?document_id=198&portlet_id=45
+- Règlement sanitaire départemental de Paris, article 63-1 (air extrait, rejet à 8 m des fenêtres et prises d'air neuf, sauf aménagements empêchant toute reprise d'air pollué), consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006363928
+- Règlement sanitaire départemental de Paris, article 130-3 (hottes, conduits, nettoyage mensuel), applicable aux restaurants par l'article 152-2, consolidation Légifrance arrêtée au 4 février 2009 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006364019
+- Code de la construction et de l'habitation, article R164-2 (règles applicables aux ERP existants, 5e catégorie), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819297
+- Code de la construction et de l'habitation, article R164-3 (demandes de dérogation), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043819299
+- Ville de Paris, terrasses et étalages (règlement publié le 18 juin 2021, applicable au 1er juillet 2021), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/terrasses-et-etalages-3516
+- Règlement de sécurité, article M 2 (effectif des magasins de vente), version en vigueur depuis le 1er décembre 2017 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036117441
+- Règlement de sécurité, article N 2 (effectif des restaurants et débits de boissons), version en vigueur depuis le 10 février 2022 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024751045
+- Règlement de sécurité, livre III, article PE 2 (seuils de la 5e catégorie), version en vigueur depuis le 1er janvier 2026 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024770569
+- Règlement de sécurité, article PE 11 (dégagements en 5e catégorie), version en vigueur depuis le 1er juillet 2004 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000024751142
+- Règlement de sécurité, livre III, article PE 14 (désenfumage), texte reproduit avec ses modifications, consulté le 7 octobre 2026 : https://sitesecurite.com/contenu/_erp/erppe/pe14.php?id=PE14
+- Code de l'urbanisme, article R*421-17 (déclaration préalable : aspect extérieur, changement de destination), version en vigueur depuis le 22 février 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053561259
+- Code de l'urbanisme, article R*421-14 c (permis : structures porteuses ou façade avec changement de destination), version en vigueur depuis le 1er janvier 2016 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031764577
+- Code de l'urbanisme, article R*423-23 (délai : un mois pour une déclaration préalable), version en vigueur depuis le 1er octobre 2007 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006819920
+- Code de l'urbanisme, article R423-24 (majoration d'un mois : site patrimonial remarquable, abords), version en vigueur depuis le 17 avril 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053903312
+- Code de l'urbanisme, article R*425-1 (accord de l'architecte des Bâtiments de France, abords), version en vigueur depuis le 23 juin 2019 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038682307
+- Code de l'urbanisme, article R*425-2 (accord de l'architecte des Bâtiments de France, site patrimonial remarquable), version en vigueur depuis le 23 juin 2019 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038682299
+- Code de l'environnement, article L581-18 (enseignes soumises à autorisation), version en vigueur depuis le 1er janvier 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043974793
+- Code de l'environnement, article R581-13 (délai : deux mois, accord tacite), version en vigueur depuis le 1er juillet 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000053219839
+- Code de la construction et de l'habitation, article L122-3 (autorisation de travaux ; régime déclaratif de la loi du 26 mai 2026), version en vigueur depuis le 28 mai 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000054142549
+- Code de la construction et de l'habitation, article R122-16 (instruction : quatre mois), version en vigueur depuis le 1er juillet 2021 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043818451
+- Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur), version en vigueur depuis le 18 juin 2025 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749507
+- Loi n° 65-557 du 10 juillet 1965, article 3 (parties communes), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000037671848
+- Loi n° 65-557 du 10 juillet 1965, article 8 (règlement de copropriété, destination de l'immeuble), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000041587248
+- Loi n° 65-557 du 10 juillet 1965, article 9 (droits de chaque copropriétaire sur ses parties privatives), version en vigueur : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000051749498

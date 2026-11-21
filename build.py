@@ -4,7 +4,8 @@
 Usage : python3 -I build.py      (dépendance : jinja2)
 Sortie : dist/ (servie telle quelle par Vercel, adresses sans extension grâce à cleanUrls) et vercel.json.
 """
-import json, pathlib, shutil, sys, hashlib, html, re, unicodedata
+import json, os, pathlib, shutil, sys, hashlib, html, re, unicodedata, datetime
+from zoneinfo import ZoneInfo
 
 ROOT = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT))
@@ -54,10 +55,22 @@ def teaser_of(path):
     return (p.get('teaser') or strip(p.get('description'))) if p else ''
 
 
+MOIS_FR = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
+
+
+def date_fr(iso):
+    y, m, d = (int(x) for x in iso.split('-'))
+    return f"{'1er' if d == 1 else d} {MOIS_FR[m - 1]} {y}"
+
+
 def verified_of(p):
-    """Date de vérification d'une page : les pages créées ou reprises le 17 novembre 2026 portent cette date."""
-    if p and p.get('verified') == 'new':
+    """Date de vérification d'une page : clé « verified » = 'new' (17 novembre 2026) ou date AAAA-MM-JJ
+    de la dernière relecture réelle de toutes ses sources ; à défaut, 9 octobre 2026."""
+    v = p.get('verified') if p else None
+    if v == 'new':
         return S.VERIFIED_NEW, S.VERIFIED_NEW_ISO
+    if v and re.fullmatch(r'\d{4}-\d{2}-\d{2}', v):
+        return date_fr(v), v
     return S.VERIFIED, S.VERIFIED_ISO
 
 
@@ -123,7 +136,7 @@ def base_graph():
 def page_graph(path, page, kind='WebPage', faq=None, article=None, service=None, extra=None):
     g = base_graph()
     _, iso = verified_of(page)
-    pub = S.VERIFIED_NEW_ISO if page.get('new_page') else S.VERIFIED_ISO
+    pub = page.get('published') or (S.VERIFIED_NEW_ISO if page.get('new_page') else S.VERIFIED_ISO)
     wp = {"@type": kind, "@id": URL + path + '#page', "url": URL + path, "name": page['title'], "description": page['description'],
           "inLanguage": "fr-FR", "isPartOf": {"@id": SITE_ID}, "about": {"@id": ORG_ID}, "dateModified": iso}
     if path != '/':
@@ -177,6 +190,11 @@ def typo(doc):
     return ''.join(out)
 
 
+def typo_txt(t):
+    """Typographie des fichiers texte : mêmes règles que les pages, sans balises."""
+    return typo('<x>' + t)[3:]
+
+
 MINIS = [D.devanture(k, 'nav-' + k) for k in ('boutique', 'restaurant', 'bouche', 'beaute', 'showroom')]
 
 
@@ -200,7 +218,53 @@ def write(path, tpl, page, jsonld, indexable=True, **kw):
     f = DIST / ('index.html' if path == '/' else path.lstrip('/') + '.html')
     f.parent.mkdir(parents=True, exist_ok=True)
     f.write_text(out, encoding='utf-8')
-    PAGES_OUT.append((path, indexable, page.get('title', ''), page.get('description', ''), page['lastmod']))
+    PAGES_OUT.append([path, indexable, page.get('title', ''), page.get('description', ''), page['lastmod'], empreinte(out)])
+
+
+def empreinte(doc):
+    """Empreinte du contenu visible d'une page (titre, description, <main>), sans les numéros de version des fichiers."""
+    m = re.search(r'<main id="contenu">(.*?)</main>', doc, re.S)
+    t = re.search(r'<title>(.*?)</title>', doc, re.S)
+    d = re.search(r'<meta name="description" content="([^"]*)"', doc)
+    corps = re.sub(r'\?v=[0-9a-f]{8}', '', m.group(1) if m else doc)
+    return hashlib.sha256('\n'.join([t.group(1) if t else '', d.group(1) if d else '', corps]).encode()).hexdigest()[:16]
+
+
+LASTMOD = ROOT / 'content/lastmod.json'
+
+
+def dates_reelles():
+    """Date de dernière modification réelle de chaque page (sitemap, IndexNow).
+    Contenu inchangé : la date enregistrée est conservée. Contenu modifié ou page nouvelle : date du jour (Paris).
+    Premier passage : date de vérification de la page. Ne jamais éditer content/lastmod.json à la main."""
+    today = os.environ.get('LASTMOD_TODAY') or datetime.datetime.now(ZoneInfo('Europe/Paris')).date().isoformat()
+    first = not LASTMOD.exists()
+    store = {} if first else json.loads(LASTMOD.read_text(encoding='utf-8'))
+    out = {}
+    for row in PAGES_OUT:
+        path, h, verified = row[0], row[5], row[4]
+        old = store.get(path)
+        if old and old['empreinte'] == h:
+            date = old['lastmod']
+        else:
+            date = verified if first else today
+        out[path] = {'empreinte': h, 'lastmod': date}
+        row[4] = date
+    LASTMOD.write_text(json.dumps(dict(sorted(out.items())), ensure_ascii=False, indent=1) + '\n', encoding='utf-8')
+
+
+def texte(h):
+    """HTML simple vers texte brut lisible (llms-full.txt)."""
+    h = re.sub(r'<(script|style|svg)\b.*?</\1>', '', h or '', flags=re.S)
+    h = re.sub(r'<a class="ext-link" href="([^"]+)"[^>]*><b>(.*?)</b><span>(.*?)</span></a>', r'\n\2 : \3 (\1)\n', h, flags=re.S)
+    h = re.sub(r'</(strong|b)>(?=\s*<(p|ul|ol|div|table))', '\n', h)
+    h = re.sub(r'<li[^>]*>', '\n- ', h)
+    h = re.sub(r'</(p|li|tr|h[1-6]|div|table|ul|ol|caption)>|<br\s*/?>', '\n', h)
+    h = re.sub(r'</t[dh]>', ' | ', h)
+    h = re.sub(r'<a [^>]*href="(/[^"]*)"[^>]*>(.*?)</a>', lambda m: f"{m.group(2)} ({URL}{m.group(1)})", h, flags=re.S)
+    h = html.unescape(re.sub(r'<[^>]+>', '', h))
+    lines = [re.sub(r'[ \t\u00a0]+', ' ', l).strip(' |') for l in h.split('\n')]
+    return '\n'.join(l for l in lines if l.strip())
 
 
 def prep(p):
@@ -256,6 +320,7 @@ def main():
 
     # Mentions légales et confidentialité
     fmt = dict(SITE)
+    fmt['mesure_audience'] = LEGAL.MESURE_AVEC if SITE.get('analytics') else LEGAL.MESURE_SANS
     ml = {"title": "Mentions légales | Kalya Architecte", "description": "Mentions légales de architecte-commerce.fr : éditeur, titre professionnel, assurance, hébergement.",
           "h1": "Mentions légales", "lede": "Éditeur, titre professionnel, assurance et hébergement du site architecte-commerce.fr."}
     write('/mentions-legales', 'legal.html', ml, page_graph('/mentions-legales', ml), p=ml, body=LEGAL.LEGAL_BODY.format(**fmt))
@@ -279,8 +344,9 @@ def main():
     write('/404', 'notfound.html', nf, page_graph('/404', nf), indexable=False)
 
     # ---------------------------------------------------------------- fichiers techniques
+    dates_reelles()
     sm = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for path, idx, _, _, lm in PAGES_OUT:
+    for path, idx, _, _, lm, _ in PAGES_OUT:
         if idx:
             sm.append(f'<url><loc>{URL}{path}</loc><lastmod>{lm}</lastmod></url>')
     sm.append('</urlset>')
@@ -295,7 +361,7 @@ def main():
             f"- Établissement parisien : {SITE['address']}. Téléphone : {SITE['phone']}. Courriel : {SITE['email']}. Réponse sous 24 heures ; devis gratuit, rien à payer avant sa signature.", "",
             "## Prix publiés (HT, Paris et petite couronne, établissement de 5e catégorie sans hébergement)",
             "- Faisabilité avant signature d'un bail : 790 € HT (948 € TTC) jusqu'à 100 m² ; note avec croquis et avis : faisable, faisable sous conditions ou bloquant.",
-            "- Autorisation de travaux ERP : 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² (150 m² : 2 550 € ; 200 m² : 2 900 € ; 300 m² : 3 600 € ; 400 m² : 4 300 €). Dossier prêt en une semaine environ, pièces réunies.",
+            "- Autorisation de travaux ERP : 2 200 € HT jusqu'à 100 m², puis 7 € HT par m² supplémentaire jusqu'à 400 m² (150 m² : 2 550 € ; 200 m² : 2 900 € ; 300 m² : 3 600 € ; 400 m² : 4 300 €). Dossier prêt en une semaine environ, pièces réunies (délai indicatif).",
             "- Options : relevé par géomètre 900 € HT jusqu'à 100 m² puis 4 € HT/m² ; dérogation d'accessibilité 450 € HT par règle ; visite supplémentaire 250 € HT ; modification après validation 110 € HT de l'heure.",
             "- Déclaration préalable de devanture, enseigne, permis de construire, conception complète et suivi de chantier : sur devis.",
             f"- Détail : {URL}/honoraires (mêmes prix que https://www.architecte-erp.fr/tarifs).", "",
@@ -319,7 +385,37 @@ def main():
         a = re.sub(r'<a href="(/[^"]*)">(.*?)</a>', lambda m: f"{m.group(2)} ({URL}{m.group(1)})", f['a'])
         llms.append(f"- {f['q']} {strip(a)}")
     llms.append('')
+    llms.append("## Version intégrale")
+    llms.append(f"- [Texte intégral des pages, sources comprises]({URL}/llms-full.txt): projets, activités, guides, outils et honoraires, avec leur date de vérification.")
+    llms.append('')
     (DIST / 'llms.txt').write_text('\n'.join(llms), encoding='utf-8')
+
+    # llms-full.txt : texte intégral des pages éditoriales, pour les moteurs de réponse
+    head = llms[:llms.index("## Projets")]
+    full = head + ["Ce fichier reprend le texte des pages du site, dans l'ordre : réponse courte, sections, questions fréquentes, sources. Il ne contient rien qui ne soit publié sur les pages elles-mêmes.", ""]
+    for raw in EDITORIAL + [c for c in C.PAGES if c.get('sections') or c.get('answer')]:
+        pg = prep(raw)
+        pv, _ = verified_of(pg)
+        full += ["", "=" * 72, f"# {strip(pg['h1']).replace('|', ' ')}", f"URL : {URL}{pg['path']}", f"Vérifié le {pv}.", ""]
+        if pg.get('answer'):
+            full += [texte(pg['answer']), ""]
+        for b in pg.get('bullets', []):
+            full.append('- ' + texte(b))
+        if pg.get('bullets'):
+            full.append('')
+        for sec in pg['sections']:
+            full += [f"## {strip(sec['h'])}", texte(sec['html']), ""]
+        if pg.get('faq'):
+            full.append("## Questions fréquentes")
+            for q in pg['faq']:
+                full += [f"Q : {strip(q['q'])}", f"R : {texte(q['a'])}"]
+            full.append('')
+        if pg['sources']:
+            full.append("## Sources")
+            for k in pg['sources']:
+                lab, u, ver = S.SOURCES[k]
+                full.append(f"- {lab}, {ver} : {u}")
+    (DIST / 'llms-full.txt').write_text(typo_txt('\n'.join(full)) + '\n', encoding='utf-8')
 
     (DIST / 'site.webmanifest').write_text(json.dumps({"name": "Kalya Architecte — commerces", "short_name": "Kalya", "start_url": "/", "display": "standalone",
         "background_color": "#0F201B", "theme_color": "#0F201B", "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"}, {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]}, ensure_ascii=False), encoding='utf-8')
@@ -344,6 +440,7 @@ def main():
             {"source": "/sitemap.xml", "headers": [{"key": "Content-Type", "value": "application/xml; charset=utf-8"}, {"key": "Cache-Control", "value": "public, max-age=0, must-revalidate"}]},
             {"source": "/robots.txt", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
             {"source": "/llms.txt", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}]},
+            {"source": "/llms-full.txt", "headers": [{"key": "Content-Type", "value": "text/plain; charset=utf-8"}, {"key": "X-Robots-Tag", "value": "noindex"}]},
         ],
     }
     (ROOT / 'vercel.json').write_text(json.dumps(vercel, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

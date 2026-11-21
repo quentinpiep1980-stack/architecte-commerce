@@ -1,0 +1,59 @@
+# architecte-commerce.fr — SEO, GEO & GEA : état, système et journal
+
+Pilote automatique mis en place le 21/11/2026 à la demande de Quentin (« fais en un pour architecte commerce et adapte le pour architecte commerce en dix fois mieux […] avec tout ce qu'il faut »). Mode opératoire : `AUTOPILOT.md` (fait foi). Cadre : doc du projet `claude/global-seo-geo-gea-os.md`. Aucune position, aucune citation par une IA, aucun délai n'est promis. Niveaux de preuve : **OBSERVÉE**, **INFÉRÉE**, **HYPOTHÈSE**.
+
+## 1. Le système
+| Fichier | Rôle |
+|---|---|
+| `AUTOPILOT.md` | Mode opératoire : mesure, cycle en 10 étapes, cadence, limites, garde-fous, formats |
+| `CONSIGNES.md` | Ton, typographie, faits, interdits, grille de la relecture indépendante |
+| `BUSINESS_SOURCE_OF_TRUTH.md` | Seuls faits publiables sur Kalya Architecte (identité, honoraires, références, décisions) |
+| `faits_controles.json` | Liste fermée des montants, téléphones et courriels que le site peut afficher (bloquant) |
+| `QUERY_UNIVERSE.csv` | 31 groupes de requêtes : preuve, site de Quentin qui les porte, page cible, décision |
+| `RANK_PANEL.csv` | 24 requêtes suivies chaque mardi → `data/positions/` |
+| `GEO_PROMPTS.csv` | 20 demandes aux moteurs de réponse (8 chaque semaine, 20 chaque mois) → `data/geo/` |
+| `EDITORIAL_QUEUE.csv` | File des guides à écrire : preuve de demande, sources à ouvrir, risque de cannibalisation |
+| `LEGAL_WATCH.csv` | 17 familles de textes cités, pages concernées, impact, fréquence, ce qu'il faut surveiller |
+| `CHANGE_LEDGER.csv` | Registre des changements : baseline, hypothèse, résultats à 7, 28, 90 jours, décision |
+| `A_VALIDER.md` | Ce qui attend une décision ou une action de Quentin |
+| `URL_INVENTORY.csv`, `SOURCES_MAP.csv` | Inventaire des pages et carte source → pages, produits par l'audit |
+| `rapports/`, `data/` | Rapports, relevés Search Console, positions, GEO, métriques et audits datés |
+| `tools/seo/audit.py` | Audit bloquant : faits contrôlés, promesses interdites, entité, FAQ, canonique, sitemap, titres, maillage, réponses courtes, sources, fraîcheur, llms, IndexNow |
+| `tools/seo/pilote.py` | Analyses : opportunités Search Console (positions 4-20, mauvaises pages, cannibalisation, autres sites), positions, GEO, relectures dues |
+| `content/lastmod.json` | Dates réelles du sitemap, par empreinte du contenu de chaque page (écrit par `build.py`) |
+| `/llms-full.txt` | Texte intégral des pages éditoriales, sources et dates comprises, pour les moteurs de réponse (non indexé) |
+| n8n `KvDC80cHkNCDw8xe` | IndexNow (Bing, Copilot, Yandex, Seznam, Naver) ; clé `/12457e08790f31ac0fc9c51152218be1.txt` |
+
+Ce qui le rend plus complet que les pilotes de fixia.fr et de kalya-architecte.fr :
+1. **Garde-fou anti-invention exécutable** : l'audit refuse tout montant en euros (quelle que soit son écriture) absent de `faits_controles.json` pour la page où il figure, tout prix du JSON-LD hors honoraires, tout téléphone ou courriel non autorisé, toute promesse interdite et toute phrase nouvelle contenant une garantie, une gratuité ou un délai ; la liste des honoraires et des phrases publiées est figée par l'étiquette git `faits-valides`, que seul Quentin fait évoluer. Testé le 21/11/2026 sur quatorze tentatives de contournement (montants « 1500€ », « 1.900 € », « EUR », « € 900 », « 7 € » hors page, négation, « nous garantissons », « sous 48 heures », « déposé en un mois », « accord assuré », gratuité, prix JSON-LD, élargissement de la liste, chiffre de marché présenté comme un prix Kalya) : toutes bloquées. C'est un filet, pas une garantie : la relecture indépendante reste obligatoire.
+2. **Carte de cannibalisation entre les quatre sites de Quentin** (architecte-commerce.fr, architecte-erp.fr, dossier-erp-paris.fr, kalya-architecte.fr) dans `QUERY_UNIVERSE.csv`, lue automatiquement par `pilote.py` : chaque requête est rattachée à un site et à une page.
+3. **Opportunités calculées**, pas devinées : `pilote.py opportunites` classe les requêtes en positions 4 à 20, détecte la mauvaise page classée, la cannibalisation interne et les requêtes d'un autre site.
+4. **Veille juridique pilotée par l'impact** : chaque famille de textes porte les pages qui la citent (générées depuis les sources réelles) et un niveau d'impact ; la réforme de l'autorisation de travaux (loi du 26 mai 2026, décret attendu), qui touche l'offre phare, est contrôlée chaque mois.
+5. **Dates de sitemap réelles** par empreinte du contenu, et IndexNow qui ne pousse que ce qui a vraiment changé.
+6. **GEO** : `llms.txt` et `llms-full.txt` (texte intégral, sources et dates), réponses courtes, FAQ visibles et balisées, entité contrôlée à chaque construction, panel de 20 demandes noté (cité, mentionné, absent, confrères).
+7. **Mesure prête à brancher** : script Web Analytics, file d'attente des événements (téléphone, courriel, formulaire) et paragraphe de confidentialité déjà écrits (faits relus sur la documentation de Vercel), activés par un seul drapeau quand Quentin a activé la mesure et validé le paragraphe.
+8. **Contrôle prix inter-sites** : /honoraires relu chaque mardi contre architecte-erp.fr/tarifs (AUTOPILOT §4, étape 2).
+
+## 2. Le site au 21/11/2026
+37 pages, dont 35 indexables : accueil ; 10 pages de projets et d'activités (avant le bail, aménagement, rénovation, devanture, réseau ; boutique, commune aux deux menus, restaurant, métiers de bouche, institut, showroom) ; une zone (Île-de-France) ; 11 guides, dont le calcul d'effectif et le calendrier, qui servent aussi d'outils ; le diagnostic de local ; honoraires publiés, méthode, références, l'architecte, contact, hubs, plan du site, pages légales. Générateur Python, `dist/` versionné, Vercel (projet `prj_DyhhJCU7urMcRLXbWKDd4K8eROZp`). Données structurées : ProfessionalService + LocalBusiness (SIREN, adresse, téléphone, catalogue d'offres), Person, WebSite, Service, Article, FAQPage, BreadcrumbList, OfferCatalog. Direction artistique « Devanture » en ligne depuis le 18/11/2026. Contrôles du 21/11 : `check.py` 0 erreur, `audit.py` 0 erreur, 59 avertissements (titres de plus de 60 signes et descriptions de plus de 155 sur la plupart des pages : liste de travail du pilote).
+
+## 3. Positionnement
+Architecte inscrit (DE-HMONP, Ordre IDF n° 077297), établissement parisien rue du Cherche-Midi (6e), pour les commerces : boutiques, restaurants et bars, boulangeries et métiers de bouche, instituts et salons, showrooms, devantures et enseignes, réseaux d'enseignes. Promesse : vérifier le local avant le bail, faire autoriser, concevoir et suivre jusqu'à l'ouverture, textes à l'appui ; prix publiés (faisabilité 790 € HT, autorisation de travaux ERP dès 2 200 € HT). L'ERP en général reste à architecte-erp.fr, la constitution du dossier ERP à Paris à dossier-erp-paris.fr, le logement à kalya-architecte.fr.
+
+## 4. Priorités
+1. Mesure : activer Web Analytics (Quentin) ; Bing Webmaster Tools ; demandes d'indexation des pages refondues.
+2. Faire porter les requêtes génériques par l'accueil (« architecte commerce » 202 impressions en position 63 ; « architecte pour commerce » capté par /votre-projet) et régler la concurrence d'architecte-erp.fr sur « architecte commerce paris ».
+3. Titres et descriptions trop longs : trois pages par passage, en commençant par celles qui ont des impressions et dont le title n'a pas changé le 18/11 (/guides/budget-renovation-commerce, /guides/calendrier-ouverture-magasin, /votre-projet) ; les pages reprises par la refonte attendent le 16/12/2026 (règle des 28 jours).
+4. Protéger les pages fortes : /guides/plu-paris-commerce (13 clics, position 3,9), /vitrine-et-devanture-commerce (7 clics), /guides/architecte-obligatoire-commerce (2e sur « faut-il un architecte pour un commerce »).
+5. File éditoriale : terrasse à Paris, cuisine de livraison, climatisation, préemption commerciale, boutique éphémère — chacune après preuve de demande.
+6. Hors site (Quentin) : références de commerces, fiche Google et annuaires cohérents, avis.
+
+## 5. Point de départ (21/11/2026)
+- **Search Console** (Windsor.ai) : 27 clics et 1 792 impressions du 23/10 au 19/11 (série quotidienne ; 1 921 impressions en somme par page sur les 28 derniers jours), contre 7 clics et 511 impressions du 25/09 au 22/10. 7 jours au 19/11 : 7 clics, 551 impressions. Pages : /guides/plu-paris-commerce 13 clics (position 3,9), /vitrine-et-devanture-commerce 7 (18,2), /guides/budget-renovation-commerce 2 (41,6), /guides/erp-commerce-categorie-effectif 2 (24,5), / 1 (62,0, 373 impressions). Requêtes : « architecte commerce » 202 impressions (63), « architecte pour commerce » 173 (/votre-projet 40,5), « devanture de magasin à paris » 57 (39,5), « architecte local commercial » 50, « prix aménagement local commercial au m2 » 47 (64), « déploiement réseau d'enseigne » 26 (17,4), « calcul effectif erp type m » 21 (38). La refonte du 18/11 n'a que deux jours de données.
+- **Positions** (Firecrawl, location Paris, proxy et non Google) sur 24 requêtes : 1er « kalya architecte commerce », 2e « faut-il un architecte pour un commerce », 5e « plu paris commerce », 9e « architecte institut de beauté paris », 15e « architecte pour commerce » (via le guide architecte obligatoire), 17e « déclaration préalable devanture paris » et « autorisation enseigne paris » (via la page devanture, et non le guide enseigne). Absent des 20 premiers sur les 17 autres, dont « architecte commerce », « architecte commerce paris » (où architecte-erp.fr est 18e), « architecte boutique paris », « architecte restaurant paris ». Top 3 : 2, top 10 : 4, top 20 : 7.
+- **GEO** (WebSearch, 8 demandes) : site absent des résultats pour les 8. Sources dominantes : service-public, paris.fr, Légifrance, cabinets d'avocats (Kohen, Novlaw), annuaires (trouver-mon-architecte.fr).
+- **Web Analytics** : non activé. **Formulaire** : non mesurable par n8n (l'historique d'exécution du workflow `su50ih0Q6dvATejB` n'est pas conservé, par choix de confidentialité) ; à mesurer par Web Analytics.
+
+## 6. Journal
+- 18/11/2026 — Refonte « Devanture » en production (C00).
+- 21/11/2026 — Téléphone 07 56 83 24 28 vérifié partout. Mise en place du pilote (C01) : `AUTOPILOT.md` et fichiers de pilotage, `tools/seo/audit.py` et `pilote.py`, `faits_controles.json` et étiquette `faits-valides`, dates du sitemap par empreinte, `llms-full.txt`, clé IndexNow et workflow n8n `KvDC80cHkNCDw8xe`, mesure Web Analytics prête (drapeau), relevés de départ (Search Console, 24 positions, 8 demandes GEO). Relecture indépendante : 4 points bloquants corrigés avant la mise en ligne (politique de confidentialité, paragraphe Vercel, contournements de l'audit, affirmations anticipées) (C02).

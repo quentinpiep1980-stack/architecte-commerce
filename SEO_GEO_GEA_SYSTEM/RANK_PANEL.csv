@@ -1,0 +1,25 @@
+id;requete;page_attendue;priorite
+R01;architecte commerce;/;P1
+R02;architecte commerce paris;/;P1
+R03;architecte pour commerce;/;P1
+R04;architecte local commercial;/;P1
+R05;architecte boutique paris;/architecte-boutique;P1
+R06;architecte restaurant paris;/architecte-restaurant;P1
+R07;architecte boulangerie paris;/architecte-metiers-de-bouche;P2
+R08;architecte institut de beauté paris;/architecte-institut-beaute-coiffure;P2
+R09;architecte showroom paris;/architecte-showroom;P3
+R10;aménagement local commercial paris;/amenagement-local-commercial;P2
+R11;rénovation magasin paris;/renovation-magasin;P2
+R12;devanture magasin paris;/vitrine-et-devanture-commerce;P1
+R13;déclaration préalable devanture paris;/vitrine-et-devanture-commerce;P1
+R14;autorisation enseigne paris;/guides/enseigne-paris;P1
+R15;déploiement réseau d'enseigne;/concept-et-deploiement-enseigne;P1
+R16;vérifier local commercial avant signature bail;/avant-signature-bail-commercial;P1
+R17;calcul effectif erp type m;/guides/erp-commerce-categorie-effectif;P1
+R18;plu paris commerce;/guides/plu-paris-commerce;P1
+R19;extraction restaurant paris réglementation;/guides/extraction-restaurant-paris;P2
+R20;prix aménagement local commercial au m2;/guides/budget-renovation-commerce;P1
+R21;travaux bail commercial qui paie;/guides/bail-commercial-travaux;P2
+R22;changement de destination local commercial;/guides/changement-destination-local-commercial;P2
+R23;faut-il un architecte pour un commerce;/guides/architecte-obligatoire-commerce;P2
+R24;kalya architecte commerce;/;P2

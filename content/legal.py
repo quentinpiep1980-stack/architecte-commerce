@@ -77,13 +77,16 @@ PRIVACY_BODY = """
 
 <h2 id="destinataires">Qui reçoit ces données ?</h2>
 <p>Les demandes sont destinées à l'éditeur du site. Le formulaire les transmet à un outil d'automatisation (n8n), qui les envoie par courriel à l'éditeur et vous adresse un accusé de réception ; l'enregistrement du contenu des demandes dans l'historique d'exécution de cet outil est désactivé. Les courriels transitent par un compte de messagerie de l'éditeur opéré par Google (Gmail). Ces prestataires interviennent comme sous-traitants au sens de l'article 28 du RGPD.</p>
+<p>Le contrôle anti-robot du formulaire est fourni par Cloudflare, Inc. (voir « Cookies et traceurs »).</p>
 <p>Le site est hébergé par Vercel Inc. (États-Unis). L'hébergement peut entraîner le traitement de données techniques de connexion, notamment l'adresse IP, pour fournir et protéger le service (<a href="https://vercel.com/legal/privacy-notice" rel="noopener">documentation de Vercel</a>).</p>
 
 <h2 id="transferts">Transferts hors de l'Union européenne</h2>
-<p>Vercel et les prestataires de messagerie ou d'automatisation peuvent faire intervenir des traitements ou des accès hors de l'Union européenne. Pour les transferts vers Google LLC, Google indique recourir au Data Privacy Framework UE–États-Unis. Pour les autres transferts concernés, les garanties contractuelles applicables, dont les clauses contractuelles types lorsque requises, figurent dans les accords des prestataires. Vous pouvez en demander les références à {email}.</p>
+<p>Vercel, Cloudflare et les prestataires de messagerie ou d'automatisation peuvent faire intervenir des traitements ou des accès hors de l'Union européenne. Pour les transferts vers Google LLC, Google indique recourir au Data Privacy Framework UE–États-Unis. Pour les autres transferts concernés, les garanties contractuelles applicables, dont les clauses contractuelles types lorsque requises, figurent dans les accords des prestataires. Vous pouvez en demander les références à {email}.</p>
 
 <h2 id="cookies">Cookies et traceurs</h2>
-<p>Les pages du site n'installent aucun cookie et ne chargent aucun script tiers ni mesure d'audience : les polices et les images sont hébergées par le site. Aucun bandeau de consentement n'est donc nécessaire. Le diagnostic de local et le calculateur d'effectif calculent dans votre navigateur et n'enregistrent rien ; seul le résumé que vous décidez d'envoyer avec le formulaire nous parvient. Pour écarter les envois automatiques, le formulaire utilise un champ invisible et une limite du nombre d'envois par heure, sans cookie ni identifiant individuel.</p>
+<p>{mesure_audience}</p>
+<p>Les deux pages qui comportent le formulaire, « Présenter mon projet » et le diagnostic de local, chargent aussi le contrôle anti-robot Cloudflare Turnstile, fourni par Cloudflare, Inc. (États-Unis). Pour distinguer un visiteur d'un robot, il traite des signaux techniques de la connexion, tels que l'adresse IP, l'empreinte TLS et l'en-tête User-Agent ; il n'utilise pas de cookie et n'accède pas au contenu du formulaire (<a href="https://www.cloudflare.com/turnstile-privacy-policy/" rel="noopener">avenant Turnstile de Cloudflare</a>, <a href="https://developers.cloudflare.com/turnstile/" rel="noopener">documentation</a>, <a href="https://blog.cloudflare.com/turnstile-private-captcha-alternative/" rel="noopener">présentation de Turnstile</a>). Le formulaire écarte aussi les envois automatiques par un champ invisible et une limite du nombre d'envois par heure.</p>
+<p>Le diagnostic de local et le calculateur d'effectif calculent dans votre navigateur et n'enregistrent rien ; seul le résumé que vous décidez d'envoyer avec le formulaire nous parvient.</p>
 
 <h2 id="duree">Combien de temps ?</h2>
 <p>Les demandes sont conservées dans la messagerie de l'éditeur le temps nécessaire à leur traitement. Les demandes sans suite sont supprimées dès qu'elles ne sont plus utiles, et au plus tard trois ans après le dernier contact du demandeur, sauf conservation limitée de pièces nécessaires à la défense d'un droit. Les documents nécessaires à une mission sont conservés pendant son exécution, puis archivés pour les seules obligations applicables.</p>
@@ -104,6 +107,25 @@ PRIVACY_BODY = """
 <li><a href="https://n8n.io/legal/data-processing-agreement/" rel="noopener">n8n : accord de traitement des données</a></li>
 <li><a href="https://policies.google.com/privacy/frameworks" rel="noopener">Google : cadres de transfert des données</a></li>
 <li><a href="https://vercel.com/legal/privacy-notice" rel="noopener">Vercel : politique de confidentialité</a></li>
+<li><a href="https://www.cloudflare.com/turnstile-privacy-policy/" rel="noopener">Cloudflare : avenant Turnstile à la politique de confidentialité</a> (consulté le 21 novembre 2026)</li>
 </ol>
 </aside>
 """
+
+
+# Paragraphe « Cookies et traceurs » : selon SITE["analytics"] (voir site.py).
+# Faits Vercel relus le 21/11/2026 : https://vercel.com/docs/analytics et https://vercel.com/docs/analytics/privacy-policy
+# (pas de cookie ; empreinte de la requête renouvelée chaque jour ; données par point listées dans « Data point information » ;
+# enregistrement anonyme, exploitation en statistiques agrégées ; pas de suivi d'un site à l'autre).
+# La bascule vers MESURE_AVEC attend la validation de Quentin (SEO_GEO_GEA_SYSTEM/A_VALIDER.md).
+MESURE_SANS = ("Les pages du site n'installent aucun cookie et ne chargent aucune mesure d'audience : "
+               "les polices et les images sont hébergées par le site. Aucun bandeau de consentement n'est affiché.")
+MESURE_AVEC = ("Les pages du site n'installent aucun cookie : les polices et les images sont hébergées par le site. "
+               "La fréquentation est mesurée par Vercel Web Analytics, l'outil de mesure de l'hébergeur, servi depuis le site lui-même. "
+               "Il n'utilise pas de cookie : chaque visiteur est reconnu par une empreinte calculée à partir de la requête, renouvelée chaque jour. "
+               "Chaque page vue et chaque événement (clic sur le numéro de téléphone ou sur l'adresse électronique, envoi du formulaire) "
+               "est enregistré de façon anonyme avec son horodatage, l'adresse de la page, le site d'origine, les paramètres d'adresse filtrés, "
+               "la localisation (pays, région, ville), le système, le navigateur et le type d'appareil ; ces données ne servent qu'à des statistiques agrégées "
+               "et ne permettent ni d'identifier un visiteur, ni de le suivre d'un site à l'autre "
+               "(<a href=\"https://vercel.com/docs/analytics/privacy-policy\" rel=\"noopener\">documentation de Vercel</a>). "
+               "Aucun bandeau de consentement n'est affiché.")

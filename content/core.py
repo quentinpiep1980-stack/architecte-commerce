@@ -141,7 +141,7 @@ PAGES = [
     {
         "path": "/diagnostic-local-commercial", "kind": "outil", "tpl": "tool_diag.html", "section": "outils", "needs_plan": True,
         "title": "Ce local commercial est-il bon ? Diagnostic en 12 questions | Kalya",
-        "description": "Diagnostic gratuit d'un local commercial avant le bail : activité, PLU de Paris, extraction, accessibilité, devanture, copropriété. Verdict et points à vérifier.",
+        "description": "Outil en ligne gratuit : 12 questions pour tester un local commercial avant le bail (activité, PLU de Paris, extraction, accessibilité, devanture).",
         "h1": "Ce local est-il bon ? Le diagnostic avant de signer",
         "short": "Diagnostic de local", "teaser": "Douze questions avant de signer : verdict et points à vérifier.",
         "answer": "Douze questions, deux minutes : vous obtenez un premier verdict (oui, oui sous conditions, risque élevé, ou non pour ce format) et la liste des points à faire vérifier avant de signer le bail, avec leurs textes. Rien n'est enregistré : le calcul se fait dans votre navigateur.",

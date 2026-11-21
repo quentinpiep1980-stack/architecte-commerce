@@ -1,4 +1,7 @@
 /* architecte-commerce.fr — interactions légères, sans dépendance ni cookie. */
+/* File d'attente de Vercel Web Analytics (à définir avant son script, chargé après celui-ci) :
+   sans effet tant que le script de mesure n'est pas inclus (SITE["analytics"]). */
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 (function () {
   'use strict';
   var d = document;
@@ -196,4 +199,18 @@
     box.addEventListener('change', apply);
     apply();
   });
+
+  /* Mesure d'audience : n'agit que si Vercel Web Analytics est chargé (SITE["analytics"]).
+     Aucune donnée saisie n'est transmise : seulement le nom de l'événement et la page. */
+  function suivre(nom) {
+    if (d.querySelector('script[src*="/_vercel/insights/"]')) window.va('event', { name: nom, data: { page: location.pathname } });
+  }
+  d.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="tel:"], a[href^="mailto:"]') : null;
+    if (a) suivre(a.getAttribute('href').indexOf('tel:') === 0 ? 'clic_telephone' : 'clic_email');
+  }, true);
+  d.addEventListener('submit', function (e) {
+    var f = e.target;
+    if (f && f.action && f.action.indexOf('/webhook/') > -1) suivre('formulaire_envoye');
+  }, true);
 })();
