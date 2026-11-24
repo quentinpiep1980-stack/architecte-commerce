@@ -1,0 +1,174 @@
+{
+ "date": "2026-11-24",
+ "cycle": "complet",
+ "search_console": {
+  "statut": "connecté",
+  "periode": "données jusqu'au 22/11/2026",
+  "j28": {
+   "clics": 28,
+   "impressions": 1896,
+   "ctr": 0.0148,
+   "position": null,
+   "note": "série quotidienne 26/10 au 22/11"
+  },
+  "j28_precedent": {
+   "clics": 7,
+   "impressions": 664,
+   "note": "28/09 au 25/10"
+  },
+  "j7": {
+   "clics": 5,
+   "impressions": 613,
+   "note": "16/11 au 22/11 ; semaine précédente 6 clics, 474 impressions"
+  },
+  "top_pages": [
+   [
+    "/guides/plu-paris-commerce",
+    13,
+    271,
+    3.8
+   ],
+   [
+    "/vitrine-et-devanture-commerce",
+    7,
+    264,
+    17.5
+   ],
+   [
+    "/guides/budget-renovation-commerce",
+    2,
+    132,
+    39.6
+   ],
+   [
+    "/guides/erp-commerce-categorie-effectif",
+    2,
+    269,
+    23.8
+   ],
+   [
+    "/",
+    1,
+    372,
+    62.6
+   ],
+   [
+    "/votre-projet",
+    1,
+    219,
+    36.6
+   ]
+  ],
+  "top_requetes": [
+   [
+    "architecte commerce",
+    1,
+    200,
+    63.0,
+    "/"
+   ],
+   [
+    "architecte pour commerce",
+    0,
+    109,
+    41.2,
+    "/votre-projet"
+   ],
+   [
+    "devanture de magasin à paris",
+    0,
+    61,
+    38.6,
+    "/vitrine-et-devanture-commerce"
+   ],
+   [
+    "prix aménagement local commercial au m2",
+    0,
+    47,
+    62.6,
+    "/guides/budget-renovation-commerce"
+   ],
+   [
+    "calcul effectif erp type m",
+    0,
+    27,
+    37.7,
+    "/guides/erp-commerce-categorie-effectif"
+   ]
+  ],
+  "positions_4_20": [
+   [
+    "date ouverture",
+    8.5,
+    8
+   ],
+   [
+    "déploiement réseau d’enseigne",
+    17.5,
+    23
+   ],
+   [
+    "quentin piepszownik",
+    17.1,
+    14
+   ],
+   [
+    "architecte pour commerce (guide)",
+    18.0,
+    7
+   ],
+   [
+    "erp commerce détail",
+    17.6,
+    5
+   ]
+  ],
+  "mauvaises_pages": [
+   "architecte pour commerce → /votre-projet (cible /)",
+   "architecte local commercial → /votre-projet (cible /)",
+   "quentin piepszownik → /mentions-legales (cible /a-propos)",
+   "faisabilité local commercial → /diagnostic-local-commercial (cible /avant-signature-bail-commercial)"
+  ],
+  "autres_sites": []
+ },
+ "vercel": {
+  "statut": "non activé",
+  "visiteurs_7j": null,
+  "pages_vues_7j": null,
+  "top_pages": [],
+  "origines": [],
+  "ia": [],
+  "clic_telephone": null,
+  "formulaire_envoye": null
+ },
+ "formulaire": {
+  "n8n": "non mesurable (historique non conservé)",
+  "formulaire_envoye_7j": null
+ },
+ "positions": {
+  "panel": 24,
+  "top3": 2,
+  "top10": 4,
+  "top20": 7
+ },
+ "geo": {
+  "demandes": 8,
+  "cite": 0,
+  "mentionne": 0,
+  "absent": 8
+ },
+ "audit": {
+  "erreurs": 0,
+  "avertissements": 56
+ },
+ "publie": [
+  "/guides/terrasse-restaurant-paris"
+ ],
+ "modifie": [
+  "/votre-projet",
+  "/architecte-restaurant",
+  "/vitrine-et-devanture-commerce"
+ ],
+ "deploiement": "dpl_GXkFDV5pjeysVWgyix1eXskJddr9 (e0f6b94) READY",
+ "indexnow": "exécution n8n 76002 : success"
+}
