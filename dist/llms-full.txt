@@ -360,7 +360,7 @@ Paris est couverte par un règlement local de publicité : l'installation de to
 Les enseignes lumineuses sont éteintes entre 1 heure et 6 heures lorsque l'activité a cessé ; les enseignes clignotantes sont interdites, sauf pour les pharmacies et les services d'urgence (R581-59). Le guide de l'enseigne (https://architecte-commerce.fr/guides/enseigne-paris) détaille le dossier.
 
 ## Store, terrasse, étalage
-Un store banne ou une marquise modifie l'aspect extérieur : il relève en principe de la déclaration préalable de la devanture. Une terrasse ou un étalage sur le trottoir relève d'une autorisation d'occupation du domaine public, précaire et révocable, délivrée par la Ville selon le règlement des étalages et terrasses applicable depuis le 1er juillet 2021 ; les terrasses estivales vont du 1er avril au 31 octobre.
+Un store banne ou une marquise modifie l'aspect extérieur : il relève en principe de la déclaration préalable de la devanture. Une terrasse ou un étalage sur le trottoir relève d'une autorisation d'occupation du domaine public, précaire et révocable, délivrée par la Ville selon le règlement des étalages et terrasses applicable depuis le 1er juillet 2021 ; les terrasses estivales vont du 1er avril au 31 octobre. Dimensions, terrasse fermée et délais : voir le guide de la terrasse à Paris (https://architecte-commerce.fr/guides/terrasse-restaurant-paris).
 
 ## Questions fréquentes
 Q : Puis-je repeindre ma devanture sans démarche ?
@@ -464,7 +464,7 @@ Le règlement (CE) n° 852/2004 impose des locaux conçus pour prévenir la con
 ## Licences, musique, terrasse
 Boissons. Les débits de boissons relèvent de la licence III ou IV (code de la santé publique, L3331-1) ; un restaurant peut se contenter de la petite licence restaurant ou de la licence restaurant, qui ne permettent de servir qu'à l'occasion des repas (L3331-2). Le permis d'exploitation, obtenu après formation, vaut dix ans (L3332-1-1).
 Sons amplifiés. Au-delà d'un niveau moyen de 80 dB(A) sur huit heures, les limites de 102 dB(A) et 118 dB(C) sur 15 minutes s'appliquent (code de la santé publique, R1336-1) ; une étude de l'impact des nuisances sonores est obligatoire pour une diffusion habituelle (code de l'environnement, R571-27).
-Terrasse. Autorisation d'occupation du domaine public, délivrée par la Ville selon le règlement des étalages et terrasses.
+Terrasse. Autorisation d'occupation du domaine public, délivrée par la Ville selon le règlement des étalages et terrasses, personnelle et non transmissible avec le fonds : voir le guide de la terrasse à Paris (https://architecte-commerce.fr/guides/terrasse-restaurant-paris).
 
 ## Transformer une boutique en restaurant
 Quatre régimes se croisent. Urbanisme : la restauration et le commerce de détail sont deux sous-destinations de la même destination ; sans travaux, aucune déclaration n'est due au titre du changement (R*421-17 b), mais des travaux sur la façade ou la structure imposent un permis (R*421-14 c), et le PLU s'applique même sans formalité (L421-8). ERP : le type passe de M à N ; les travaux d'aménagement (cuisine, extraction, salle) relèvent de l'autorisation de travaux (L122-3), et le classement est à refaire. Bail : l'activité doit être autorisée par la clause de destination ou faire l'objet d'une déspécialisation. Technique : l'extraction doit être réalisable. À Paris, la transformation d'un rez-de-chaussée sur rue en cuisine dédiée à la vente en ligne est interdite (PLU, UG.1.3.5).
@@ -1201,6 +1201,50 @@ La Ville publie en données ouvertes une carte des protections du commerce et de
 - Arrêté du 10 novembre 2016 modifié, article 5 (entrepôt ; cuisine dédiée à la vente en ligne), version en vigueur depuis le 25 mars 2023 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000047336582
 - Code de l'urbanisme, article L421-8 (travaux dispensés de formalité : respect du PLU), version en vigueur depuis le 11 avril 2024 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049398814
 - Ville de Paris, sites patrimoniaux remarquables (Marais, 7e arrondissement), page consultée le 9 octobre 2026 : https://www.paris.fr/pages/secteurs-sauvegardes-psmv-2351
+
+========================================================================
+# Terrasse d'un café ou d'un restaurant à Paris : autorisation, règles, délais
+URL : https://architecte-commerce.fr/guides/terrasse-restaurant-paris
+Vérifié le 24 novembre 2026.
+
+Une terrasse sur le trottoir occupe le domaine public : elle exige une autorisation de la Ville de Paris, temporaire, précaire, révocable et personnelle (règlement des étalages et terrasses, DG.1 et DG.3), que la Ville fait demander sur son téléservice. La Ville annonce un traitement en deux mois, cinq pour une terrasse permanente fermée. Une bande d'au moins 1,60 m reste libre pour les piétons (DG.10). L'autorisation ne suit pas le fonds : un repreneur dépose une nouvelle demande (DG.17).
+
+- Nul ne peut occuper le domaine public sans titre (code général de la propriété des personnes publiques, L2122-1) : la terrasse se demande à la Ville, sur son téléservice.
+- Autorisation délivrée par la Maire de Paris après avis du préfet de police et du maire d'arrondissement ; temporaire, précaire, révocable, personnelle et non transmissible (DG.1, DG.3).
+- Réservée au propriétaire d'un fonds en rez-de-chaussée ouvert au public, dont la façade donne sur la voie (DG.5).
+- Largeur en règle générale limitée au tiers du trottoir utile, 50 % au plus si les lieux le permettent, et passage piéton d'au moins 1,60 m (DG.10) ; pas de terrasse ouverte sur un trottoir utile de moins de 2,20 m (P.3.2).
+- Chauffage et climatisation seulement dans une terrasse fermée, couverte et étanche à l'air (DG.6).
+- Terrasses estivales : du 1er avril au 31 octobre, jusqu'à 22 heures, selon le règlement (TE.1).
+
+## Une autorisation de la Ville, pas un droit du fonds
+Le trottoir appartient au domaine public : nul ne peut l'occuper sans un titre qui l'y habilite (code général de la propriété des personnes publiques, L2122-1). À Paris, ce titre est l'autorisation d'étalage ou de terrasse, délivrée par la Maire de Paris après consultation du préfet de police et du maire d'arrondissement (règlement des étalages et terrasses, DG.1). Selon la Ville, toutes les demandes (terrasses ouvertes, fermées, estivales) se font sur son téléservice.
+L'autorisation est accordée « à titre temporaire, précaire et révocable », à titre personnel ; elle n'est pas transmissible, « notamment en cas de changement d'activité ou de cession de fonds » (DG.3). Elle est réservée au propriétaire d'un fonds situé en rez-de-chaussée ouvert au public, dont une façade donne sur la voie (DG.5). Elle vaut jusqu'au 31 décembre et se reconduit tacitement chaque année, sauf renonciation, retrait ou non-renouvellement (DG.8). Elle donne lieu à des droits de voirie, fixés par délibération du Conseil de Paris (DG.9) ; la Ville indique qu'ils dépendent de la surface, de la voie et de sa catégorie de commercialité.
+Conséquence pratique avant de reprendre un fonds : la terrasse en place n'est pas acquise. L'autorisation est abrogée de plein droit au changement du mode d'exploitation, et le repreneur dépose une nouvelle demande (DG.17). Une terrasse se vérifie donc comme le reste du local, avant de signer le bail (https://architecte-commerce.fr/avant-signature-bail-commercial).
+
+## Les dimensions : le trottoir commande
+La largeur d'une terrasse est en règle générale limitée au tiers de la largeur utile du trottoir ; lorsque la configuration des lieux et la circulation piétonne le permettent, elle peut aller au-delà, sans excéder 50 % ; une zone contiguë d'au moins 1,60 m est réservée à la circulation des piétons (DG.10). Une terrasse ouverte mesure au moins 0,60 m de large et n'est pas admise sur un trottoir dont la largeur utile est inférieure à 2,20 m (P.3.2). Une contre-terrasse, séparée de la devanture par un passage d'au moins 1,80 m (P.4.1), n'est possible que sur un trottoir de plus de 6 m de largeur utile, sur 5 m de large au plus, et en retrait de 0,90 m de la bordure le long d'une voie circulée ou d'un stationnement (P.4.2).
+Une terrasse ouverte reçoit pour l'essentiel des tables, des chaises et des parasols, rentrés à la fermeture (P.3.3.2). Les écrans perpendiculaires à la façade ne dépassent pas 2,50 m (P.5.3) ; des écrans parallèles, transparents, peuvent s'y ajouter, et les bâches souples sont interdites (P.3.3.3).
+
+## Terrasse fermée : un ouvrage à concevoir
+La terrasse fermée est « couverte et close », très largement vitrée et démontable (P.2.1). Le règlement en fixe le dessin : menuiseries de 5 cm au plus, panneaux vitrés de 2,25 m de haut au plus surmontés d'un bandeau de 0,25 m, aucun scellement sur le trottoir, aucune applique, aucun projecteur, aucun store sur l'ouvrage (P.2.3.2 et P.2.3.3). Le dossier comprend plans, élévations, coupes, détails et le temps de démontage (P.2.4). La Ville annonce un traitement en cinq mois pour ces terrasses, contre deux pour les autres.
+C'est aussi la seule terrasse où chauffage et climatisation sont admis, à condition qu'elle soit couverte, étanche à l'air et fermée par des parois latérales rigides (DG.6). Le règlement rappelle qu'elle doit respecter les règles des établissements recevant du public et de l'accessibilité, et que sa conception peut conduire à une modification de devanture, qui fait alors l'objet d'une demande d'autorisation d'urbanisme distincte (P.2.3.2). C'est le point où l'architecte intervient : intégrer la terrasse fermée à la devanture, au calcul de l'effectif et aux circulations, puis coordonner les deux demandes. Voir vitrine et devanture (https://architecte-commerce.fr/vitrine-et-devanture-commerce) et le classement ERP (https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif).
+
+## Terrasses estivales
+Le règlement prévoit des terrasses estivales du 1er avril au 31 octobre, exploitées jusqu'à 22 heures, avec les mêmes caractères : temporaires, précaires, révocables et personnelles (TE.1). Une largeur de 1,60 m au moins reste libre de tout obstacle (TE.2.2). Bâches, couvertures, chauffage, brumisateurs, appareils électriques et publicité y sont interdits (TE.2.4). La Ville adapte ces règles par des arrêtés temporaires : en 2026, horaire porté à 23 heures du 21 juin au 30 août, brumisateurs admis en vigilance canicule orange ou rouge, saison prolongée à titre exceptionnel. Ces mesures sont annuelles : elles se vérifient sur paris.fr à la date du projet.
+
+## Questions fréquentes
+Q : La terrasse se transmet-elle avec le fonds de commerce ?
+R : Non. L'autorisation est personnelle et non transmissible, même en cas de cession du fonds (DG.3), et elle est abrogée de plein droit au changement du mode d'exploitation : le repreneur dépose une nouvelle demande (DG.17).
+Q : Peut-on chauffer une terrasse à Paris ?
+R : Seulement une terrasse fermée, couverte, étanche à l'air et close par des parois latérales rigides (DG.6). En terrasse ouverte et en terrasse estivale, le chauffage est interdit (DG.6, TE.2.4).
+Q : Combien de temps faut-il pour obtenir une terrasse ?
+R : La Ville de Paris annonce un traitement des demandes en deux mois, et en cinq mois pour une terrasse permanente fermée. Une terrasse fermée qui modifie la devanture demande en outre une autorisation d'urbanisme distincte (P.2.3.2).
+
+## Sources
+- Règlement des étalages et terrasses de Paris (arrêté du 11 juin 2021 modifié), dispositions générales DG, terrasses permanentes P et écrans, terrasses estivales TE, consolidation de la Ville au 18 avril 2024 (arrêtés temporaires postérieurs publiés sur paris.fr), consultée le 24 novembre 2026 : https://cdn.paris.fr/paris/2025/09/03/reglement-des-etalages-et-terrasses-en-vigueur-le-18-avril-2024-4OCM.pdf
+- Ville de Paris, terrasses et étalages : téléservice, délais de traitement (deux mois, cinq pour une terrasse permanente fermée), droits de voirie, chauffage, mise à jour du 28 octobre 2026, consultée le 24 novembre 2026 : https://www.paris.fr/pages/terrasses-et-etalages-3516
+- Ville de Paris, tout savoir sur les terrasses estivales, mise à jour du 28 octobre 2026, consultée le 24 novembre 2026 : https://www.paris.fr/pages/tout-savoir-sur-les-terrasses-estivales-17865
+- Code général de la propriété des personnes publiques, article L2122-1 (occupation du domaine public : titre obligatoire), version en vigueur au 24 novembre 2026 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000034448110
 
 ========================================================================
 # Honoraires : des prix publiés, écrits dans le devis

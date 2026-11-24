@@ -44,6 +44,7 @@ Sites du même architecte : kalya-architecte.fr (Kalya Architecte à Paris) ; ar
 - [Bail commercial et travaux : ce que la loi fixe, ce que le bail décide](https://architecte-commerce.fr/guides/bail-commercial-travaux): Bail commercial et travaux : durée, destination et déspécialisation, charges non imputables (R145-35), état des lieux, annexes, loi du 26 mai 2026.
 - [Transformer un local en commerce ou en restaurant : trois régimes à ne pas confondre](https://architecte-commerce.fr/guides/changement-destination-local-commercial): Transformer un bureau, un atelier ou une boutique en commerce ou en restaurant : destinations et sous-destinations, déclaration préalable ou permis, PLU de Paris, type d'ERP.
 - [PLU de Paris et commerce : les rez-de-chaussée sous protection](https://architecte-commerce.fr/guides/plu-paris-commerce): Le PLU bioclimatique de Paris et les commerces : rez-de-chaussée protégés (UG.1.4.2), devantures (UG.2.1.4), dark stores et dark kitchens interdits sur rue.
+- [Terrasse d'un café ou d'un restaurant à Paris : autorisation, règles, délais](https://architecte-commerce.fr/guides/terrasse-restaurant-paris): Terrasse à Paris : autorisation de la Ville, instruction en deux mois (cinq pour une terrasse fermée), passage piéton de 1,60 m, terrasses estivales.
 
 ## Outils
 - [Ce local est-il bon ?](https://architecte-commerce.fr/diagnostic-local-commercial): Outil en ligne gratuit : 12 questions pour tester un local commercial avant le bail (activité, PLU de Paris, extraction, accessibilité, devanture).

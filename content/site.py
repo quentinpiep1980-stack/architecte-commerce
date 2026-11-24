@@ -147,6 +147,10 @@ SOURCES = {
     "cerfa16308": ("Formulaire Cerfa n° 16308*01, autorisation préalable d'une enseigne (service-public, fiche R77838)", "https://entreprendre.service-public.gouv.fr/vosdroits/R77838", "fiche vérifiée le 25 septembre 2026"),
     "parisenseignes": ("Ville de Paris, enseignes et publicités (demande en ligne)", "https://www.paris.fr/pages/enseignes-et-publicites-3514", "page consultée le 9 octobre 2026"),
     "terrasses": ("Ville de Paris, terrasses et étalages (règlement publié le 18 juin 2021, applicable au 1er juillet 2021)", "https://www.paris.fr/pages/terrasses-et-etalages-3516", "page consultée le 9 octobre 2026"),
+    "terrasses2026": ("Ville de Paris, terrasses et étalages : téléservice, délais de traitement (deux mois, cinq pour une terrasse permanente fermée), droits de voirie, chauffage", "https://www.paris.fr/pages/terrasses-et-etalages-3516", "mise à jour du 28 octobre 2026, consultée le 24 novembre 2026"),
+    "ret2024": ("Règlement des étalages et terrasses de Paris (arrêté du 11 juin 2021 modifié), dispositions générales DG, terrasses permanentes P et écrans, terrasses estivales TE", "https://cdn.paris.fr/paris/2025/09/03/reglement-des-etalages-et-terrasses-en-vigueur-le-18-avril-2024-4OCM.pdf", "consolidation de la Ville au 18 avril 2024 (arrêtés temporaires postérieurs publiés sur paris.fr), consultée le 24 novembre 2026"),
+    "parisestivales": ("Ville de Paris, tout savoir sur les terrasses estivales", "https://www.paris.fr/pages/tout-savoir-sur-les-terrasses-estivales-17865", "mise à jour du 28 octobre 2026, consultée le 24 novembre 2026"),
+    "cgppp21221": ("Code général de la propriété des personnes publiques, article L2122-1 (occupation du domaine public : titre obligatoire)", LF + "LEGIARTI000034448110", "version en vigueur au 24 novembre 2026"),
     # --- Copropriété
     "copro25": ("Loi n° 65-557 du 10 juillet 1965, article 25 b (travaux affectant les parties communes ou l'aspect extérieur)", LL + "LEGIARTI000051749507", "version en vigueur depuis le 18 juin 2025"),
     # --- Restaurant, hygiène

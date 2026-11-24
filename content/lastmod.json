@@ -32,8 +32,8 @@
   "lastmod": "2026-10-09"
  },
  "/architecte-restaurant": {
-  "empreinte": "792913f1f8ab6dcf",
-  "lastmod": "2026-10-09"
+  "empreinte": "55b9e1b2849d14e7",
+  "lastmod": "2026-11-24"
  },
  "/architecte-showroom": {
   "empreinte": "62bd58aacb19b27c",
@@ -64,8 +64,8 @@
   "lastmod": "2026-10-09"
  },
  "/guides": {
-  "empreinte": "aaa917718446c511",
-  "lastmod": "2026-10-09"
+  "empreinte": "da5e050955aa372f",
+  "lastmod": "2026-11-24"
  },
  "/guides/accessibilite-commerce": {
   "empreinte": "a7b57a84453443b6",
@@ -111,6 +111,10 @@
   "empreinte": "b85827b2c8bd0ee6",
   "lastmod": "2026-10-09"
  },
+ "/guides/terrasse-restaurant-paris": {
+  "empreinte": "a512e39badacdec6",
+  "lastmod": "2026-11-24"
+ },
  "/honoraires": {
   "empreinte": "e47960459ef483a9",
   "lastmod": "2026-11-17"
@@ -128,8 +132,8 @@
   "lastmod": "2026-10-09"
  },
  "/plan-du-site": {
-  "empreinte": "532d56d0125b96b6",
-  "lastmod": "2026-10-09"
+  "empreinte": "8ab1e19ab625f3ae",
+  "lastmod": "2026-11-24"
  },
  "/references": {
   "empreinte": "4e8f8023c889b038",
@@ -140,11 +144,11 @@
   "lastmod": "2026-11-17"
  },
  "/vitrine-et-devanture-commerce": {
-  "empreinte": "fd9386c2c80aa511",
-  "lastmod": "2026-10-09"
+  "empreinte": "27b308f7ed6edce5",
+  "lastmod": "2026-11-24"
  },
  "/votre-projet": {
-  "empreinte": "80e9914b1808fc37",
-  "lastmod": "2026-10-09"
+  "empreinte": "64d059148384902c",
+  "lastmod": "2026-11-24"
  }
 }

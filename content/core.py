@@ -4,10 +4,10 @@
 PAGES = [
     {
         "path": "/votre-projet", "kind": "core", "tpl": "hub.html", "section": "projets", "schema": "CollectionPage",
-        "title": "Projets de commerce : situations et activités | Kalya Architecte",
-        "description": "Avant le bail, création de boutique, aménagement, rénovation, travaux sans fermer, devanture, déploiement d'enseigne ; restaurants, métiers de bouche, instituts, showrooms.",
+        "title": "Projets de commerce : situations et activités | Kalya",
+        "description": "Votre projet de commerce par situation (avant le bail, création, aménagement, rénovation, devanture, réseau) et par activité.",
         "h1": "Votre projet de commerce, par situation et par activité",
-        "lede": "Choisissez votre point de départ : chaque page dit ce qui compte, ce qui s'autorise et dans quels délais, textes à l'appui.",
+        "lede": "Choisissez votre point de départ : chaque page dit ce qui compte, ce qui s'autorise et dans quels délais, textes à l'appui. L'architecte, sa méthode et ses prix sont présentés sur la page <a href=\"/\">Kalya Architecte, architecte de commerces à Paris</a>.",
         "cta": "Faire étudier mon projet",
     },
     {

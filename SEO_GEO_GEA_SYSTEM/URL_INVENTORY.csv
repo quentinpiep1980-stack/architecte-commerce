@@ -1,21 +1,21 @@
 url;type;title;title_len;description_len;indexable;lastmod;verifie;mots;liens_entrants;sources;faq;reponse_courte
-https://architecte-commerce.fr/;accueil;Architecte commerce à Paris : boutique, restaurant, ERP | Kalya;63;167;oui;2026-11-21;;2448;36;0;0;non
+https://architecte-commerce.fr/;accueil;Architecte commerce à Paris : boutique, restaurant, ERP | Kalya;63;167;oui;2026-11-21;;2448;37;0;0;non
 https://architecte-commerce.fr/404;technique;Page introuvable | Kalya Architecte;35;32;non;2026-10-09;;100;0;0;0;non
-https://architecte-commerce.fr/a-propos;core;L'architecte : Quentin Piepszownik, Kalya Architecte, Paris;59;158;oui;2026-10-09;2026-10-09;379;25;0;0;non
+https://architecte-commerce.fr/a-propos;core;L'architecte : Quentin Piepszownik, Kalya Architecte, Paris;59;158;oui;2026-10-09;2026-10-09;379;26;0;0;non
 https://architecte-commerce.fr/amenagement-local-commercial;situation;Aménagement de local commercial à Paris : plan, ERP, accessibilité | Kalya;74;170;oui;2026-10-09;2026-10-09;1456;6;15;2;oui
 https://architecte-commerce.fr/architecte-boutique;activite;Architecte boutique à Paris : agencement, devanture, autorisations | Kalya;74;175;oui;2026-10-09;2026-10-09;1855;6;19;3;oui
 https://architecte-commerce.fr/architecte-commerce-ile-de-france;zone;Architecte commerce Île-de-France : centres-villes, malls | Kalya;65;158;oui;2026-10-09;2026-10-09;783;4;6;0;oui
 https://architecte-commerce.fr/architecte-institut-beaute-coiffure;activite;Architecte institut de beauté et salon de coiffure à Paris | Kalya;66;177;oui;2026-10-09;2026-10-09;885;4;9;0;oui
 https://architecte-commerce.fr/architecte-metiers-de-bouche;activite;Architecte boulangerie, boucherie, traiteur à Paris | Kalya;59;171;oui;2026-10-09;2026-10-09;1063;4;13;0;oui
-https://architecte-commerce.fr/architecte-restaurant;activite;Architecte restaurant à Paris : ERP, extraction, cuisine | Kalya;64;172;oui;2026-10-09;2026-10-09;1853;7;24;3;oui
+https://architecte-commerce.fr/architecte-restaurant;activite;Architecte restaurant à Paris : ERP, extraction, cuisine | Kalya;64;172;oui;2026-11-24;2026-10-09;1870;8;24;3;oui
 https://architecte-commerce.fr/architecte-showroom;activite;Architecte showroom à Paris : exposition, vente, B2B | Kalya;60;174;oui;2026-10-09;2026-10-09;823;5;7;0;oui
-https://architecte-commerce.fr/avant-signature-bail-commercial;situation;Que vérifier avant de signer un bail commercial ? | Kalya Architecte;68;171;oui;2026-11-17;2026-11-17;2060;16;25;3;oui
+https://architecte-commerce.fr/avant-signature-bail-commercial;situation;Que vérifier avant de signer un bail commercial ? | Kalya Architecte;68;171;oui;2026-11-17;2026-11-17;2060;17;25;3;oui
 https://architecte-commerce.fr/concept-et-deploiement-enseigne;situation;Architecte réseau de franchise et concept retail en Île-de-France | Kalya;73;174;oui;2026-10-09;2026-10-09;857;6;8;0;oui
 https://architecte-commerce.fr/confidentialite;legal;Politique de confidentialité | Kalya Architecte;47;119;oui;2026-11-21;;809;4;0;0;non
 https://architecte-commerce.fr/diagnostic-local-commercial;outil;Ce local commercial est-il bon ? Diagnostic en 12 questions | Kalya;67;147;oui;2026-11-21;2026-10-09;1230;5;29;2;oui
-https://architecte-commerce.fr/etudier-mon-projet;core;Présenter mon projet de commerce : devis gratuit | Kalya Architecte;67;169;oui;2026-10-09;2026-10-09;416;31;0;0;non
+https://architecte-commerce.fr/etudier-mon-projet;core;Présenter mon projet de commerce : devis gratuit | Kalya Architecte;67;169;oui;2026-10-09;2026-10-09;416;32;0;0;non
 https://architecte-commerce.fr/etudier-mon-projet/merci;core;Demande envoyée | Kalya Architecte;34;33;non;2026-10-09;2026-10-09;36;0;0;0;non
-https://architecte-commerce.fr/guides;core;Guides pour ouvrir un commerce à Paris : ERP, PLU, bail | Kalya;63;154;oui;2026-10-09;2026-10-09;339;13;0;0;non
+https://architecte-commerce.fr/guides;core;Guides pour ouvrir un commerce à Paris : ERP, PLU, bail | Kalya;63;154;oui;2026-11-24;2026-10-09;360;14;0;0;non
 https://architecte-commerce.fr/guides/accessibilite-commerce;guide;Accessibilité d'un commerce : règles, dérogations, registre public | Kalya;74;161;oui;2026-10-09;2026-10-09;848;5;8;0;oui
 https://architecte-commerce.fr/guides/architecte-obligatoire-commerce;guide;Faut-il un architecte pour un commerce ou un restaurant ? | Kalya;65;177;oui;2026-11-17;2026-11-17;1258;4;9;3;oui
 https://architecte-commerce.fr/guides/autorisations-travaux-commerce;guide;Autorisations de travaux d'un commerce : DP, AT, enseigne, permis | Kalya;73;163;oui;2026-10-09;2026-10-09;1438;8;17;2;oui
@@ -24,15 +24,16 @@ https://architecte-commerce.fr/guides/budget-renovation-commerce;guide;Budget de
 https://architecte-commerce.fr/guides/calendrier-ouverture-magasin;guide;Calendrier d'ouverture d'un magasin : délais d'autorisation | Kalya;67;182;oui;2026-10-09;2026-10-09;932;6;10;0;oui
 https://architecte-commerce.fr/guides/changement-destination-local-commercial;guide;Local en commerce ou restaurant : destination, PLU, ERP | Kalya;63;174;oui;2026-10-09;2026-10-09;981;6;9;0;oui
 https://architecte-commerce.fr/guides/enseigne-paris;guide;Enseigne de commerce à Paris : autorisation, dossier, délai | Kalya;67;148;oui;2026-10-09;2026-10-09;871;4;8;2;oui
-https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif;guide;Calcul d'effectif ERP d'un commerce : type M ou N, catégorie | Kalya;68;156;oui;2026-11-17;2026-11-17;1532;8;11;0;oui
+https://architecte-commerce.fr/guides/erp-commerce-categorie-effectif;guide;Calcul d'effectif ERP d'un commerce : type M ou N, catégorie | Kalya;68;156;oui;2026-11-17;2026-11-17;1532;9;11;0;oui
 https://architecte-commerce.fr/guides/extraction-restaurant-paris;guide;Extraction d'un restaurant à Paris : RSD, conduit, copropriété | Kalya;70;151;oui;2026-10-09;2026-10-09;899;6;6;0;oui
 https://architecte-commerce.fr/guides/plu-paris-commerce;guide;PLU bioclimatique de Paris et commerces : linéaires, devantures | Kalya;71;156;oui;2026-10-09;2026-10-09;1000;10;7;0;oui
+https://architecte-commerce.fr/guides/terrasse-restaurant-paris;guide;Terrasse d'un café ou d'un restaurant à Paris | Kalya;53;149;oui;2026-11-24;2026-11-24;1444;4;4;3;oui
 https://architecte-commerce.fr/honoraires;core;Honoraires d'architecte pour un commerce : prix publiés | Kalya;63;164;oui;2026-11-17;2026-11-17;1391;7;5;3;oui
 https://architecte-commerce.fr/mentions-legales;legal;Mentions légales | Kalya Architecte;35;98;oui;2026-10-09;;605;1;0;0;non
 https://architecte-commerce.fr/mission;core;Méthode : la mission d'architecte, du bail à l'ouverture | Kalya;64;172;oui;2026-10-09;2026-10-09;797;2;6;0;non
 https://architecte-commerce.fr/outils;core;Outils commerce : diagnostic, effectif ERP, calendrier | Kalya;62;147;oui;2026-10-09;2026-10-09;127;2;0;0;non
-https://architecte-commerce.fr/plan-du-site;plan;Plan du site | Kalya Architecte;31;111;oui;2026-10-09;;135;0;0;0;non
+https://architecte-commerce.fr/plan-du-site;plan;Plan du site | Kalya Architecte;31;111;oui;2026-11-24;;138;0;0;0;non
 https://architecte-commerce.fr/references;core;Références : projets conduits par Quentin Piepszownik, architecte | Kalya;73;169;oui;2026-10-09;2026-10-09;148;1;0;0;non
 https://architecte-commerce.fr/renovation-magasin;situation;Rénovation de magasin à Paris : autorisations, travaux sans fermer | Kalya;74;167;oui;2026-11-17;2026-11-17;1366;5;14;2;oui
-https://architecte-commerce.fr/vitrine-et-devanture-commerce;situation;Modifier une devanture à Paris : autorisations et PLU | Kalya;61;175;oui;2026-10-09;2026-10-09;1308;8;13;3;oui
-https://architecte-commerce.fr/votre-projet;core;Projets de commerce : situations et activités | Kalya Architecte;64;172;oui;2026-10-09;2026-10-09;260;11;0;0;non
+https://architecte-commerce.fr/vitrine-et-devanture-commerce;situation;Modifier une devanture à Paris : autorisations et PLU | Kalya;61;175;oui;2026-11-24;2026-10-09;1323;9;13;3;oui
+https://architecte-commerce.fr/votre-projet;core;Projets de commerce : situations et activités | Kalya;53;125;oui;2026-11-24;2026-10-09;279;11;0;0;non
