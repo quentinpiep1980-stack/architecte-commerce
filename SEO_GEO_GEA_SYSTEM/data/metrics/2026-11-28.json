@@ -1,0 +1,225 @@
+{
+ "date": "2026-11-28",
+ "cycle": "court",
+ "search_console": {
+  "statut": "connecté",
+  "periode": "données jusqu'au 26/11/2026",
+  "j28": {
+   "clics": 29,
+   "impressions": 2109,
+   "ctr": 0.0138,
+   "position": null,
+   "note": "série quotidienne 30/10 au 26/11"
+  },
+  "j28_precedent": {
+   "clics": 16,
+   "impressions": 930,
+   "note": "02/10 au 29/10"
+  },
+  "j7": {
+   "clics": 11,
+   "impressions": 749,
+   "note": "20/11 au 26/11 ; semaine précédente (13 au 19/11) 7 clics, 551 impressions"
+  },
+  "top_pages": [
+   [
+    "/guides/plu-paris-commerce",
+    15,
+    315,
+    3.8
+   ],
+   [
+    "/vitrine-et-devanture-commerce",
+    6,
+    296,
+    16.2
+   ],
+   [
+    "/guides/budget-renovation-commerce",
+    2,
+    137,
+    38.0
+   ],
+   [
+    "/",
+    1,
+    404,
+    60.6
+   ],
+   [
+    "/guides/erp-commerce-categorie-effectif",
+    1,
+    318,
+    23.9
+   ],
+   [
+    "/votre-projet",
+    1,
+    212,
+    35.9
+   ],
+   [
+    "/guides/calendrier-ouverture-magasin",
+    1,
+    139,
+    11.2
+   ],
+   [
+    "/guides/architecte-obligatoire-commerce",
+    1,
+    67,
+    9.3
+   ]
+  ],
+  "top_requetes": [
+   [
+    "architecte commerce",
+    1,
+    208,
+    58.9,
+    "/"
+   ],
+   [
+    "architecte pour commerce",
+    0,
+    106,
+    40.7,
+    "/votre-projet"
+   ],
+   [
+    "architecte pour commerce",
+    0,
+    73,
+    79.8,
+    "/"
+   ],
+   [
+    "devanture de magasin à paris",
+    0,
+    61,
+    38.1,
+    "/vitrine-et-devanture-commerce"
+   ],
+   [
+    "prix aménagement local commercial au m2",
+    0,
+    52,
+    61.0,
+    "/guides/budget-renovation-commerce"
+   ],
+   [
+    "calcul effectif erp type m",
+    0,
+    36,
+    37.1,
+    "/guides/erp-commerce-categorie-effectif"
+   ]
+  ],
+  "j7_requetes_notables": [
+   [
+    "architecte commerce",
+    0,
+    56,
+    38.3,
+    "/"
+   ]
+  ],
+  "positions_4_20": [
+   [
+    "architecte pour commerce",
+    21,
+    16.2,
+    "/guides/architecte-obligatoire-commerce"
+   ],
+   [
+    "date ouverture",
+    7,
+    9.0,
+    "/guides/calendrier-ouverture-magasin"
+   ],
+   [
+    "déploiement réseau d’enseigne",
+    19,
+    17.1,
+    "/concept-et-deploiement-enseigne"
+   ],
+   [
+    "quentin piepszownik",
+    12,
+    18.2,
+    "/mentions-legales"
+   ]
+  ],
+  "mauvaises_pages": [
+   [
+    "architecte pour commerce",
+    "/votre-projet",
+    "/"
+   ],
+   [
+    "architecte local commercial",
+    "/votre-projet",
+    "/"
+   ],
+   [
+    "étude de faisabilité local commercial",
+    "/diagnostic-local-commercial",
+    "/avant-signature-bail-commercial"
+   ],
+   [
+    "faisabilité local commercial",
+    "/diagnostic-local-commercial",
+    "/avant-signature-bail-commercial"
+   ],
+   [
+    "quentin piepszownik",
+    "/mentions-legales",
+    "/a-propos"
+   ],
+   [
+    "enseigne boulangerie devanture commerce",
+    "/vitrine-et-devanture-commerce",
+    "/guides/enseigne-paris"
+   ]
+  ],
+  "autres_sites": []
+ },
+ "vercel": {
+  "statut": "non activé",
+  "visiteurs_7j": null,
+  "pages_vues_7j": null,
+  "top_pages": [],
+  "origines": [],
+  "ia": [],
+  "clic_telephone": null,
+  "formulaire_envoye": null,
+  "note": "web_analytics_not_enabled le 28/11/2026"
+ },
+ "formulaire": {
+  "n8n": "non mesurable (historique non conservé)",
+  "formulaire_envoye_7j": null
+ },
+ "positions": {
+  "panel": 0,
+  "top3": null,
+  "top10": null,
+  "top20": null,
+  "note": "non relevé (cycle court du samedi) ; dernier relevé 24/11 : top 3 2, top 10 4, top 20 7"
+ },
+ "geo": {
+  "demandes": 0,
+  "cite": null,
+  "mentionne": null,
+  "absent": null,
+  "note": "non relevé (cycle court) ; 24/11 : 0 sur 8"
+ },
+ "audit": {
+  "erreurs": 0,
+  "avertissements": 54,
+  "empreinte": "eda634c372c242b7"
+ },
+ "publie": [],
+ "modifie": [
+  "/guides/budget-renovation-commerce (title et description, C05)"
+ ]
+}
