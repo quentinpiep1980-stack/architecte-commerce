@@ -99,8 +99,8 @@ PAGES = [
     {
         "path": "/guides/budget-renovation-commerce", "kind": "guide", "short": "Budget d'un commerce",
         "teaser": "Enveloppes, maturité, qui paie quoi.",
-        "title": "Budget de création ou de rénovation d'un commerce : la méthode | Kalya",
-        "description": "Construire le budget d'un commerce : enveloppes (travaux, agencement, enseigne, sécurité, honoraires, préouverture), maturité de l'estimation, charges du bailleur et du preneur (R145-35).",
+        "title": "Budget d'aménagement d'un local commercial : méthode | Kalya",
+        "description": "Chiffrer l'aménagement ou la rénovation d'un local commercial : enveloppes, maturité de l'estimation, charges du bailleur et du preneur (R145-35).",
         "h1": "Le budget d'un commerce : des enveloppes, une maturité, des responsabilités",
         "answer": "Un budget de commerce fiable se construit par enveloppes (travaux, agencement, enseigne, sécurité et accessibilité, informatique, honoraires et autorisations, préouverture, aléas) et affiche sa maturité : ordre de grandeur, estimation sur plans, prix consultés, prix contractés. Il distingue aussi ce que le bail met à la charge du bailleur et du preneur.",
         "bullets": [
